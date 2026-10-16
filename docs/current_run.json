@@ -58,8 +58,14 @@
   "technical_demonstration": {
     "status": "recorded_and_uploaded",
     "video_url": "https://drive.google.com/file/d/1rdfxIpth7IE6m-BuPz-ECFLQfDhusCWy/view",
-    "duration_seconds": 270.77,
+    "duration_seconds": 270.79,
     "sharing": "anyone_with_link_viewer",
-    "playback_verified": false
+    "playback_verified": false,
+    "public_page_access_verified": true,
+    "public_page_access_method": "Unauthenticated HTTP request returned 200 with the video title and no sign-in redirect",
+    "codec": "H.264 video / AAC audio",
+    "resolution": "1662x1080",
+    "drive_version": 2,
+    "playback_note": "Drive online preview did not load in the in-app browser; the file is uploaded and a download control is available."
   }
 }
