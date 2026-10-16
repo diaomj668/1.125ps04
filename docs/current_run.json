@@ -30,7 +30,7 @@
   },
   "second_live_run": "Executed on 2026-10-15; comparison saved in docs/run-comparison.json and docs/run-comparison.md",
   "editorial_revision": "runs/20261015T194925Z-8e319e/editorial_revision",
-  "student_source_review": "Six-item sample completed in runs/20261014T225746Z-d041cf/human_review.md; final revised-draft review pending",
+  "student_source_review": "Six-item student review completed for the selected October 14 series; matching final publication approval is retained. October 15 demonstration drafts are not selected for publication.",
   "student_policy_interpretation": "Completed for the October 14 policy experiment; original comparison retained",
   "final_approval": "Selected October 14 series approved by the student and packaged; October 15 demonstration drafts are not approved for publication",
   "last_local_recheck_at": "2026-10-15T20:05:32.860477Z",
@@ -60,12 +60,13 @@
     "video_url": "https://drive.google.com/file/d/1rdfxIpth7IE6m-BuPz-ECFLQfDhusCWy/view",
     "duration_seconds": 270.79,
     "sharing": "anyone_with_link_viewer",
-    "playback_verified": false,
+    "playback_verified": true,
     "public_page_access_verified": true,
     "public_page_access_method": "Unauthenticated HTTP request returned 200 with the video title and no sign-in redirect",
     "codec": "H.264 video / AAC audio",
     "resolution": "1662x1080",
     "drive_version": 2,
-    "playback_note": "Drive online preview did not load in the in-app browser; the file is uploaded and a download control is available."
+    "playback_note": "Earlier in-app preview failed; the student subsequently confirmed that the final Drive link plays without login. This is student-reported verification, not an independent browser playback test.",
+    "playback_verification_source": "Student confirmed successful playback without login in this conversation"
   }
 }

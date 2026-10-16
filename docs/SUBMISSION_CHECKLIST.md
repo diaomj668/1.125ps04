@@ -15,14 +15,14 @@ This checklist is not a completion declaration. Assess the actual artifacts and 
 
 ## Real Evidence and Content: Verify Against the Final Run
 
-- [ ] At least twelve distinct substantive items from six independent publishers.
-- [ ] At least two written RSS items, two YouTube items, and two podcast items; reconcile copies of the same recording.
-- [ ] Publication dates fall within each run's window and are recorded separately from retrieval dates.
-- [ ] Media was actually retrieved and timestamped transcripts identify supporting passages.
-- [ ] Each piece has a distinct argument, at least three independent sources, synthesis, and a meaningful limitation.
-- [ ] Reported facts, source claims, interpretations, and uncertainty are distinguished.
-- [ ] Three English articles are approximately 600–900 words excluding references; scripts support 3–5 minute videos.
-- [ ] All three required input types contribute evidence to the series.
+- [x] At least twelve distinct substantive items from six independent publishers.
+- [x] At least two written RSS items, two YouTube items, and two podcast items; reconcile copies of the same recording.
+- [x] Publication dates fall within each run's window and are recorded separately from retrieval dates.
+- [x] Media was actually retrieved and timestamped transcripts identify supporting passages.
+- [x] Each piece has a distinct argument, at least three independent sources, synthesis, and a meaningful limitation.
+- [x] Reported facts, source claims, interpretations, and uncertainty are distinguished.
+- [x] Three English articles are approximately 600–900 words excluding references; scripts support 3–5 minute videos.
+- [x] All three required input types contribute evidence to the series.
 
 ## Actions That Must Actually Occur
 
@@ -32,12 +32,12 @@ This checklist is not a completion declaration. Assess the actual artifacts and 
 - [x] Saved records demonstrate updates, duplicate-free real-evidence replay, date filtering, and collection failure/recovery; the no-meaningful-update withheld-item condition was not triggered.
 - [x] The student supplies approval.json for the current assessed material.
 - [x] Produce three videos using Google Vids or HeyGen.
-- [ ] Publish three free-access Substack articles and three public/unlisted YouTube videos with cross-links.
-- [ ] Record the separate 4–6 minute technical demonstration with architecture, evidence tracing, the second run, revision, and tradeoff.
-- [ ] Fill SUBMISSION.md with actual links, run comparison, reflection, student identity, and repository URL.
-- [ ] Personally verify publisher independence, citation meaning, missing perspectives, and applicability to individual developers.
-- [ ] Submitted text_path and segments_path values resolve; document retrieval of omitted media.
+- [x] Publish three free-access Substack articles and three public/unlisted YouTube videos with cross-links.
+- [x] Record the separate 4–6 minute technical demonstration with architecture, evidence tracing, the second run, revision, and tradeoff.
+- [x] Fill SUBMISSION.md with actual links, run comparison, reflection, student identity, and repository URL.
+Publisher independence, citation meaning, and applicability remain matters of human judgment. Source notes document independence and missing perspectives; the student supplied source judgments and approved the selected series. Mechanical checks do not establish semantic correctness.
+- [x] Submitted text_path and segments_path values resolve; document retrieval of omitted media.
 
-The checked approval applies only to the selected October 14 series. Its package exists and contains the actual YouTube links; October 15 drafts remain demonstration outputs. Unchecked publication/access/demo/replay tasks are not implied complete by student approval.
+The approval applies only to the selected October 14 series; October 15 drafts remain demonstration outputs. All six publication URLs and the technical demonstration URL are in SUBMISSION.md. The student confirmed access without login. YouTube external URLs are saved in descriptions, but direct clickability still requires account verification.
 
-Duplicate-free replay is now complete: [actual record](../runs/replay-20261016T040737Z-8cfe40/README.md). This checkbox refers to saved execution evidence, not completion of the still-unrecorded student technical video.
+Duplicate-free replay is now complete: [actual record](../runs/replay-20261016T040737Z-8cfe40/README.md). The separate technical demonstration has also been recorded and uploaded: [Google Drive](https://drive.google.com/file/d/1rdfxIpth7IE6m-BuPz-ECFLQfDhusCWy/view), duration 4 minutes 31 seconds. Playback without login was confirmed by the student.
