@@ -1,0 +1,1754 @@
+[
+  {
+    "segment_id": "s00001",
+    "start_seconds": 0.0,
+    "end_seconds": 6.079999923706055,
+    "text": "All righty everybody, this is yet another edition of the Web News, and this Web News is inspired by"
+  },
+  {
+    "segment_id": "s00002",
+    "start_seconds": 6.079999923706055,
+    "end_seconds": 12.479999542236328,
+    "text": "a Reddit post titled, Is Vibecoding Creating a Hidden Technical Debt Crisis? I will link to the"
+  },
+  {
+    "segment_id": "s00003",
+    "start_seconds": 12.479999542236328,
+    "end_seconds": 17.760000228881836,
+    "text": "Reddit post so you can go check out the comments and all the rest of the good stuff you can do on"
+  },
+  {
+    "segment_id": "s00004",
+    "start_seconds": 17.760000228881836,
+    "end_seconds": 23.1200008392334,
+    "text": "Reddit, give some upvotes and what have you. Go and check that out. It's on r slash webdev. I'm"
+  },
+  {
+    "segment_id": "s00005",
+    "start_seconds": 23.1200008392334,
+    "end_seconds": 28.079999923706055,
+    "text": "just going to read the post to you. It's three very brief paragraphs. So it says, I love building"
+  },
+  {
+    "segment_id": "s00006",
+    "start_seconds": 28.079999923706055,
+    "end_seconds": 33.279998779296875,
+    "text": "tools and side projects, but lately I've been thinking about how heavy reliance on AI coding"
+  },
+  {
+    "segment_id": "s00007",
+    "start_seconds": 33.279998779296875,
+    "end_seconds": 38.63999938964844,
+    "text": "assistance is going to impact long-term code quality. Building fast with AI tools is great"
+  },
+  {
+    "segment_id": "s00008",
+    "start_seconds": 38.63999938964844,
+    "end_seconds": 43.599998474121094,
+    "text": "for getting a prototype out the door, but letting AI generate massive chunks of unvetted code is"
+  },
+  {
+    "segment_id": "s00009",
+    "start_seconds": 43.599998474121094,
+    "end_seconds": 50.08000183105469,
+    "text": "quickly piling up technical debt. When you push code out without thoroughly checking how it fits"
+  },
+  {
+    "segment_id": "s00010",
+    "start_seconds": 50.08000183105469,
+    "end_seconds": 55.279998779296875,
+    "text": "into your overall architecture, you end up with messy, unmaintainable code bases. If you ever plan"
+  },
+  {
+    "segment_id": "s00011",
+    "start_seconds": 55.279998779296875,
+    "end_seconds": 60.400001525878906,
+    "text": "to sell a project or hand it off to another developer, that unvetted code can completely"
+  },
+  {
+    "segment_id": "s00012",
+    "start_seconds": 60.400001525878906,
+    "end_seconds": 66.72000122070312,
+    "text": "ruin a deal during due diligence. I still use AI to speed up my workflow, but I treat it strictly"
+  },
+  {
+    "segment_id": "s00013",
+    "start_seconds": 66.72000122070312,
+    "end_seconds": 72.55999755859375,
+    "text": "as an assistant rather than letting it write unchecked logic. Auditing generated code,"
+  },
+  {
+    "segment_id": "s00014",
+    "start_seconds": 72.55999755859375,
+    "end_seconds": 77.04000091552734,
+    "text": "keeping modules clean, and maintaining test coverage seem like the only ways to use these"
+  },
+  {
+    "segment_id": "s00015",
+    "start_seconds": 77.04000091552734,
+    "end_seconds": 82.0,
+    "text": "tools strategically without destroying the project. Are you noticing a drop in maintainability on"
+  },
+  {
+    "segment_id": "s00016",
+    "start_seconds": 82.0,
+    "end_seconds": 89.76000213623047,
+    "text": "projects heavy on AI code? So there's a bunch of different opinions in the comments. The top ones"
+  },
+  {
+    "segment_id": "s00017",
+    "start_seconds": 89.76000213623047,
+    "end_seconds": 94.16000366210938,
+    "text": "that I saw were generally like, yeah, like obviously, you know, tech debt is kind of going"
+  },
+  {
+    "segment_id": "s00018",
+    "start_seconds": 94.16000366210938,
+    "end_seconds": 98.4000015258789,
+    "text": "up and things like that. But I have a couple of topics that I'd like to kind of roughly discuss"
+  },
+  {
+    "segment_id": "s00019",
+    "start_seconds": 98.4000015258789,
+    "end_seconds": 103.76000213623047,
+    "text": "just to kind of kick things off here. And it is, is AI coding adding technical debt? Just kind of"
+  },
+  {
+    "segment_id": "s00020",
+    "start_seconds": 103.76000213623047,
+    "end_seconds": 108.0,
+    "text": "tackling that project, that question, because I think it's a little, it sounds like it's something"
+  },
+  {
+    "segment_id": "s00021",
+    "start_seconds": 108.0,
+    "end_seconds": 112.0,
+    "text": "that we could just say yes or no, but it's a bit, there's a bit of nuance there, what type"
+  },
+  {
+    "segment_id": "s00022",
+    "start_seconds": 112.0,
+    "end_seconds": 118.55999755859375,
+    "text": "of projects and things. And also AI is quote unquote coding fast. And when humans code fast,"
+  },
+  {
+    "segment_id": "s00023",
+    "start_seconds": 118.55999755859375,
+    "end_seconds": 124.55999755859375,
+    "text": "technical debt is an inevitability. Is this the same situation for AI? So Mike, I've been yapping"
+  },
+  {
+    "segment_id": "s00024",
+    "start_seconds": 124.55999755859375,
+    "end_seconds": 132.0800018310547,
+    "text": "for quite a while. Why don't you kind of kick this off? So there's two things that I want to say."
+  },
+  {
+    "segment_id": "s00025",
+    "start_seconds": 132.0800018310547,
+    "end_seconds": 139.52000427246094,
+    "text": "One thing is, yes, it is adding technical debt for most projects because of how managers are"
+  },
+  {
+    "segment_id": "s00026",
+    "start_seconds": 140.32000732421875,
+    "end_seconds": 148.9600067138672,
+    "text": "twisting AI, like how AI is to a product manager is it's an accelerator. So we'll, you know, what"
+  },
+  {
+    "segment_id": "s00027",
+    "start_seconds": 148.9600067138672,
+    "end_seconds": 153.1199951171875,
+    "text": "used to take us three months, we'll do in three weeks. That's kind of how they're seeing it."
+  },
+  {
+    "segment_id": "s00028",
+    "start_seconds": 153.1199951171875,
+    "end_seconds": 158.55999755859375,
+    "text": "So because of that mentality, yes, most projects are going to launch with a bunch of technical"
+  },
+  {
+    "segment_id": "s00029",
+    "start_seconds": 158.55999755859375,
+    "end_seconds": 165.44000244140625,
+    "text": "debt, a bunch of refactors that need to happen and stuff like that. Having said that, if treated"
+  },
+  {
+    "segment_id": "s00030",
+    "start_seconds": 165.44000244140625,
+    "end_seconds": 171.75999450683594,
+    "text": "properly, if used properly, it's like, let's say that, Hey, instead of saying that it increases"
+  },
+  {
+    "segment_id": "s00031",
+    "start_seconds": 171.75999450683594,
+    "end_seconds": 177.36000061035156,
+    "text": "your throughput by 10 X increase, AI is getting a little bit better at figuring that stuff out."
+  },
+  {
+    "segment_id": "s00032",
+    "start_seconds": 177.36000061035156,
+    "end_seconds": 183.52000427246094,
+    "text": "So it's getting better and better, but features are not the technical debt. The technical debt"
+  },
+  {
+    "segment_id": "s00033",
+    "start_seconds": 183.52000427246094,
+    "end_seconds": 191.75999450683594,
+    "text": "is becoming again, more and more like the bad code smells too much code, like, especially in,"
+  },
+  {
+    "segment_id": "s00034",
+    "start_seconds": 191.75999450683594,
+    "end_seconds": 199.75999450683594,
+    "text": "in, in the thing like refactors needed. If you have the time, you can have good cycles of technical"
+  },
+  {
+    "segment_id": "s00035",
+    "start_seconds": 199.75999450683594,
+    "end_seconds": 204.47999572753906,
+    "text": "debt that happen also accelerated by AI. So lead out like blah, blah, blah, blah, build,"
+  },
+  {
+    "segment_id": "s00036",
+    "start_seconds": 204.47999572753906,
+    "end_seconds": 209.83999633789062,
+    "text": "have technical debt windows where similar to how we used to have it in traditional development,"
+  },
+  {
+    "segment_id": "s00037",
+    "start_seconds": 209.83999633789062,
+    "end_seconds": 215.60000610351562,
+    "text": "where we would have weeks of battling technical debt. Well, now you can send AI to actually hit"
+  },
+  {
+    "segment_id": "s00038",
+    "start_seconds": 215.60000610351562,
+    "end_seconds": 220.24000549316406,
+    "text": "your technical debt. Hey, refactor this to be more like this, do this to be more like this."
+  },
+  {
+    "segment_id": "s00039",
+    "start_seconds": 220.9600067138672,
+    "end_seconds": 227.27999877929688,
+    "text": "As long as product is aligned. And this is a big if, because right now we're not seeing that,"
+  },
+  {
+    "segment_id": "s00040",
+    "start_seconds": 227.27999877929688,
+    "end_seconds": 233.52000427246094,
+    "text": "but if product is aligned and they're willing to not increase your speed by 10 X go down to 1.5 X."
+  },
+  {
+    "segment_id": "s00041",
+    "start_seconds": 234.47999572753906,
+    "end_seconds": 239.75999450683594,
+    "text": "You can actually create pretty robust code bases with less technical debt than before."
+  },
+  {
+    "segment_id": "s00042",
+    "start_seconds": 241.67999267578125,
+    "end_seconds": 248.0800018310547,
+    "text": "I've done that before. I've also had it very much where a lot of code bases have increased technical"
+  },
+  {
+    "segment_id": "s00043",
+    "start_seconds": 248.0800018310547,
+    "end_seconds": 252.39999389648438,
+    "text": "debt by considerable amount because of the deadlines that are being proposed nowadays."
+  },
+  {
+    "segment_id": "s00044",
+    "start_seconds": 253.44000244140625,
+    "end_seconds": 258.55999755859375,
+    "text": "I want to pick apart one thing, and that is technical debt was the feature list that you"
+  },
+  {
+    "segment_id": "s00045",
+    "start_seconds": 258.55999755859375,
+    "end_seconds": 265.44000244140625,
+    "text": "had. I always associated technical debt with how companies will sometimes push, push, push new"
+  },
+  {
+    "segment_id": "s00046",
+    "start_seconds": 265.44000244140625,
+    "end_seconds": 269.1199951171875,
+    "text": "features, new features, new features, and they'd actually code them and put them in the platform."
+  },
+  {
+    "segment_id": "s00047",
+    "start_seconds": 269.1199951171875,
+    "end_seconds": 273.8399963378906,
+    "text": "But then the platform or whatever app it is gets really, really buggy. And then they come back and"
+  },
+  {
+    "segment_id": "s00048",
+    "start_seconds": 273.8399963378906,
+    "end_seconds": 276.8800048828125,
+    "text": "they go, all right, we've got to refactor, we've got to clean this up. And what they're cleaning"
+  },
+  {
+    "segment_id": "s00049",
+    "start_seconds": 276.8800048828125,
+    "end_seconds": 281.44000244140625,
+    "text": "up at the end of the day is technical debt. I think you're right. I think I mixed that up."
+  },
+  {
+    "segment_id": "s00050",
+    "start_seconds": 282.1600036621094,
+    "end_seconds": 287.67999267578125,
+    "text": "I think I was thinking technical debt is like backlog, but technical debt isn't backlog."
+  },
+  {
+    "segment_id": "s00051",
+    "start_seconds": 287.67999267578125,
+    "end_seconds": 292.1600036621094,
+    "text": "Technical debt is a separate column. You're right. So technical debt would be the stuff"
+  },
+  {
+    "segment_id": "s00052",
+    "start_seconds": 292.1600036621094,
+    "end_seconds": 301.20001220703125,
+    "text": "that after adding a feature, it would have some sort of a code smell. You added a feature, but you"
+  },
+  {
+    "segment_id": "s00053",
+    "start_seconds": 301.20001220703125,
+    "end_seconds": 306.4800109863281,
+    "text": "left in the environments from dev and staging in the wrong places and stuff like that."
+  },
+  {
+    "segment_id": "s00054",
+    "start_seconds": 306.4800109863281,
+    "end_seconds": 311.760009765625,
+    "text": "And you banded it in there. You taped it in instead of adding it properly into the code base."
+  },
+  {
+    "segment_id": "s00055",
+    "start_seconds": 311.760009765625,
+    "end_seconds": 315.67999267578125,
+    "text": "Exactly. So it's actually something that would happen during a feature creation,"
+  },
+  {
+    "segment_id": "s00056",
+    "start_seconds": 315.67999267578125,
+    "end_seconds": 319.8399963378906,
+    "text": "depending on the scope that you have and depending on how it goes. So you're right"
+  },
+  {
+    "segment_id": "s00057",
+    "start_seconds": 319.8399963378906,
+    "end_seconds": 326.0,
+    "text": "about that. I was conflicting it with a backlog, which is something that should be much more"
+  },
+  {
+    "segment_id": "s00058",
+    "start_seconds": 326.0,
+    "end_seconds": 333.3599853515625,
+    "text": "doable nowadays in terms of speed. But technical debt, yeah, it's more along the lines of"
+  },
+  {
+    "segment_id": "s00059",
+    "start_seconds": 333.3599853515625,
+    "end_seconds": 339.44000244140625,
+    "text": "fixing code smells, refactors, adding more security around things, stuff like that."
+  },
+  {
+    "segment_id": "s00060",
+    "start_seconds": 340.3999938964844,
+    "end_seconds": 345.760009765625,
+    "text": "Yeah. And I think with the code smells and that, you're naturally going to have code smells and"
+  },
+  {
+    "segment_id": "s00061",
+    "start_seconds": 345.760009765625,
+    "end_seconds": 350.6400146484375,
+    "text": "issues and things that just, even as you put them in, you're like, man, this is band-aided in here"
+  },
+  {
+    "segment_id": "s00062",
+    "start_seconds": 351.6000061035156,
+    "end_seconds": 357.2799987792969,
+    "text": "due to speed. And there was that one part that I wanted to talk about where it's like AI"
+  },
+  {
+    "segment_id": "s00063",
+    "start_seconds": 357.2799987792969,
+    "end_seconds": 362.55999755859375,
+    "text": "is coding fast. It's all about speeding the human up. And then back in the day, if humans were to"
+  },
+  {
+    "segment_id": "s00064",
+    "start_seconds": 362.55999755859375,
+    "end_seconds": 368.55999755859375,
+    "text": "code fast, technical debt rising is basically an inevitability unless you have some amazing,"
+  },
+  {
+    "segment_id": "s00065",
+    "start_seconds": 368.9599914550781,
+    "end_seconds": 372.55999755859375,
+    "text": "perfectly running 10X engineers all on your team type of thing."
+  },
+  {
+    "segment_id": "s00066",
+    "start_seconds": 375.8399963378906,
+    "end_seconds": 380.3999938964844,
+    "text": "I think that even with AI, especially with those deadlines that you mentioned,"
+  },
+  {
+    "segment_id": "s00067",
+    "start_seconds": 380.3999938964844,
+    "end_seconds": 385.5199890136719,
+    "text": "you will naturally have more technical debt because once again, the human brain is the"
+  },
+  {
+    "segment_id": "s00068",
+    "start_seconds": 385.5199890136719,
+    "end_seconds": 389.5199890136719,
+    "text": "bottleneck. There's still a human there that's prompting this thing, that's checking the code,"
+  },
+  {
+    "segment_id": "s00069",
+    "start_seconds": 389.5199890136719,
+    "end_seconds": 395.6000061035156,
+    "text": "hopefully, or maybe not, due to the deadline, which is probably going to add to more technical"
+  },
+  {
+    "segment_id": "s00070",
+    "start_seconds": 395.6000061035156,
+    "end_seconds": 399.8399963378906,
+    "text": "debt as well. And you're prompting it and just taping things together and trying to get things"
+  },
+  {
+    "segment_id": "s00071",
+    "start_seconds": 399.8399963378906,
+    "end_seconds": 404.0,
+    "text": "working so fast that you're not doing all the checks and balances and things. I mean,"
+  },
+  {
+    "segment_id": "s00072",
+    "start_seconds": 404.0,
+    "end_seconds": 409.6000061035156,
+    "text": "we can see this with products. We can see this with things like a normal way to answer an email"
+  },
+  {
+    "segment_id": "s00073",
+    "start_seconds": 409.6000061035156,
+    "end_seconds": 412.9599914550781,
+    "text": "form is you pull up the email form on the contact page, you fill it in, and then that's it."
+  },
+  {
+    "segment_id": "s00074",
+    "start_seconds": 413.760009765625,
+    "end_seconds": 418.55999755859375,
+    "text": "But if I backspace my name, I should be able to retype in my name. A piece of technical debt might"
+  },
+  {
+    "segment_id": "s00075",
+    "start_seconds": 418.55999755859375,
+    "end_seconds": 422.3999938964844,
+    "text": "be that they never checked that. And once I backspace my name, I can never re-enter my name"
+  },
+  {
+    "segment_id": "s00076",
+    "start_seconds": 422.3999938964844,
+    "end_seconds": 428.3999938964844,
+    "text": "again into that field. And that's a very, very rudimentary example, but that is an example of"
+  },
+  {
+    "segment_id": "s00077",
+    "start_seconds": 428.3999938964844,
+    "end_seconds": 432.9599914550781,
+    "text": "technical debt potentially getting in the way there where it's like, oh, we didn't have the"
+  },
+  {
+    "segment_id": "s00078",
+    "start_seconds": 432.9599914550781,
+    "end_seconds": 437.0400085449219,
+    "text": "time. We were going as fast as we could, and we only checked the most basic use case, which is"
+  },
+  {
+    "segment_id": "s00079",
+    "start_seconds": 437.67999267578125,
+    "end_seconds": 440.4800109863281,
+    "text": "pull up the page, fill in the form, and then press submit type of thing."
+  },
+  {
+    "segment_id": "s00080",
+    "start_seconds": 441.1199951171875,
+    "end_seconds": 446.79998779296875,
+    "text": "So that's a basic example of that. And that's absolutely something that you can imagine with"
+  },
+  {
+    "segment_id": "s00081",
+    "start_seconds": 446.79998779296875,
+    "end_seconds": 452.3999938964844,
+    "text": "an AI or without an AI, you would skip. You wouldn't check going into each field to filling"
+  },
+  {
+    "segment_id": "s00082",
+    "start_seconds": 452.3999938964844,
+    "end_seconds": 456.1600036621094,
+    "text": "it in, then backspacing it, and doing all these things. You would just be like, oh, well,"
+  },
+  {
+    "segment_id": "s00083",
+    "start_seconds": 457.8399963378906,
+    "end_seconds": 463.67999267578125,
+    "text": "I filled it in. I submitted it. That worked. On to the next thing naturally."
+  },
+  {
+    "segment_id": "s00084",
+    "start_seconds": 465.44000244140625,
+    "end_seconds": 470.239990234375,
+    "text": "I think the thing that I'll push back on in terms of the original statement"
+  },
+  {
+    "segment_id": "s00085",
+    "start_seconds": 470.239990234375,
+    "end_seconds": 483.20001220703125,
+    "text": "is the idea that unmaintainable codebases are super important now. Whereas it could hurt you"
+  },
+  {
+    "segment_id": "s00086",
+    "start_seconds": 483.20001220703125,
+    "end_seconds": 487.5199890136719,
+    "text": "if you're trying to sell a project, or it could make it difficult for another developer to onboard."
+  },
+  {
+    "segment_id": "s00087",
+    "start_seconds": 487.5199890136719,
+    "end_seconds": 491.3599853515625,
+    "text": "I think that stuff has become less and less important. As long as the codebase"
+  },
+  {
+    "segment_id": "s00088",
+    "start_seconds": 491.3599853515625,
+    "end_seconds": 501.760009765625,
+    "text": "is robust in the sense of not leaking data and is being secure enough, as long as it's feasible,"
+  },
+  {
+    "segment_id": "s00089",
+    "start_seconds": 501.760009765625,
+    "end_seconds": 509.6000061035156,
+    "text": "like it works the way it's intended to, even if it's not maintainable, like if there's interfaces"
+  },
+  {
+    "segment_id": "s00090",
+    "start_seconds": 509.6000061035156,
+    "end_seconds": 514.9600219726562,
+    "text": "all over the place, and there's comments, no comments, and variables named stupidly,"
+  },
+  {
+    "segment_id": "s00091",
+    "start_seconds": 515.52001953125,
+    "end_seconds": 519.760009765625,
+    "text": "the advantage of AI is it's the thing that's going to have to spin up in it."
+  },
+  {
+    "segment_id": "s00092",
+    "start_seconds": 519.9199829101562,
+    "end_seconds": 525.2000122070312,
+    "text": "It's very good at interpreting code based on code. Yes, it helps to have comments,"
+  },
+  {
+    "segment_id": "s00093",
+    "start_seconds": 525.2000122070312,
+    "end_seconds": 529.3599853515625,
+    "text": "but recently it's gotten better and better at just understanding what code is doing."
+  },
+  {
+    "segment_id": "s00094",
+    "start_seconds": 530.4000244140625,
+    "end_seconds": 535.3599853515625,
+    "text": "When you're spinning up, the thing that has probably become the best, the easiest,"
+  },
+  {
+    "segment_id": "s00095",
+    "start_seconds": 535.3599853515625,
+    "end_seconds": 539.6799926757812,
+    "text": "is spinning up in a codebase. Now, a codebase of a massive size still takes time,"
+  },
+  {
+    "segment_id": "s00096",
+    "start_seconds": 539.6799926757812,
+    "end_seconds": 544.5599975585938,
+    "text": "but a lot less time than it did before because you can ask AI very direct questions about,"
+  },
+  {
+    "segment_id": "s00097",
+    "start_seconds": 544.5599975585938,
+    "end_seconds": 547.760009765625,
+    "text": "hey, what does this do, or how does this work in this? How does the deployment"
+  },
+  {
+    "segment_id": "s00098",
+    "start_seconds": 547.760009765625,
+    "end_seconds": 553.5999755859375,
+    "text": "infrastructure work? How does changing this impact that? All of that can be handled,"
+  },
+  {
+    "segment_id": "s00099",
+    "start_seconds": 553.5999755859375,
+    "end_seconds": 559.5999755859375,
+    "text": "or at least you can skill up in it with AI. Then once you have that knowledge, you can start to"
+  },
+  {
+    "segment_id": "s00100",
+    "start_seconds": 559.5999755859375,
+    "end_seconds": 564.3200073242188,
+    "text": "implement fixes and implement changes and implement features with that knowledge a lot faster than"
+  },
+  {
+    "segment_id": "s00101",
+    "start_seconds": 564.3200073242188,
+    "end_seconds": 569.760009765625,
+    "text": "before, even if the codebase is somewhat unmaintainable. Maintainable code is becoming,"
+  },
+  {
+    "segment_id": "s00102",
+    "start_seconds": 569.760009765625,
+    "end_seconds": 574.7999877929688,
+    "text": "in my opinion, less and less important. Now, this might be a controversial opinion,"
+  },
+  {
+    "segment_id": "s00103",
+    "start_seconds": 575.52001953125,
+    "end_seconds": 581.52001953125,
+    "text": "but over time, it's going to become to the point where, again, comments are not going to be"
+  },
+  {
+    "segment_id": "s00104",
+    "start_seconds": 581.52001953125,
+    "end_seconds": 589.6799926757812,
+    "text": "necessary. Stuff like human-readable languages, we talked about that before, isn't going to be"
+  },
+  {
+    "segment_id": "s00105",
+    "start_seconds": 589.6799926757812,
+    "end_seconds": 597.0399780273438,
+    "text": "a thing because it's going to be abstracted away because the machines are going to know how to"
+  },
+  {
+    "segment_id": "s00106",
+    "start_seconds": 597.0399780273438,
+    "end_seconds": 600.1599731445312,
+    "text": "write this machine code a lot more efficiently than"
+  },
+  {
+    "segment_id": "s00107",
+    "start_seconds": 600.0,
+    "end_seconds": 602.3599998950958,
+    "text": "we can, and it runs more efficiently."
+  },
+  {
+    "segment_id": "s00108",
+    "start_seconds": 602.3599998950958,
+    "end_seconds": 607.2399997711182,
+    "text": "So the more compilers we have that make it more human readable and more"
+  },
+  {
+    "segment_id": "s00109",
+    "start_seconds": 607.2399997711182,
+    "end_seconds": 611.5200004577637,
+    "text": "maintainable, the less efficient the code is at the end of the day."
+  },
+  {
+    "segment_id": "s00110",
+    "start_seconds": 611.8000001907349,
+    "end_seconds": 615.3599996566772,
+    "text": "And we're going to start removing those compilers as we start"
+  },
+  {
+    "segment_id": "s00111",
+    "start_seconds": 615.3599996566772,
+    "end_seconds": 616.7600002288818,
+    "text": "to trust AI more and more."
+  },
+  {
+    "segment_id": "s00112",
+    "start_seconds": 617.3999996185303,
+    "end_seconds": 620.0400009155273,
+    "text": "Well, if you start, like, I mean, I think that's almost two things though."
+  },
+  {
+    "segment_id": "s00113",
+    "start_seconds": 620.0400009155273,
+    "end_seconds": 622.1200008392334,
+    "text": "Like you're starting to code closer to the metal."
+  },
+  {
+    "segment_id": "s00114",
+    "start_seconds": 622.4799995422363,
+    "end_seconds": 625.6399993896484,
+    "text": "There's going to be, there's going to be examples, for example, within the"
+  },
+  {
+    "segment_id": "s00115",
+    "start_seconds": 625.6399993896484,
+    "end_seconds": 629.2800006866455,
+    "text": "web development space where React and these other frameworks and libraries"
+  },
+  {
+    "segment_id": "s00116",
+    "start_seconds": 629.2800006866455,
+    "end_seconds": 633.439998626709,
+    "text": "and tools that we've made, Svelte, the rest of them, these tools are made"
+  },
+  {
+    "segment_id": "s00117",
+    "start_seconds": 633.439998626709,
+    "end_seconds": 637.4000015258789,
+    "text": "as more or less human interfaces, a lot of the time to help people create"
+  },
+  {
+    "segment_id": "s00118",
+    "start_seconds": 637.4000015258789,
+    "end_seconds": 640.0400009155273,
+    "text": "maintainable, readable code across a team."
+  },
+  {
+    "segment_id": "s00119",
+    "start_seconds": 640.6800003051758,
+    "end_seconds": 645.2400016784668,
+    "text": "But at the end of the day, the browser really only understands the three pillars"
+  },
+  {
+    "segment_id": "s00120",
+    "start_seconds": 645.2400016784668,
+    "end_seconds": 647.9199981689453,
+    "text": "that we've talked about, you know, repeatedly in the past."
+  },
+  {
+    "segment_id": "s00121",
+    "start_seconds": 647.9199981689453,
+    "end_seconds": 655.1199989318848,
+    "text": "And so a code, an AI that is doing some coding for you could realistically"
+  },
+  {
+    "segment_id": "s00122",
+    "start_seconds": 655.1599998474121,
+    "end_seconds": 660.7599983215332,
+    "text": "just code in those, in the pillars and forget about the maintainability"
+  },
+  {
+    "segment_id": "s00123",
+    "start_seconds": 661.439998626709,
+    "end_seconds": 663.3600006103516,
+    "text": "in terms of a team perspective."
+  },
+  {
+    "segment_id": "s00124",
+    "start_seconds": 663.6800003051758,
+    "end_seconds": 666.8000030517578,
+    "text": "Like, I suppose like that, like that, that part's true."
+  },
+  {
+    "segment_id": "s00125",
+    "start_seconds": 667.1600036621094,
+    "end_seconds": 670.4000015258789,
+    "text": "However, I will have some pushback on the maintainability, like the"
+  },
+  {
+    "segment_id": "s00126",
+    "start_seconds": 670.4000015258789,
+    "end_seconds": 674.5999984741211,
+    "text": "maintainable code base, because what I, if your code is, is like a mess,"
+  },
+  {
+    "segment_id": "s00127",
+    "start_seconds": 674.6399993896484,
+    "end_seconds": 678.6800003051758,
+    "text": "it is not maintainable, it is the equivalent to me as having a messy workshop."
+  },
+  {
+    "segment_id": "s00128",
+    "start_seconds": 679.0,
+    "end_seconds": 679.5599975585938,
+    "text": "Yeah."
+  },
+  {
+    "segment_id": "s00129",
+    "start_seconds": 679.879997253418,
+    "end_seconds": 684.1600036621094,
+    "text": "If you're in there all the time and you like know how to step around the saw"
+  },
+  {
+    "segment_id": "s00130",
+    "start_seconds": 684.1999969482422,
+    "end_seconds": 687.8000030517578,
+    "text": "and know how to like avoid stepping on the rakes and know how to not slip on the"
+  },
+  {
+    "segment_id": "s00131",
+    "start_seconds": 687.8000030517578,
+    "end_seconds": 690.1600036621094,
+    "text": "hammer that's laying on the floor, fantastic."
+  },
+  {
+    "segment_id": "s00132",
+    "start_seconds": 690.4400024414062,
+    "end_seconds": 693.5599975585938,
+    "text": "But, and I, and I understand that if another human showed up, they'd, you"
+  },
+  {
+    "segment_id": "s00133",
+    "start_seconds": 693.5599975585938,
+    "end_seconds": 696.2799987792969,
+    "text": "know, they'd slip on the hammer, they'd bump into the saw, it'd be a mess"
+  },
+  {
+    "segment_id": "s00134",
+    "start_seconds": 696.5199966430664,
+    "end_seconds": 697.8000030517578,
+    "text": "because they don't know your area."
+  },
+  {
+    "segment_id": "s00135",
+    "start_seconds": 698.1600036621094,
+    "end_seconds": 704.2399978637695,
+    "text": "An AI comes in and it analyzes things and it has a better chance of avoiding"
+  },
+  {
+    "segment_id": "s00136",
+    "start_seconds": 704.2399978637695,
+    "end_seconds": 708.4800033569336,
+    "text": "that thing on the floor, not bumping into this thing, not knocking over the"
+  },
+  {
+    "segment_id": "s00137",
+    "start_seconds": 708.4800033569336,
+    "end_seconds": 710.120002746582,
+    "text": "rake or stepping on the rake, right?"
+  },
+  {
+    "segment_id": "s00138",
+    "start_seconds": 710.3600006103516,
+    "end_seconds": 714.4000015258789,
+    "text": "It has a better chance of it, not, not making mistakes like that."
+  },
+  {
+    "segment_id": "s00139",
+    "start_seconds": 714.4400024414062,
+    "end_seconds": 718.7200012207031,
+    "text": "However, I would still say that those things are still hazards and they're"
+  },
+  {
+    "segment_id": "s00140",
+    "start_seconds": 718.7200012207031,
+    "end_seconds": 722.7200012207031,
+    "text": "still there, they're still out of place in my opinion, for no reason, no good"
+  },
+  {
+    "segment_id": "s00141",
+    "start_seconds": 722.7200012207031,
+    "end_seconds": 728.1999969482422,
+    "text": "reason, the reason in the technical debt world is oftentimes due to inexperience,"
+  },
+  {
+    "segment_id": "s00142",
+    "start_seconds": 728.1999969482422,
+    "end_seconds": 733.9199981689453,
+    "text": "a mistake, or due to a project deadline or due to complexity, some code bases"
+  },
+  {
+    "segment_id": "s00143",
+    "start_seconds": 733.9199981689453,
+    "end_seconds": 739.6799926757812,
+    "text": "are so legacy, so old, so crazy that yeah, I get it, I do agree that an AI"
+  },
+  {
+    "segment_id": "s00144",
+    "start_seconds": 739.7200012207031,
+    "end_seconds": 745.2799987792969,
+    "text": "could help you navigate these, navigate these sort of hazardous work, work,"
+  },
+  {
+    "segment_id": "s00145",
+    "start_seconds": 745.3200073242188,
+    "end_seconds": 746.6000061035156,
+    "text": "I'll just call them hazardous workshops."
+  },
+  {
+    "segment_id": "s00146",
+    "start_seconds": 746.9199981689453,
+    "end_seconds": 750.8800048828125,
+    "text": "They, they, the AI could help you navigate that hazardous workshop,"
+  },
+  {
+    "segment_id": "s00147",
+    "start_seconds": 751.2400054931641,
+    "end_seconds": 753.3600006103516,
+    "text": "but it's still a hazardous workshop."
+  },
+  {
+    "segment_id": "s00148",
+    "start_seconds": 754.1600036621094,
+    "end_seconds": 758.4400024414062,
+    "text": "And I do, I would, I would push back and say, maybe we should just tell the AI"
+  },
+  {
+    "segment_id": "s00149",
+    "start_seconds": 758.4400024414062,
+    "end_seconds": 761.8800048828125,
+    "text": "to pick up that hammer and to realign that saw so that people won't bump"
+  },
+  {
+    "segment_id": "s00150",
+    "start_seconds": 761.8800048828125,
+    "end_seconds": 764.6399993896484,
+    "text": "into it and to not have the rake laying around so we don't step on it."
+  },
+  {
+    "segment_id": "s00151",
+    "start_seconds": 765.1600036621094,
+    "end_seconds": 771.2400054931641,
+    "text": "Because at some point, even in AI is there's still hazards that the AI is,"
+  },
+  {
+    "segment_id": "s00152",
+    "start_seconds": 771.2400054931641,
+    "end_seconds": 776.2400054931641,
+    "text": "is, is, is avoiding, we talk about AI context and losing context all the time."
+  },
+  {
+    "segment_id": "s00153",
+    "start_seconds": 776.4799957275391,
+    "end_seconds": 780.2400054931641,
+    "text": "I mean, we get, you know, we get 10, 15, 20, 50, a hundred prompts"
+  },
+  {
+    "segment_id": "s00154",
+    "start_seconds": 780.2400054931641,
+    "end_seconds": 782.7200012207031,
+    "text": "into talking to this thing and it's going to forget the rake is there."
+  },
+  {
+    "segment_id": "s00155",
+    "start_seconds": 782.7200012207031,
+    "end_seconds": 784.2799987792969,
+    "text": "And then wham, it's going to step on the rake."
+  },
+  {
+    "segment_id": "s00156",
+    "start_seconds": 784.9600067138672,
+    "end_seconds": 786.6000061035156,
+    "text": "What, what, what could have avoided it?"
+  },
+  {
+    "segment_id": "s00157",
+    "start_seconds": 786.6000061035156,
+    "end_seconds": 790.5200042724609,
+    "text": "The rake not being there in the first place, the rake being in the shelf or"
+  },
+  {
+    "segment_id": "s00158",
+    "start_seconds": 790.6399993896484,
+    "end_seconds": 792.6000061035156,
+    "text": "on the hook where it's supposed to be."
+  },
+  {
+    "segment_id": "s00159",
+    "start_seconds": 793.0,
+    "end_seconds": 798.2799987792969,
+    "text": "That like, I would, I would push back on that, but I, I, I, like, I do concede"
+  },
+  {
+    "segment_id": "s00160",
+    "start_seconds": 798.2799987792969,
+    "end_seconds": 803.3600006103516,
+    "text": "that, yeah, in a hazardous, in this figurative hazardous, like workshop"
+  },
+  {
+    "segment_id": "s00161",
+    "start_seconds": 803.3600006103516,
+    "end_seconds": 809.6799926757812,
+    "text": "situation that I'm equating to a code base and AI is likely, and it's definitely"
+  },
+  {
+    "segment_id": "s00162",
+    "start_seconds": 809.6799926757812,
+    "end_seconds": 813.8000030517578,
+    "text": "based on what code base and other things, but likely going to navigate"
+  },
+  {
+    "segment_id": "s00163",
+    "start_seconds": 813.8000030517578,
+    "end_seconds": 817.3600006103516,
+    "text": "a little better than a human, especially a new human, someone that's new to the"
+  },
+  {
+    "segment_id": "s00164",
+    "start_seconds": 817.3600006103516,
+    "end_seconds": 822.0,
+    "text": "code base, it's probably going to pick up on it quicker, but it's still hazardous."
+  },
+  {
+    "segment_id": "s00165",
+    "start_seconds": 822.1199951171875,
+    "end_seconds": 826.8800048828125,
+    "text": "And I, I think hazardous for no good reason in, in many cases."
+  },
+  {
+    "segment_id": "s00166",
+    "start_seconds": 828.1999969482422,
+    "end_seconds": 832.0800018310547,
+    "text": "What this, what this, what you could potentially argue then is, is that you"
+  },
+  {
+    "segment_id": "s00167",
+    "start_seconds": 832.0800018310547,
+    "end_seconds": 836.6000061035156,
+    "text": "could kind of have these emergency tickets that show up, Hey, we really"
+  },
+  {
+    "segment_id": "s00168",
+    "start_seconds": 836.6000061035156,
+    "end_seconds": 839.2799987792969,
+    "text": "need a contact form here to go back to the basic example."
+  },
+  {
+    "segment_id": "s00169",
+    "start_seconds": 839.2799987792969,
+    "end_seconds": 840.4400024414062,
+    "text": "We really need a contact form here."
+  },
+  {
+    "segment_id": "s00170",
+    "start_seconds": 840.8000030517578,
+    "end_seconds": 841.8399963378906,
+    "text": "All right, let's fire that up."
+  },
+  {
+    "segment_id": "s00171",
+    "start_seconds": 841.8399963378906,
+    "end_seconds": 844.0399932861328,
+    "text": "So we spin it up, whatever, we kind of tape it together."
+  },
+  {
+    "segment_id": "s00172",
+    "start_seconds": 844.1999969482422,
+    "end_seconds": 846.6000061035156,
+    "text": "Maybe the AI vibe codes that we look at it, it looks good."
+  },
+  {
+    "segment_id": "s00173",
+    "start_seconds": 846.9199981689453,
+    "end_seconds": 850.4799957275391,
+    "text": "In context, it looks great, but it doesn't really interface with the CRM too well."
+  },
+  {
+    "segment_id": "s00174",
+    "start_seconds": 850.4799957275391,
+    "end_seconds": 851.4799957275391,
+    "text": "There's some missing fields."
+  },
+  {
+    "segment_id": "s00175",
+    "start_seconds": 851.4799957275391,
+    "end_seconds": 852.3200073242188,
+    "text": "It's a little messy."
+  },
+  {
+    "segment_id": "s00176",
+    "start_seconds": 852.6000061035156,
+    "end_seconds": 855.0399932861328,
+    "text": "Maybe the number is actually a string or something and it's not pulling"
+  },
+  {
+    "segment_id": "s00177",
+    "start_seconds": 855.0399932861328,
+    "end_seconds": 856.7200012207031,
+    "text": "into the CRM nicely or something."
+  },
+  {
+    "segment_id": "s00178",
+    "start_seconds": 857.0799865722656,
+    "end_seconds": 857.8399963378906,
+    "text": "An emergency?"
+  },
+  {
+    "segment_id": "s00179",
+    "start_seconds": 857.8800048828125,
+    "end_seconds": 861.7200012207031,
+    "text": "No, the emergency was getting that form out because we needed people"
+  },
+  {
+    "segment_id": "s00180",
+    "start_seconds": 861.7200012207031,
+    "end_seconds": 865.0,
+    "text": "to be able to contact us in this particular context for some reason."
+  },
+  {
+    "segment_id": "s00181",
+    "start_seconds": 865.1600036621094,
+    "end_seconds": 866.1600036621094,
+    "text": "That was the emergency."
+  },
+  {
+    "segment_id": "s00182",
+    "start_seconds": 866.3200073242188,
+    "end_seconds": 867.1600036621094,
+    "text": "So, okay."
+  },
+  {
+    "segment_id": "s00183",
+    "start_seconds": 867.4800109863281,
+    "end_seconds": 870.4400024414062,
+    "text": "Now there's a bit of a hazard in the work, in the code base."
+  },
+  {
+    "segment_id": "s00184",
+    "start_seconds": 870.4400024414062,
+    "end_seconds": 872.6400146484375,
+    "text": "Now in the, in the workshop, there's a bit of a hazard because"
+  },
+  {
+    "segment_id": "s00185",
+    "start_seconds": 872.6400146484375,
+    "end_seconds": 873.7200012207031,
+    "text": "we've taped this thing in."
+  },
+  {
+    "segment_id": "s00186",
+    "start_seconds": 874.0400085449219,
+    "end_seconds": 874.4800109863281,
+    "text": "Okay."
+  },
+  {
+    "segment_id": "s00187",
+    "start_seconds": 874.5599975585938,
+    "end_seconds": 879.9200134277344,
+    "text": "So now we need, in my opinion, we still need someone to go in there, human"
+  },
+  {
+    "segment_id": "s00188",
+    "start_seconds": 880.2000122070312,
+    "end_seconds": 886.2000122070312,
+    "text": "or AI, preferably maybe both, to go in there and I think to still clean it up."
+  },
+  {
+    "segment_id": "s00189",
+    "start_seconds": 886.2000122070312,
+    "end_seconds": 887.9599914550781,
+    "text": "Cause I don't want to go emergency ticket."
+  },
+  {
+    "segment_id": "s00190",
+    "start_seconds": 887.9599914550781,
+    "end_seconds": 889.0400085449219,
+    "text": "We need this, this contact form."
+  },
+  {
+    "segment_id": "s00191",
+    "start_seconds": 889.0400085449219,
+    "end_seconds": 889.4800109863281,
+    "text": "Okay, great."
+  },
+  {
+    "segment_id": "s00192",
+    "start_seconds": 889.6400146484375,
+    "end_seconds": 890.3599853515625,
+    "text": "Emergency ticket."
+  },
+  {
+    "segment_id": "s00193",
+    "start_seconds": 890.3599853515625,
+    "end_seconds": 891.0799865722656,
+    "text": "We need this other page."
+  },
+  {
+    "segment_id": "s00194",
+    "start_seconds": 891.0799865722656,
+    "end_seconds": 891.5599975585938,
+    "text": "Okay, great."
+  },
+  {
+    "segment_id": "s00195",
+    "start_seconds": 891.7200012207031,
+    "end_seconds": 892.760009765625,
+    "text": "Emergency, emergency."
+  },
+  {
+    "segment_id": "s00196",
+    "start_seconds": 892.760009765625,
+    "end_seconds": 898.0799865722656,
+    "text": "And then now it's like, we have this like, whoa, like this big, like bundle of BS."
+  },
+  {
+    "segment_id": "s00197",
+    "start_seconds": 898.4800109863281,
+    "end_seconds": 903.9599914550781,
+    "text": "Maybe I'm worse at juggling it or holding it up and, and balancing it than an AI"
+  },
+  {
+    "segment_id": "s00198",
+    "start_seconds": 903.9599914550781,
+    "end_seconds": 908.239990234375,
+    "text": "would be, but it's the AI is still using some of its power to like juggle this"
+  },
+  {
+    "segment_id": "s00199",
+    "start_seconds": 908.2799987792969,
+    "end_seconds": 912.5599975585938,
+    "text": "nonsense that I don't know if you agree or disagree with me, Mike, I know you're"
+  },
+  {
+    "segment_id": "s00200",
+    "start_seconds": 912.5599975585938,
+    "end_seconds": 913.7200012207031,
+    "text": "nodding your head a little bit, but like."
+  },
+  {
+    "segment_id": "s00201",
+    "start_seconds": 914.6400146484375,
+    "end_seconds": 916.9599914550781,
+    "text": "I, I, yeah, I think you're definitely correct."
+  },
+  {
+    "segment_id": "s00202",
+    "start_seconds": 916.9599914550781,
+    "end_seconds": 922.2000122070312,
+    "text": "I, I think that you have to kind of make a point of where you draw that line of"
+  },
+  {
+    "segment_id": "s00203",
+    "start_seconds": 922.2000122070312,
+    "end_seconds": 927.4400024414062,
+    "text": "what is maintainable and what isn't maintainable by AI and again, I think as"
+  },
+  {
+    "segment_id": "s00204",
+    "start_seconds": 927.4400024414062,
+    "end_seconds": 933.0799865722656,
+    "text": "we progress and as AI progresses, that line will start to become further and further out."
+  },
+  {
+    "segment_id": "s00205",
+    "start_seconds": 933.6400146484375,
+    "end_seconds": 936.2799987792969,
+    "text": "So right now you're 100% right, honestly."
+  },
+  {
+    "segment_id": "s00206",
+    "start_seconds": 936.2799987792969,
+    "end_seconds": 939.9599914550781,
+    "text": "Like, and I'm experiencing it right now, like currently in the code base that I'm"
+  },
+  {
+    "segment_id": "s00207",
+    "start_seconds": 939.9599914550781,
+    "end_seconds": 942.9599914550781,
+    "text": "in, it's has a ton of technical debt."
+  },
+  {
+    "segment_id": "s00208",
+    "start_seconds": 943.5599975585938,
+    "end_seconds": 946.3599853515625,
+    "text": "And AI is stepping on a bunch of rakes."
+  },
+  {
+    "segment_id": "s00209",
+    "start_seconds": 946.4400024414062,
+    "end_seconds": 949.7999877929688,
+    "text": "It is actually like, that's actually happening to me at this very moment."
+  },
+  {
+    "segment_id": "s00210",
+    "start_seconds": 950.1600036621094,
+    "end_seconds": 953.4800109863281,
+    "text": "If, if we clean up that technical debt is going to make it a lot easier for me to"
+  },
+  {
+    "segment_id": "s00211",
+    "start_seconds": 953.4800109863281,
+    "end_seconds": 955.1600036621094,
+    "text": "work with it and for AI to work with it."
+  },
+  {
+    "segment_id": "s00212",
+    "start_seconds": 955.760009765625,
+    "end_seconds": 956.4400024414062,
+    "text": "100%."
+  },
+  {
+    "segment_id": "s00213",
+    "start_seconds": 956.4400024414062,
+    "end_seconds": 958.4400024414062,
+    "text": "So that's the, you hit the nail on the head there."
+  },
+  {
+    "segment_id": "s00214",
+    "start_seconds": 959.0400085449219,
+    "end_seconds": 963.8399963378906,
+    "text": "What is inevitably going to happen is it will become better at a cleaning up that"
+  },
+  {
+    "segment_id": "s00215",
+    "start_seconds": 963.8399963378906,
+    "end_seconds": 965.6799926757812,
+    "text": "technical debt as it sees it."
+  },
+  {
+    "segment_id": "s00216",
+    "start_seconds": 965.6799926757812,
+    "end_seconds": 969.5199890136719,
+    "text": "Cause right now what AI doesn't do very well is it sees an error."
+  },
+  {
+    "segment_id": "s00217",
+    "start_seconds": 969.5199890136719,
+    "end_seconds": 972.8800048828125,
+    "text": "It sees an unmaintainable aspect of code and it's just like, all right, that's"
+  },
+  {
+    "segment_id": "s00218",
+    "start_seconds": 972.8800048828125,
+    "end_seconds": 974.3599853515625,
+    "text": "fine, and it just works around it."
+  },
+  {
+    "segment_id": "s00219",
+    "start_seconds": 974.8399963378906,
+    "end_seconds": 980.4800109863281,
+    "text": "For some reason, almost every AI that I use from the astras to the fables down to"
+  },
+  {
+    "segment_id": "s00220",
+    "start_seconds": 980.4800109863281,
+    "end_seconds": 982.8399963378906,
+    "text": "whatever, that's the way it interacts."
+  },
+  {
+    "segment_id": "s00221",
+    "start_seconds": 983.4400024414062,
+    "end_seconds": 989.6000061035156,
+    "text": "But inevitably it will start to get better and probably start to make it less, do"
+  },
+  {
+    "segment_id": "s00222",
+    "start_seconds": 989.6000061035156,
+    "end_seconds": 994.2000122070312,
+    "text": "these things where it, it will fix the unmaintainable code as it sees it."
+  },
+  {
+    "segment_id": "s00223",
+    "start_seconds": 994.2000122070312,
+    "end_seconds": 998.239990234375,
+    "text": "Now, this could be part of its reasoning of like, Hey, don't touch things that I"
+  },
+  {
+    "segment_id": "s00224",
+    "start_seconds": 998.239990234375,
+    "end_seconds": 1003.2799987792969,
+    "text": "didn't ask you to touch, which isn't a bad, which isn't a bad call, but it seems"
+  },
+  {
+    "segment_id": "s00225",
+    "start_seconds": 1003.2799987792969,
+    "end_seconds": 1005.0,
+    "text": "to do that even when I ask it to touch it."
+  },
+  {
+    "segment_id": "s00226",
+    "start_seconds": 1005.0,
+    "end_seconds": 1006.9200134277344,
+    "text": "Like it's a context issue."
+  },
+  {
+    "segment_id": "s00227",
+    "start_seconds": 1006.9200134277344,
+    "end_seconds": 1010.3200073242188,
+    "text": "Like you said, if there's too much context, if the code base is too big, it"
+  },
+  {
+    "segment_id": "s00228",
+    "start_seconds": 1010.3200073242188,
+    "end_seconds": 1014.7200012207031,
+    "text": "just becomes way too hard for it to, to understand what is a rake and what isn't."
+  },
+  {
+    "segment_id": "s00229",
+    "start_seconds": 1014.9599914550781,
+    "end_seconds": 1018.9200134277344,
+    "text": "Well, it's also, I think it's a utopian issue too, where the AI is looking at it"
+  },
+  {
+    "segment_id": "s00230",
+    "start_seconds": 1018.9200134277344,
+    "end_seconds": 1023.8399963378906,
+    "text": "as, well, if nobody, if nobody's like, if you know how to do the right footwork,"
+  },
+  {
+    "segment_id": "s00231",
+    "start_seconds": 1024.2799987792969,
+    "end_seconds": 1025.4400024414062,
+    "text": "then the rakes are not a risk."
+  },
+  {
+    "segment_id": "s00232",
+    "start_seconds": 1025.5599975585938,
+    "end_seconds": 1026.6799926757812,
+    "text": "The rakes are there."
+  },
+  {
+    "segment_id": "s00233",
+    "start_seconds": 1026.7200012207031,
+    "end_seconds": 1028.8800048828125,
+    "text": "They're stored in the building, but they're not on the hook."
+  },
+  {
+    "segment_id": "s00234",
+    "start_seconds": 1028.9200134277344,
+    "end_seconds": 1029.6799926757812,
+    "text": "They're not on the show."
+  },
+  {
+    "segment_id": "s00235",
+    "start_seconds": 1030.239990234375,
+    "end_seconds": 1032.2799987792969,
+    "text": "And so we're good, man."
+  },
+  {
+    "segment_id": "s00236",
+    "start_seconds": 1032.4400024414062,
+    "end_seconds": 1033.6799926757812,
+    "text": "But it's like, whoa, whoa, whoa."
+  },
+  {
+    "segment_id": "s00237",
+    "start_seconds": 1033.7200012207031,
+    "end_seconds": 1036.5199890136719,
+    "text": "You know, like we have to come in there and like, that's how I use it to clear"
+  },
+  {
+    "segment_id": "s00238",
+    "start_seconds": 1036.5199890136719,
+    "end_seconds": 1038.7200012207031,
+    "text": "technical debt is I'll go in there and be like, isn't this a risk?"
+  },
+  {
+    "segment_id": "s00239",
+    "start_seconds": 1039.3599853515625,
+    "end_seconds": 1041.4400024414062,
+    "text": "And I'll have it like, tell me not change."
+  },
+  {
+    "segment_id": "s00240",
+    "start_seconds": 1041.4400024414062,
+    "end_seconds": 1043.2799987792969,
+    "text": "I'll even say, don't frigging change anything."
+  },
+  {
+    "segment_id": "s00241",
+    "start_seconds": 1043.2799987792969,
+    "end_seconds": 1044.6000061035156,
+    "text": "I want you to tell me what this is."
+  },
+  {
+    "segment_id": "s00242",
+    "start_seconds": 1044.9599914550781,
+    "end_seconds": 1045.9599914550781,
+    "text": "And it'll do all kinds of stuff."
+  },
+  {
+    "segment_id": "s00243",
+    "start_seconds": 1045.9599914550781,
+    "end_seconds": 1048.6000061035156,
+    "text": "And I'll be like, isn't this like a bit of a risk and like a bit of a mess?"
+  },
+  {
+    "segment_id": "s00244",
+    "start_seconds": 1048.9200134277344,
+    "end_seconds": 1051.7200012207031,
+    "text": "And sometimes it'll be like, yeah, but like it, you know, as long as no one"
+  },
+  {
+    "segment_id": "s00245",
+    "start_seconds": 1051.7200012207031,
+    "end_seconds": 1053.4400024414062,
+    "text": "steps on it, it's not a hazard at all."
+  },
+  {
+    "segment_id": "s00246",
+    "start_seconds": 1053.9200134277344,
+    "end_seconds": 1054.3599853515625,
+    "text": "Cool."
+  },
+  {
+    "segment_id": "s00247",
+    "start_seconds": 1054.3999938964844,
+    "end_seconds": 1055.239990234375,
+    "text": "You're still changing it."
+  },
+  {
+    "segment_id": "s00248",
+    "start_seconds": 1055.9599914550781,
+    "end_seconds": 1057.239990234375,
+    "text": "That's how I kind of treat the AI."
+  },
+  {
+    "segment_id": "s00249",
+    "start_seconds": 1057.239990234375,
+    "end_seconds": 1061.239990234375,
+    "text": "Hey, that's what I mean by kind of like a person with an AI is kind of what, who"
+  },
+  {
+    "segment_id": "s00250",
+    "start_seconds": 1061.239990234375,
+    "end_seconds": 1065.4400024414062,
+    "text": "I'd want, I guess the duo that I'd want to go in and fix technical debt, right?"
+  },
+  {
+    "segment_id": "s00251",
+    "start_seconds": 1066.2000122070312,
+    "end_seconds": 1066.4400024414062,
+    "text": "Yeah."
+  },
+  {
+    "segment_id": "s00252",
+    "start_seconds": 1067.5199890136719,
+    "end_seconds": 1070.4800109863281,
+    "text": "Again, like I think the technical debt shouldn't be as big of an"
+  },
+  {
+    "segment_id": "s00253",
+    "start_seconds": 1070.4800109863281,
+    "end_seconds": 1072.0799865722656,
+    "text": "issue as it is right now with AI."
+  },
+  {
+    "segment_id": "s00254",
+    "start_seconds": 1072.6400146484375,
+    "end_seconds": 1076.7200012207031,
+    "text": "But because of the time constraints that is put on everything due to AI"
+  },
+  {
+    "segment_id": "s00255",
+    "start_seconds": 1076.7200012207031,
+    "end_seconds": 1081.239990234375,
+    "text": "increasing our productivity by X amount, whatever, whatever the, you know, CEOs"
+  },
+  {
+    "segment_id": "s00256",
+    "start_seconds": 1081.239990234375,
+    "end_seconds": 1085.1600036621094,
+    "text": "and the product managers pass down to the engineering team, you're put in a"
+  },
+  {
+    "segment_id": "s00257",
+    "start_seconds": 1085.1600036621094,
+    "end_seconds": 1088.3200073242188,
+    "text": "situation where you're inevitably making more technical debt that's at the end"
+  },
+  {
+    "segment_id": "s00258",
+    "start_seconds": 1088.3200073242188,
+    "end_seconds": 1091.2799987792969,
+    "text": "of the day, what's happening, but it doesn't have to be that way."
+  },
+  {
+    "segment_id": "s00259",
+    "start_seconds": 1091.2799987792969,
+    "end_seconds": 1095.239990234375,
+    "text": "Like we could be in a place where we could have the, you know, a"
+  },
+  {
+    "segment_id": "s00260",
+    "start_seconds": 1095.239990234375,
+    "end_seconds": 1099.0400085449219,
+    "text": "sprint and then an AI to fix the technical debt, because we have that time."
+  },
+  {
+    "segment_id": "s00261",
+    "start_seconds": 1099.5199890136719,
+    "end_seconds": 1100.7200012207031,
+    "text": "That's how it should be used."
+  },
+  {
+    "segment_id": "s00262",
+    "start_seconds": 1100.7200012207031,
+    "end_seconds": 1103.0400085449219,
+    "text": "And hopefully in good engineering teams, that's how it is."
+  },
+  {
+    "segment_id": "s00263",
+    "start_seconds": 1103.2000122070312,
+    "end_seconds": 1107.0,
+    "text": "It is used, but in a lot of places, that's not the case."
+  },
+  {
+    "segment_id": "s00264",
+    "start_seconds": 1107.0,
+    "end_seconds": 1111.0400085449219,
+    "text": "So you need to fight for that, or you need to align and deal with the"
+  },
+  {
+    "segment_id": "s00265",
+    "start_seconds": 1111.0400085449219,
+    "end_seconds": 1112.4000244140625,
+    "text": "technical debt and accept it as well."
+  },
+  {
+    "segment_id": "s00266",
+    "start_seconds": 1112.4000244140625,
+    "end_seconds": 1116.2000122070312,
+    "text": "Like that's another thing that engineers might have to accept in a situation"
+  },
+  {
+    "segment_id": "s00267",
+    "start_seconds": 1116.2000122070312,
+    "end_seconds": 1121.1199951171875,
+    "text": "where they can't deal with it or they can't push back, yeah, technical debt"
+  },
+  {
+    "segment_id": "s00268",
+    "start_seconds": 1121.1199951171875,
+    "end_seconds": 1126.8800048828125,
+    "text": "exists, so maybe you have to start prompting your AI differently to go"
+  },
+  {
+    "segment_id": "s00269",
+    "start_seconds": 1126.8800048828125,
+    "end_seconds": 1130.239990234375,
+    "text": "around it, to have it step around the rakes, which is unfortunate."
+  },
+  {
+    "segment_id": "s00270",
+    "start_seconds": 1130.52001953125,
+    "end_seconds": 1134.5999755859375,
+    "text": "And I do want to like quickly, just very quickly touch, cause like we're pretty"
+  },
+  {
+    "segment_id": "s00271",
+    "start_seconds": 1134.5999755859375,
+    "end_seconds": 1138.0800170898438,
+    "text": "well at the end of this web news, but just quickly touch on like, there's a"
+  },
+  {
+    "segment_id": "s00272",
+    "start_seconds": 1138.0800170898438,
+    "end_seconds": 1144.8800048828125,
+    "text": "lot of surrounding supporting tech that goes into production pipelines and code"
+  },
+  {
+    "segment_id": "s00273",
+    "start_seconds": 1144.8800048828125,
+    "end_seconds": 1149.3599853515625,
+    "text": "bases, like your CI, CD pipeline could be, you know, a factor with technical"
+  },
+  {
+    "segment_id": "s00274",
+    "start_seconds": 1149.3599853515625,
+    "end_seconds": 1156.0800170898438,
+    "text": "debt, your DevOps, like the way you have your servers set, the way you have"
+  },
+  {
+    "segment_id": "s00275",
+    "start_seconds": 1156.3599853515625,
+    "end_seconds": 1160.4000244140625,
+    "text": "your checks set, your linters set, all of these things can contribute to"
+  },
+  {
+    "segment_id": "s00276",
+    "start_seconds": 1160.4000244140625,
+    "end_seconds": 1163.6799926757812,
+    "text": "technical debt, I mean, we're just focusing on sort of like the general"
+  },
+  {
+    "segment_id": "s00277",
+    "start_seconds": 1163.6799926757812,
+    "end_seconds": 1167.52001953125,
+    "text": "idea of it, but I do, I did just think, I do think it's important to mention"
+  },
+  {
+    "segment_id": "s00278",
+    "start_seconds": 1167.52001953125,
+    "end_seconds": 1172.5999755859375,
+    "text": "that because that's even more and more and more context that you have to give"
+  },
+  {
+    "segment_id": "s00279",
+    "start_seconds": 1172.5999755859375,
+    "end_seconds": 1178.0,
+    "text": "this AI, an AI, by the way, that all of them, as far as I know, struggle with"
+  },
+  {
+    "segment_id": "s00280",
+    "start_seconds": 1178.0,
+    "end_seconds": 1183.280029296875,
+    "text": "context to some degree, in the same way that a human would, and then one day"
+  },
+  {
+    "segment_id": "s00281",
+    "start_seconds": 1183.3200073242188,
+    "end_seconds": 1187.5999755859375,
+    "text": "accidentally step on the rake that they avoided for five years, but I think"
+  },
+  {
+    "segment_id": "s00282",
+    "start_seconds": 1187.5999755859375,
+    "end_seconds": 1192.8800048828125,
+    "text": "that's it, that unless you had anything else to add, Mike, I think that is the"
+  },
+  {
+    "segment_id": "s00283",
+    "start_seconds": 1192.8800048828125,
+    "end_seconds": 1194.5599975585938,
+    "text": "web news working title right now."
+  },
+  {
+    "segment_id": "s00284",
+    "start_seconds": 1194.5599975585938,
+    "end_seconds": 1195.52001953125,
+    "text": "It may even be the title."
+  },
+  {
+    "segment_id": "s00285",
+    "start_seconds": 1195.719970703125,
+    "end_seconds": 1197.6400146484375,
+    "text": "What is AI doing to technical debt?"
+  },
+  {
+    "segment_id": "s00286",
+    "start_seconds": 1197.6799926757812,
+    "end_seconds": 1200.0,
+    "text": "Again, this is inspired by a Reddit thread."
+  },
+  {
+    "segment_id": "s00287",
+    "start_seconds": 1200.0,
+    "end_seconds": 1204.159999847412,
+    "text": "ton of comments on there's 90 some odd comments in there when I went and checked on it that will"
+  },
+  {
+    "segment_id": "s00288",
+    "start_seconds": 1204.159999847412,
+    "end_seconds": 1209.920000076294,
+    "text": "be in the show notes go check it out you can click on that link I'll also likely include it in the"
+  },
+  {
+    "segment_id": "s00289",
+    "start_seconds": 1209.920000076294,
+    "end_seconds": 1213.6800003051758,
+    "text": "RSS description if I remember but it will be in the show notes for sure it's already in there in"
+  },
+  {
+    "segment_id": "s00290",
+    "start_seconds": 1213.6800003051758,
+    "end_seconds": 1218.7199993133545,
+    "text": "fact um in the draft version so please go and check that out and again give some upvotes or"
+  },
+  {
+    "segment_id": "s00291",
+    "start_seconds": 1218.7199993133545,
+    "end_seconds": 1224.0,
+    "text": "comments or whatever you do on the reddit and that's it that's the web news we're signing off"
+  },
+  {
+    "segment_id": "s00292",
+    "start_seconds": 1224.0,
+    "end_seconds": 1228.159999847412,
+    "text": "goodbye"
+  }
+]

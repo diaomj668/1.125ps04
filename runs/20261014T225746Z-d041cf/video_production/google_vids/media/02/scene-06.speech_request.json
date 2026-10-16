@@ -1,0 +1,7 @@
+{
+  "model": "tts-1",
+  "voice": "alloy",
+  "speed": 0.86,
+  "input": "GitHub’s hackathon reporting offers another reminder about attribution. Participant Lance credits Copilot with creating a frontend and integrating an API in 30 minutes. Elsewhere, GitHub reports Vaishnavi’s team struggling with a movement-detection model. These are different accounts, not a controlled success-versus-failure comparison. Vaishnavi’s difficulty is not identified as a Copilot failure. Neither account tells us what a beginner working alone should expect.",
+  "response_format": "wav"
+}

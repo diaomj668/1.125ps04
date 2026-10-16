@@ -1,0 +1,23 @@
+Saved-evidence view only: no collection, generation, or new pipeline run.
+
+REAL-EVIDENCE DUPLICATE-FREE REPLAY
+
+Actual replay execution: 2026-10-16T04:07:37.726219Z
+Original source evidence date: 2026-10-14
+  feed: Profiling web-edit with Python 3.15: flame graphs and source heatmaps
+  youtube: Every app on Earth is now open source... whether it likes it or not
+  podcast: AI’s Biggest Problem Isn’t Intelligence Anymore
+
+Phase          Items  Versions  Observations  Labels
+seed               3         3             3  new
+replay_1           3         3             6  unchanged
+replay_2           3         3             9  unchanged
+
+Formal store unchanged: True
+Evidence and current-version fingerprints unchanged: True
+Model calls: 0. New collection: false. Cost: $0.
+Observations are intentional audit logs, not duplicate evidence versions.
+This isolated offline replay is NOT a third live run or a fictional fixture.
+
+Inspect: runs/replay-20261016T040737Z-8cfe40/verification.json
+Changes: runs/replay-20261016T040737Z-8cfe40/seed/changes.jsonl and replay_1/ / replay_2/.

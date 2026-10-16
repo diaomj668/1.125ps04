@@ -1,0 +1,300 @@
+--- before/articles/01.md
++++ articles/01.md
+@@ -22,6 +22,10 @@
+ 
+ The boundary matters. The account demonstrates neither a completed optimization nor a measured saving in delivery time. It is also an experienced maintainer's report about his own application, without a controlled comparison or complete accounting of testing and correction effort. A developer with basic skills may still need additional setup and interpretation; the example does not establish reproducibility for that audience. [01-c3]
+ 
++## A small refactor, reported rather than verified
++
++A newly collected video adds a task closer to an individual developer's everyday work. In Fireship's October 15 report, the narrator says he used a coding assistant on an old side project to rename functions and scaffold tests in a few minutes for no model-usage charge. The segment explicitly names JetBrains as its sponsor. ([Fireship, October 15, 5:12–5:23](https://www.youtube.com/watch?v=l3L_lETiSzc&t=312s).) This is an attributed implementation example, not confirmation that the tests ran, behavior was preserved, or the entire delivery effort was free. It complements the profiling account by describing a proposed code change rather than a diagnostic artifact. [01-c6]
++
+ ## “Completed” was not “delivered”
+ 
+ GitHub's availability report, published October 14, supplies a counterweight. Explaining its September 28 Copilot code-review incident, GitHub says some jobs could not build a review but nevertheless reported successful completion. It says missing review results were not detected because monitoring was lacking. GitHub reports reverting the change and advising customers to request affected reviews again. ([GitHub, “GitHub availability report: September 2026,” published 2026-10-14; incident section: September 28, 21:16 UTC](https://github.blog/news-insights/company-news/github-availability-report-september-2026/).) [01-c4]
+@@ -41,7 +45,7 @@
+ - [Rollouts and Security Review](https://cursor.com/changelog/rollouts-and-security-reviewer). Passage: “Each finding carries a severity, the attack path, and a proposed fix.” Source version `126e7b7700183bbf6dfce1990231a8f468e9de35c1f6ac20a396cd30d761b08c`.
+ - [Rollouts and Security Review](https://cursor.com/changelog/rollouts-and-security-reviewer). Passage: “Rollouts and Security Reviewer are available today on Teams and Enterprise plans. Enable either bot from the automations tab.” Source version `126e7b7700183bbf6dfce1990231a8f468e9de35c1f6ac20a396cd30d761b08c`.
+ 
+-**01-c3** (source_claim): Willison reports having Codex run Python 3.15's profiler against his web-edit application to produce profiling demonstrations. This is a concrete assistant-assisted debugging example, not a demonstrated optimization or measured delivery-time saving.
++**01-c3** (source_claim): Willison reports having Codex run Python 3.15's profiler against his web-edit application to produce profiling demonstrations. This is a concrete example of AI-assisted performance profiling and diagnosis, not a demonstrated optimization or measured delivery-time saving.
+ - [Profiling web-edit with Python 3.15: flame graphs and source heatmaps](https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/). Passage: “I put the new Python 3.15 profiler through its paces by having GPT-6 Astra Extra High in Codex run it against my new web-edit app:” Source version `de47f3a642088f8a087f0a6f46b95b49b6830aa108fd56ccd1dec0cf490cb5f8`.
+ - [Profiling web-edit with Python 3.15: flame graphs and source heatmaps](https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/). Passage: “Here's the resulting example flame graph and heatmap.” Source version `de47f3a642088f8a087f0a6f46b95b49b6830aa108fd56ccd1dec0cf490cb5f8`.
+ 
+@@ -54,3 +58,11 @@
+ - [Remote control for local agents](https://cursor.com/changelog/remote-control-local-agents). Passage: “Your local agents appear in a list. Tap one to see what it's doing or send it a message.” Source version `f0b87f5852d125e85cbeb2438fe5d0ee73e1a1bface9f1ea7031804286fb5ea1`.
+ - [Profiling web-edit with Python 3.15: flame graphs and source heatmaps](https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/). Passage: “Here's the resulting example flame graph and heatmap.” Source version `de47f3a642088f8a087f0a6f46b95b49b6830aa108fd56ccd1dec0cf490cb5f8`.
+ - [GitHub availability report: September 2026](https://github.blog/news-insights/company-news/github-availability-report-september-2026/). Passage: “As a result, Copilot code review could not build a review, but reported that the job had completed successfully.” Source version `2b8477c36458d01b02ef31fabffdfe1ae8339b51ac8a1407d7819528f05c4151`.
++
++**01-c6** (source_claim): In its October 15 JetBrains-sponsored segment, Fireship's narrator reports using a coding assistant on an old side project to rename functions and scaffold tests in a few minutes for no model-usage charge. This is an attributed small-project example, not verified test success, total effort, or generally free access.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=287s), 4:47, segment s00147. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=312s), 5:12, segment s00160. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=315s), 5:15, segment s00161. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=317s), 5:17, segment s00162. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=319s), 5:19, segment s00163. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=329s), 5:29, segment s00168. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
+--- before/video_scripts/01.md
++++ video_scripts/01.md
+@@ -3,35 +3,48 @@
+ 
+ **Visual direction:** Opening title card for Google Vids or HeyGen. Plan for synthetic narration, with a visible disclosure: “AI-generated narration.” Show three labeled icons: remote interaction, security review, runtime inspection. All interface diagrams should be labeled illustrative, not product demonstrations.
+ 
+-**Narration:** This presentation uses an AI-generated voice. As of October 15, 2026, some concrete AI coding developments extend beyond writing code. They offer ways to supervise an agent remotely, request security findings, and inspect running software. For someone building a small app or script alone, those are capabilities worth investigating. They are not evidence that a project can now finish itself.
++**Narration:**
++As of October 15, 2026, some concrete AI coding developments extend beyond writing code. They offer ways to supervise an agent remotely, request security findings, and inspect running software. For someone building a small app or script alone, those are capabilities worth investigating. They are not evidence that a project can now finish itself.
+ 
+ **Visual direction:** Connect a phone icon to a laptop. Keep the agent icon inside the laptop. Add “Computer must stay on and online.”
+ 
+-**Narration:** First, Cursor announced that its iOS app can display local agents and let you message them. Here, an agent means the assistant carrying out development work. The important distinction is where that work happens: it still runs on your computer. The phone connects to it; it does not move the task into cloud execution. Your computer must remain on and online. That gives you another way to interact with ongoing work, not a different place for the work to run.
++**Narration:**
++First, Cursor announced that its iOS app can display local agents and let you message them. Here, an agent means the assistant carrying out development work. The important distinction is where that work happens: it still runs on your computer. The phone connects to it; it does not move the task into cloud execution. Your computer must remain on and online. That gives you another way to interact with ongoing work, not a different place for the work to run.
+ 
+ [01-c1] [Cursor: Remote control for local agents](https://cursor.com/changelog/remote-control-local-agents "item_id=feed:86e64baebef7f0e23a96adbb; version_id=f0b87f5852d125e85cbeb2438fe5d0ee73e1a1bface9f1ea7031804286fb5ea1")
+ 
+ **Visual direction:** Show a review card with three fields: severity, attack path, proposed fix. Add access labels: “Teams / Enterprise” and “Draft pull requests skipped.”
+ 
+-**Narration:** Second, Cursor announced Security Review for selected repositories. Its advertised findings contain a severity, an attack path, and a proposed fix. An attack path describes how the reported problem could be reached or exploited. Draft pull requests are skipped, and access is offered on Teams and Enterprise plans. For an individual developer, eligibility and purchase practicality therefore matter. The announcement establishes the proposed review format and access restrictions. It does not establish how effectively the tool detects vulnerabilities.
++**Narration:**
++Second, Cursor announced Security Review for selected repositories. Its advertised findings contain a severity, an attack path, and a proposed fix. An attack path describes how the reported problem could be reached or exploited. Draft pull requests are skipped, and access is offered on Teams and Enterprise plans. For an individual developer, eligibility and purchase practicality therefore matter. The announcement establishes the proposed review format and access restrictions. It does not establish how effectively the tool detects vulnerabilities.
+ 
+ [01-c2] [Cursor: Rollouts and Security Review](https://cursor.com/changelog/rollouts-and-security-reviewer "item_id=feed:50257040989ddf36da8c107e; version_id=126e7b7700183bbf6dfce1990231a8f468e9de35c1f6ac20a396cd30d761b08c")
+ 
+ **Visual direction:** Show an illustrative flame graph and source heatmap, labeled “Runtime inspection—not a measured speedup.” Do not invent profiling measurements.
+ 
+-**Narration:** Third, Simon Willison reports having Codex run Python 3.15’s profiler against his web-edit application, producing a flame graph and heatmap. A profiler helps inspect where execution spends time. This is a concrete example of assistant-assisted debugging and inspection. But producing a profile is not the same as demonstrating an optimization, and his account does not measure a delivery-time saving or the full cost of testing and correction.
++**Narration:**
++Third, Simon Willison reports having Codex run Python 3.15’s profiler against his web-edit application, producing a flame graph and heatmap. A profiler helps inspect where execution spends time. This is a concrete example of AI-assisted performance profiling and diagnosis. But producing a profile is not the same as demonstrating an optimization, and his account does not measure a delivery-time saving or the full cost of testing and correction.
+ 
+ [01-c3] [Willison: Profiling web-edit with Python 3.15](https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/ "item_id=feed:26e4a943393a1b788d1e2dae; version_id=de47f3a642088f8a087f0a6f46b95b49b6830aa108fd56ccd1dec0cf490cb5f8")
+ 
++**Visual direction:** Show an illustrative side-project diff and test skeleton. Label it “Fireship, October 15; JetBrains-sponsored; creator report.” Contrast “Tests generated” with “Tests executed.”
++
++**Narration:**
++A new video adds an implementation example. In Fireship's October 15 JetBrains-sponsored segment, the narrator reports using an assistant on an old side project to rename functions and scaffold tests in a few minutes for no model-usage charge. This is an attributed account of a concrete task, not independent validation. The segment does not demonstrate that tests passed or behavior was preserved. Its quoted time and charge also leave the human verification effort unresolved.
++
++**Inline evidence — not spoken:** [01-c6] [Fireship, 5:12–5:23](https://www.youtube.com/watch?v=l3L_lETiSzc&t=312s). See timestamped reference notes.
++
+ **Visual direction:** Contrast a green “Job completed” badge with an empty review panel. Then show “Inspect the delivered result.”
+ 
+-**Narration:** GitHub’s October availability report supplies a useful counterweight. Describing its September 28 Copilot code-review incident, GitHub says some jobs reported successful completion without delivering a review. It says it reverted the change and advised customers to request affected reviews again. A completion signal, in other words, was not proof that the expected output existed.
++**Narration:**
++GitHub’s October availability report supplies a useful counterweight. Describing its September 28 Copilot code-review incident, GitHub says some jobs reported successful completion without delivering a review. It says it reverted the change and advised customers to request affected reviews again. A completion signal, in other words, was not proof that the expected output existed.
+ 
+ [01-c4] [GitHub: September 2026 availability report](https://github.blog/news-insights/company-news/github-availability-report-september-2026/ "item_id=feed:5942317efb2e306a353cac42; version_id=2b8477c36458d01b02ef31fabffdfe1ae8339b51ac8a1407d7819528f05c4151")
+ 
+ **Visual direction:** End with three checkboxes: actual changes, delivered review, runtime profile. Below them: “Broader actions ≠ proven productivity gain.”
+ 
+-**Narration:** The practical takeaway is to judge these developments by inspectable results: actual agent changes, a delivered review, or a runtime profile. We still do not know whether these capabilities improve completion rates for typical small solo projects. Cursor and GitHub describe products they sell; Willison describes his own application. None provides independent, representative evidence about beginners, abandoned projects, or accessibility users. Broader development actions are the concrete change. Verified outcomes should remain your acceptance criterion.
++**Narration:**
++The practical takeaway is to judge these developments by inspectable results: actual agent changes, a delivered review, or a runtime profile. We still do not know whether these capabilities improve completion rates for typical small solo projects. Cursor and GitHub describe products they sell; Willison describes his own application. None provides independent, representative evidence about beginners, abandoned projects, or accessibility users. Broader development actions are the concrete change. Verified outcomes should remain your acceptance criterion.
+ 
+ [01-c5] [Cursor remote interaction](https://cursor.com/changelog/remote-control-local-agents), [Willison’s profiling artifact](https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/), and [GitHub’s missing-review account](https://github.blog/news-insights/company-news/github-availability-report-september-2026/).
+ 
+@@ -46,7 +59,7 @@
+ - [Rollouts and Security Review](https://cursor.com/changelog/rollouts-and-security-reviewer). Passage: “Each finding carries a severity, the attack path, and a proposed fix.” Source version `126e7b7700183bbf6dfce1990231a8f468e9de35c1f6ac20a396cd30d761b08c`.
+ - [Rollouts and Security Review](https://cursor.com/changelog/rollouts-and-security-reviewer). Passage: “Rollouts and Security Reviewer are available today on Teams and Enterprise plans. Enable either bot from the automations tab.” Source version `126e7b7700183bbf6dfce1990231a8f468e9de35c1f6ac20a396cd30d761b08c`.
+ 
+-**01-c3** (source_claim): Willison reports having Codex run Python 3.15's profiler against his web-edit application to produce profiling demonstrations. This is a concrete assistant-assisted debugging example, not a demonstrated optimization or measured delivery-time saving.
++**01-c3** (source_claim): Willison reports having Codex run Python 3.15's profiler against his web-edit application to produce profiling demonstrations. This is a concrete example of AI-assisted performance profiling and diagnosis, not a demonstrated optimization or measured delivery-time saving.
+ - [Profiling web-edit with Python 3.15: flame graphs and source heatmaps](https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/). Passage: “I put the new Python 3.15 profiler through its paces by having GPT-6 Astra Extra High in Codex run it against my new web-edit app:” Source version `de47f3a642088f8a087f0a6f46b95b49b6830aa108fd56ccd1dec0cf490cb5f8`.
+ - [Profiling web-edit with Python 3.15: flame graphs and source heatmaps](https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/). Passage: “Here's the resulting example flame graph and heatmap.” Source version `de47f3a642088f8a087f0a6f46b95b49b6830aa108fd56ccd1dec0cf490cb5f8`.
+ 
+@@ -59,3 +72,11 @@
+ - [Remote control for local agents](https://cursor.com/changelog/remote-control-local-agents). Passage: “Your local agents appear in a list. Tap one to see what it's doing or send it a message.” Source version `f0b87f5852d125e85cbeb2438fe5d0ee73e1a1bface9f1ea7031804286fb5ea1`.
+ - [Profiling web-edit with Python 3.15: flame graphs and source heatmaps](https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/). Passage: “Here's the resulting example flame graph and heatmap.” Source version `de47f3a642088f8a087f0a6f46b95b49b6830aa108fd56ccd1dec0cf490cb5f8`.
+ - [GitHub availability report: September 2026](https://github.blog/news-insights/company-news/github-availability-report-september-2026/). Passage: “As a result, Copilot code review could not build a review, but reported that the job had completed successfully.” Source version `2b8477c36458d01b02ef31fabffdfe1ae8339b51ac8a1407d7819528f05c4151`.
++
++**01-c6** (source_claim): In its October 15 JetBrains-sponsored segment, Fireship's narrator reports using a coding assistant on an old side project to rename functions and scaffold tests in a few minutes for no model-usage charge. This is an attributed small-project example, not verified test success, total effort, or generally free access.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=287s), 4:47, segment s00147. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=312s), 5:12, segment s00160. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=315s), 5:15, segment s00161. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=317s), 5:17, segment s00162. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=319s), 5:19, segment s00163. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=329s), 5:29, segment s00168. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
+--- before/articles/02.md
++++ articles/02.md
+@@ -15,6 +15,10 @@
+ GitHub defines “addressed rate,” its online counterpart to precision, as the percentage of Copilot code-review comments that an LLM judges prompted a corresponding code change. The judgment draws on the diff, discussion thread, reactions, resolution state and post-review code. In plain terms, the metric estimates whether developers acted on comments. It does not independently establish that those comments identified real defects or that subsequent edits removed them. ([GitHub, “ReviewBench,” 2026-10-05](https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/).) [02-c2]
+ 
+ GitHub also acknowledges a separate measurement limitation: a fixed “golden set,” or expected list of findings, becomes incomplete as systems discover issues its creators did not anticipate. That creates a genuine tension. Scoring only expected findings may overlook useful discoveries, while measuring a developer's response still leaves correctness unresolved. Neither limitation makes evaluation pointless; both limit what a score can support. [02-c2]
++
++## Test scaffolding is another intermediate output
++
++Fireship's October 15 sponsored segment describes renaming functions and scaffolding tests on an old side project in a few minutes for no model-usage charge. ([Fireship, 5:12–5:23](https://www.youtube.com/watch?v=l3L_lETiSzc&t=312s).) The described result is generated code and test scaffolding. The segment does not present test-run results or an independent check that behavior survived the rename. That distinction parallels the review metrics: an output can be concrete without establishing correctness. JetBrains sponsors the segment, and the narrator's timing and cost are self-reported. They do not account for all verification effort or establish the same access terms for every reader. [02-c6]
+ 
+ ## A second critic remains a critic
+ 
+@@ -52,3 +56,11 @@
+ - [Redesigning source control at Anthropic](https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/). Passage: “As an aside, I've been trying adversarial review in my own projects recently, where you have a model try and find flaws (I often play Claude and GPT off against each other).” Source version `817db9b58ff0b94efe6611d6718fc6c85e481aaa12ddceefd0cfe548a24f4c1f`.
+ - [Rollouts and Security Review](https://cursor.com/changelog/rollouts-and-security-reviewer). Passage: “Each finding carries a severity, the attack path, and a proposed fix.” Source version `126e7b7700183bbf6dfce1990231a8f468e9de35c1f6ac20a396cd30d761b08c`.
+ - [How one bug bounty researcher chooses the features they investigate](https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/). Passage: “The main thing I’d say is to always verify what the AI gives you and never submit a finding you haven’t confirmed yourself.” Source version `c410af6157583580b670a5f6d145915c7bbb8485b3a7de9cc4d75e6fccc35893`.
++
++**02-c6** (source_claim): Fireship's October 15 sponsored side-project anecdote reports function renaming and test scaffolding, without presenting test-run results or an independent check of behavior preservation in that segment. The reported generation time and zero model-usage charge do not establish correct delivery or total cost.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=287s), 4:47, segment s00147. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=312s), 5:12, segment s00160. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=315s), 5:15, segment s00161. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=317s), 5:17, segment s00162. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=319s), 5:19, segment s00163. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=329s), 5:29, segment s00168. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
+--- before/video_scripts/02.md
++++ video_scripts/02.md
+@@ -3,35 +3,48 @@
+ 
+ **Visual direction:** Opening title card for Google Vids or HeyGen. Plan for synthetic narration and display “AI-generated narration.” Introduce a three-stage diagram: criticism → checked defect → checked repair. Keep the arrows visually separate.
+ 
+-**Narration:** This presentation uses an AI-generated voice. As of October 15, 2026, the evidence around AI code review supports a narrow conclusion: tools can produce criticism, benchmarks can assess review tasks, and developers can experiment with another model as a reviewer. None of those facts, by itself, proves that a defect was confirmed or correctly repaired. For a solo developer, that distinction matters more than the number of comments generated.
++**Narration:**
++As of October 15, 2026, the evidence around AI code review supports a narrow conclusion: tools can produce criticism, benchmarks can assess review tasks, and developers can experiment with another model as a reviewer. None of those facts, by itself, proves that a defect was confirmed or correctly repaired. For a solo developer, that distinction matters more than the number of comments generated.
+ 
+ **Visual direction:** Display “ReviewBench: 219 pull requests / 187 repositories / 19 languages.” Beside it, show “Tiny, single-file changes deliberately reduced.” Do not illustrate these figures as performance scores.
+ 
+-**Narration:** Consider GitHub’s ReviewBench. GitHub describes it as containing 219 pull requests from 187 public, open-source-licensed repositories across 19 languages. A pull request is a proposed code change submitted for review. The benchmark deliberately reduces the representation of tiny, single-file changes in favor of more substantial, multi-file work. That makes its task mix important to examine before applying results to the small edits common in individual projects. Inspectable tasks are useful, but their relevance to your work still needs checking.
++**Narration:**
++Consider GitHub’s ReviewBench. GitHub describes it as containing 219 pull requests from 187 public, open-source-licensed repositories across 19 languages. A pull request is a proposed code change submitted for review. The benchmark deliberately reduces the representation of tiny, single-file changes in favor of more substantial, multi-file work. That makes its task mix important to examine before applying results to the small edits common in individual projects. Inspectable tasks are useful, but their relevance to your work still needs checking.
+ 
+ [02-c1] [GitHub: ReviewBench](https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/ "item_id=feed:9e3099b85951738510dd7533; version_id=754cbbbbef0fdf63f52b8ef6428375ee7418da83b3001588ad78d50c265ee276")
+ 
+ **Visual direction:** Animate “Review comment → code change,” then pause before a separate “Confirmed defect removed” box. Label the first arrow “LLM-inferred response.”
+ 
+-**Narration:** Next, look closely at the metric. GitHub defines addressed rate as the percentage of review comments that a language model judges to have prompted a corresponding code change. That is an inferred developer response. It is not independent verification that a defect existed or that the edit removed it. GitHub also acknowledges that a fixed set of expected findings becomes incomplete as systems discover issues its creators did not anticipate. Both qualifications matter when interpreting review scores.
++**Narration:**
++Next, look closely at the metric. GitHub defines addressed rate as the percentage of review comments that a language model judges to have prompted a corresponding code change. That is an inferred developer response. It is not independent verification that a defect existed or that the edit removed it. GitHub also acknowledges that a fixed set of expected findings becomes incomplete as systems discover issues its creators did not anticipate. Both qualifications matter when interpreting review scores.
+ 
+ [02-c2] [GitHub: addressed rate and expected-findings limitations](https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/)
+ 
++**Visual direction:** Show two separate boxes: “Generate tests” and “Run tests and check behavior.” Label the example “Fireship; JetBrains-sponsored; October 15.”
++
++**Narration:**
++The same distinction applies to test generation. In an October 15 JetBrains-sponsored segment, Fireship's narrator reports renaming functions and scaffolding tests on an old side project in a few minutes for no model-usage charge. Scaffolding tests means creating their starting structure. It does not mean they ran or passed. The segment presents no independent behavior-preservation check. Like a review comment, this intermediate output needs verification before it can count as correct delivery. The sponsor and missing full-effort accounting limit the claim.
++
++**Inline evidence — not spoken:** [02-c6] [Fireship, 5:12–5:23](https://www.youtube.com/watch?v=l3L_lETiSzc&t=312s). See timestamped reference notes.
++
+ **Visual direction:** Show two generic reviewer cards labeled Claude and GPT, pointing toward the same code change. Caption: “Reported practice; effectiveness not measured here.”
+ 
+-**Narration:** Simon Willison reports trying adversarial review in his own projects: asking a model to look for flaws, sometimes playing Claude and GPT against each other. This establishes an attributed practice, not a measured improvement in defect detection. His account does not provide a review-cost comparison or artifacts that establish its effectiveness.
++**Narration:**
++Simon Willison reports trying adversarial review in his own projects: asking a model to look for flaws, sometimes playing Claude and GPT against each other. This establishes an attributed practice, not a measured improvement in defect detection. His account does not provide a review-cost comparison or artifacts that establish its effectiveness.
+ 
+ [02-c3] [Willison: Redesigning source control at Anthropic](https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/ "item_id=feed:f4e5f15fa292a88ed95d2678; version_id=817db9b58ff0b94efe6611d6718fc6c85e481aaa12ddceefd0cfe548a24f4c1f")
+ 
+ **Visual direction:** Show “Advertised targets” above injection, authentication bypass, and authorization bypass. Place severity, attack path, and proposed fix underneath as output fields.
+ 
+-**Narration:** Cursor, meanwhile, says Security Review looks for injection and bypasses of authentication or authorization checks. Its findings include an attack path and proposed fix. Those are advertised targets and output fields, not evidence of how many real vulnerabilities it finds or misses. The supplied announcement contains no detection evaluation.
++**Narration:**
++Cursor, meanwhile, says Security Review looks for injection and bypasses of authentication or authorization checks. Its findings include an attack path and proposed fix. Those are advertised targets and output fields, not evidence of how many real vulnerabilities it finds or misses. The supplied announcement contains no detection evaluation.
+ 
+ [02-c4] [Cursor: Security Review](https://cursor.com/changelog/rollouts-and-security-reviewer "item_id=feed:50257040989ddf36da8c107e; version_id=126e7b7700183bbf6dfce1990231a8f468e9de35c1f6ac20a396cd30d761b08c")
+ 
+ **Visual direction:** Return to the opening diagram. Highlight “Check relevance” and “Check behavior” between criticism and confirmation.
+ 
+-**Narration:** Treat AI criticism as a candidate finding until you check its relevance and behavior. We cannot infer verified correctness from a comment, an edit, or agreement between reviewers. GitHub built its benchmark with Microsoft and evaluates a product it sells; its separate relabeling used internal senior engineers, not an independent publisher. Experienced practitioners may also be better equipped than beginners to reject plausible but irrelevant criticism. These sources address different stages of review. The unresolved step is confirming the defect and checking the repair.
++**Narration:**
++Treat AI criticism as a candidate finding until you check its relevance and behavior. We cannot infer verified correctness from a comment, an edit, or agreement between reviewers. GitHub built its benchmark with Microsoft and evaluates a product it sells; its separate relabeling used internal senior engineers, not an independent publisher. Experienced practitioners may also be better equipped than beginners to reject plausible but irrelevant criticism. These sources address different stages of review. The unresolved step is confirming the defect and checking the repair.
+ 
+ [02-c5] [GitHub’s response metric](https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/), [Willison’s experimental practice](https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/), [Cursor’s advertised findings](https://cursor.com/changelog/rollouts-and-security-reviewer), and [GitHub’s researcher interview: confirm findings yourself](https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/ "item_id=feed:c15f6182059e3b795d1a52ce; version_id=c410af6157583580b670a5f6d145915c7bbb8485b3a7de9cc4d75e6fccc35893").
+ 
+@@ -57,3 +70,11 @@
+ - [Redesigning source control at Anthropic](https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/). Passage: “As an aside, I've been trying adversarial review in my own projects recently, where you have a model try and find flaws (I often play Claude and GPT off against each other).” Source version `817db9b58ff0b94efe6611d6718fc6c85e481aaa12ddceefd0cfe548a24f4c1f`.
+ - [Rollouts and Security Review](https://cursor.com/changelog/rollouts-and-security-reviewer). Passage: “Each finding carries a severity, the attack path, and a proposed fix.” Source version `126e7b7700183bbf6dfce1990231a8f468e9de35c1f6ac20a396cd30d761b08c`.
+ - [How one bug bounty researcher chooses the features they investigate](https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/). Passage: “The main thing I’d say is to always verify what the AI gives you and never submit a finding you haven’t confirmed yourself.” Source version `c410af6157583580b670a5f6d145915c7bbb8485b3a7de9cc4d75e6fccc35893`.
++
++**02-c6** (source_claim): Fireship's October 15 sponsored side-project anecdote reports function renaming and test scaffolding, without presenting test-run results or an independent check of behavior preservation in that segment. The reported generation time and zero model-usage charge do not establish correct delivery or total cost.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=287s), 4:47, segment s00147. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=312s), 5:12, segment s00160. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=315s), 5:15, segment s00161. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=317s), 5:17, segment s00162. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=319s), 5:19, segment s00163. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=329s), 5:29, segment s00168. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
+--- before/articles/03.md
++++ articles/03.md
+@@ -9,6 +9,10 @@
+ GitHub's beginner tutorial recommends adding repository guidance in `.github/copilot-instructions.md`, including conventions and expectations for testing and validation. Its closing advice is deliberately incremental: choose one convention repeatedly explained to Copilot and see how it applies that guidance to the next task. ([GitHub, “How to teach Copilot about your codebase,” 2026-10-12](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/).) [03-c1]
+ 
+ A bounded trial could therefore begin with one convention and explicit validation commands, rather than every available customization. Inspect whether the resulting change follows the instruction and whether the requested validation actually happened. The file communicates guidance; it should not be treated as an enforced guarantee. Keeping the trial narrow makes that particular question the object of evaluation, without claiming that the setup will improve every subsequent task. [03-c1]
++
++## Turn a reported refactor into a checkable trial
++
++Fireship's October 15 video supplies a concrete task to adapt: its JetBrains-sponsored segment describes renaming functions and scaffolding tests on an old side project. ([Fireship, 5:12–5:23](https://www.youtube.com/watch?v=l3L_lETiSzc&t=312s).) A proposed trial would retain a baseline, choose one small rename, inspect the diff, and execute relevant tests before and after the change. Check behavior rather than accepting the existence of generated tests as success. Record failures and correction time as well as usage. These steps are an inference from the anecdote, not a workflow evaluated in the video; its reported few-minute, zero-charge result supplies neither complete effort nor independent validation. [03-c6]
+ 
+ ## Check what a profile actually observed
+ 
+@@ -60,3 +64,11 @@
+ - [llm-gemini 0.35](https://simonwillison.net/2026/Oct/13/llm-gemini/). Passage: “Prices like this aren't really comparable these days since what really matters is how many tokens a model takes to achieve a goal within an agentic harness.” Source version `a6cb93a068bca6b88086500d4f84badfd6255baa823a198066b04d6a8e160110`.
+ - [AI’s Biggest Problem Isn’t Intelligence Anymore](https://www.htmlallthethings.com/podcast/ais-biggest-problem-isnt-intelligence-anymore), 7:33, segment s00136. Source version `d30ec05b567a9c16691e94f84c0c309050357ceea62781c3afa91b62697aed23`.
+ - [Rollouts and Security Review](https://cursor.com/changelog/rollouts-and-security-reviewer). Passage: “Each finding carries a severity, the attack path, and a proposed fix.” Source version `126e7b7700183bbf6dfce1990231a8f468e9de35c1f6ac20a396cd30d761b08c`.
++
++**03-c6** (inference): Use the function-renaming and test-scaffolding task described in Fireship's October 15 sponsored anecdote as a possible bounded trial: retain a baseline, inspect the diff, execute relevant tests, and check behavior before expanding scope. These are proposed checks, not a validated workflow; scaffolding tests is not evidence they ran or passed.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=287s), 4:47, segment s00147. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=312s), 5:12, segment s00160. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=315s), 5:15, segment s00161. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=317s), 5:17, segment s00162. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=319s), 5:19, segment s00163. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=329s), 5:29, segment s00168. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
+--- before/video_scripts/03.md
++++ video_scripts/03.md
+@@ -3,35 +3,48 @@
+ 
+ **Visual direction:** Opening title card for Google Vids or HeyGen. Plan for synthetic narration, displaying “AI-generated narration.” Show one task card inside a boundary, with an undo arrow and a checklist.
+ 
+-**Narration:** This presentation uses an AI-generated voice. As of October 15, 2026, a defensible next step with AI coding assistance is one small, reversible trial—not immediate adoption of a more elaborate agent workflow. Choose a repository convention or debugging question, define what would count as success, and inspect the result. These are proposed checks, not a tested recipe or a promise of faster delivery.
++**Narration:**
++As of October 15, 2026, a defensible next step with AI coding assistance is one small, reversible trial—not immediate adoption of a more elaborate agent workflow. Choose a repository convention or debugging question, define what would count as success, and inspect the result. These are proposed checks, not a tested recipe or a promise of faster delivery.
+ 
+ **Visual direction:** Show the exact path `.github/copilot-instructions.md`. Beside it, place “One convention” and “Explicit validation commands.” Avoid inventing project-specific commands.
+ 
+-**Narration:** Start with context you can inspect. GitHub’s tutorial recommends adding repository guidance in a file called copilot-instructions dot md inside the dot github directory. Its advice is to choose one convention you keep explaining and observe how Copilot applies it to the next task. Include explicit validation commands rather than adopting every customization at once. Treat the instructions as guidance to check, not an enforced guarantee that the assistant will follow them.
++**Narration:**
++Start with context you can inspect. GitHub’s tutorial recommends adding repository guidance in a file called copilot-instructions dot md inside the dot github directory. Its advice is to choose one convention you keep explaining and observe how Copilot applies it to the next task. Include explicit validation commands rather than adopting every customization at once. Treat the instructions as guidance to check, not an enforced guarantee that the assistant will follow them.
+ 
+ [03-c1] [GitHub: How to teach Copilot about your codebase](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/ "item_id=feed:f8fa0331a2b3ce4696b878a2; version_id=a0ac872c91e89fad8413b83b3c5683bf89c547a0fcc88f0f3f56d7645592e8a3")
+ 
++**Visual direction:** Illustrate one rename, a saved baseline, a diff, and before/after tests. Label the procedure “Proposed trial, not a verified result.” Attribute the task to Fireship's October 15 sponsored segment.
++
++**Narration:**
++For a concrete trial, consider one function rename with test scaffolding. Fireship's October 15 JetBrains-sponsored segment reports that task on an old side project. Adapt the task, rather than assuming its reported timing applies to you. Save a baseline, inspect the change, and run relevant tests before and after it. Check behavior as well as whether tests exist. Record failures and correction time. This is a proposed evaluation, not a procedure validated by the video, and sponsorship limits the anecdote's independence.
++
++**Inline evidence — not spoken:** [03-c6] [Fireship, 5:12–5:23](https://www.youtube.com/watch?v=l3L_lETiSzc&t=312s). See timestamped reference notes.
++
+ **Visual direction:** Show a main-thread lane and a worker-thread lane. Highlight “95.1% of recorded stacks: AnyIO worker thread,” explicitly attributed to Willison’s example. Add “Sample frequency is not elapsed-time saving.”
+ 
+-**Narration:** For a performance question, the verification setup itself matters. Simon Willison reports that 95.1 percent of recorded stacks in his web-edit profiling example came from AnyIO’s worker thread. A main-thread-only profile would have missed them. Sampling periodically captures snapshots of execution. Before comparing an assistant’s proposed change, reproduce a relevant workload and include the threads doing the work. Sample frequencies alone do not establish elapsed-time savings. Python version compatibility and permission requirements also need checking.
++**Narration:**
++For a performance question, the verification setup itself matters. Simon Willison reports that 95.1 percent of recorded stacks in his web-edit profiling example came from AnyIO’s worker thread. A main-thread-only profile would have missed them. Sampling periodically captures snapshots of execution. Before comparing an assistant’s proposed change, reproduce a relevant workload and include the threads doing the work. Sample frequencies alone do not establish elapsed-time savings. Python version compatibility and permission requirements also need checking.
+ 
+ [03-c2] [Willison: web-edit profiling](https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/ "item_id=feed:26e4a943393a1b788d1e2dae; version_id=de47f3a642088f8a087f0a6f46b95b49b6830aa108fd56ccd1dec0cf490cb5f8"); [Willison: Python 3.15 sampling profiler and permissions](https://simonwillison.net/2026/Oct/12/python-3-15/ "item_id=feed:dbe23f001a073722b9cecf6d; version_id=66c209040e72efd8fe6b6b823e1b16a0e93bffccf043a92d8341425e631936fe")
+ 
+ **Visual direction:** Use a conditional flow: access and price checked → authorized test copy → reproduce reported behavior → check fix and intended use. Label it “Evaluation, not adoption recommendation.”
+ 
+-**Narration:** For security review, first check access and price. Cursor’s announced tool is offered on Teams and Enterprise plans, so practicality for an individual remains unresolved. If a trial is accessible, use an authorized test copy. Try to reproduce the reported attack path, then check whether the proposed fix removes that behavior without breaking intended use. This is a conditional evaluation, not a recommendation to buy or adopt the tool.
++**Narration:**
++For security review, first check access and price. Cursor’s announced tool is offered on Teams and Enterprise plans, so practicality for an individual remains unresolved. If a trial is accessible, use an authorized test copy. Try to reproduce the reported attack path, then check whether the proposed fix removes that behavior without breaking intended use. This is a conditional evaluation, not a recommendation to buy or adopt the tool.
+ 
+ [03-c3] [Cursor: access and finding format](https://cursor.com/changelog/rollouts-and-security-reviewer "item_id=feed:50257040989ddf36da8c107e; version_id=126e7b7700183bbf6dfce1990231a8f468e9de35c1f6ac20a396cd30d761b08c"); [GitHub researcher interview: verify findings](https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/ "item_id=feed:c15f6182059e3b795d1a52ce; version_id=c410af6157583580b670a5f6d145915c7bbb8485b3a7de9cc4d75e6fccc35893")
+ 
+ **Visual direction:** Show two attributed experience cards, not a comparative performance chart: “Mostly short tasks; no further limit after switching back” and “Combined workflows; usage exhausted.”
+ 
+-**Narration:** Budget usage before chaining steps together. The HTML All The Things hosts describe different experiences. One reports mostly short tasks and no further limit after switching back to another model. The other describes combining shorter steps into longer workflows and exhausting usage. These are practitioner accounts, not a controlled comparison or evidence that one model is superior. They do not establish an ideal task size.
++**Narration:**
++Budget usage before chaining steps together. The HTML All The Things hosts describe different experiences. One reports mostly short tasks and no further limit after switching back to another model. The other describes combining shorter steps into longer workflows and exhausting usage. These are practitioner accounts, not a controlled comparison or evidence that one model is superior. They do not establish an ideal task size.
+ 
+ [03-c4] [HTML All The Things: AI’s Biggest Problem Isn’t Intelligence Anymore](https://www.htmlallthethings.com/podcast/ais-biggest-problem-isnt-intelligence-anymore "item_id=podcast:acc83661b4084b701efe6573; version_id=d30ec05b567a9c16691e94f84c0c309050357ceea62781c3afa91b62697aed23; segment_id=s00076; segment_id=s00078; segment_id=s00081; segment_id=s00131; segment_id=s00132; segment_id=s00136")
+ 
+ **Visual direction:** End on a blank trial record with fields: acceptance checks, delivered outputs, retries, quota/API spending, human testing time, correction time. Caption: “Measure verified delivery—not generation alone.”
+ 
+-**Narration:** Record your acceptance checks, delivered outputs, retries, quota or API spending, and human testing and correction time. Review that record before expanding the workflow. We do not know whether a second reviewer or paid security tool will repay its setup cost for your project. Commercial sources and experienced practitioners have limits as evidence for beginners. If your project lacks useful tests, building verification may itself be substantial work. Measure the cost of verified completion, not generation alone.
++**Narration:**
++Record your acceptance checks, delivered outputs, retries, quota or API spending, and human testing and correction time. Review that record before expanding the workflow. We do not know whether a second reviewer or paid security tool will repay its setup cost for your project. Commercial sources and experienced practitioners have limits as evidence for beginners. If your project lacks useful tests, building verification may itself be substantial work. Measure the cost of verified completion, not generation alone.
+ 
+ [03-c5] [GitHub’s incremental setup guidance](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/), [verification guidance](https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/), [Willison on goal-level usage costs](https://simonwillison.net/2026/Oct/13/llm-gemini/ "item_id=feed:6ff0735dfa2a1786602e7b58; version_id=a6cb93a068bca6b88086500d4f84badfd6255baa823a198066b04d6a8e160110"), [reported usage pressure](https://www.htmlallthethings.com/podcast/ais-biggest-problem-isnt-intelligence-anymore "segment_id=s00136"), and [Cursor’s finding format](https://cursor.com/changelog/rollouts-and-security-reviewer).
+ 
+@@ -65,3 +78,11 @@
+ - [llm-gemini 0.35](https://simonwillison.net/2026/Oct/13/llm-gemini/). Passage: “Prices like this aren't really comparable these days since what really matters is how many tokens a model takes to achieve a goal within an agentic harness.” Source version `a6cb93a068bca6b88086500d4f84badfd6255baa823a198066b04d6a8e160110`.
+ - [AI’s Biggest Problem Isn’t Intelligence Anymore](https://www.htmlallthethings.com/podcast/ais-biggest-problem-isnt-intelligence-anymore), 7:33, segment s00136. Source version `d30ec05b567a9c16691e94f84c0c309050357ceea62781c3afa91b62697aed23`.
+ - [Rollouts and Security Review](https://cursor.com/changelog/rollouts-and-security-reviewer). Passage: “Each finding carries a severity, the attack path, and a proposed fix.” Source version `126e7b7700183bbf6dfce1990231a8f468e9de35c1f6ac20a396cd30d761b08c`.
++
++**03-c6** (inference): Use the function-renaming and test-scaffolding task described in Fireship's October 15 sponsored anecdote as a possible bounded trial: retain a baseline, inspect the diff, execute relevant tests, and check behavior before expanding scope. These are proposed checks, not a validated workflow; scaffolding tests is not evidence they ran or passed.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=287s), 4:47, segment s00147. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=312s), 5:12, segment s00160. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=315s), 5:15, segment s00161. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=317s), 5:17, segment s00162. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=319s), 5:19, segment s00163. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.
++- [The runtime wars are over... and Node won](https://www.youtube.com/watch?v=l3L_lETiSzc&t=329s), 5:29, segment s00168. Source version `55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b`.

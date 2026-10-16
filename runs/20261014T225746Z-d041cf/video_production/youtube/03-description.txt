@@ -1,0 +1,31 @@
+Small Project, Real Software | Part 3 of 3
+Evidence as of October 14, 2026.
+
+Try one bounded AI-assisted task, define checks, inspect the outputs, and account for testing, correction, and usage. This proposed workflow follows the evidence while acknowledging that improved project completion has not been demonstrated.
+
+Presentation disclosure: AI-generated narration. Visuals and captions were assembled and exported using Google Vids. Source claims, analysis, and uncertainty should be distinguished; this is not a controlled productivity study.
+
+Sources and evidence:
+GitHub Copilot app for Beginners: How to teach Copilot about your codebase
+https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/
+
+GitHub availability report: September 2026
+https://github.blog/news-insights/company-news/github-availability-report-september-2026/
+
+Profiling web-edit with Python 3.15: flame graphs and source heatmaps
+https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/
+
+AI’s Biggest Problem Isn’t Intelligence Anymore
+https://www.htmlallthethings.com/podcast/ais-biggest-problem-isnt-intelligence-anymore
+
+llm-gemini 0.35
+https://simonwillison.net/2026/Oct/13/llm-gemini/
+
+Rollouts and Security Review
+https://cursor.com/changelog/rollouts-and-security-reviewer
+
+Referenced audio/video passages:
+- [AI’s Biggest Problem Isn’t Intelligence Anymore](https://www.htmlallthethings.com/podcast/ais-biggest-problem-isnt-intelligence-anymore), 4:40.
+- [AI’s Biggest Problem Isn’t Intelligence Anymore](https://www.htmlallthethings.com/podcast/ais-biggest-problem-isnt-intelligence-anymore), 5:02.
+- [AI’s Biggest Problem Isn’t Intelligence Anymore](https://www.htmlallthethings.com/podcast/ais-biggest-problem-isnt-intelligence-anymore), 7:33.
+- [AI’s Biggest Problem Isn’t Intelligence Anymore](https://www.htmlallthethings.com/podcast/ais-biggest-problem-isnt-intelligence-anymore), 7:41.

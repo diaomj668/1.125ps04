@@ -1,0 +1,7 @@
+{
+  "model": "tts-1",
+  "voice": "alloy",
+  "speed": 0.86,
+  "input": "This presentation uses AI-generated narration. As of October 14, 2026, the evidence supports a caution for individual developers: a successful signal is not necessarily successful software. A green job status, an addressed review comment, a familiar interface, and a low token price measure different things. None alone proves that the intended outcome was delivered and verified. The question is not whether agents can help, but what evidence supports a claim that their work is done.",
+  "response_format": "wav"
+}

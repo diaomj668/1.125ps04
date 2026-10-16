@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-15T01:02:09.286844Z",
+  "finished_at": "2026-10-15T01:02:14.651495Z",
+  "elapsed_seconds": 5.364516874999936,
+  "model": "tts-1",
+  "voice": "alloy",
+  "input_characters": 482,
+  "audio_seconds": 35.959291666666665,
+  "cost_usd": null,
+  "cost_note": "Provider invoice not available; no zero-cost claim.",
+  "response_request_id": null,
+  "container_declared_audio_seconds": 89478.48529166667,
+  "duration_note": "Corrected by counting actual PCM bytes; streaming WAV header used an unknown-length sentinel."
+}

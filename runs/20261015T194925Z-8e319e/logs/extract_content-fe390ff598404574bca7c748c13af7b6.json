@@ -1,0 +1,25 @@
+{
+  "stage": "extract_content",
+  "status": "incomplete",
+  "input_count": 42,
+  "output_count": 41,
+  "started_at": "2026-10-15T19:49:31.592636Z",
+  "tools": [
+    "python",
+    "requests",
+    "trafilatura",
+    "yt-dlp"
+  ],
+  "models": [],
+  "cost_usd": 0.0,
+  "cost_estimated": false,
+  "errors": [
+    {
+      "item_id": "feed:052f27a88b5833e2f85b3784",
+      "error": "Substantive written content unavailable (minimum 100 words)"
+    }
+  ],
+  "cached_items": 5,
+  "pre_excluded_media": 0,
+  "finished_at": "2026-10-15T19:50:05.445538Z"
+}

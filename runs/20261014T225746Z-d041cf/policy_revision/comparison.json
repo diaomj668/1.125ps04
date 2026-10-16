@@ -1,0 +1,160 @@
+{
+  "executed_at": "2026-10-15T00:22:51.797115+00:00",
+  "same_evidence": true,
+  "before_counts": {
+    "accept": 19,
+    "reject": 7,
+    "defer": 7
+  },
+  "after_counts": {
+    "accept": 22,
+    "defer": 8,
+    "reject": 3
+  },
+  "decision_changes": [
+    {
+      "item_id": "feed:50257040989ddf36da8c107e",
+      "title": "Rollouts and Security Review",
+      "before": {
+        "item_id": "feed:50257040989ddf36da8c107e",
+        "version_id": "126e7b7700183bbf6dfce1990231a8f468e9de35c1f6ac20a396cd30d761b08c",
+        "decision": "reject",
+        "reason": "The September 23 announcement is timely, but both bots are explicitly \u201cavailable today on Teams and Enterprise plans.\u201d Rollouts requires deployment and telemetry integrations, while Security Review is presented as an organization-level PR service. No individual-plan access or concrete solo-project implementation is established. The exploitable-bug and monitoring claims are vendor promises, not validation. Do not stretch this team-focused deployment announcement into coverage for individual developers or use it merely to add Cursor as a publisher.",
+        "piece_ids": []
+      },
+      "after": {
+        "item_id": "feed:50257040989ddf36da8c107e",
+        "version_id": "126e7b7700183bbf6dfce1990231a8f468e9de35c1f6ac20a396cd30d761b08c",
+        "decision": "accept",
+        "reason": "The September 23 original announcement is timely. Retain Security Review's 'Draft PRs are skipped', listed vulnerability classes, and severity/attack-path/proposed-fix output for individual small-app pull-request review. Teams and Enterprise access restrict availability but do not erase task relevance; verify solo purchase eligibility and usage cost before recommending purchase. For 01 report Cursor's announcement, for 02 scrutinize unverified detection coverage, and for 03 propose reproducing findings and checking skipped drafts. Cursor has sales incentives. Exclude Rollouts' deployment infrastructure from the practical recommendation.",
+        "piece_ids": [
+          "01",
+          "02",
+          "03"
+        ]
+      }
+    },
+    {
+      "item_id": "feed:8364c7ff1f31cec4c606c8ad",
+      "title": "datasette-ports 0.4",
+      "before": {
+        "item_id": "feed:8364c7ff1f31cec4c606c8ad",
+        "version_id": "f5a017162c52e2d29ef9475c261d9091906b32635217c64e9fb03e7e10df35f5",
+        "decision": "reject",
+        "reason": "The October 12 original plugin update concretely adds PID display and compatibility, but supplies no AI-assistant involvement or specific AI-assisted workflow. \u201cKnowing the PID makes it easier to attach the new Python 3.15 profiler\u201d is ordinary debugging-tool context, already better connected to the topic by the separate web-edit profiling account. Do not count a maintainer's adjacent tool release as evidence of an AI coding capability.",
+        "piece_ids": []
+      },
+      "after": {
+        "item_id": "feed:8364c7ff1f31cec4c606c8ad",
+        "version_id": "f5a017162c52e2d29ef9475c261d9091906b32635217c64e9fb03e7e10df35f5",
+        "decision": "accept",
+        "reason": "The October 12 maintainer release note is timely and concretely supports the accepted Datasette/agent-assisted profiling workflow: 'displays the detected PID as well' and 'Knowing the PID makes it easier to attach the new Python 3.15 profiler.' Use only in 03 as an optional process-discovery step for local Datasette users, not an AI-assistant capability or productivity finding. Compatibility and profiler attachment still need reproduction. This is the author's own plugin promotion and adds no independent publisher or corroboration.",
+        "piece_ids": [
+          "03"
+        ]
+      }
+    },
+    {
+      "item_id": "feed:cb7b5ad427d92eea91c444e3",
+      "title": "Origin App Marketplace",
+      "before": {
+        "item_id": "feed:cb7b5ad427d92eea91c444e3",
+        "version_id": "475fa6853375bad114a4206b531aa56179d622a16e0be249f4d4dfb767d01e77",
+        "decision": "reject",
+        "reason": "The October 13 marketplace announcement lists integrations and an app-publishing process, but does not demonstrate a concrete AI-assisted requirement, implementation, testing, or debugging workflow for an individual project. The final plugin sentence promises documentation answers and port planning without an example or artifact. Cursor and listed partners have ecosystem-growth incentives; integration counts do not establish verified delivery benefits. Do not turn a general marketplace expansion into an AI-coding development merely because it is recent.",
+        "piece_ids": []
+      },
+      "after": {
+        "item_id": "feed:cb7b5ad427d92eea91c444e3",
+        "version_id": "475fa6853375bad114a4206b531aa56179d622a16e0be249f4d4dfb767d01e77",
+        "decision": "defer",
+        "reason": "October 13 is a timely original marketplace announcement, and check runs, PR comments, reviews, and live-documentation planning could matter to small-project tooling. However, the supplied passage does not establish individual access to Origin, installation permissions, pricing, or a usable solo-project setup. Resolve those practical restrictions before assigning it. Cursor's partner list establishes announced integrations, not that installing them yields verified delivery; public submissions alone do not establish reader access or review quality.",
+        "piece_ids": []
+      }
+    },
+    {
+      "item_id": "feed:dbe23f001a073722b9cecf6d",
+      "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+      "before": {
+        "item_id": "feed:dbe23f001a073722b9cecf6d",
+        "version_id": "66c209040e72efd8fe6b6b823e1b16a0e93bffccf043a92d8341425e631936fe",
+        "decision": "reject",
+        "reason": "The October 12 original Python release discussion is useful general implementation and debugging guidance, but does not describe AI-assisted coding or verification. The LLM CLI startup example concerns plugin imports, not an assistant's performance or delivery workflow. The separate web-edit profiling item provides the actual AI-agent connection. Do not inflate the series with a language release or borrowed Fibonacci timing results that do not answer its central question.",
+        "piece_ids": []
+      },
+      "after": {
+        "item_id": "feed:dbe23f001a073722b9cecf6d",
+        "version_id": "66c209040e72efd8fe6b6b823e1b16a0e93bffccf043a92d8341425e631936fe",
+        "decision": "accept",
+        "reason": "The October 12 original provides concrete setup context for the accepted agent-assisted web-edit profiling example. Use the 'A sampling profiler' section, attachment command, macOS sudo qualification, and version-pinning steps only for 03's reproducibility checks. This is supporting runtime tooling, not a new AI-assistant feature. The author's experience does not establish profiler overhead or general speed gains; verify current documentation, permissions, and project compatibility before running commands. Exclude unrelated syntax highlights and older Python 3.11 features from the recent-capabilities argument.",
+        "piece_ids": [
+          "03"
+        ]
+      }
+    }
+  ],
+  "piece_assignment_changes": [
+    {
+      "item_id": "feed:4194b86040a10a4eac9e887c",
+      "before": [
+        "02"
+      ],
+      "after": [
+        "02",
+        "03"
+      ]
+    },
+    {
+      "item_id": "feed:50257040989ddf36da8c107e",
+      "before": [],
+      "after": [
+        "01",
+        "02",
+        "03"
+      ]
+    },
+    {
+      "item_id": "feed:7448cf38b80ee08cf4143fd4",
+      "before": [
+        "02",
+        "03"
+      ],
+      "after": [
+        "01",
+        "02",
+        "03"
+      ]
+    },
+    {
+      "item_id": "feed:8364c7ff1f31cec4c606c8ad",
+      "before": [],
+      "after": [
+        "03"
+      ]
+    },
+    {
+      "item_id": "feed:86e64baebef7f0e23a96adbb",
+      "before": [
+        "01",
+        "03"
+      ],
+      "after": [
+        "01",
+        "02",
+        "03"
+      ]
+    },
+    {
+      "item_id": "feed:dbe23f001a073722b9cecf6d",
+      "before": [],
+      "after": [
+        "03"
+      ]
+    }
+  ],
+  "rationale_changes": 33,
+  "original_claim_assignment_conflicts": [],
+  "model_cost_estimate_usd": 1.511607,
+  "interpretation_limit": "Only policy was changed in the controlled inputs. Model nondeterminism can also affect output; not every difference can be attributed solely to policy. The student must assess whether changes are justified.",
+  "approval_granted": false
+}

@@ -1,0 +1,82 @@
+{
+  "piece_id": "01",
+  "status": "source_media_ready_not_google_vids_export",
+  "built_at": "2026-10-15T01:04:28.359764Z",
+  "source_video_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/01/source-video.mp4",
+  "measured_source_video_seconds": 231.25,
+  "scenes": [
+    {
+      "scene": 1,
+      "narration": "This presentation uses AI-generated narration. As of October 14, 2026, some of the most concrete coding-assistant developments concern how you supervise an agent and inspect its work—not demonstrated improvements in coding quality. For someone building a small app or script, that distinction matters. Access lets you direct work. Checks flag possible problems. Diagnostic artifacts help you investigate. None of these, on its own, establishes that your project is finished or safe.",
+      "claim_ids": [],
+      "audio_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/01/scene-01.wav",
+      "source_clip_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/01/scene-01.mp4",
+      "measured_source_clip_seconds": 36.13
+    },
+    {
+      "scene": 2,
+      "narration": "First, supervision. Cursor announced that its iOS app can display local agents running on your computer and accept replies. The important qualification is where execution happens: the agent stays on your computer. Remote control does not move that work elsewhere, and your computer must remain on and online. This is a change in access to an existing agent, not evidence that the agent writes better code.",
+      "claim_ids": [
+        "01-c1"
+      ],
+      "audio_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/01/scene-02.wav",
+      "source_clip_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/01/scene-02.mp4",
+      "measured_source_clip_seconds": 29.55
+    },
+    {
+      "scene": 3,
+      "narration": "Second, secret checking. GitHub announced a slash security-review command for Copilot CLI and Copilot App users, without requiring an organization’s GitHub Secret Protection plan. The announcement describes checking for secrets before a push. Do not confuse this developer-facing command with the organization push-protection feature that the same announcement described as being in private preview. These are distinct parts of the announcement, not interchangeable availability claims.",
+      "claim_ids": [
+        "01-c2"
+      ],
+      "audio_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/01/scene-03.wav",
+      "source_clip_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/01/scene-03.mp4",
+      "measured_source_clip_seconds": 35.58
+    },
+    {
+      "scene": 4,
+      "narration": "Cursor also announced Security Review for pull requests on Teams and Enterprise plans. It describes findings with a severity, attack path, and proposed fix, and says draft pull requests are skipped. This may be relevant to a small project, but individual access and cost need verification. The announcement does not demonstrate detection effectiveness.",
+      "claim_ids": [
+        "01-c6"
+      ],
+      "audio_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/01/scene-04.wav",
+      "source_clip_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/01/scene-04.mp4",
+      "measured_source_clip_seconds": 25.34
+    },
+    {
+      "scene": 5,
+      "narration": "Third, diagnosis. Simon Willison reports directing Codex to profile his web-edit Python app and produce a flame graph and heatmap. These are diagnostic views of where execution time is spent. The concrete result is an artifact to inspect, not a demonstrated optimization gain. His account shows an experienced developer choosing a diagnostic approach and asking an agent to carry it out. We do not know whether a beginner would obtain or interpret equally useful results.",
+      "claim_ids": [
+        "01-c3"
+      ],
+      "audio_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/01/scene-05.wav",
+      "source_clip_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/01/scene-05.mp4",
+      "measured_source_clip_seconds": 34.05
+    },
+    {
+      "scene": 6,
+      "narration": "GitHub also launched ReviewBench, an available evaluation resource for code-review agents. Its reported corpus contains 219 pull requests from 187 public repositories across 19 languages. That provides something to evaluate against; its availability does not establish that a particular reviewer suits your small project. Large-repository workloads need not resemble a small script or single-file change.",
+      "claim_ids": [
+        "01-c4"
+      ],
+      "audio_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/01/scene-06.wav",
+      "source_clip_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/01/scene-06.mp4",
+      "measured_source_clip_seconds": 30.63
+    },
+    {
+      "scene": 7,
+      "narration": "The limitation runs across these examples. Cursor and GitHub establish their own announcements, not independent effectiveness. Willison describes his own app without a controlled comparison or complete accounting of effort. First-time users, accessibility users, and unsuccessful small-project attempts remain insufficiently represented. So assess these developments separately: supervision, secret checking, and diagnosis. Their practical value depends on whether you can inspect the resulting work and use the relevant check—not whether they share an agent label.",
+      "claim_ids": [
+        "01-c5"
+      ],
+      "audio_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/01/scene-07.wav",
+      "source_clip_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/01/scene-07.mp4",
+      "measured_source_clip_seconds": 39.93
+    }
+  ],
+  "provider_voice_model": "tts-1",
+  "voice": "alloy",
+  "no_visible_presenter": true,
+  "google_vids_editing_and_export_completed": false,
+  "cost_usd": null
+}

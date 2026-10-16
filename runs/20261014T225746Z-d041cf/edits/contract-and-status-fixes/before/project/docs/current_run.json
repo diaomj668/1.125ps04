@@ -1,0 +1,36 @@
+{
+  "run_id": "20261014T225746Z-d041cf",
+  "run_dir": "runs/20261014T225746Z-d041cf",
+  "as_of_date": "2026-10-14",
+  "status": "awaiting_review",
+  "articles": 3,
+  "video_scripts": 3,
+  "review_passed": true,
+  "coverage": {
+    "distinct_items": 33,
+    "independent_publishers": 7,
+    "by_kind": {
+      "feed": 22,
+      "youtube": 6,
+      "podcast": 5
+    }
+  },
+  "word_counts": {
+    "articles": {
+      "01": 854,
+      "02": 859,
+      "03": 847
+    },
+    "video_scripts": {
+      "01": 468,
+      "02": 496,
+      "03": 520
+    }
+  },
+  "second_live_run": "Pending; execute bash run.sh on another actual date.",
+  "editorial_revision": "runs/20261014T225746Z-d041cf/editorial_revision",
+  "review_id": "901b45b898144a602dfc0efd24c9ca7f7b403096a4cb188eafb708d0481f752c",
+  "student_source_review": "Six-item sample completed",
+  "student_policy_interpretation": "Completed and supplied by the student",
+  "final_approval": "Pending"
+}

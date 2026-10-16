@@ -1,0 +1,19 @@
+{
+  "status": "awaiting_review",
+  "initial_attempt": "API credit exhausted and YouTube Atom endpoints returned HTTP 404. Actual receipts and previous artifacts are retained.",
+  "recovery": "After the user restored API balance, resumed collection and generation in this same run directory. Direct channel discovery recovered video candidates.",
+  "remaining_source_errors": [
+    {
+      "item_id": "feed:052f27a88b5833e2f85b3784",
+      "error": "Substantive written content unavailable (minimum 100 words)"
+    },
+    {
+      "item_id": "youtube:WrCjAAl9okA",
+      "error": "ERROR: unable to download video data: HTTP Error 403: Forbidden"
+    }
+  ],
+  "content": "Three articles and three scripts generated; automatic content checks passed.",
+  "metric_correction": "The first script-length assessment included nonspoken evidence blocks. Corrected the parser without editing generated prose; original assessment retained in edits/metrics-correction/.",
+  "student_approval": false,
+  "fictional_replay_generated": false
+}

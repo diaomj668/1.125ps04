@@ -1,0 +1,47 @@
+Companion article (free to read):
+https://mingjiao.substack.com/p/a-successful-signal-is-not-necessarily
+
+Small Project, Real Software | Part 2 of 3
+Evidence as of October 14, 2026.
+
+A completion message or impressive prototype is not enough to establish reliable software. This video examines code-review delivery, evaluation metrics, practitioner experience, and the limits of vendor-selected demonstrations.
+
+Presentation disclosure: AI-generated narration. Visuals and captions were assembled and exported using Google Vids. Source claims, analysis, and uncertainty should be distinguished; this is not a controlled productivity study.
+
+Sources and evidence:
+GitHub availability report: September 2026
+https://github.blog/news-insights/company-news/github-availability-report-september-2026/
+
+ReviewBench: An open benchmark for AI code review
+https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/
+
+Every app on Earth is now open source... whether it likes it or not
+https://www.youtube.com/watch?v=wajoP_5Cpw8&t=109s
+
+Every app on Earth is now open source... whether it likes it or not
+https://www.youtube.com/watch?v=wajoP_5Cpw8&t=115s
+
+Every app on Earth is now open source... whether it likes it or not
+https://www.youtube.com/watch?v=wajoP_5Cpw8&t=124s
+
+Every app on Earth is now open source... whether it likes it or not
+https://www.youtube.com/watch?v=wajoP_5Cpw8&t=135s
+
+Every app on Earth is now open source... whether it likes it or not
+https://www.youtube.com/watch?v=wajoP_5Cpw8&t=298s
+
+Hack the World: Why hackathons are still the best place to learn to build
+https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build/
+
+llm-gemini 0.35
+https://simonwillison.net/2026/Oct/13/llm-gemini/
+
+Rollouts and Security Review
+https://cursor.com/changelog/rollouts-and-security-reviewer
+
+Referenced audio/video passages:
+- [Every app on Earth is now open source... whether it likes it or not](https://www.youtube.com/watch?v=wajoP_5Cpw8&t=109s), 1:49.
+- [Every app on Earth is now open source... whether it likes it or not](https://www.youtube.com/watch?v=wajoP_5Cpw8&t=115s), 1:55.
+- [Every app on Earth is now open source... whether it likes it or not](https://www.youtube.com/watch?v=wajoP_5Cpw8&t=124s), 2:04.
+- [Every app on Earth is now open source... whether it likes it or not](https://www.youtube.com/watch?v=wajoP_5Cpw8&t=135s), 2:15.
+- [Every app on Earth is now open source... whether it likes it or not](https://www.youtube.com/watch?v=wajoP_5Cpw8&t=298s), 4:58.

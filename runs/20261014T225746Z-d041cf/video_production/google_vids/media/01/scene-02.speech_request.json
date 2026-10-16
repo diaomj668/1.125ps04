@@ -1,0 +1,7 @@
+{
+  "model": "tts-1",
+  "voice": "alloy",
+  "speed": 0.86,
+  "input": "First, supervision. Cursor announced that its iOS app can display local agents running on your computer and accept replies. The important qualification is where execution happens: the agent stays on your computer. Remote control does not move that work elsewhere, and your computer must remain on and online. This is a change in access to an existing agent, not evidence that the agent writes better code.",
+  "response_format": "wav"
+}

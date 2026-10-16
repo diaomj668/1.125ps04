@@ -1,0 +1,16 @@
+{
+  "publication_name": "Small Project, Real Software",
+  "topic": "Recent AI coding assistant features and practices for individual developers building small software projects",
+  "audience": "Individual developers with basic programming skills who independently build small web apps, scripts, or data tools; includes hobbyists and students.",
+  "central_question": "Which recent AI coding assistant capabilities and practices help individual developers finish small software projects, including debugging and verification?",
+  "scope": "Requirements, implementation, debugging, testing, review, and reproducibility. Exclude enterprise deployment, model training, and unsupported product rankings.",
+  "reader_return": "Track new capabilities against practical evidence and unresolved limitations.",
+  "language": "English",
+  "voice": "Clear, evidence-led, skeptical of unsupported productivity claims; explain technical terms.",
+  "max_items_per_source": 10,
+  "source_timeout_seconds": 30,
+  "media_max_megabytes": 200,
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "topic_statement": "Which recent AI coding assistant capabilities and practices help individual developers complete small software projects?"
+}

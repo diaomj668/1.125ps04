@@ -1,0 +1,18 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Video 39d7c1bf26564b14af5a167758364a44 failed: You've reached your plan's video generation quota. Upgrade your plan to continue generating videos. This is an earlier generation failure; do not call show_video for this video or regenerate it unless the user asks."
+    }
+  ],
+  "structuredContent": {
+    "outputType": "video.player",
+    "videoId": "39d7c1bf26564b14af5a167758364a44",
+    "status": "failed",
+    "title": "Coding Agent Series",
+    "createdAt": 1792025054,
+    "failureCode": "free_tier_quota_exceeded",
+    "failureMessage": "You've reached your plan's video generation quota. Upgrade your plan to continue generating videos."
+  },
+  "isError": false
+}

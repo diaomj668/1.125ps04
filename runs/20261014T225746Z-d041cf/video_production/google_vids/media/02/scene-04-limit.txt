@@ -1,0 +1,1 @@
+Cursor describes the feature; access and cost remain to be checked.

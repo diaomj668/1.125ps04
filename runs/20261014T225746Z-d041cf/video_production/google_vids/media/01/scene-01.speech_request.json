@@ -1,0 +1,7 @@
+{
+  "model": "tts-1",
+  "voice": "alloy",
+  "speed": 0.86,
+  "input": "This presentation uses AI-generated narration. As of October 14, 2026, some of the most concrete coding-assistant developments concern how you supervise an agent and inspect its work—not demonstrated improvements in coding quality. For someone building a small app or script, that distinction matters. Access lets you direct work. Checks flag possible problems. Diagnostic artifacts help you investigate. None of these, on its own, establishes that your project is finished or safe.",
+  "response_format": "wav"
+}

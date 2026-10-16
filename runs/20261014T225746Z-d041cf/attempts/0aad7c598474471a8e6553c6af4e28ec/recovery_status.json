@@ -1,0 +1,8 @@
+{
+  "status": "blocked_api_credit_balance_exhausted",
+  "youtube_discovery": "Recovered through direct channel discovery; seven metadata records retained in candidates/youtube-recovered.jsonl. Media extraction has not been retried.",
+  "initial_attempt": "Actual failure receipts retained under logs/. Initial summary reports the original full attempt.",
+  "paid_generation": "No article drafts or video scripts completed. Restore API balance before resuming.",
+  "resume_command": "bash tools/resume_run.sh runs/20261014T225746Z-d041cf",
+  "cross_date_command": "bash run.sh"
+}

@@ -1,0 +1,38 @@
+{
+  "stage": "create_briefs",
+  "status": "completed",
+  "input_count": 33,
+  "output_count": 3,
+  "started_at": "2026-10-14T23:17:00.509271Z",
+  "tools": [
+    "python",
+    "OpenAI-compatible chat completions"
+  ],
+  "models": [
+    "gpt-6.1-sol"
+  ],
+  "cost_usd": 0.276376,
+  "cost_estimated": true,
+  "errors": [],
+  "usage": {
+    "completion_tokens": 6522,
+    "prompt_tokens": 84463,
+    "total_tokens": 90985,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 156,
+      "rejected_prediction_tokens": 0,
+      "text_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 84460,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null
+    }
+  },
+  "cost_note": "Standard rates with cache read/write counters when returned; long-context multiplier applied. Reasoning tokens included in completion usage. Actual invoice is authoritative.",
+  "finished_at": "2026-10-14T23:19:06.357113Z"
+}

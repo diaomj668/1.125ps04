@@ -1,0 +1,21 @@
+Saved-evidence view only: no collection, generation, or new pipeline run.
+
+TWO ACTUAL LIVE EXECUTIONS
+
+2026-10-14 UTC | mode=live | 20261014T225746Z-d041cf
+  Extracted 40/42; eligible 33; publishers 7
+2026-10-15 UTC | mode=live | 20261015T194925Z-8e319e
+  Extracted 41/42; eligible 38; publishers 7
+
+Successful extraction comparison:
+  Newly retained: 5
+  Changed version IDs: 6
+  Identical version IDs: 30
+
+New October 15 video: sponsored side-project function rename/test scaffolding.
+It informed the repaired demonstration drafts; sponsor and limits disclosed.
+Six changed hashes do not establish six substantive new developments.
+Final publication choice: October 14 articles/videos, as-of October 14.
+October 15 outputs are retained for comparison and repair demonstration.
+
+Inspect: docs/run-comparison.md and each run's run.json/logs/.

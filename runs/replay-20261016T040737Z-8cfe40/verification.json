@@ -1,0 +1,80 @@
+{
+  "passed": true,
+  "mode": "replay",
+  "source_live_run": "20261014T225746Z-d041cf",
+  "source_evidence_as_of_date": "2026-10-14",
+  "executed_at": "2026-10-16T04:07:37.726219Z",
+  "completed_at": "2026-10-16T04:07:38.482311Z",
+  "input_records": 3,
+  "input_kinds": [
+    "feed",
+    "youtube",
+    "podcast"
+  ],
+  "empty_store": {
+    "item_count": 0,
+    "version_count": 0,
+    "observation_count": 0,
+    "duplicate_item_versions": 0,
+    "duplicate_latest_items": 0,
+    "versions_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "latest_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "phases": {
+    "seed": {
+      "item_count": 3,
+      "version_count": 3,
+      "observation_count": 3,
+      "duplicate_item_versions": 0,
+      "duplicate_latest_items": 0,
+      "versions_fingerprint": "7b812527a2bac8e7cb1fbbdb96d21ac2a173dfd89ee1f49c7690ff2154075837",
+      "latest_fingerprint": "4349b1888e346eab857b112a1c691ed5a90a21014a4b6d192adc59d2c8879f95"
+    },
+    "replay_1": {
+      "item_count": 3,
+      "version_count": 3,
+      "observation_count": 6,
+      "duplicate_item_versions": 0,
+      "duplicate_latest_items": 0,
+      "versions_fingerprint": "7b812527a2bac8e7cb1fbbdb96d21ac2a173dfd89ee1f49c7690ff2154075837",
+      "latest_fingerprint": "4349b1888e346eab857b112a1c691ed5a90a21014a4b6d192adc59d2c8879f95"
+    },
+    "replay_2": {
+      "item_count": 3,
+      "version_count": 3,
+      "observation_count": 9,
+      "duplicate_item_versions": 0,
+      "duplicate_latest_items": 0,
+      "versions_fingerprint": "7b812527a2bac8e7cb1fbbdb96d21ac2a173dfd89ee1f49c7690ff2154075837",
+      "latest_fingerprint": "4349b1888e346eab857b112a1c691ed5a90a21014a4b6d192adc59d2c8879f95"
+    }
+  },
+  "change_counts": {
+    "seed": {
+      "new": 3
+    },
+    "replay_1": {
+      "unchanged": 3
+    },
+    "replay_2": {
+      "unchanged": 3
+    }
+  },
+  "item_count_unchanged": true,
+  "version_count_unchanged": true,
+  "stored_records_unchanged": true,
+  "formal_store_unchanged": true,
+  "retained_assets_unchanged": true,
+  "observation_counts": [
+    3,
+    6,
+    9
+  ],
+  "observation_note": "Repeated observations are intentional audit logs, not duplicate evidence items or versions.",
+  "paid_model_calls": 0,
+  "cost_usd": 0.0,
+  "new_collection": false,
+  "fixture_material": false,
+  "not_a_third_live_run": true,
+  "not_a_withheld_item_update_demo": true
+}

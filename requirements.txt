@@ -1,0 +1,9 @@
+requests
+beautifulsoup4
+feedparser
+trafilatura
+yt-dlp
+openai
+pytest
+python-dotenv
+imageio-ffmpeg

@@ -1,0 +1,63 @@
+[
+  {
+    "scene_number": 1,
+    "narration": "As of October 14, 2026, some of the most concrete coding-assistant developments concern how you supervise an agent and inspect its work\u2014not demonstrated improvements in coding quality. For someone building a small app or script, that distinction matters. Access lets you direct work. Checks flag possible problems. Diagnostic artifacts help you investigate. None of these, on its own, establishes that your project is finished or safe.",
+    "visual_direction": "Title card, date, and three columns: \u201cSupervision,\u201d \u201cSecret checking,\u201d and \u201cDiagnosis.\u201d",
+    "claim_ids": [],
+    "duration_estimate_seconds_at_125_wpm": 34.6
+  },
+  {
+    "scene_number": 2,
+    "narration": "First, supervision. Cursor announced that its iOS app can display local agents running on your computer and accept replies. The important qualification is where execution happens: the agent stays on your computer. Remote control does not move that work elsewhere, and your computer must remain on and online. This is a change in access to an existing agent, not evidence that the agent writes better code.",
+    "visual_direction": "Diagram connecting a phone to an agent running on a computer. Keep the label \u201cComputer must stay on and online\u201d visible.",
+    "claim_ids": [
+      "01-c1"
+    ],
+    "duration_estimate_seconds_at_125_wpm": 31.7
+  },
+  {
+    "scene_number": 3,
+    "narration": "Second, secret checking. GitHub announced a slash security-review command for Copilot CLI and Copilot App users, without requiring an organization\u2019s GitHub Secret Protection plan. The announcement describes checking for secrets before a push. Do not confuse this developer-facing command with the organization push-protection feature that the same announcement described as being in private preview. These are distinct parts of the announcement, not interchangeable availability claims.",
+    "visual_direction": "Show `/security-review` as a text card. Separate it from a second card labeled \u201cOrganization push protection: private preview in the announcement.\u201d",
+    "claim_ids": [
+      "01-c2"
+    ],
+    "duration_estimate_seconds_at_125_wpm": 31.7
+  },
+  {
+    "scene_number": 4,
+    "narration": "Cursor also announced Security Review for pull requests on Teams and Enterprise plans. It describes findings with a severity, attack path, and proposed fix, and says draft pull requests are skipped. This may be relevant to a small project, but individual access and cost need verification. The announcement does not demonstrate detection effectiveness.",
+    "visual_direction": "Cursor Security Review card: Teams / Enterprise; access and cost to verify; draft pull requests skipped. Label the feature description as a vendor announcement.",
+    "claim_ids": [
+      "01-c6"
+    ],
+    "duration_estimate_seconds_at_125_wpm": 25.4
+  },
+  {
+    "scene_number": 5,
+    "narration": "Third, diagnosis. Simon Willison reports directing Codex to profile his web-edit Python app and produce a flame graph and heatmap. These are diagnostic views of where execution time is spent. The concrete result is an artifact to inspect, not a demonstrated optimization gain. His account shows an experienced developer choosing a diagnostic approach and asking an agent to carry it out. We do not know whether a beginner would obtain or interpret equally useful results.",
+    "visual_direction": "Illustrative flame graph and source heatmap, labeled \u201cDiagnostic views\u2014not an optimization result.\u201d",
+    "claim_ids": [
+      "01-c3"
+    ],
+    "duration_estimate_seconds_at_125_wpm": 36.0
+  },
+  {
+    "scene_number": 6,
+    "narration": "GitHub also launched ReviewBench, an available evaluation resource for code-review agents. Its reported corpus contains 219 pull requests from 187 public repositories across 19 languages. That provides something to evaluate against; its availability does not establish that a particular reviewer suits your small project. Large-repository workloads need not resemble a small script or single-file change.",
+    "visual_direction": "ReviewBench card: \u201c219 pull requests \u00b7 187 public repositories \u00b7 19 languages.\u201d Underneath: \u201cAvailable evaluation resource \u2260 proven fit for your project.\u201d",
+    "claim_ids": [
+      "01-c4"
+    ],
+    "duration_estimate_seconds_at_125_wpm": 26.4
+  },
+  {
+    "scene_number": 7,
+    "narration": "The limitation runs across these examples. Cursor and GitHub establish their own announcements, not independent effectiveness. Willison describes his own app without a controlled comparison or complete accounting of effort. First-time users, accessibility users, and unsuccessful small-project attempts remain insufficiently represented. So assess these developments separately: supervision, secret checking, and diagnosis. Their practical value depends on whether you can inspect the resulting work and use the relevant check\u2014not whether they share an agent label.",
+    "visual_direction": "Return to the three columns. Add \u201cInspect the work\u201d across all three, then a closing card: \u201cUseful additions, not autonomous delivery.\u201d",
+    "claim_ids": [
+      "01-c5"
+    ],
+    "duration_estimate_seconds_at_125_wpm": 36.0
+  }
+]

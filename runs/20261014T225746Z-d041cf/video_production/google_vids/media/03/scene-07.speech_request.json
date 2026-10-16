@@ -1,0 +1,7 @@
+{
+  "model": "tts-1",
+  "voice": "alloy",
+  "speed": 0.86,
+  "input": "For your next trial, define one observable outcome, specify its checks, retain their outputs, and record agent usage alongside human testing and correction time. Expand only after examining that whole cycle. Instructions can be ignored, tests can miss bugs, and review adds effort that a solo developer must bear. Experienced practitioners’ judgment may not transfer to beginners. Start with checks you understand; another model’s agreement is not a substitute. The evidence to seek next is repeatable small-project results, including failures and total effort—not just prices or completion messages.",
+  "response_format": "wav"
+}

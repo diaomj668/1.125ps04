@@ -1,0 +1,15 @@
+{
+  "stage": "prepare_package",
+  "status": "completed",
+  "input_count": 0,
+  "output_count": 9,
+  "started_at": "2026-10-16T03:48:50.083499Z",
+  "tools": [
+    "python"
+  ],
+  "models": [],
+  "cost_usd": 0.0,
+  "cost_estimated": false,
+  "errors": [],
+  "finished_at": "2026-10-16T03:48:50.132716Z"
+}

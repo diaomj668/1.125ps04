@@ -1,0 +1,566 @@
+Alrighty everybody, this is yet another edition of the Web News and this week I want to have
+a conversation that can very easily get off the rails, but I've actually written,
+so for each of these Web News I write like a little blurb and then I write like a little
+bullet point list for the most part, some of them are a little bit different, but I write a little
+bullet point list of like the things I want to discuss and so I've done a little more detail
+this time, an extra paragraph or an extra few bullet points here and I have it over here on my
+side monitor to try to keep this conversation kind of on the thesis I guess. And the idea behind
+this episode is that AI is giving us access, I would actually almost say too much access,
+to instant gratification, more specifically it's giving us instant and what is seemingly
+free labor. Now obviously you pay for your chat GPTs, you pay for your clods and all that stuff,
+but you pay that, pay those fees, you pay those subscriptions a lot less money than you would a
+person. So I just have an example, so I have another podcast, it's called Day One Patch Podcast,
+it's about gaming, go check it out, shameless self plug. The point is is that the members,
+because it's just been done for fun, the members have come and go, like people have come and come
+back and been you know been guests and some people are more consistent, some people are less
+consistent, etc, etc. But the thing is is that we used to have like kind of a pretty decent,
+decently difficult rather, production pipeline. We used to go to like an actual recording studio,
+which was still in a home, but it was still a recording studio. We used to have like a person
+that would grab the leads, another person that would like go through the leads and all these
+things. And a lot of this stuff has become simpler. So that's why I want to use it as an example,
+this is not like an advertising episode, this is an example. It's become simpler as people have
+learned to use the internet more and yada, yada, but very, very, it's become very much simpler in
+the last couple of years. We don't really have someone that does the producing for us anymore,
+we can look up leads by using AI, we can look up great ideas for the episode by using AI,
+we can find great citations for things. Hey, is that actually a fact? You can go and check,
+fact check with AI, it'll give you a link, you click the link, you check it, okay, great.
+So it's making things, which were once skilled labor, instantly accessible to us. It's just a
+couple of clicks, maybe wait, at most two minutes, and boom, there you go. Most stuff is instant,
+or maybe a few seconds. So the sort of idea behind this conversation that I want to have
+is what is this sort of doing to us? And I think what this is doing to us is it's creating an issue
+with instant gratification. Now, we already had that in our world, a lot of it had to do with the
+internet, and then the coming of age of smartphones, and so internet on the go. And so we have instant
+gratification, we can instantly check in on somebody, we can instantly call somebody,
+we can instantly post a picture, we can, if we're bored, we can instantly solve that,
+go on Reels, or go on YouTube Shorts, things like that. If we're stuck on a problem,
+we're not sifting through a library and trying to find a workbook, we instantly have a video
+telling us how to do it through a tutorial. There's instant gratification. But as things
+get faster and faster and faster, like with this AI race now, the issue is that our expectations
+are also growing. And Mike, you and I are, we run a web dev agency, and we are mostly referral,
+if not entirely referral. And we're talking about, hey, let's experiment, let's learn how to
+accrue some clients and just sort of grow the business. Normal business chat. The thing is,
+is a lot of the conversation that we have is about min-maxing of things, which is great,
+you know, you want to be productive. But I think a big problem is, is whenever, at least this is
+for me, I have this problem. Whenever I see like a ticket come in, or a problem come in that is like,
+oh my God, what's the timeline for this? That's the first thing that comes to my mind now. It's
+not, oh, how would I solve that? How's this? How's that? It's, what's the timeline for that?
+Things feel so instant, that if someone comes to me and says, I want this very, very, very fancy
+page, like I want you to build this thing and really craft it and make it really nice. It's
+sort of like, oh, the first thing, I don't say this to them, but the first thing comes to my
+mind now is, oh, you don't need that. We could just get AI to quickly make you something and
+then SEO it. And that's not good, I don't think. It's making it so that we're no longer kind of,
+I used to complain to some clients that were like people that would rush me and not have a
+dialogue with them and say, you're not letting me cook. You're not letting me get this done properly.
+And then sometimes that person would eventually say, okay, Matt, I'll let you cook on this.
+And then they love the output, right? To sort of prove my point. Now it's like, I don't even want
+to cook. And I think that it's due to this. So that's what, I had kind of a large intro there.
+I kind of want to keep it a concise conversation because we could talk about AI and all the
+complaints. It's just ridiculous, but I'd kind of like it to keep a bit of a concise
+hold on this conversation around this topic, if we can.
+Yeah, for sure. So instant gratification, especially in the AI age is definitely
+something to combat or something that's happened. If before I would get a task
+from the backlog, think about that task, plan it out, estimate it, start working on it,
+give a more accurate estimation as I get there. And then a week later that task is done. If it's
+a big enough task, that was a typical timeline. That's all gone now, pretty much.
+It's more about like what I should be doing rather than how long or
+how complex something is almost. It's a weird thing. I haven't thought about the length of
+a task very much recently. It's more about like, okay, I have this power in my hands,
+this AI power. What should I be doing with it? And I think that's what's led to this,
+a little bit of the min-max, a little bit of panic, a little bit of feeling like I'm wasting
+time. I don't know, FOMO, AI FOMO is a thing. You have all these agents at your fingertips
+and you aren't using them correctly. That's how I feel a lot of the time. I've created these
+amazing workflows that are able to build these really complex things that I would never have
+been able to build in that time that I've been able to build them, but I'm not using it. I'm
+not really doing anything with it. I'm not making any money with it. I'm still working,
+so I'm making money in that way, but it's just regular stuff. I'm doing regular work there and
+a lot of it's custom that I can't even use AI for and stuff like that. But I don't know. It is a
+psychological screwing. You wrote here, I think, psychological mismatch.
+I do feel that quite often. The bottleneck isn't necessarily technology anymore. It is reality.
+What can we do with it? What can be done? What could be created that it needs to be
+created? I think I've always not been as creative in that sense as I wish I was. I'm not good at
+thinking of original ideas. I try to and I experiment here and there, but I feel like
+that's a weak point for me. It upsets me because in this age and where we're at right now, the
+people that are creative and that are able to deliver and figure out the niches that need
+something and figure out the little holes in the industries that they're in, those are the people
+that are succeeding or could succeed. I don't know if they're succeeding, actually. This is just
+maybe a fantasy that's in my head of people just being able to take advantage of the situation.
+I feel constantly myself not being at the forefront there. Does that make sense? I feel
+like I've blabbered quite a bit there. I'm not sure if it's a solid thought.
+Well, I find it interesting that you're coming at it from the AI-wielding side. I feel like when I
+came up with the idea, I was thinking more like AI is creating this problem and we were already
+addicted to instant gratification or we had instant gratification. Now it's even more instant
+and we don't want to spend time cooking. We don't want to spend time making anything,
+but then you're coming at it from the other side saying, well, we have this great power.
+What can we do with it? It's like we have more voltage now almost in a way. We were a five-volt
+battery. Now maybe we're a 12-volt battery. What can we do with that in a way? I find that
+to be very interesting in your point. I'll give you an example and I'll let you maybe take your
+idea with it, take your thoughts and maybe apply it to this example. I have a friend who's very,
+very into TCG, trading card games, and him and I have discussed it a little bit.
+We think we've found, this is completely on the side, we think we've found a hole in the market
+for a web app or a website. We've been talking about it a little bit and I'm always like,
+I'm working and stuff. I can't really, I don't want to be, spin this up, spin that up,
+spin this up, spin that up, because I feel as though it's the same. There's two issues there.
+One is that web developers classically buy a whole bunch of domains, which is costing me
+like hundreds a year now. I got a $200 bill from GoDaddy every day. I was like, why is it going
+on? That's not good. So there's that.
+But the whole point is that, like I digress from that,
+but the point is, is that I'm always like afraid
+of like entering that of like, I have a million ideas
+and I don't want to get 10% into like a million ideas
+and complete none of them.
+So I kind of like do none of them.
+So like, that's a fear too.
+It's almost like a double-edged fear there.
+But then I have this other thing of like, okay,
+well, there's an API for this particular TCG
+and I'm keeping it anonymous
+because I do legitimately think there's a hole in the market
+but there's an API for this TCG
+in which I would need information from.
+It's available.
+You know, you can pay for it.
+It's a free version, et cetera.
+That's great.
+I don't even want to spend the time to learn the API.
+I'm like, oh, I'll have an AI write, you know,
+my API, like it'll pull the information.
+It'll do this.
+It'll do that for me.
+Like it'll use the API appropriately.
+And I'm afraid of that as well.
+So I'm afraid of not doing the idea.
+And then I'm afraid of, well,
+if I do the idea, I should learn this API properly.
+It should sit there and I should read about it
+and I should get it done.
+And then there's the other side of things where it's like,
+no, you shouldn't do that.
+You should just tell the AI to do it.
+But then I'm afraid of, okay,
+people in this TCG might be like,
+hey, this is all like vibe coded.
+And I'm like, well, no, it's not really vibe coded.
+Like I know what I'm doing,
+but I mean, I kind of know what I'm doing.
+I haven't used this API before.
+And you know, I've used APIs in the past.
+So I'm more experienced than let's say most,
+obviously I'm in this trade, but that is where I'm at.
+So I don't know if you could take that example
+maybe and apply it with your thoughts.
+Yeah, no, it's a really good point.
+So first of all, the idea that someone's gonna be upset
+about it being vibe coded is very much a you issue
+because we're developers.
+We have a vibe code detector and it's very strong.
+We know when something's vibe coded.
+Like I can tell in minutes of using something
+when I know that this has been like really,
+really, really vibe coded.
+A typical TCG user doesn't even know the term vibe coding.
+That's true.
+Let alone we'll be able to detect anything.
+They'll be able to detect bugs, but everything has bugs.
+So limiting yourself from doing something
+because you're afraid someone's gonna think it sucks.
+That's a thing that's existed from the beginning.
+Nothing to do with vibe coding, in my opinion.
+That's just something that like we constantly have
+in the back of our heads.
+It's like, why would I put this out if it sucks?
+So I think you need to get around it by just like,
+hey, if this is useful, it's useful, that's it.
+It doesn't matter how it was created.
+It doesn't matter if you understand what's in that API.
+Who cares?
+The only thing I would say that I would be careful with
+is like if you're dealing with user data,
+which you might be,
+just like if you haven't done a lot of security
+around accounts, get some reviews on that.
+Like just maybe either look into it yourself
+or send it over to me or something like that.
+Like you have the resources to be able to make sure
+that that stuff is at least somewhat buttoned up.
+That's the only thing that I usually would suggest,
+at least right now.
+I mean, these models are so good that it's really,
+it's becoming less of an issue
+as long as you're prompting them correctly, honestly.
+But either way, like I just, I feel,
+you always feel an obligation when you're dealing
+with user data and getting a couple extra reviews
+is never gonna hurt.
+So that's the only thing.
+But really in my eyes, if I had that idea of like,
+oh, this is a hole in the market,
+that's kind of what I've been searching for.
+And like, it's really difficult to find that.
+So you, whenever you see something like that,
+especially in a TCG market
+where people are spending tons of money,
+like I feel like you should just put your head down
+and build it, build a prototype with AI,
+like right off the top, set up a prompt and let it go.
+Because we are, I would say, convinced.
+We've been talking about it for weeks
+and the idea has like molded
+and it's always been around this one idea.
+So it's not like, you know, fly by night,
+we've just like decided to make a web app website
+and then take off.
+It's like, the cost of experimentation has gotten so low
+that there's more, this is where my problem is.
+There's more cost in not experimenting.
+That's where I'm like panicking about more than anything
+is because I'm not experimenting enough
+because the cost to experiment is like almost zero now.
+Where before this idea might've been a great idea
+or might've not have been a great idea,
+but would you really wanna spend two, three weeks on it,
+two months on it to see?
+And sometimes you would, sometimes you wouldn't,
+depending on how passionate you were about that idea.
+But at this point in time, as a developer,
+if you think the idea has 2% chance of success,
+the cost is nothing to get it out there.
+So you just have to get it out there.
+Right.
+That's where I come from.
+That's where I come at any of these situations.
+And like, again, my problem is I can't think of that idea
+that even has a 2% chance of success.
+Like the idea in this particular case
+comes from being like pretty deep into it.
+Like my buddy's very into it,
+spending thousands of dollars-
+That's what you want.
+On cards.
+Like I, for nostalgia's sake, bought like a $6 pack,
+bought like a little bit of cards.
+I'm not spending thousands,
+I'm not even spending hundreds really,
+and just kind of playing around.
+And because we were both kind of like chatting about it,
+we were like, oh, maybe there's like,
+because we tried to look it up,
+tried to solve the problem with existing tools
+and could not.
+And so we're like, interesting.
+That's when you know, that's when you can smell something.
+Or there was a way to solve it, but it was very janky.
+And I couldn't figure out how to do it.
+He actually did.
+And it was like, okay, this isn't really a solution.
+This is just us, you know, using a,
+it's almost like using a spreadsheet
+instead of using a tool.
+That makes sense.
+Like, of course you could do all your accounting
+in a spreadsheet or you could use QuickBooks,
+you know, whatever, right?
+Like you get kind of like that.
+Interesting.
+Yeah.
+I mean, like that's the idea of all this is like,
+you have the custom experimentation is zero.
+So you have to experiment.
+You don't know if it's going to take off.
+Even if there is a hole,
+maybe people prefer to use the spreadsheet.
+Like that is a thing that happens.
+Maybe to solve a niche and show it again.
+Exactly, who knows?
+But it doesn't matter.
+It doesn't fricking matter.
+If you have a smell for this, you know,
+like you have an idea and you have a friend
+that's been in this for a while.
+Like, boom, that's your,
+that's where we need to shine right now.
+Like that's where developers with the,
+with the, like the capabilities of AI have an advantage.
+That advantage is probably going to go away
+once people, you know, vibe code better.
+And once the models get better and better
+and better and better.
+So in my opinion, this is the time to take advantage of it.
+And that's why I have that, like,
+almost like a ticking clock in the back of my head
+of like, there's something here.
+I know there's something here.
+And I'm constantly nervous that I'm not grasping it.
+It makes sense.
+Because it could go away.
+It does make sense.
+Yeah.
+It does, it does play against,
+and I don't even know if we'd ever like come up
+with a conclusion, you know, to this issue in this web news.
+But it does create that psychological mismatch
+of the instant gratification.
+Because it is weird.
+Like back, you were saying,
+maybe you would spend two, three weeks on it.
+It's like, yeah, I would spend maybe a day
+familiarizing myself with that API,
+a day or maybe two discussing what stack I'd use.
+Another day doing this, another day doing that,
+another day doing, you know, hosting.
+Okay, let's build this thing.
+Okay, now I'm doing it.
+Okay, three days on troubleshooting and polishing.
+And again, this is just MVP.
+So like low-level stuff.
+And there was that.
+Now it feels weird because it's like,
+I want this website up tomorrow night.
+And it probably-
+And that's weird, like it feels wrong
+to the point of, should I be doing this?
+Yes, you should.
+Because I have a million ideas.
+Because the guy, the next guy is gonna be doing it too.
+You should be, if you have a million ideas,
+you should be building a million ideas.
+I'm not, I am not exaggerating at this point.
+I think that if you don't build it,
+someone else will in this particular instance.
+And you have the capabilities of not being a vibe coder
+and being an actual person that can look at the stuff
+from a, you know, infrastructure perspective.
+Like the hardest stuff is really, you know,
+the servers, the DNS, all of that stuff.
+It's somewhat solved if you can connect the things right
+with the agents, but even connecting it
+to the right spots and the agents, it takes-
+I know how to operate DNS up and down the, you know,
+up and down the line.
+Well, that's what I'm saying.
+Like if you know how to operate DNS
+and you can prompt an agent to operate DNS properly,
+like this is where we have the advantage right now today,
+where that advantage will start to go away pretty soon.
+So capitalizing on that advantage
+is really all I'm thinking about like 80% of my day.
+And yes, it's causing me psychological fuckery in my head,
+but hopefully if I can find something to build
+and I build it and all of a sudden it takes off,
+it'll be worth it.
+Well, it's just weird because it's like,
+I have three main ideas that have been like mainstay
+in my head all this whole time.
+And normally I'd be like, okay,
+that's a year's worth of ideas to try.
+I'd come up with a million excuses to not do it.
+Some of them are legitimate though.
+Like some of it's like, hey,
+we're trying to find more clients.
+If a client calls, like obviously,
+you know, that's not even really an excuse.
+It's like, I'm just, just priorities, I guess, right?
+It's sort of like, I could go buy new shoes today,
+but my shoes are okay.
+Like, you know, my priorities are,
+I don't want to buy new shoes.
+Like, why would I spend that money?
+There's priorities in place.
+This is a weird.
+We're in a weird, man, it's a weird spot.
+It is a very weird spot.
+I, I got in, we're in a transitionary time.
+We're in a transitionary time and a lot of success can be had
+in traditional transitionary times.
+But you have to be able to find where that success is by experimenting
+and doing things that are outside the box that are making you uncomfortable.
+If you're uncomfortable, you're doing something right in my opinion.
+I know that's like a very typical motivation bullshit thing, but like
+right now I am uncomfortable all the fucking time.
+So I'm hopefully doing something.
+Well, my one question there though, is it's like a lot of this conversation
+is going to be about, or has, is supposed to be about, we're trying
+to get things to instantly, we're not spending the time to do the work.
+We're not putting the work in.
+That I think ultimately is like the weird feeling about it.
+It's one thing to be like, I'm bored.
+I'm just going to open up reels.
+And like that has some sort of psychological effect that goes beyond
+my expertise, because I'm not a doctor of any, of any type, but we know
+that Instagramification has some sort of psychological, whatever
+on, on, on kids, on adults, et cetera.
+Uh, I mean, one of the things that's crazy is a lot of, I see a lot of my
+friends' parents who are, you know, older, like 60 to 60 plus at this point.
+They're like addicted to their phones.
+And I've seen, and I see other, like, let's say the, let's say the, the
+husband's addicted and the, and the wife isn't the wife would be like, he's
+always on his phone and I don't get it.
+And it's like, you just didn't catch the bug.
+I was like, it's addictive, but it's addictive for all ages.
+Like the phone and the reels and the doom scrolling and the news, the
+constant news cycle and the constant messages and the instant, uh, the
+constant, like digital availability is addictive.
+And we saw that with the internet back in the day when people would start those
+email chains or people would just be sending these huge, massive, ridiculous
+email chains about anything as innocent as recipes through more egregious things.
+I'm, you know, I'm sure.
+So I don't know that this is a, I'm in a weird spot, man.
+Agreed.
+Yeah.
+We're, we're all in weird spots right now.
+I think like, because they're also, I feel like there's something there to grab.
+But you're saying to do all the ideas, maybe we'll conclude with this.
+It's like, you're saying to do all the ideas, but it's like, okay, we're trying
+to get out of the referral business.
+Like, okay, cool.
+It's like, I have video ideas for our YouTube channels.
+Like, okay, we can do that.
+Okay.
+We also have like other ideas to like reinvigorate the HTML, all the things
+website.
+Okay.
+We could do that.
+We also have episode ideas.
+It's like, all right, but we also have these other side hustle ideas.
+And I'm sure that many people struggle with this, but now the things
+are more instant than ever.
+It's like, now am I obligated to do them all?
+That seems absurd.
+You have to prioritize.
+Like, there's no doubt about that.
+Like you have to look at what you need to do for the day and prioritize.
+Like whether you do all the ideas, I don't know.
+Like, because if we try to slow it down to vet them, then I feel like
+I'm starting to make excuses, but then when I go to make them, I'm like,
+well, I want this done tomorrow.
+And that's absurd, but then it kind of isn't because we can
+have stuff get generated.
+Correct.
+I don't know.
+Like I split my day up with like different blocks of the day where I'll
+do like, you know, this type of work that day, this type of work the other
+day, and then usually at the end of the day is when I do some like
+experimentations, like before, before going to bed for an hour, not every
+night, for sure, not every night.
+Like, you know, a handful of nights a week, maybe two, two to three max.
+I'll experiment with some shit.
+I'll run, you know, I'll try the new agents.
+I'll, you know, create this random game.
+I'll create this thing.
+And like that, in my opinion, that's the time where you would formulate
+the prompt that you would need to build something like that, right?
+Like it's an experimentation at the end of the day, after you've
+done your main work, just, and because you're interested in it, it's
+not like a super draining thing.
+Like I, I don't, at the end of the day, I don't do draining things.
+So if I don't want to experiment, I don't experiment.
+That's the, that, that's where I'm at.
+But at this point I do want to experiment a lot.
+So that's why I'm doing it.
+So I, yeah, I think you have to separate out this like idea of there's too much
+to do to just be like, okay, these are the things I have to do.
+Like you have clients, I need to do this stuff.
+So there's no, there's no choice.
+I have to do this.
+Now, like I've done, I've done this work like, okay, what's the next thing?
+Okay.
+So this, this might generate us income.
+So that's a pretty important thing.
+Let's do that.
+And then at the end of the day, if you're like, oh, I still have a couple
+hours in my head of doing some shit.
+Maybe you just kick off a prompt and start playing a game while
+you're, while it's prompting.
+Like that, I do that as well.
+Like I'll, I'll literally like play Diablo four sometimes, and then I'll
+have like my prompts going off.
+And then, you know, when I'm in town, I'll just check how it's going
+and I'll steer it if I need to.
+This is weird.
+It's instant skilled labor.
+And it's, it's, it's, it's worrisome.
+It's weird.
+It's weird.
+It's, it's awkward.
+It's strange.
+And it's, it's becoming more weird by the day.
+Like it's getting more capable, which is making it more weird.
+Yeah.
+It's, it's because it's, it's dominating more news cycles.
+It's, I mean, and it's causing more problems.
+Of course, you're going to, there's definitely gonna be someone out
+there that's listening to this, that's anti AI, that's like, you know,
+this is causing problems and I agree with you, like it's, it's
+absolutely causing problems.
+And I know that some people say it's going to solve all those problems.
+I mean, I've, I've yet to see anything solve all its problems.
+So I disagree with that take as well, that it's going to solve all its
+problems or that those problems will be easy to solve, like I,
+there's definitely problems.
+There's environmental problems.
+There's a bunch of other problems.
+Like there's, there's no denying that.
+I'm not even going to deny that.
+A hundred percent.
+I don't know how to conclude this because usually we kind of come to a conclusion
+and I don't know if there really is one.
+I mean, you're, you've come up with a conclusion, I suppose, of
+like, go out there and try things.
+I'm, I'm stuck on this weird, like.
+Why are things instant?
+And why are the, why, why is skilled labor less valued?
+I don't know if I should say less valuable, but maybe like less valuable.
+It's kind of seems like it is.
+It feels like it is.
+And it maybe shouldn't be.
+Oh, absolutely.
+Computer, computer skilled label is, is going to become more and more less
+valuable, like it's an awkward time in a very strange world, my problem with
+like just being analysis paralysis mode is this isn't the time to be that's true.
+This is the time.
+This, this is the time to get through the awkwardness, screw your own brain of like,
+okay, like, you know, yes, this is strange.
+Yes.
+This is wrong.
+And so it's in a, B and C, this isn't going anywhere.
+Unfortunately, like you don't know, you're not going to be able to like you
+not using it, isn't going to stop this from happening just period, even a chunk
+of society, not using it, isn't going to stop it from happening.
+So what you need to do is you need to adapt and you need to take advantage
+of the situation as much as possible.
+Yeah.
+Because if you're not going to do it, the guy beside you will.
+And then we're going to be stuck.
+Like, I don't know what this is going to look like in a year or two years or five
+years is like, very, I think it's going to be very different question.
+Right.
+I don't even want to think about 10 years.
+Yeah.
+I don't even want to think about 10 years.
+I have a hard time imagining a year ahead.
+I have an almost impossible time imagining three years ahead at this point in time.
+So what we can only do is like, Hey, today we have the tools to do X
+and Y that we did not have yesterday.
+Let's take advantage of it period to the maximum of its capabilities.
+I think that's a good conclusion because I'm just going to answer
+more questions and hesitation.
+Like, but I, I, I, I a hundred percent see your point.
+Um, I'd love to hear from the audience, honestly, I'd love to hear from the
+audience on this because like, I, I I'm glad the conversation went the way it
+did, because it wasn't off the rails or we're talking about every single problem
+that AI has ever created, every single solution that it might create every
+single political problem.
+I wanted to have this conversation about this, you know, and we, we kept it
+pretty concise and you had a, a point that I never thought we'd get to, like,
+I never thought that that would be the direction we go.
+Uh, I loved it.
+I loved it, but I'm also flabbergasted still, but, um, yeah, good.
+That's that's the web news.
+Please let us know in the comments, Spotify, like let us know in DMs,
+TikTok, whatever, uh, comments on TikTok as well.
+Comments on YouTube, wherever you're, you're seeing this, let us know what
+your thoughts are on this, because this is, we're in a weird, weird time
+and a weird, weird world.
+And I've probably said this on other episodes.
+I feel weird and it is weird.
+So that's the web news for this week.
+Uh, I don't know if you have anything else to add, Mike, I'm signing out.

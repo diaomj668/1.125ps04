@@ -1,0 +1,2 @@
+Output + representative behavior + total
+effort

@@ -1,0 +1,16 @@
+{
+  "stage": "replay_saved_evidence",
+  "status": "completed",
+  "input_count": 3,
+  "output_count": 9,
+  "started_at": "2026-10-16T04:07:37.727602Z",
+  "tools": [
+    "python",
+    "bash data/store.sh"
+  ],
+  "models": [],
+  "cost_usd": 0.0,
+  "cost_estimated": false,
+  "errors": [],
+  "finished_at": "2026-10-16T04:07:38.482758Z"
+}

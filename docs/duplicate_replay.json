@@ -1,0 +1,42 @@
+{
+  "status": "completed",
+  "mode": "replay",
+  "source_live_run_id": "20261014T225746Z-d041cf",
+  "actual_execution_date_utc": "2026-10-16",
+  "run_dir": "runs/replay-20261016T040737Z-8cfe40",
+  "readme_path": "runs/replay-20261016T040737Z-8cfe40/README.md",
+  "verification_path": "runs/replay-20261016T040737Z-8cfe40/verification.json",
+  "passed": true,
+  "input_records": 3,
+  "isolated_store": "runs/replay-20261016T040737Z-8cfe40/isolated_store",
+  "results": {
+    "seed": {
+      "distinct_items": 3,
+      "versions": 3,
+      "observations": 3,
+      "changes": {
+        "new": 3
+      }
+    },
+    "replay_1": {
+      "distinct_items": 3,
+      "versions": 3,
+      "observations": 6,
+      "changes": {
+        "unchanged": 3
+      }
+    },
+    "replay_2": {
+      "distinct_items": 3,
+      "versions": 3,
+      "observations": 9,
+      "changes": {
+        "unchanged": 3
+      }
+    }
+  },
+  "formal_store_unchanged": true,
+  "paid_model_calls": 0,
+  "cost_usd": 0,
+  "not_a_third_live_run": true
+}

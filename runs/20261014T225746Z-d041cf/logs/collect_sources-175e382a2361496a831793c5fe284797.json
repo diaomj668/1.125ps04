@@ -1,0 +1,17 @@
+{
+  "stage": "collect_sources",
+  "status": "incomplete",
+  "input_count": 0,
+  "output_count": 0,
+  "started_at": "2026-10-14T22:59:33.151348Z",
+  "tools": [
+    "python"
+  ],
+  "models": [],
+  "cost_usd": 0.0,
+  "cost_estimated": false,
+  "errors": [
+    "One or more child stages failed; see child receipts and stage_status.json"
+  ],
+  "finished_at": "2026-10-14T22:59:33.151583Z"
+}

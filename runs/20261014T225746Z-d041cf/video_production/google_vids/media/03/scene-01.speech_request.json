@@ -1,0 +1,7 @@
+{
+  "model": "tts-1",
+  "voice": "alloy",
+  "speed": 0.86,
+  "input": "This presentation uses AI-generated narration. As of October 14, 2026, the strongest practical implication of the supplied evidence is modest: try one bounded agent task with explicit checks and a stopping budget before expanding autonomy. Record how to test it, inspect what arrives, and include correction and verification in the cost. This is a proposed evaluation workflow, not a proven productivity recipe. We do not have a comparison showing that it improves small-project completion rates.",
+  "response_format": "wav"
+}

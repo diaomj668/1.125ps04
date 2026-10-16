@@ -1,0 +1,34 @@
+{
+  "stage": "extract_content",
+  "status": "incomplete",
+  "input_count": 42,
+  "output_count": 40,
+  "started_at": "2026-10-14T23:04:24.234400Z",
+  "tools": [
+    "python",
+    "requests",
+    "trafilatura",
+    "yt-dlp"
+  ],
+  "models": [
+    "whisper-1",
+    "whisper-1",
+    "whisper-1",
+    "whisper-1",
+    "whisper-1"
+  ],
+  "cost_usd": null,
+  "cost_estimated": false,
+  "errors": [
+    {
+      "item_id": "feed:052f27a88b5833e2f85b3784",
+      "error": "Substantive written content unavailable (minimum 100 words)"
+    },
+    {
+      "item_id": "youtube:WrCjAAl9okA",
+      "error": "ERROR: unable to download video data: HTTP Error 403: Forbidden"
+    }
+  ],
+  "pre_excluded_media": 0,
+  "finished_at": "2026-10-14T23:14:53.567024Z"
+}

@@ -1,0 +1,24 @@
+{
+  "edited_at": "2026-10-15T03:24:19.739263Z",
+  "scope": "Contract error propagation, candidate validation, profiling terminology, and handoff status correction",
+  "evidence_as_of_date_unchanged": "2026-10-14",
+  "new_collection": false,
+  "paid_model_calls": 0,
+  "old_review_id": "901b45b898144a602dfc0efd24c9ca7f7b403096a4cb188eafb708d0481f752c",
+  "new_review_id": "34ec8312b655940e49d36d259a69994a5dbf3e72fe37ff87da690221a6c44cc1",
+  "content_checks_passed": true,
+  "historical_artifacts_preserved": [
+    "editorial_revision/before",
+    "policy_revision",
+    "model_calls",
+    "video_production/01/article_snapshot.md",
+    "video_production/01/script_snapshot.md",
+    "video_production/01/references.md"
+  ],
+  "current_production_reference_notes": "runs/20261014T225746Z-d041cf/video_production/01/references-current.md",
+  "final_student_approval": "Pending; no approval.json created",
+  "regression_tests": {
+    "passed": 21,
+    "command": "PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 .venv/bin/python -m pytest -p no:capture -q"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Video generation has started successfully. Please let the user know this: \"Your video is now being generated! You can view your video session here: [Video Link](https://app.heygen.com/video-agent/0d447429a4194245a438cdd25cced156). Once the video is generated, it will show directly in the chat and in their HeyGen projects workspace.\" End your response here and do not say anything else."
+    }
+  ],
+  "structuredContent": {
+    "outputType": "video_agent_generate",
+    "sessionId": "0d447429a4194245a438cdd25cced156",
+    "outboundLink": "https://app.heygen.com/video-agent/0d447429a4194245a438cdd25cced156",
+    "instructionsYouMustFollow": "Video generation has started successfully. Please let the user know this: \"Your video is now being generated! You can view your video session here: [Video Link](https://app.heygen.com/video-agent/0d447429a4194245a438cdd25cced156). Once the video is generated, it will show directly in the chat and in their HeyGen projects workspace.\" End your response here and do not say anything else."
+  },
+  "isError": false
+}

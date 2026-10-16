@@ -1,0 +1,7 @@
+{
+  "model": "tts-1",
+  "voice": "alloy",
+  "speed": 0.86,
+  "input": "If considering Cursor Security Review, verify individual access and cost first. Check pull-request eligibility, because the announcement skips drafts. Inspect each reported attack path and proposed fix, and try to reproduce the finding. These are proposed verification steps, not a claim that the tool has been independently validated.",
+  "response_format": "wav"
+}

@@ -1,0 +1,1 @@
+Corrected narration metrics to stop at nonspoken bold-labeled evidence and visual blocks. No generated content was edited or regenerated. Original assessment retained here; rerun review uses actual spoken blocks.

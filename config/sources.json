@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "source_id": "simon",
+    "publisher_id": "simon-willison",
+    "kind": "feed",
+    "url": "https://simonwillison.net/atom/everything/"
+  },
+  {
+    "source_id": "github",
+    "publisher_id": "github",
+    "kind": "feed",
+    "url": "https://github.blog/feed/"
+  },
+  {
+    "source_id": "cursor",
+    "publisher_id": "cursor",
+    "kind": "feed",
+    "url": "https://www.cursor.com/changelog/rss.xml"
+  },
+  {
+    "source_id": "fireship",
+    "publisher_id": "fireship",
+    "kind": "youtube",
+    "url": "https://www.youtube.com/@Fireship/videos",
+    "max_items": 6
+  },
+  {
+    "source_id": "webdevsimplified",
+    "publisher_id": "webdevsimplified",
+    "kind": "youtube",
+    "url": "https://www.youtube.com/@WebDevSimplified/videos",
+    "max_items": 1
+  },
+  {
+    "source_id": "htmlallthethings",
+    "publisher_id": "htmlallthethings",
+    "kind": "podcast",
+    "url": "https://podcast.htmlallthethings.com/feed.xml",
+    "include_title_pattern": "AI Basics For Developers|Technical Debt|Biggest Problem|Skilled Labour",
+    "max_items": 4
+  },
+  {
+    "source_id": "practicalai",
+    "publisher_id": "changelog",
+    "kind": "podcast",
+    "url": "https://changelog.com/practicalai/feed",
+    "include_title_pattern": "AGENTS.md",
+    "max_items": 1
+  }
+]

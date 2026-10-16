@@ -1,0 +1,21 @@
+Saved-evidence view only: no collection, generation, or new pipeline run.
+
+PUBLISHED SERIES AND ARCHITECTURAL TRADEOFF
+
+Piece 01:
+  https://mingjiao.substack.com/p/new-ways-to-supervise-inspect-and
+  https://youtu.be/pDt5vDDNF7E
+Piece 02:
+  https://mingjiao.substack.com/p/a-successful-signal-is-not-necessarily
+  https://youtu.be/8lIFBSltIm0
+Piece 03:
+  https://mingjiao.substack.com/p/make-the-next-agent-task-bounded
+  https://youtu.be/xV7t_A6FAcw
+
+Tradeoff: unchanged media identity/title/date permits transcript reuse.
+Benefit: fewer downloads/transcriptions. Risk: missing edits in place.
+Same recording across endpoints still needs human reconciliation.
+Limits: vendors and experienced practitioners dominate; no general gain proved.
+Student confirmed no-login access; YouTube clickable external links deferred.
+
+Inspect: package/publication_links.json, config/, and docs/SOURCE_NOTES.md.

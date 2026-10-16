@@ -1,0 +1,17 @@
+{
+  "stage": "run",
+  "status": "incomplete",
+  "input_count": 0,
+  "output_count": 0,
+  "started_at": "2026-10-15T19:57:09.155928Z",
+  "tools": [
+    "python"
+  ],
+  "models": [],
+  "cost_usd": 0.0,
+  "cost_estimated": false,
+  "errors": [
+    "One or more child stages failed; see child receipts and stage_status.json"
+  ],
+  "finished_at": "2026-10-15T19:57:09.156072Z"
+}

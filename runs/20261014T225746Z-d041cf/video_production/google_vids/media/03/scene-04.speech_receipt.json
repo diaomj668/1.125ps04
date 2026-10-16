@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-15T01:05:12.219324Z",
+  "finished_at": "2026-10-15T01:05:14.313043Z",
+  "elapsed_seconds": 2.093708667000101,
+  "model": "tts-1",
+  "voice": "alloy",
+  "input_characters": 335,
+  "audio_seconds": 24.229666666666667,
+  "cost_usd": null,
+  "cost_note": "Provider invoice not available; no zero-cost claim.",
+  "response_request_id": null
+}

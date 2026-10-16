@@ -1,0 +1,7 @@
+{
+  "model": "tts-1",
+  "voice": "alloy",
+  "speed": 0.86,
+  "input": "Next, inspect delivery. GitHub acknowledged a September incident in which Copilot code review reported successful completion without producing the review. It advised customers to request affected reviews again. So check whether your requested review actually arrived, instead of relying only on its status. For future reliability reporting, watch for evidence that reviews were delivered, not merely that jobs were labeled successful. Instructions and status indicators cannot replace looking at the output.",
+  "response_format": "wav"
+}

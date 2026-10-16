@@ -1,0 +1,7 @@
+{
+  "model": "tts-1",
+  "voice": "alloy",
+  "speed": 0.86,
+  "input": "Begin by making testing expectations explicit. For a Copilot repository, GitHub describes a repository instruction file where you can record expectations for testing and validation. It also describes a quality-checks skill that can explain which scripts run tests and linting, what they check, and how to troubleshoot failures. Linting means checking code against specified rules. These are places to record guidance—not proof that the agent followed it, or that any check ran and passed.",
+  "response_format": "wav"
+}

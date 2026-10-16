@@ -1,0 +1,22 @@
+Small Project, Real Software | Part 1 of 3
+Evidence as of October 14, 2026.
+
+What changed in AI coding assistants, and which developments matter to individual developers? This video separates remote supervision, secret checks, security-review announcements, and performance diagnosis from evidence of completed, reliable software.
+
+Presentation disclosure: AI-generated narration. Visuals and captions were assembled and exported using Google Vids. Source claims, analysis, and uncertainty should be distinguished; this is not a controlled productivity study.
+
+Sources and evidence:
+Remote control for local agents
+https://cursor.com/changelog/remote-control-local-agents
+
+Secret protection must scale with software
+https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/
+
+Profiling web-edit with Python 3.15: flame graphs and source heatmaps
+https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/
+
+ReviewBench: An open benchmark for AI code review
+https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/
+
+Rollouts and Security Review
+https://cursor.com/changelog/rollouts-and-security-reviewer

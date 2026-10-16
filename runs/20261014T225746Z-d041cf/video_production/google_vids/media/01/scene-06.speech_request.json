@@ -1,0 +1,7 @@
+{
+  "model": "tts-1",
+  "voice": "alloy",
+  "speed": 0.86,
+  "input": "GitHub also launched ReviewBench, an available evaluation resource for code-review agents. Its reported corpus contains 219 pull requests from 187 public repositories across 19 languages. That provides something to evaluate against; its availability does not establish that a particular reviewer suits your small project. Large-repository workloads need not resemble a small script or single-file change.",
+  "response_format": "wav"
+}

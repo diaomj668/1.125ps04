@@ -1,0 +1,38 @@
+{
+  "stage": "write_video_scripts",
+  "status": "completed",
+  "input_count": 3,
+  "output_count": 3,
+  "started_at": "2026-10-14T23:20:23.494867Z",
+  "tools": [
+    "python",
+    "OpenAI-compatible chat completions"
+  ],
+  "models": [
+    "gpt-6.1-sol"
+  ],
+  "cost_usd": 0.1034385,
+  "cost_estimated": true,
+  "errors": [],
+  "usage": {
+    "completion_tokens": 6220,
+    "prompt_tokens": 16496,
+    "total_tokens": 22716,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 290,
+      "rejected_prediction_tokens": 0,
+      "text_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 16493,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null
+    }
+  },
+  "cost_note": "Standard rates with cache read/write counters when returned; long-context multiplier applied. Reasoning tokens included in completion usage. Actual invoice is authoritative.",
+  "finished_at": "2026-10-14T23:22:02.601315Z"
+}

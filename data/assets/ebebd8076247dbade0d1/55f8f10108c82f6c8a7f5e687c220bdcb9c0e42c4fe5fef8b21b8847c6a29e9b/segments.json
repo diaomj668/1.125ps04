@@ -1,0 +1,1034 @@
+[
+  {
+    "segment_id": "s00001",
+    "start_seconds": 0.24,
+    "end_seconds": 3.84,
+    "text": "Last week, the JavaScript runtime wars"
+  },
+  {
+    "segment_id": "s00002",
+    "start_seconds": 2.24,
+    "end_seconds": 5.68,
+    "text": "officially ended when the guy who put"
+  },
+  {
+    "segment_id": "s00003",
+    "start_seconds": 3.84,
+    "end_seconds": 7.6,
+    "text": "JavaScript on the server and then spent"
+  },
+  {
+    "segment_id": "s00004",
+    "start_seconds": 5.68,
+    "end_seconds": 9.44,
+    "text": "the next decade atoning for it announced"
+  },
+  {
+    "segment_id": "s00005",
+    "start_seconds": 7.6,
+    "end_seconds": 11.36,
+    "text": "that his company Dino was joining"
+  },
+  {
+    "segment_id": "s00006",
+    "start_seconds": 9.44,
+    "end_seconds": 13.12,
+    "text": "Cloudflare. And on paper, it looks like"
+  },
+  {
+    "segment_id": "s00007",
+    "start_seconds": 11.36,
+    "end_seconds": 14.799,
+    "text": "a pretty traditional Silicon Valley"
+  },
+  {
+    "segment_id": "s00008",
+    "start_seconds": 13.12,
+    "end_seconds": 16.56,
+    "text": "acquisition where the founder says"
+  },
+  {
+    "segment_id": "s00009",
+    "start_seconds": 14.799,
+    "end_seconds": 17.919999999999998,
+    "text": "they're excited for the future. The"
+  },
+  {
+    "segment_id": "s00010",
+    "start_seconds": 16.56,
+    "end_seconds": 19.759999999999998,
+    "text": "company says they're excited about the"
+  },
+  {
+    "segment_id": "s00011",
+    "start_seconds": 17.92,
+    "end_seconds": 21.92,
+    "text": "mission and the employees learn the hard"
+  },
+  {
+    "segment_id": "s00012",
+    "start_seconds": 19.76,
+    "end_seconds": 23.68,
+    "text": "way what a Pruff Stack is. But if you"
+  },
+  {
+    "segment_id": "s00013",
+    "start_seconds": 21.92,
+    "end_seconds": 25.519000000000002,
+    "text": "think about it, it's a little weird that"
+  },
+  {
+    "segment_id": "s00014",
+    "start_seconds": 23.68,
+    "end_seconds": 27.439,
+    "text": "a company which already has its own"
+  },
+  {
+    "segment_id": "s00015",
+    "start_seconds": 25.519,
+    "end_seconds": 29.439,
+    "text": "runtime and deployment platform would"
+  },
+  {
+    "segment_id": "s00016",
+    "start_seconds": 27.439,
+    "end_seconds": 31.198999999999998,
+    "text": "buy a worse one. In today's video, we'll"
+  },
+  {
+    "segment_id": "s00017",
+    "start_seconds": 29.439,
+    "end_seconds": 33.2,
+    "text": "find out what Cloudflare actually paid"
+  },
+  {
+    "segment_id": "s00018",
+    "start_seconds": 31.199,
+    "end_seconds": 35.44,
+    "text": "for, learn why Ryan Doll now thinks"
+  },
+  {
+    "segment_id": "s00019",
+    "start_seconds": 33.2,
+    "end_seconds": 37.2,
+    "text": "re-implementing Node was a bad idea, and"
+  },
+  {
+    "segment_id": "s00020",
+    "start_seconds": 35.44,
+    "end_seconds": 39.599999999999994,
+    "text": "dive into what the future of Dino looks"
+  },
+  {
+    "segment_id": "s00021",
+    "start_seconds": 37.2,
+    "end_seconds": 42.399,
+    "text": "like now. And spoiler alert, it's not so"
+  },
+  {
+    "segment_id": "s00022",
+    "start_seconds": 39.6,
+    "end_seconds": 44.239000000000004,
+    "text": "good. It is October 15th, 2026, and"
+  },
+  {
+    "segment_id": "s00023",
+    "start_seconds": 42.399,
+    "end_seconds": 48.079,
+    "text": "you're watching the code report. Back in"
+  },
+  {
+    "segment_id": "s00024",
+    "start_seconds": 44.239,
+    "end_seconds": 50.16,
+    "text": "2009, Ryan Doll got on stage at JSCOM EU"
+  },
+  {
+    "segment_id": "s00025",
+    "start_seconds": 48.079,
+    "end_seconds": 52.480000000000004,
+    "text": "and introduced the world to a new open-"
+  },
+  {
+    "segment_id": "s00026",
+    "start_seconds": 50.16,
+    "end_seconds": 54.16,
+    "text": "source runtime called Node.js that"
+  },
+  {
+    "segment_id": "s00027",
+    "start_seconds": 52.48,
+    "end_seconds": 56.0,
+    "text": "allowed you to write JavaScript on the"
+  },
+  {
+    "segment_id": "s00028",
+    "start_seconds": 54.16,
+    "end_seconds": 58.48,
+    "text": "server. Nine years later, he went back"
+  },
+  {
+    "segment_id": "s00029",
+    "start_seconds": 56.0,
+    "end_seconds": 60.239,
+    "text": "to that same stage with a talk titled 10"
+  },
+  {
+    "segment_id": "s00030",
+    "start_seconds": 58.48,
+    "end_seconds": 62.07899999999999,
+    "text": "things I regret about Node, where he"
+  },
+  {
+    "segment_id": "s00031",
+    "start_seconds": 60.239,
+    "end_seconds": 64.08,
+    "text": "spent most of the time tearing apart the"
+  },
+  {
+    "segment_id": "s00032",
+    "start_seconds": 62.079,
+    "end_seconds": 66.08,
+    "text": "original project before revealing that"
+  },
+  {
+    "segment_id": "s00033",
+    "start_seconds": 64.08,
+    "end_seconds": 67.76,
+    "text": "he recreated it from scratch, but this"
+  },
+  {
+    "segment_id": "s00034",
+    "start_seconds": 66.08,
+    "end_seconds": 70.08,
+    "text": "time without all the regret. He called"
+  },
+  {
+    "segment_id": "s00035",
+    "start_seconds": 67.76,
+    "end_seconds": 72.08000000000001,
+    "text": "it Dino and unlike Node, it came with"
+  },
+  {
+    "segment_id": "s00036",
+    "start_seconds": 70.08,
+    "end_seconds": 74.08,
+    "text": "its own formatter, llinter, and"
+  },
+  {
+    "segment_id": "s00037",
+    "start_seconds": 72.08,
+    "end_seconds": 75.84,
+    "text": "testrunner that supported TypeScript,"
+  },
+  {
+    "segment_id": "s00038",
+    "start_seconds": 74.08,
+    "end_seconds": 77.52,
+    "text": "was secure by default, and had a"
+  },
+  {
+    "segment_id": "s00039",
+    "start_seconds": 75.84,
+    "end_seconds": 79.759,
+    "text": "sensible way to manage external"
+  },
+  {
+    "segment_id": "s00040",
+    "start_seconds": 77.52,
+    "end_seconds": 82.79899999999999,
+    "text": "packages. Adino 1.0 0 launched a few"
+  },
+  {
+    "segment_id": "s00041",
+    "start_seconds": 79.759,
+    "end_seconds": 84.88,
+    "text": "years later in 2020 and by 2021 Ryan"
+  },
+  {
+    "segment_id": "s00042",
+    "start_seconds": 82.799,
+    "end_seconds": 87.2,
+    "text": "announced their serverless platform Dino"
+  },
+  {
+    "segment_id": "s00043",
+    "start_seconds": 84.88,
+    "end_seconds": 88.96,
+    "text": "Deploy along with a fresh $5 million"
+  },
+  {
+    "segment_id": "s00044",
+    "start_seconds": 87.2,
+    "end_seconds": 90.88000000000001,
+    "text": "seed round and initially things were"
+  },
+  {
+    "segment_id": "s00045",
+    "start_seconds": 88.96,
+    "end_seconds": 92.39999999999999,
+    "text": "going great and Netlefi and Superbase"
+  },
+  {
+    "segment_id": "s00046",
+    "start_seconds": 90.88,
+    "end_seconds": 94.56,
+    "text": "built their edge functions on top of"
+  },
+  {
+    "segment_id": "s00047",
+    "start_seconds": 92.4,
+    "end_seconds": 97.119,
+    "text": "Dino and Slack used it to power their"
+  },
+  {
+    "segment_id": "s00048",
+    "start_seconds": 94.56,
+    "end_seconds": 99.2,
+    "text": "new app platform. The next year in 2022"
+  },
+  {
+    "segment_id": "s00049",
+    "start_seconds": 97.119,
+    "end_seconds": 101.28,
+    "text": "they got 21 million in series A funding"
+  },
+  {
+    "segment_id": "s00050",
+    "start_seconds": 99.2,
+    "end_seconds": 102.799,
+    "text": "from Sequoia launched a web framework"
+  },
+  {
+    "segment_id": "s00051",
+    "start_seconds": 101.28,
+    "end_seconds": 104.4,
+    "text": "called Fresh and it was looking like"
+  },
+  {
+    "segment_id": "s00052",
+    "start_seconds": 102.799,
+    "end_seconds": 106.47900000000001,
+    "text": "they had a real shot at becoming the"
+  },
+  {
+    "segment_id": "s00053",
+    "start_seconds": 104.4,
+    "end_seconds": 108.64,
+    "text": "future of serverside JavaScript. But"
+  },
+  {
+    "segment_id": "s00054",
+    "start_seconds": 106.479,
+    "end_seconds": 110.96,
+    "text": "then their momentum died. Their biggest"
+  },
+  {
+    "segment_id": "s00055",
+    "start_seconds": 108.64,
+    "end_seconds": 113.28,
+    "text": "problem being that Node didn't just roll"
+  },
+  {
+    "segment_id": "s00056",
+    "start_seconds": 110.96,
+    "end_seconds": 115.52,
+    "text": "over. During those same few years, Node"
+  },
+  {
+    "segment_id": "s00057",
+    "start_seconds": 113.28,
+    "end_seconds": 117.04,
+    "text": "added fetch, a permission model, and the"
+  },
+  {
+    "segment_id": "s00058",
+    "start_seconds": 115.52,
+    "end_seconds": 119.119,
+    "text": "ability to run TypeScript files"
+  },
+  {
+    "segment_id": "s00059",
+    "start_seconds": 117.04,
+    "end_seconds": 120.47900000000001,
+    "text": "directly. So, Dino lost its edge."
+  },
+  {
+    "segment_id": "s00060",
+    "start_seconds": 119.119,
+    "end_seconds": 122.0,
+    "text": "Meanwhile, the products that were"
+  },
+  {
+    "segment_id": "s00061",
+    "start_seconds": 120.479,
+    "end_seconds": 123.6,
+    "text": "supposed to make money weren't gaining"
+  },
+  {
+    "segment_id": "s00062",
+    "start_seconds": 122.0,
+    "end_seconds": 126.159,
+    "text": "enough traction to justify the"
+  },
+  {
+    "segment_id": "s00063",
+    "start_seconds": 123.6,
+    "end_seconds": 129.119,
+    "text": "valuation. Adino Deploy went from 35"
+  },
+  {
+    "segment_id": "s00064",
+    "start_seconds": 126.159,
+    "end_seconds": 131.76000000000002,
+    "text": "regions down to six. Dino KV launched in"
+  },
+  {
+    "segment_id": "s00065",
+    "start_seconds": 129.119,
+    "end_seconds": 133.36,
+    "text": "2023 and never made it out of beta. And"
+  },
+  {
+    "segment_id": "s00066",
+    "start_seconds": 131.76,
+    "end_seconds": 135.67999999999998,
+    "text": "Fresh started going months between"
+  },
+  {
+    "segment_id": "s00067",
+    "start_seconds": 133.36,
+    "end_seconds": 137.44000000000003,
+    "text": "releases. At the same time, Ryan took on"
+  },
+  {
+    "segment_id": "s00068",
+    "start_seconds": 135.68,
+    "end_seconds": 139.04000000000002,
+    "text": "a legal fight with Oracle over the"
+  },
+  {
+    "segment_id": "s00069",
+    "start_seconds": 137.44,
+    "end_seconds": 140.4,
+    "text": "JavaScript trademark, which Oracle"
+  },
+  {
+    "segment_id": "s00070",
+    "start_seconds": 139.04,
+    "end_seconds": 142.64,
+    "text": "inherited when it bought Sun"
+  },
+  {
+    "segment_id": "s00071",
+    "start_seconds": 140.4,
+    "end_seconds": 144.56,
+    "text": "Microsystems the same year Ryan created"
+  },
+  {
+    "segment_id": "s00072",
+    "start_seconds": 142.64,
+    "end_seconds": 146.64,
+    "text": "Node. It was a noble cause, but a"
+  },
+  {
+    "segment_id": "s00073",
+    "start_seconds": 144.56,
+    "end_seconds": 148.56,
+    "text": "GoFundMe for trademark lawyers probably"
+  },
+  {
+    "segment_id": "s00074",
+    "start_seconds": 146.64,
+    "end_seconds": 150.72,
+    "text": "isn't what Sequoia had in mind when they"
+  },
+  {
+    "segment_id": "s00075",
+    "start_seconds": 148.56,
+    "end_seconds": 152.4,
+    "text": "wrote a $21 million check. The sentiment"
+  },
+  {
+    "segment_id": "s00076",
+    "start_seconds": 150.72,
+    "end_seconds": 154.16,
+    "text": "got bad enough last year that a"
+  },
+  {
+    "segment_id": "s00077",
+    "start_seconds": 152.4,
+    "end_seconds": 155.92000000000002,
+    "text": "developer named David Bushell wrote a"
+  },
+  {
+    "segment_id": "s00078",
+    "start_seconds": 154.16,
+    "end_seconds": 157.76,
+    "text": "blog post declaring that Dena was"
+  },
+  {
+    "segment_id": "s00079",
+    "start_seconds": 155.92,
+    "end_seconds": 159.83999999999997,
+    "text": "basically dead since every new release"
+  },
+  {
+    "segment_id": "s00080",
+    "start_seconds": 157.76,
+    "end_seconds": 161.599,
+    "text": "was just more node compatibility fixes"
+  },
+  {
+    "segment_id": "s00081",
+    "start_seconds": 159.84,
+    "end_seconds": 163.519,
+    "text": "in an endless game of ketchup. And"
+  },
+  {
+    "segment_id": "s00082",
+    "start_seconds": 161.599,
+    "end_seconds": 165.2,
+    "text": "ironically, Ryan had come to the same"
+  },
+  {
+    "segment_id": "s00083",
+    "start_seconds": 163.519,
+    "end_seconds": 167.04,
+    "text": "conclusion. He just took a little bit"
+  },
+  {
+    "segment_id": "s00084",
+    "start_seconds": 165.2,
+    "end_seconds": 169.04,
+    "text": "longer to get there. So earlier this"
+  },
+  {
+    "segment_id": "s00085",
+    "start_seconds": 167.04,
+    "end_seconds": 171.28,
+    "text": "year, the team started to look at hard"
+  },
+  {
+    "segment_id": "s00086",
+    "start_seconds": 169.04,
+    "end_seconds": 173.2,
+    "text": "problems that live outside the runtime,"
+  },
+  {
+    "segment_id": "s00087",
+    "start_seconds": 171.28,
+    "end_seconds": 175.28,
+    "text": "like spreading compute across machines,"
+  },
+  {
+    "segment_id": "s00088",
+    "start_seconds": 173.2,
+    "end_seconds": 177.28,
+    "text": "coordinating state, and scaling. And the"
+  },
+  {
+    "segment_id": "s00089",
+    "start_seconds": 175.28,
+    "end_seconds": 179.04,
+    "text": "best answer they found was Cloudflare's"
+  },
+  {
+    "segment_id": "s00090",
+    "start_seconds": 177.28,
+    "end_seconds": 181.04,
+    "text": "durable objects, which if you're not"
+  },
+  {
+    "segment_id": "s00091",
+    "start_seconds": 179.04,
+    "end_seconds": 182.959,
+    "text": "familiar with are basically tiny"
+  },
+  {
+    "segment_id": "s00092",
+    "start_seconds": 181.04,
+    "end_seconds": 185.2,
+    "text": "singlethreaded servers that each get"
+  },
+  {
+    "segment_id": "s00093",
+    "start_seconds": 182.959,
+    "end_seconds": 186.8,
+    "text": "their own private SQLite database and"
+  },
+  {
+    "segment_id": "s00094",
+    "start_seconds": 185.2,
+    "end_seconds": 188.159,
+    "text": "the ability to hold websocket"
+  },
+  {
+    "segment_id": "s00095",
+    "start_seconds": 186.8,
+    "end_seconds": 190.239,
+    "text": "connections. But the problem with"
+  },
+  {
+    "segment_id": "s00096",
+    "start_seconds": 188.159,
+    "end_seconds": 192.48,
+    "text": "durable objects is that they really only"
+  },
+  {
+    "segment_id": "s00097",
+    "start_seconds": 190.239,
+    "end_seconds": 194.239,
+    "text": "work on Cloudflare. So in August, the"
+  },
+  {
+    "segment_id": "s00098",
+    "start_seconds": 192.48,
+    "end_seconds": 196.23899999999998,
+    "text": "Dino team released their own version"
+  },
+  {
+    "segment_id": "s00099",
+    "start_seconds": 194.239,
+    "end_seconds": 198.64000000000001,
+    "text": "they called cell D, which lets you run"
+  },
+  {
+    "segment_id": "s00100",
+    "start_seconds": 196.239,
+    "end_seconds": 200.64000000000001,
+    "text": "durable objects on your own servers at a"
+  },
+  {
+    "segment_id": "s00101",
+    "start_seconds": 198.64,
+    "end_seconds": 202.39999999999998,
+    "text": "fraction of the cost. And surprisingly,"
+  },
+  {
+    "segment_id": "s00102",
+    "start_seconds": 200.64,
+    "end_seconds": 204.23899999999998,
+    "text": "Cloudflare was happy to be ripped off"
+  },
+  {
+    "segment_id": "s00103",
+    "start_seconds": 202.4,
+    "end_seconds": 206.239,
+    "text": "like this. In the announcement post, the"
+  },
+  {
+    "segment_id": "s00104",
+    "start_seconds": 204.239,
+    "end_seconds": 208.239,
+    "text": "creator of Cloudflare Workers said that"
+  },
+  {
+    "segment_id": "s00105",
+    "start_seconds": 206.239,
+    "end_seconds": 210.48000000000002,
+    "text": "people have always accused Cloudflare of"
+  },
+  {
+    "segment_id": "s00106",
+    "start_seconds": 208.239,
+    "end_seconds": 212.31900000000002,
+    "text": "using workers to lock in developers, but"
+  },
+  {
+    "segment_id": "s00107",
+    "start_seconds": 210.48,
+    "end_seconds": 214.319,
+    "text": "the workers runtime has been open source"
+  },
+  {
+    "segment_id": "s00108",
+    "start_seconds": 212.319,
+    "end_seconds": 216.23899999999998,
+    "text": "since 2022 and that they've wanted to"
+  },
+  {
+    "segment_id": "s00109",
+    "start_seconds": 214.319,
+    "end_seconds": 218.159,
+    "text": "build a self-hostable version for years,"
+  },
+  {
+    "segment_id": "s00110",
+    "start_seconds": 216.239,
+    "end_seconds": 219.84,
+    "text": "but just never got around to it. He even"
+  },
+  {
+    "segment_id": "s00111",
+    "start_seconds": 218.159,
+    "end_seconds": 221.519,
+    "text": "admitted he tried building one himself"
+  },
+  {
+    "segment_id": "s00112",
+    "start_seconds": 219.84,
+    "end_seconds": 223.20000000000002,
+    "text": "last spring and he couldn't get it to"
+  },
+  {
+    "segment_id": "s00113",
+    "start_seconds": 221.519,
+    "end_seconds": 225.20000000000002,
+    "text": "work. So, when the Dino team figured it"
+  },
+  {
+    "segment_id": "s00114",
+    "start_seconds": 223.2,
+    "end_seconds": 227.67999999999998,
+    "text": "out with Cell D, Cloudflare did what"
+  },
+  {
+    "segment_id": "s00115",
+    "start_seconds": 225.2,
+    "end_seconds": 229.35999999999999,
+    "text": "anyone with a $123 billion market cap"
+  },
+  {
+    "segment_id": "s00116",
+    "start_seconds": 227.68,
+    "end_seconds": 231.519,
+    "text": "would do and they just bought the whole"
+  },
+  {
+    "segment_id": "s00117",
+    "start_seconds": 229.36,
+    "end_seconds": 234.08,
+    "text": "company. The plan is to have Ryan and"
+  },
+  {
+    "segment_id": "s00118",
+    "start_seconds": 231.519,
+    "end_seconds": 235.59900000000002,
+    "text": "co-founder Bert Belder merge celld into"
+  },
+  {
+    "segment_id": "s00119",
+    "start_seconds": 234.08,
+    "end_seconds": 237.519,
+    "text": "Cloudflare's open- source workers"
+  },
+  {
+    "segment_id": "s00120",
+    "start_seconds": 235.599,
+    "end_seconds": 239.76,
+    "text": "runtime is so that anyone can run"
+  },
+  {
+    "segment_id": "s00121",
+    "start_seconds": 237.519,
+    "end_seconds": 241.439,
+    "text": "workers and durable objects on their own"
+  },
+  {
+    "segment_id": "s00122",
+    "start_seconds": 239.76,
+    "end_seconds": 243.2,
+    "text": "servers with official support from"
+  },
+  {
+    "segment_id": "s00123",
+    "start_seconds": 241.439,
+    "end_seconds": 244.72,
+    "text": "Cloudflare. And because we can't go a"
+  },
+  {
+    "segment_id": "s00124",
+    "start_seconds": 243.2,
+    "end_seconds": 246.95899999999997,
+    "text": "whole video without talking about it,"
+  },
+  {
+    "segment_id": "s00125",
+    "start_seconds": 244.72,
+    "end_seconds": 248.72,
+    "text": "Ryan says the big focus is AI agents"
+  },
+  {
+    "segment_id": "s00126",
+    "start_seconds": 246.959,
+    "end_seconds": 250.959,
+    "text": "because durable objects are a natural"
+  },
+  {
+    "segment_id": "s00127",
+    "start_seconds": 248.72,
+    "end_seconds": 252.64,
+    "text": "fit for agents that need cheap compute,"
+  },
+  {
+    "segment_id": "s00128",
+    "start_seconds": 250.959,
+    "end_seconds": 254.56,
+    "text": "persistent state, and real-time"
+  },
+  {
+    "segment_id": "s00129",
+    "start_seconds": 252.64,
+    "end_seconds": 256.4,
+    "text": "connections. But unfortunately, if"
+  },
+  {
+    "segment_id": "s00130",
+    "start_seconds": 254.56,
+    "end_seconds": 259.04,
+    "text": "you're using any Dino product that isn't"
+  },
+  {
+    "segment_id": "s00131",
+    "start_seconds": 256.4,
+    "end_seconds": 260.799,
+    "text": "CLD, you are screwed. Cloudflare says"
+  },
+  {
+    "segment_id": "s00132",
+    "start_seconds": 259.04,
+    "end_seconds": 262.72,
+    "text": "they'll only continue to ship bug fixes"
+  },
+  {
+    "segment_id": "s00133",
+    "start_seconds": 260.799,
+    "end_seconds": 264.56,
+    "text": "and security patches for Dino for the"
+  },
+  {
+    "segment_id": "s00134",
+    "start_seconds": 262.72,
+    "end_seconds": 266.08000000000004,
+    "text": "next year. But after that, they'll stop"
+  },
+  {
+    "segment_id": "s00135",
+    "start_seconds": 264.56,
+    "end_seconds": 268.16,
+    "text": "development altogether. And if you're"
+  },
+  {
+    "segment_id": "s00136",
+    "start_seconds": 266.08,
+    "end_seconds": 270.32,
+    "text": "using Dino deploy today, you have about"
+  },
+  {
+    "segment_id": "s00137",
+    "start_seconds": 268.16,
+    "end_seconds": 272.639,
+    "text": "6 months to migrate. So in the end, with"
+  },
+  {
+    "segment_id": "s00138",
+    "start_seconds": 270.32,
+    "end_seconds": 274.8,
+    "text": "Anthropic acquiring Bun and Cloudflare"
+  },
+  {
+    "segment_id": "s00139",
+    "start_seconds": 272.639,
+    "end_seconds": 276.96000000000004,
+    "text": "buying Dino after it bought V back in"
+  },
+  {
+    "segment_id": "s00140",
+    "start_seconds": 274.8,
+    "end_seconds": 278.479,
+    "text": "June, the only major JavaScript runtime"
+  },
+  {
+    "segment_id": "s00141",
+    "start_seconds": 276.96,
+    "end_seconds": 280.71999999999997,
+    "text": "that isn't owned by a company with a"
+  },
+  {
+    "segment_id": "s00142",
+    "start_seconds": 278.479,
+    "end_seconds": 282.8,
+    "text": "cloud is Node, the one Ryan spent the"
+  },
+  {
+    "segment_id": "s00143",
+    "start_seconds": 280.72,
+    "end_seconds": 284.0,
+    "text": "last 8 years trying to replace. So if"
+  },
+  {
+    "segment_id": "s00144",
+    "start_seconds": 282.8,
+    "end_seconds": 285.52000000000004,
+    "text": "you're one of the Dino developers"
+  },
+  {
+    "segment_id": "s00145",
+    "start_seconds": 284.0,
+    "end_seconds": 287.28,
+    "text": "needing to migrate, you can at least"
+  },
+  {
+    "segment_id": "s00146",
+    "start_seconds": 285.52,
+    "end_seconds": 289.44,
+    "text": "make the move a little cheaper with Jet"
+  },
+  {
+    "segment_id": "s00147",
+    "start_seconds": 287.28,
+    "end_seconds": 291.52,
+    "text": "Brains. the sponsor of today's video."
+  },
+  {
+    "segment_id": "s00148",
+    "start_seconds": 289.44,
+    "end_seconds": 293.36,
+    "text": "Thanks to my childhood financial trauma,"
+  },
+  {
+    "segment_id": "s00149",
+    "start_seconds": 291.52,
+    "end_seconds": 295.35999999999996,
+    "text": "every time I ask my coding agent to do"
+  },
+  {
+    "segment_id": "s00150",
+    "start_seconds": 293.36,
+    "end_seconds": 296.88,
+    "text": "anything, my brain starts compulsively"
+  },
+  {
+    "segment_id": "s00151",
+    "start_seconds": 295.36,
+    "end_seconds": 298.72,
+    "text": "calculating how many tokens it will"
+  },
+  {
+    "segment_id": "s00152",
+    "start_seconds": 296.88,
+    "end_seconds": 300.8,
+    "text": "cost. So, it's great to see that every"
+  },
+  {
+    "segment_id": "s00153",
+    "start_seconds": 298.72,
+    "end_seconds": 302.96000000000004,
+    "text": "Jet Brains account now comes with a free"
+  },
+  {
+    "segment_id": "s00154",
+    "start_seconds": 300.8,
+    "end_seconds": 305.199,
+    "text": "baseline model called Juny Light that"
+  },
+  {
+    "segment_id": "s00155",
+    "start_seconds": 302.96,
+    "end_seconds": 306.96,
+    "text": "lives in your IDE and CLI. There's no"
+  },
+  {
+    "segment_id": "s00156",
+    "start_seconds": 305.199,
+    "end_seconds": 308.8,
+    "text": "trial with a countdown clock. It's just"
+  },
+  {
+    "segment_id": "s00157",
+    "start_seconds": 306.96,
+    "end_seconds": 310.63899999999995,
+    "text": "a free way to ask questions and get"
+  },
+  {
+    "segment_id": "s00158",
+    "start_seconds": 308.8,
+    "end_seconds": 312.56,
+    "text": "Grunt work done without accidentally"
+  },
+  {
+    "segment_id": "s00159",
+    "start_seconds": 310.639,
+    "end_seconds": 315.199,
+    "text": "bankrupting your family. I used it in"
+  },
+  {
+    "segment_id": "s00160",
+    "start_seconds": 312.56,
+    "end_seconds": 317.44,
+    "text": "the Juni CLI on an old side project to"
+  },
+  {
+    "segment_id": "s00161",
+    "start_seconds": 315.199,
+    "end_seconds": 319.199,
+    "text": "rename a bunch of functions and scaffold"
+  },
+  {
+    "segment_id": "s00162",
+    "start_seconds": 317.44,
+    "end_seconds": 321.68,
+    "text": "some tests and it knocked it all out in"
+  },
+  {
+    "segment_id": "s00163",
+    "start_seconds": 319.199,
+    "end_seconds": 323.44,
+    "text": "a few minutes for $0. I'd still switch"
+  },
+  {
+    "segment_id": "s00164",
+    "start_seconds": 321.68,
+    "end_seconds": 325.6,
+    "text": "to a Frontier model for more complex"
+  },
+  {
+    "segment_id": "s00165",
+    "start_seconds": 323.44,
+    "end_seconds": 327.6,
+    "text": "work, which is really easy because Juny"
+  },
+  {
+    "segment_id": "s00166",
+    "start_seconds": 325.6,
+    "end_seconds": 329.44,
+    "text": "Light lives inside Jet Brains Air where"
+  },
+  {
+    "segment_id": "s00167",
+    "start_seconds": 327.6,
+    "end_seconds": 331.199,
+    "text": "you can run multiple agents in parallel"
+  },
+  {
+    "segment_id": "s00168",
+    "start_seconds": 329.44,
+    "end_seconds": 333.52,
+    "text": "and review all their changes before they"
+  },
+  {
+    "segment_id": "s00169",
+    "start_seconds": 331.199,
+    "end_seconds": 335.12,
+    "text": "land. Start using Junyite for free today"
+  },
+  {
+    "segment_id": "s00170",
+    "start_seconds": 333.52,
+    "end_seconds": 337.039,
+    "text": "at the link below. This has been the"
+  },
+  {
+    "segment_id": "s00171",
+    "start_seconds": 335.12,
+    "end_seconds": 340.8,
+    "text": "code report. Thanks for watching and I"
+  },
+  {
+    "segment_id": "s00172",
+    "start_seconds": 337.039,
+    "end_seconds": 340.8,
+    "text": "will see you in the next one."
+  }
+]

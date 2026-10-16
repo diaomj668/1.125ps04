@@ -1,0 +1,52 @@
+{
+  "edited_at": "2026-10-15T20:04:48.835476Z",
+  "evidence_as_of_date": "2026-10-15",
+  "method": "Assistant editorial repair using retained source segments; no paid model call or new collection",
+  "before_artifacts": "editorial_revision/before",
+  "new_youtube_evidence": {
+    "item_id": "youtube:l3L_lETiSzc",
+    "version_id": "55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b",
+    "segment_ids": [
+      "s00147",
+      "s00160",
+      "s00161",
+      "s00162",
+      "s00163",
+      "s00168"
+    ],
+    "published_at": "2026-10-15T17:35:15+00:00"
+  },
+  "new_claim_ids": [
+    "01-c6",
+    "02-c6",
+    "03-c6"
+  ],
+  "word_counts": {
+    "01": {
+      "articles": 849,
+      "video_scripts": 486
+    },
+    "02": {
+      "articles": 829,
+      "video_scripts": 485
+    },
+    "03": {
+      "articles": 867,
+      "video_scripts": 502
+    }
+  },
+  "spoken_ai_opening_removed": true,
+  "on_screen_ai_disclosure_retained": true,
+  "old_review_id": "3be85eba84be37dacf4401edb79fe1ab84eb460fc0aad30b58283fa169d4a8f3",
+  "student_final_approval": "Pending",
+  "videos_regenerated": false,
+  "metrics_correction": "Original reported 684/682/797 counted directions and citation lines because Narration was inline. Correct original spoken counts are 417/410/427. No rendered duration was measured.",
+  "new_review_id": "a548022bc1d815ffe2cde82442bd1258f3b0001ec3e7aa7b640f1eceeb1664b5",
+  "content_checks_passed": true,
+  "reassessed_at": "2026-10-15T20:05:32.860477Z",
+  "regression_tests": {
+    "passed": 24,
+    "command": "PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 .venv/bin/python -m pytest -p no:capture -q"
+  },
+  "pipeline_prevention": "Future brief generation rejects omission of feed/YouTube/podcast evidence before writing articles. Current run prompts remain original execution snapshots; root prompts specify required coverage and presentation format for future runs."
+}

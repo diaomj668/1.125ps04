@@ -1,0 +1,7 @@
+{
+  "model": "tts-1",
+  "voice": "alloy",
+  "speed": 0.86,
+  "input": "Start with a specific delivery failure. In its October availability report, GitHub acknowledged a September 28 incident in which Copilot code review reported successful job completion without producing the review. That establishes a mismatch between status and output. It does not establish a general finding about review accuracy: a missing review and an incorrect review are different problems. But it shows why the completion label cannot substitute for checking that the requested output arrived.",
+  "response_format": "wav"
+}

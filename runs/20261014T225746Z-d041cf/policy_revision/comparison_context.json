@@ -1,0 +1,14 @@
+{
+  "evaluation_started_at": "2026-10-15T00:19:22.674533Z",
+  "source_evidence_run": "20261014T225746Z-d041cf",
+  "source_as_of_date": "2026-10-14",
+  "frozen_historical_as_of_date": true,
+  "same_eligible_evidence": true,
+  "eligible_sha256": "b3ea4d6a33f6d6bf14653f79f82ff4a908332b6353283664e2a2fecf0fd38852",
+  "collection_performed": false,
+  "fictional_evidence": false,
+  "second_live_run": false,
+  "purpose": "Evaluate the student-requested access/setup/relevance policy clarification on identical saved evidence.",
+  "controlled_inputs": "Same evidence, prompts, project settings, model, reasoning effort, and historical evidence date; only editorial policy changed. Model nondeterminism can also change decisions.",
+  "student_problem_observed": "Plan labels alone do not establish individual applicability; assess access restrictions, setup requirements, and relevance separately."
+}

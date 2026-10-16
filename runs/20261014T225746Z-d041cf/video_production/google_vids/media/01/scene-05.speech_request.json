@@ -1,0 +1,7 @@
+{
+  "model": "tts-1",
+  "voice": "alloy",
+  "speed": 0.86,
+  "input": "Third, diagnosis. Simon Willison reports directing Codex to profile his web-edit Python app and produce a flame graph and heatmap. These are diagnostic views of where execution time is spent. The concrete result is an artifact to inspect, not a demonstrated optimization gain. His account shows an experienced developer choosing a diagnostic approach and asking an agent to carry it out. We do not know whether a beginner would obtain or interpret equally useful results.",
+  "response_format": "wav"
+}

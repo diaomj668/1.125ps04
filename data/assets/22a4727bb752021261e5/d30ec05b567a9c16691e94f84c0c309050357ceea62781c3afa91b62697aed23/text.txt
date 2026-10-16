@@ -1,0 +1,398 @@
+All right. Welcome to the Web News.
+So today is going to be a little bit different.
+There were some pretty big releases, so I will start off with that.
+But really what I want to talk about in this episode is.
+About how I isn't just about intelligence anymore, in my opinion, right,
+like I think there's more to it now, now that the new models have gotten solid,
+they're not like, you know, some of them are smarter, some of them are dumber.
+It's fine.
+But they've gotten to a point where it's
+almost like diminishing returns at the top end unless you're doing something very crazy.
+I'm starting to focus more on other things outside of intelligence in AI models now,
+and that's what I want to talk about in this episode.
+But before we get down there,
+I want to kind of preface this with the latest releases and what's prompted me
+to talk about this. This week, there was a day, I think it was yesterday,
+actually, yesterday, which is Tuesday, September 22nd.
+There was three new model releases at the same time.
+Opus 5.5, which is like the latest generation
+Clawed model, and then there was two GPT OpenAI releases.
+They released Sol6 and Luna6.
+And the big theme with all of these
+releases isn't like they're pushing the intelligence boundary.
+What they're doing with these releases, they're making these more usable.
+They're making them slightly cheaper.
+They're making them slightly faster and in some cases actually significantly cheaper.
+So, for example, the GPT release,
+the GPT-6 Sol release and the GPT-6 Luna release,
+they've actually cut both the price, the token price.
+So that's a pretty significant drop,
+but they haven't touted that they've increased intelligence by much.
+In some cases, actually, in some benchmarks,
+it's showing that GPT-6 Sol is actually slightly below 5.5.
+In some of them it's higher,
+but, you know, we're seeing it kind of as almost the same level of intelligence.
+But decreased the pricing in half.
+And also they've also decreased the price per task by a significant portion, too.
+And that really is the cusp of it as well,
+as like some of these models might be cheap, like a deep-seek model might be
+cheap, but its cost per task sometimes is actually very high because to get
+to the same output as a more intelligent model, it needs to do way more work.
+It needs to think for way longer.
+It needs to check 15 different things.
+It goes down different rabbit holes and then goes back and goes down.
+And so it uses more tokens per task than a high-end model,
+which can get to the solution a lot faster.
+So that's what they're kind of touting in this one.
+Opus 5.5 is a little bit different where
+its intelligence is actually quite advanced, more advanced than Opus 5,
+but it's still in the same realm of like a Fable or an Astra.
+So it's not the best model, right?
+Like it's not like all of a sudden the best no matter what model.
+It's just like better intelligence and they've reduced costs by a little bit.
+They've given us more usage.
+So, again, it makes the subscriptions,
+the Claude subscriptions, the GPT subscriptions, the quota subscriptions
+more usable, and I've really noticed that being more important for me.
+And for like Matt, I'm just curious about you.
+You've you've just started to dive into the agentic stuff over the past few weeks,
+I would say, like, you know, doing more and more agent work.
+I wonder if you've run into any limits yet.
+Have you have you hit any, you know, top of the line limits?
+Do you see yourself worrying about that yet?
+So full disclosure, I'm on like the chat GPT, like 20 or 25 dollar a month plan,
+and I don't agentic code or agentic, I don't use an agent all day.
+But I do use it pretty frequently and I've only hit the limit once
+and the limit was hit when Astra came out and I was using Astra because it
+defaulted to Astra for me for just all the normal tasks I would normally give it.
+And then I kind of had a brief chat with you.
+And then I think you even mentioned in one
+of our podcast recordings that maybe you want to go down to a different level,
+a different model.
+And so I just went back to what I was on, which was, I forget now, five point six
+or whatever it was, and then because the tasks I was doing was a part of a greater
+project and so the tasks themselves hadn't gained
+complexity to the point where like Astra was desperately needed or something like that.
+And so I switched back for quite a few of the agentic tasks.
+I give it to five point six and.
+I haven't hit the limit again and again,
+I'm only on the 20 or 25 dollar a month plan.
+So I'm not I'm not giving it tasks that take more than.
+Like a lot of my tasks are sub five minutes, at most 15 minutes,
+I'm not giving it stuff that runs all day, runs all night,
+checks a bunch of stuff, goes into a server and like flips around and does this.
+I'm not doing that, to be clear.
+I still do a fair bit of stuff manually or the way I kind of work is I'm like,
+I want to do this, but I also want this done.
+So I'll get the AI to do this while I do this.
+And then I check in with it and then, OK, now let's do another two tasks.
+And that's kind of how I work with it.
+Now, I'm sure that'll change over time
+because my workflow changes all the time, but that's what's been working for me.
+And I mean, we like even before this episode,
+we went through kind of like what we had done in the last two weeks.
+So 10 business days and we've actually done quite a bit.
+And part of that's because the agents and part of that's because we've been just
+kind of hitting the ground, but hitting the ground running.
+But
+that's where I'm at with that.
+I've only ever hit the limit once.
+But OK, so this is a good example, though,
+because the Astra limit is exactly where most of us have sat for a little while now.
+So Astra is the top of the line model and on Claude's side, it's Fable.
+So those models are super intelligent.
+But to be honest, unless you have infinite money, they're not that useful.
+And that's really what this kind of like
+the cusp of everything that I'm talking about, because I've done the same thing
+where I started in a similar way to you, where I was just kind of like sending
+small tasks to agents, they would run for anywhere between one
+to five minutes and that was how I was using them.
+And with that kind of workflow,
+I was never really running running into any sort of usage problems.
+Now, I was on the higher plan and I was
+using it quite heavily in that sense, but I was never running into usage problems.
+As I've trusted agents more and more, I've given them longer and longer running
+tasks, and I think that's a good natural progression because then you start
+to understand what they can and can't do.
+Once I started trusting them,
+the task became stuff that like, hey, I need you to implement this.
+I need you to plan this implementation,
+double check it with this top end model like Astra,
+make sure that the implementation makes sense, implement it with this model,
+like the sole 5.6 model, right, then maybe kick off a couple
+of the lower cost workers to do another like smaller implementation,
+review it with the top end model.
+Once you're happy with the review and the cycle has completed a couple of times
+and you're happy with everything, deploy it here.
+Here's a way to deploy it safely.
+Then monitor the deployment here.
+Like, I'll give it this like really long
+running thing because I've done all of those steps individually on my
+own with those like kind of five to 10 minute tasks that now I can combine them
+all together and that's where my usage just died.
+Like I just burned through.
+And even though that that workflow worked
+really well for me, I was really struggling
+due to the fact that it just burned through my usage.
+So it wasn't it was great.
+It was intelligent, but it wasn't really usable.
+So I had to kind of almost revert back
+to my older the older way of like doing smaller things just to save some usage
+and wait for my reset to hit or whatever.
+And I hated that.
+Like that's a bad user experience.
+And with these new model releases that are coming out and the cheaper open source
+models that are coming out, I think that that's where the next evolution is going
+to be. We've talked or not we, but the the AI companies have now come out and said,
+like, hey, we need to slow down frontier development.
+Right. Because the intelligence is getting so
+high, like we're having these weird cases of them hacking other external things.
+It's becoming dangerous.
+Whether that's marketing speak or not, I don't know.
+I kind of I'm leaning on the side of them
+being actually cautious rather than it just being marketing at this point.
+But regardless.
+It seems that that most of these companies are taking it seriously.
+So I think what they're focusing on now is let's make what we have now really usable.
+And I'm here for it because now with these
+new models, I tested them yesterday, I haven't run into that issue.
+I can get them to orchestrate.
+I can get them to do a full end to end workflow.
+I can get them to review and it barely eats up, you know, half of what it used to.
+It's eating up even less than half of what it used to.
+So I can actually do multiple of those workflows now back to back without having
+to wait for a reset, it's now become usable.
+And I can do more complicated things than I could before,
+even if the intelligence of these models hasn't gotten better.
+Because the workflows that I've unlocked
+now, having done it so many times, are becoming more demanding.
+The word I kind of want to use is kind of want to use and I think it's not really
+right is things are starting to become consumerized in an extent,
+but kind of not because a person that.
+Here's about GPT-6 Astra and then gets access to it's going to just turn it on,
+be like, it's the best one, of course it is, and then just kind of go with it.
+Meanwhile, I'll compare it to like an iPhone
+where there's like iPhone Pro, iPhone Pro Max.
+I mean, the person that is the like on a budget, they're going to go for the pro
+at most, and I think there's other lower models of iPhone and things as well.
+So like.
+They're not ever going to get the pro max
+experience, and that's what I kind of I guess I mean by consumerizing it a little.
+where the press and the news cycle and the hype is around something like a GPT-6 Astra,
+but the general population knows that they're not really going to use that.
+And it kind of stinks a little bit because with something like an iPhone, it's like if
+I just don't buy the Pro Max, I just don't get the Pro Max.
+With something like ChatGPT, it's like if I purchase a lower plan, maybe I'll get a
+little bit of later access, but I'll get pretty quick access to Astra.
+But then I have these usage limitations on there as well now.
+Now the people that are on a free plan, they're used to limitations.
+They're used to, you know, whatever, various models and various AI apps have different
+limitations, prompting limits, conversation limits, et cetera, et cetera, et cetera, amount
+of time that you've used it, amount of compute time, you can't use our agents, you can only
+use our chat.
+The list goes on and on and on for different ways that things are limited.
+So the people on the free tiers are probably already accustomed to this, where they know
+they'll get Astra way later.
+And so they don't care and they're not overly using AI.
+But it's just weird.
+It'd be almost like they sold us an iPhone.
+It's almost like if you're on a paid plan, you get access to Astra.
+It's like, here's the iPhone Pro Max, but one of those cameras only works for six shots
+a day.
+And then we're taking that camera away.
+I mean, it's a classic upsell technique, right?
+Like they're trying to make you buy the more expensive plan, I'm guessing.
+But I do kind of agree with the fact that like they should almost, and people might
+get mad at this, they should almost limit the use of the higher end models and the lower
+tier plans.
+Because like the Astra one doesn't make any sense.
+Like if you give it a complicated enough prompt, it will burn through all your usage in one
+prompt.
+That's how like costly those models are.
+And for the majority of people, it won't give you the output, like a different type
+of output than the slightly lower tier model, like the sole model, right?
+Now if you're doing something super complicated, maybe it should prompt you that you're doing
+something super complicated and you should upgrade your plan or something like that.
+I don't know.
+But I do agree that there should be some, they need to think through it a little bit
+in the usability sense because they haven't addressed this yet.
+That's not part of this new release.
+Like it's still, Astra's still ludicrously expensive and it will remain that way probably
+for a little while unless they release like a new, like more optimized version of it,
+which I hope they do because Astra is a really good model.
+Yeah.
+The outputs that it gave were very good and it needed less feedback.
+Like even on 5.6, it wasn't like I was getting a terrible result from my prompts, but I would
+maybe get a prompt or a result that I needed, needed a bit of massaging, like another couple
+like clarification prompts, 30 seconds of work each type of thing just to clean some
+things up, whatever.
+But the Astra one maybe got it on the first try or only needed one additional prompt.
+But you're right.
+Like if it's burning through the tokens, if it's burning through the usage, like what's
+the, that's the point.
+And I noticed that it, like there's like the instant and there's like the think longer
+and there's like all these like different user controls that you can do.
+But it's kind of interesting because it's handing, I don't want to say technician controls,
+but it's handing sort of like controls to people on a technology that's supposed to
+not really need the controls, if that makes sense.
+Like this is an intelligent thing.
+Why am I gating it?
+Like I'm going in and being like, no, no, no, just use the instant model for this.
+No, no, no.
+Use the longer model for this.
+There's some stuff I get where you want to like, hey, I want to engage the deep research
+mode on this, right?
+And there's also other things that it does do automatically where I've been in chat GPT
+in the chat mode.
+And then it said, hey, we think that this might be something that would be useful for
+work.
+When it goes to work, it opens up work and it has more capabilities.
+In that particular case, it changed the model.
+Now, whether my model in work was set differently than the model in chat, I don't, I don't remember
+that.
+But the thing is, is that it, it does have a little bit of intelligence for like, hey,
+you should switch to this.
+Hey, let's, you know, hey, let's try it here.
+And then if I'm doing something that's starting to bump up on coding, it's like, hey, maybe
+you should use codex.
+Like it knows a little bit, but there's a lot of controls for something that's supposed
+to be very consumerized.
+Like the thing that you're describing, the thing that I'm describing isn't quite up on
+the high end spectrum of, of, of token maxing, but it, it, it's touching.
+It's a little bit of token maxing.
+It's a little bit of like, hey, let's like, like you're saying, like, let's, let's distribute
+our work.
+Right.
+It's sort of like, give the intern this, give the, the senior guy this, give the tech lead
+this.
+Yeah, for sure.
+It's a whole different paradigm.
+And I think they're struggling with the UX of it, honestly, trying to make it more consumerized
+and going down rabbit holes, like the co-work rabbit hole and the work versus chat GPT versus
+codex rabbit hole.
+Like all of that is still, I would say not optimized and still fairly confusing.
+Well, I think the chat GPT classic versus chat GPT, which was codex that has a, that
+has a codex mode.
+And by the way, both chat GPT classic and chat GPT, or yeah, the chat GPT app, which
+contains the chat GPT mode that contains chat, but also contains work.
+Like you don't want to be like, we're starting to get, it's not rocket science, 10, 15 minutes
+in there.
+You'll figure it out.
+But also for something that's just supposed to be like, I'm an artificial intelligence.
+Hello.
+What do you need?
+Not what do you need and, and what model do you need it for?
+And how long do, how long will you allow me to work?
+And do you have any resets left in case we, you know, like, like there shouldn't be follow-up
+questions.
+Like they should be working toward not having follow-up questions that aren't about the
+prompt itself and logistics around it.
+I do think they are.
+And I, I just think it'll take a little bit more time.
+Like for example, there is going to be unfortunately another open AI app released along the, alongside
+codex and chat GPT.
+Like there's going to be a separate one.
+It's going to be more similar to like a grok bot or a clod, a open claw or a Hermes or
+a muse spark.
+Like the, it's going to be more of like a self-contained agent that has its own compute,
+but it's going to be, have a lot of overlap with chat GPT and codex, obviously.
+So like it, it's, I feel like it's going to get more confusing before it gets better is
+what I'm trying to say.
+So strap in the UX of this whole experience is still definitely not solved.
+I think we're still in the, them experimenting on us phase.
+But I think they are working towards it.
+And at least from a usability perspective, from an engineering perspective, like for
+engineering point of view, they're starting to work on like, Hey, let's make these things
+faster.
+Let's make them a little bit cheaper.
+Let's make it so that people can, can actually use our real, the really complicated workflows
+that are really cool without burning their usage in 30 minutes but still, and still get
+the output that they would receive.
+So that's what I'm kind of excited about with these new releases and where, where this is
+going.
+I think I mentioned this, you know, maybe a few months ago now that like, I hope that
+they start focusing on speed and cheapness versus intelligence because the models are
+already pretty good.
+And it looks like that's where at least the, this early stage focus is on.
+So pretty cool.
+And I think this points, this points out something too, is like, like, first of all, the AI industry
+is in its infancy still.
+It's still early.
+They're still figuring things out.
+And every industry has this.
+Let's all have separate apps.
+Let's, let's all put the apps together.
+Let's all have separate again.
+Let's, let's put them all together again, you know, back and forth, back and forth.
+We saw this with companion apps for gaming, for PlayStation, PlayStation had like three
+frigging apps.
+And then it went back down to one and like back and forth, you know, whatever.
+We've seen this with the internet where like now it's just very obvious, Hey, make an account,
+you know, get into the app or get into, Oh, you want to host a podcast, look up a podcast
+service, make an account, get going kind of thing.
+I'm sure like the UX for that was, you know, slowly but surely getting figured out back
+in the day as well.
+So like, I mean, we, I'm not necessarily, I'm not necessarily complaining like, Hey,
+what the hell?
+Like, let's get this done.
+that this is, it is early and like, these are more comments than they are.
+You know, I don't have my pitchfork or anything like that.
+It's sort of more, Hey, this is where we need to start working towards because it's confusing
+for consumers.
+And this is also kind of where something like Gemini on the phone is probably, it makes
+a lot of sense.
+Like my, even my parents will just hold down their power button, have Gemini just, and
+they just talk and they don't go like, Hey, do you need an instant answer?
+Do you need like a, a moderate plan?
+Do you want Gemini four?
+Do you want Gemini six?
+Do you want Gemini?
+I'm just throwing versions out there, but you know what I mean?
+Like, it's not asking all these questions like the, like my parents, like what, like
+I just wanted to know how long to cook this meat pie for.
+So that's kind of where something like, you know, like a Gemini does have a bit of an
+edge there because it's like, hold the power button, talk to it.
+Okay.
+You know, and, and away it goes.
+So I mean, and also I would like to say one final thing is as we keep pushing models forward,
+like you're saying you're handing it to these models, you're handing it to models that
+are like a year ish old, not three, four, five, six years old.
+The point of the matter, obviously not six years old, but the point of the matter is,
+is that as we keep pushing models forward, the old ones become mundane.
+I don't mean bad.
+What I mean is we know how to, we know we've min maxed their compute.
+We're figuring out how to make them super efficient on the hardware we have, whether
+it's a hardware efficiency, a software or software efficiency, or both.
+And we see that in the game.
+industry when a console comes out and then a slim one comes out later that has the same power it's
+like this is smaller it's the same it provides the same graphic you know etc etc oftentimes it's
+cheaper but the gaming industry is kind of in a thing right now but regardless the point is is
+that it's good because if astro is amazing i mean if astro is amazing at making posters it will
+kind of quote-unquote always be amazing at making posters and as we go to you know gpt7 and gpt8
+and like the years go on that awesome poster maker is always going to be there or like you
+know reasonably will always be there and it's easy to do that thing like if you if you've mastered
+poster making or you've mastered a certain task you've mastered the task and so we don't
+necessarily need a new model and so then if we figure out how to make the tokens for astro really
+cheap or make it use like no tokens there you go so then even people on the free tier will have an
+amazing experience with their answers their posters and whatever else they're making i just i just
+pulled posters out of thin air yeah yeah i don't actually know if it's gonna put making posters
+no i mean like this is what yeah that's exactly kind of like the cusp of the of the point of this
+episode is that we've we've reached an intelligence point where these models are starting to become
+useful in many different ways if we can just optimize them they start to become even more
+useful and hopefully that happens with astro and it probably will uh due to like how technology
+works so we're we're in an interesting spot because intelligence yeah it's it's there's
+still some non-diminishing returns on the intelligent side so we still need some more
+intelligence but we're starting to see the light at the end of the tunnel of like okay these things
+are smart enough now we really don't like if we if we stopped developing the intelligence today
+we'd still have a really cool kick-ass system that would potentially be safer because you know
+it's not going to go into asi or whatever and uh and we'd be able to maybe min max the performance
+of these systems if astra is 10 times faster and 10 times cheaper damn could i do a lot more with
+it today than i could you know i agree with that i could with it today so that's i think a good point
+um yeah i'm curious what everyone else thinks like what what are you most excited about with
+the future of models is the intelligence or is it them becoming a little bit more usable yeah let
+us know in the in the comments let us know on the spotify comments on the youtube comments let it
+hit us up on the old social medias with uh with your answers there we'd be interested to hear your
+opinion on i mean do you use astra do you not what do you think about using old models for certain
+tasks like mike does kind of delegating out certain tasks to certain models to kind of token max we'll
+call it token max light in a way uh and uh that's it that's the web news for this week hope you
+enjoyed it see you next time goodbye

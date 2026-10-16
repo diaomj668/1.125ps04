@@ -1,0 +1,7 @@
+{
+  "model": "tts-1",
+  "voice": "alloy",
+  "speed": 0.86,
+  "input": "Cursor’s Security Review announcement provides another distinction: a finding’s format is not proof of accuracy. Cursor describes severity, an attack path, and a proposed fix, while skipping draft pull requests. These are vendor claims about the tool. Individual access and cost remain to be checked, and the supplied evidence does not establish detection accuracy.",
+  "response_format": "wav"
+}

@@ -1,0 +1,25 @@
+{
+  "prepared_at": "2026-10-16T03:22:54.391699Z",
+  "source_run_id": "20261014T225746Z-d041cf",
+  "evidence_as_of_date": "2026-10-14",
+  "review_id": "34ec8312b655940e49d36d259a69994a5dbf3e72fe37ff87da690221a6c44cc1",
+  "status": "published",
+  "transformations": [
+    "Keep approved article wording and source quotations",
+    "Format internal claim IDs as numbered reader-facing source notes",
+    "Add existing corresponding YouTube link and AI-narration disclosure",
+    "Separate title for the Substack title field",
+    "Omit internal version hashes from public source notes; exact versions remain in approved drafts and packaged references"
+  ],
+  "source_hashes": {
+    "01": "07722cdfc1455f9525ce23205a3d4a5fdf0bd20c3c8053672176d639425ab61f",
+    "02": "30e0dfa226c3b8a45037a2af0755a8e559e8a87601396f6de1839cfa6f37e2e1",
+    "03": "1962640e2befeabdfd75e153422c7e3145acd6ddcd68cbd24a0682776a31d927"
+  },
+  "publication_urls": {
+    "01": "https://mingjiao.substack.com/p/new-ways-to-supervise-inspect-and",
+    "02": "https://mingjiao.substack.com/p/a-successful-signal-is-not-necessarily",
+    "03": "https://mingjiao.substack.com/p/make-the-next-agent-task-bounded"
+  },
+  "publication_record": "publication.json"
+}

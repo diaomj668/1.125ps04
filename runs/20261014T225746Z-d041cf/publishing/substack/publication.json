@@ -1,0 +1,63 @@
+{
+  "source_run_id": "20261014T225746Z-d041cf",
+  "evidence_as_of_date": "2026-10-14",
+  "method": "Substack web editor; Everyone audience; email/app delivery disabled",
+  "articles": [
+    {
+      "piece_id": "01",
+      "post_id": "220637847",
+      "substack_url": "https://mingjiao.substack.com/p/new-ways-to-supervise-inspect-and",
+      "title": "New ways to supervise, inspect, and constrain coding agents",
+      "published_confirmed": true,
+      "audience": "everyone",
+      "email_and_app_delivery": false,
+      "youtube_url": "https://youtu.be/pDt5vDDNF7E",
+      "logged_out_access_verified": true,
+      "article_to_video_link_checked": true,
+      "video_description_article_url_saved": true,
+      "reader_page_checked_in_signed_in_session": true,
+      "cross_links_recorded": true,
+      "access_verification_source": "Student confirmation in conversation",
+      "access_confirmation_recorded_at": "2026-10-16T03:48:49.524482Z"
+    },
+    {
+      "piece_id": "02",
+      "post_id": "220638114",
+      "substack_url": "https://mingjiao.substack.com/p/a-successful-signal-is-not-necessarily",
+      "title": "A successful signal is not necessarily successful software",
+      "published_confirmed": true,
+      "audience": "everyone",
+      "email_and_app_delivery": false,
+      "youtube_url": "https://youtu.be/8lIFBSltIm0",
+      "logged_out_access_verified": true,
+      "article_to_video_link_checked": true,
+      "video_description_article_url_saved": true,
+      "reader_page_checked_in_signed_in_session": true,
+      "cross_links_recorded": true,
+      "access_verification_source": "Student confirmation in conversation",
+      "access_confirmation_recorded_at": "2026-10-16T03:48:49.524482Z"
+    },
+    {
+      "piece_id": "03",
+      "post_id": "220638604",
+      "substack_url": "https://mingjiao.substack.com/p/make-the-next-agent-task-bounded",
+      "title": "Make the next agent task bounded, inspectable, and affordable",
+      "published_confirmed": true,
+      "audience": "everyone",
+      "email_and_app_delivery": false,
+      "youtube_url": "https://youtu.be/xV7t_A6FAcw",
+      "logged_out_access_verified": true,
+      "article_to_video_link_checked": true,
+      "video_description_article_url_saved": true,
+      "reader_page_checked_in_signed_in_session": true,
+      "cross_links_recorded": true,
+      "access_verification_source": "Student confirmation in conversation",
+      "access_confirmation_recorded_at": "2026-10-16T03:48:49.524482Z"
+    }
+  ],
+  "last_recorded_at": "2026-10-16T03:41:59.567606Z",
+  "proof_screenshot": "runs/20261014T225746Z-d041cf/publishing/substack/publication-proof.png",
+  "status": "three_free_articles_published_and_matching_video_urls_saved",
+  "external_link_clickability": "YouTube requires one-time account verification for clickable external links; article URLs are saved as text.",
+  "anonymous_access_check": "Student subsequently confirmed all six links are viewable without login. The earlier independent fetch attempt remained unsuccessful; no independent assistant check is claimed."
+}

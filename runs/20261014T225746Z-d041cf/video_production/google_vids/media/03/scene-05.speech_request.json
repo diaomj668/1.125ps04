@@ -1,0 +1,7 @@
+{
+  "model": "tts-1",
+  "voice": "alloy",
+  "speed": 0.86,
+  "input": "Diagnostic checks also need the right coverage. In Simon Willison’s web-edit profiling example, sampling all threads was essential: 95.1 percent of recorded stacks came from AnyIO’s worker thread and would have been missed by a main-thread-only profile. Threads are separate execution paths within an application. If you ask an agent to profile a threaded Python app, check that the profile includes the threads doing the work. Inspect its flame graph and heatmap before choosing an optimization. This is a conditional check, not a prediction of your bottleneck.",
+  "response_format": "wav"
+}

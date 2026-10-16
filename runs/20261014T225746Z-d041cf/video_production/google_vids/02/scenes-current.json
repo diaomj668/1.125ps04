@@ -1,0 +1,63 @@
+[
+  {
+    "scene_number": 1,
+    "narration": "As of October 14, 2026, the evidence supports a caution for individual developers: a successful signal is not necessarily successful software. A green job status, an addressed review comment, a familiar interface, and a low token price measure different things. None alone proves that the intended outcome was delivered and verified. The question is not whether agents can help, but what evidence supports a claim that their work is done.",
+    "visual_direction": "Split screen: \u201cReported success\u201d on one side, \u201cDelivered outcome\u201d on the other. Display the date.",
+    "claim_ids": [],
+    "duration_estimate_seconds_at_125_wpm": 36.0
+  },
+  {
+    "scene_number": 2,
+    "narration": "Start with a specific delivery failure. In its October availability report, GitHub acknowledged a September 28 incident in which Copilot code review reported successful job completion without producing the review. That establishes a mismatch between status and output. It does not establish a general finding about review accuracy: a missing review and an incorrect review are different problems. But it shows why the completion label cannot substitute for checking that the requested output arrived.",
+    "visual_direction": "Illustrative status card reading \u201cCompleted,\u201d next to an empty review panel. Label \u201cAcknowledged September 28 incident\u2014not a current live demonstration.\u201d",
+    "claim_ids": [
+      "02-c1"
+    ],
+    "duration_estimate_seconds_at_125_wpm": 35.5
+  },
+  {
+    "scene_number": 3,
+    "narration": "Evaluation has a separate gap. GitHub\u2019s ReviewBench deliberately reduces tiny, single-file pull requests, which qualifies its relevance to many solo tasks. GitHub\u2019s production addressed-rate metric measures whether a large language model judges that a review comment prompted a corresponding code change. It does not directly establish that the change was correct. A developer responding to a comment is an observable signal, but correctness is a different question.",
+    "visual_direction": "Two metric cards: \u201cComment prompted a change\u201d and \u201cChange was correct.\u201d Do not draw an equals sign between them.",
+    "claim_ids": [
+      "02-c2"
+    ],
+    "duration_estimate_seconds_at_125_wpm": 33.1
+  },
+  {
+    "scene_number": 4,
+    "narration": "Cursor\u2019s Security Review announcement provides another distinction: a finding\u2019s format is not proof of accuracy. Cursor describes severity, an attack path, and a proposed fix, while skipping draft pull requests. These are vendor claims about the tool. Individual access and cost remain to be checked, and the supplied evidence does not establish detection accuracy.",
+    "visual_direction": "Cursor Security Review card: Teams / Enterprise; access and cost to verify; draft pull requests skipped. Label the feature description as a vendor announcement.",
+    "claim_ids": [
+      "02-c6"
+    ],
+    "duration_estimate_seconds_at_125_wpm": 26.9
+  },
+  {
+    "scene_number": 5,
+    "narration": "Usability can diverge from appearance, too. Fireship reports attempting to edit a video in FilmCraft and encountering playback-related lag and disappointing transitions despite a familiar interface. This is an attributed usability failure, not a reproducible comparison, and it does not establish that AI caused the defects. Hardware and version details are missing. The video also discloses Appify sponsorship. Keep those limitations attached to the account, rather than turning it into a general verdict.",
+    "visual_direction": "Attributed account card: \u201cFireship: FilmCraft editing attempt.\u201d Show \u201cFamiliar interface\u201d followed by \u201cReported playback lag / disappointing transitions.\u201d Include \u201cVideo discloses Appify sponsorship.\u201d",
+    "claim_ids": [
+      "02-c3"
+    ],
+    "duration_estimate_seconds_at_125_wpm": 35.0
+  },
+  {
+    "scene_number": 6,
+    "narration": "GitHub\u2019s hackathon reporting offers another reminder about attribution. Participant Lance credits Copilot with creating a frontend and integrating an API in 30 minutes. Elsewhere, GitHub reports Vaishnavi\u2019s team struggling with a movement-detection model. These are different accounts, not a controlled success-versus-failure comparison. Vaishnavi\u2019s difficulty is not identified as a Copilot failure. Neither account tells us what a beginner working alone should expect.",
+    "visual_direction": "Separate cards for Lance and Vaishnavi\u2019s team. Label \u201cDifferent accounts\u2014not a controlled comparison.\u201d",
+    "claim_ids": [
+      "02-c4"
+    ],
+    "duration_estimate_seconds_at_125_wpm": 31.2
+  },
+  {
+    "scene_number": 7,
+    "narration": "Finally, cost needs an outcome attached. Simon Willison argues that token prices are not readily comparable without knowing how many tokens a model consumes to achieve a goal in an agent workflow. That is not a measured small-project delivery study. Our qualified conclusion is to assess actual output, representative behavior, and task-level expenditure together. Independent controlled research, maintenance follow-up, and representative evidence for budget-constrained and accessibility users remain missing. Favorable signals are clues\u2014not proof of verified delivery.",
+    "visual_direction": "Closing checklist: \u201cActual output,\u201d \u201cRepresentative behavior,\u201d \u201cTask-level expenditure.\u201d Footer: \u201cIndependent comparisons and maintenance follow-up remain missing.\u201d",
+    "claim_ids": [
+      "02-c5"
+    ],
+    "duration_estimate_seconds_at_125_wpm": 37.4
+  }
+]

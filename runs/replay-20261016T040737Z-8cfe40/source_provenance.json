@@ -1,0 +1,52 @@
+{
+  "source_run_id": "20261014T225746Z-d041cf",
+  "source_evidence_as_of_date": "2026-10-14",
+  "source_file": "runs/20261014T225746Z-d041cf/eligible.jsonl",
+  "source_file_sha256": "b3ea4d6a33f6d6bf14653f79f82ff4a908332b6353283664e2a2fecf0fd38852",
+  "input_sha256": "d47bd3f49fe1a49f437e6b75ac4a97540bc3b6091f50b422dc5feabf908c8e46",
+  "items": [
+    {
+      "item_id": "feed:26e4a943393a1b788d1e2dae",
+      "version_id": "de47f3a642088f8a087f0a6f46b95b49b6830aa108fd56ccd1dec0cf490cb5f8",
+      "kind": "feed",
+      "title": "Profiling web-edit with Python 3.15: flame graphs and source heatmaps",
+      "url": "https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/",
+      "published_at": "2026-10-12T16:58:00Z",
+      "retrieved_at": "2026-10-14T22:57:47.238608Z",
+      "text_path": "data/assets/6d7886ecc0926a7d9d21/de47f3a642088f8a087f0a6f46b95b49b6830aa108fd56ccd1dec0cf490cb5f8/text.txt",
+      "segments_path": null,
+      "retained_media_path": null
+    },
+    {
+      "item_id": "youtube:wajoP_5Cpw8",
+      "version_id": "8744a09c189c7fe57c5beddc39f9817bb8e2d72e7bc3470320481ece2bd2220f",
+      "kind": "youtube",
+      "title": "Every app on Earth is now open source... whether it likes it or not",
+      "url": "https://www.youtube.com/watch?v=wajoP_5Cpw8",
+      "published_at": "2026-10-12T00:00:00Z",
+      "retrieved_at": "2026-10-14T23:04:14.676463Z",
+      "text_path": "data/assets/2695f0a4ce54926d9c24/8744a09c189c7fe57c5beddc39f9817bb8e2d72e7bc3470320481ece2bd2220f/text.txt",
+      "segments_path": "data/assets/2695f0a4ce54926d9c24/8744a09c189c7fe57c5beddc39f9817bb8e2d72e7bc3470320481ece2bd2220f/segments.json",
+      "retained_media_path": "data/media/2695f0a4ce54926d9c24/8744a09c189c7fe57c5beddc39f9817bb8e2d72e7bc3470320481ece2bd2220f/source.m4a"
+    },
+    {
+      "item_id": "podcast:acc83661b4084b701efe6573",
+      "version_id": "d30ec05b567a9c16691e94f84c0c309050357ceea62781c3afa91b62697aed23",
+      "kind": "podcast",
+      "title": "AI’s Biggest Problem Isn’t Intelligence Anymore",
+      "url": "https://www.htmlallthethings.com/podcast/ais-biggest-problem-isnt-intelligence-anymore",
+      "published_at": "2026-09-26T13:00:00Z",
+      "retrieved_at": "2026-10-14T23:04:22.339422Z",
+      "text_path": "data/assets/22a4727bb752021261e5/d30ec05b567a9c16691e94f84c0c309050357ceea62781c3afa91b62697aed23/text.txt",
+      "segments_path": "data/assets/22a4727bb752021261e5/d30ec05b567a9c16691e94f84c0c309050357ceea62781c3afa91b62697aed23/segments.json",
+      "retained_media_path": "data/media/22a4727bb752021261e5/d30ec05b567a9c16691e94f84c0c309050357ceea62781c3afa91b62697aed23/source.mp3"
+    }
+  ],
+  "retained_asset_sha256": {
+    "data/assets/22a4727bb752021261e5/d30ec05b567a9c16691e94f84c0c309050357ceea62781c3afa91b62697aed23/segments.json": "f15e8e8e5902a7e7a2f75ba4356fd61b1ec2c7af95694a996c6efe200673372d",
+    "data/assets/22a4727bb752021261e5/d30ec05b567a9c16691e94f84c0c309050357ceea62781c3afa91b62697aed23/text.txt": "b0c18b0c325ed46e4e1968bd216d24551da17aa5136c0854649c42e29ee0da40",
+    "data/assets/2695f0a4ce54926d9c24/8744a09c189c7fe57c5beddc39f9817bb8e2d72e7bc3470320481ece2bd2220f/segments.json": "3ad10d8bf18096f9104e14e8dc500241b443d39e0ed234adbe04b80f373d55e3",
+    "data/assets/2695f0a4ce54926d9c24/8744a09c189c7fe57c5beddc39f9817bb8e2d72e7bc3470320481ece2bd2220f/text.txt": "54cbbe84471f74e4383d836ced5c87337bb35c4681b0088114cefa9d184ff3c0",
+    "data/assets/6d7886ecc0926a7d9d21/de47f3a642088f8a087f0a6f46b95b49b6830aa108fd56ccd1dec0cf490cb5f8/text.txt": "c576ae3688edfe82164b5b22ae100dd2a19d27a8e5269283a196eec90cfc251e"
+  }
+}

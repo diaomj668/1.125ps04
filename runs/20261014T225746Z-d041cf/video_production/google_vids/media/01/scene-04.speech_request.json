@@ -1,0 +1,7 @@
+{
+  "model": "tts-1",
+  "voice": "alloy",
+  "speed": 0.86,
+  "input": "Cursor also announced Security Review for pull requests on Teams and Enterprise plans. It describes findings with a severity, attack path, and proposed fix, and says draft pull requests are skipped. This may be relevant to a small project, but individual access and cost need verification. The announcement does not demonstrate detection effectiveness.",
+  "response_format": "wav"
+}

@@ -1,0 +1,21 @@
+Origin App Marketplace
+Origin now integrates with over 20 apps for deployments, CI, code review, security, monitoring, and project management, from partners including Cloudflare, Linear, Sentry, and Socket Security.
+Starting today, the marketplace is also open to public submissions, so any team building developer tools can publish an app for Origin.
+Apps for your stack
+The marketplace now includes apps for:
+- Deployments: Cloudflare, Netlify, Render, Spacelift, and Vercel
+- CI: Buildkite, CircleCI, CloudBees, Depot, EngFlow, Namespace, and RWX
+- Code review: CodeRabbit, Greptile, and Tenki
+- Security: Artemis Security, Semgrep, Socket Security, and Upwind
+- Monitoring: Sentry
+- Project management: Linear
+Publish to Marketplace
+To submit an app:
+- Create an app in your namespace. It stays private to your namespace while you build.
+- Build against the Origin API. Apps authenticate with an app JWT and installation access tokens, receive webhook events, and write back check runs, pull request comments, and reviews.
+- Make the app public, then submit it from the app's page with a slug, suggested tags, and a demo video. The video should show install, uninstall, and your core product flows.
+- We review the submission and list the app once it's approved.
+Get started
+Try the apps in the Origin App Marketplace today.
+Want to build an Origin app? Start with the publishing guide and the Origin API reference.
+The Origin Apps plugin can also answer questions from the live Origin API docs and plan a port to Origin for an app you already run.

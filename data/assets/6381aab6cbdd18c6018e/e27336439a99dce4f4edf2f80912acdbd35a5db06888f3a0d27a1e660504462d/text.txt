@@ -1,0 +1,884 @@
+I believe that Vit Plus is going to be
+even more revolutionary than VIT was
+when it first released. And I know that
+may sound crazy, but V+ just solves so
+many problems when it comes to web
+development and makes it so you never
+need to use a tool like prettier,
+eslint, or even npm because it comes
+with all of that and so much more
+bundled in. In this video, I'm going to
+be showing you everything you need to
+know about using V+, how you can get
+started on a new project, how to migrate
+existing projects, and how you can use
+all of these tools that come with it.
+Because once you get into and start
+using it, you're going to realize that
+this is the way to build web
+applications and it's the best thing
+going forward. Also, if you write all
+your code with AI and don't think you
+need this, just know that the tools that
+V+ gives you are the things you need to
+have for an AI application to make sure
+your code is high quality and conforming
+to all of your different standards.
+Without this, your code is going to be
+garbage.
+Welcome back to WebDev Simplified. My
+name is Kyle. My job is to simplify the
+web for you. And the first thing we need
+to understand is that pretty much every
+web application comes with these four
+components. These are the ones most
+people think of. You have linting which
+is generally solved by eslint. You have
+formatting generally solved by prettier.
+Testing which a lot of people use
+justest but honestly I much prefer V
+test for and then a bundler which pretty
+much everyone uses vit for. So already
+two of these four things are covered by
+vit. We have the bundler and then vit
+test for the testing. And what vit plus
+is doing is it's taking all of these and
+combining them into one project. But
+it's doing much more than that because
+all of our projects include these four
+things. But they also include four other
+things we generally don't think about.
+First of all, what package manager are
+we using? Is it npm, pnpm, bun, and so
+on? We usually have continuous
+integration setup. We also have git hook
+setup. And sometimes you have library
+code that you need to build and bundle
+as well. So all of these things are part
+of your application. And the really
+confusing part is you'll notice that
+there are tons of options for every
+single one of these. For example, for
+linting, you know, like ESLint, Biome,
+Oxlint. We also the same thing for
+formatting, testing, bundlers, library
+builder, package manager, CI, and Git
+hooks. And I didn't even list nearly all
+of them. This is just a small subset of
+the available possibilities. And what V+
+does is it says, okay, all of these
+things that all your applications need,
+I'm going to bundle them up into one
+single thing and you can configure it in
+one location, and everything is going to
+work super nicely together, and it's
+going to be easy to work with. That's
+the big thing. It's super easy to get
+started on, and everything just works
+out of the box. Now, to get started with
+V+, the very first thing we need to do
+is install it. And similar to something
+like Node or npm, this is going to be
+something you install globally on your
+computer. You can install it project
+local as well, but I definitely prefer
+installing this as a global tool. So,
+depending on what operating system you
+are, just copy the command right here.
+I'll leave a link in the description to
+this documentation page so you can
+follow along with that install, but it's
+super simple and straightforward. And
+the really nice thing about this is V+
+already handles a ton of stuff just by
+installing it like this. And now we can
+actually globally create projects
+anywhere we want by running the VP
+command. So let's take a look at what
+that looks like. If we just run
+vp--help,
+we can actually see all the different
+stuff that VP does. You can see there's
+a ton of information. And if you just
+run vp on its own, it'll actually list
+you out all the different things you can
+do. And you can go through and click on
+any of these. As you can see, there's
+tons of stuff we're going to be
+covering, but the big and most important
+one is going to be create. Create
+essentially allows you to create a brand
+new project completely from scratch. So
+we can click on the create option and
+you can also get to this just by typing
+vp create as well. Both of these are the
+same. You can choose if you want a monor
+repo, a standard application or a
+library style code. In our case, we're
+going to stick with a standard
+application since it's a little simpler.
+We'll just leave that package name
+blank. We're going to choose pnpm as our
+package manager. And then depending on
+what agent you're using for AI, you can
+choose what you want. I'm going to
+choose agents.md. I have VS Code as my
+editor, so we'll choose that as an
+option. And I will initialize a git
+repository. And I want it to set up all
+those pre-commit hooks for me to make
+sure everything's working with my CI/CD.
+So now once we have that done, it's
+going to go through and it generated an
+application inside this generically
+named folder right here. Now I just
+reopened VS Code in that folder. And
+here we can see all the different files
+it generates. And the big thing you'll
+notice is that there's not a lot of
+configuration files. Really, the only
+configuration file you'll see is this
+v.config. And that's because this
+actually handles everything for us. We
+have all of our different formatting,
+all of our different linting. We have
+our pre-commit hook related stuff.
+Everything that we need to be able to
+configure is inside this one file, which
+makes it really easy to work with since
+it's all handled in one place. Now, just
+by looking at this file, you'll already
+notice some really interesting things.
+First of all, we have formatting and
+linting builtin. This is using oxint and
+ox format. These are essentially rust
+based llinters and formatterers that try
+to be as close as possible to eslint and
+prettier. So, if you're used to either
+of those, they essentially give you all
+the same capabilities, but are much
+quicker and they're easier to work with
+since it's all inside this V
+configuration file. Something that's
+also really interesting is in this
+option section, you'll notice we have
+typewware and type check set to true.
+That just means that whenever we run our
+linting, it's also going to check all of
+our TypeScript code against the linting
+as well. So, it's going to make sure to
+do type checking. Normally, you would
+need to come into your command and run
+TSC to do your type checking yourself.
+This is going to have that type checking
+be part of your linting to again make
+sure that not only is your linting
+correct and your formatting is correct,
+but also all of your different types are
+correct as well. And if we wanted to,
+for example, run one of these commands,
+we can just say vp followed by lint if
+we want to run our llinter. You can see
+it found no issues. We can also do the
+same thing with format just like that.
+Again, it's doing all of our different
+formatting for us, making sure there's
+no issues. And if we wanted to do both
+those checks at once, we can just say vp
+check just like that. And now that's
+going to go through. It's going to lint
+and it's going to format all of our
+different files. And you'll actually
+notice inside this section for stage,
+this is like our pre-commit hook. So
+whenever we try to commit code, it's
+going to run vp check with the fix
+command. And that's essentially just
+going to go through and lint and format
+our code and fix any errors that it can.
+And if there's errors that it can't fix,
+it's going to throw an error and not let
+us actually commit that code. So this is
+great, especially when you're working
+with AI. it'll force it to actually have
+correctly formatted and structured and
+linted code that's perfectly types saved
+before it even allows it to commit and
+push a pull request for that. Now, there
+are tons of configuration options inside
+here. So, for example, I don't actually
+like using semicolons. So, I can just
+come in here and I can say semifals just
+like that. And now, if I go to any of my
+files, you'll notice they all have
+semicolons. But if I just run vp lint
+just like that, or sorry, not lint
+format.
+There we go. You'll notice it got rid of
+all those different semicolons for me.
+Now, if you're inside of VS Code, one
+package you definitely want to install
+as an extension. It even listed right
+here is the void zerov plus extension
+pack. You can just make sure that you
+search for that right here and install
+this extension. This extension just has
+vest inside of it and oxc, which
+essentially allows it to lint and format
+for you automatically. So, for example,
+if I just do some stuff inside of here
+and click save, it automatically formats
+my code using the format configurations
+inside of here. For example, if I set
+semicolons to true and I save this file,
+it adds all those semicolons and
+automatically formats for me, which is a
+really nice thing. Now, to show you how
+those pre-commit hooks work, let's just
+come in here. We have no or we have
+semicolons in this file right now. Now,
+we remove them by saving. I'm going to
+come in here. I'm going to set semi to
+true. So, it's forcing us to have
+semicolons. And now, when I run VP
+check, it should throw me some errors.
+Yeah, there we go. Formatting issues in
+our files because of that semicolon
+stuff. Now I'm going to change my
+staging to just run VP check with no
+fixes because if I run it with fixes,
+it'll add those semicolons
+automatically. So now we essentially
+have our code with an error inside of
+it. And if I try to do a get add and a
+get commit on that code, you'll actually
+notice it'll fail and not actually let
+me commit that code. You can see failed
+to run task for stage files. VB check
+formatting issues found and my code is
+still not committed. You can see it's in
+my stage changes. Now if I were to
+change this back to the fix option,
+it'll actually properly fix that for us.
+So, let's just make sure we commit that
+information this time. And you'll see it
+goes through, it fixes the code, and it
+commits it because there's no errors
+after it's done fixing it and adding
+those semicolons in. Now, if this is all
+V+ did, I would already say it's an
+amazing tool that I'm probably going to
+use in every project cuz it just makes
+setting up those things so easy and they
+just work together seamlessly. But
+that's not all that V+ can do. One other
+thing that Vit Plus can do is it can
+work really easily in pretty much any
+type of project you want to build. So if
+you wanted to build a React application
+or a Next application or Tanstack
+application, Vit has an ability to do
+that super easily with Vit Plus. So
+let's come in here. I'm just going to
+delete all the code that we have inside
+this section to start completely from
+scratch. Just make sure we get rid of
+all that code. I'm going to come in
+here, clear this out, and we can run VP
+create. And if we just type in list
+after that, you'll see it'll give us a
+list of all the different templating
+information has available. For example,
+it has the built-in templates for monor
+repo application library and generator,
+which is a little bit of a complicated
+one I'll talk about later. We also have
+popular shorthand ones that we can use
+or you can just p paste in any type of
+GitHub repository you want. But for
+example of all of us are probably pretty
+familiar with vit. So if you do vp
+create vit, it's going to go through the
+normal vit create commands. You can see
+here the exact same stuff we already
+looked at. But now you'll notice it
+starts us up directly inside that vit
+creator. So let's come in here with a
+project name. I can choose any of these
+different frameworks I want. For
+example, React. I can say I want to use
+TypeScript with the React compiler. And
+then let's say I want to use oxint for
+our llinter. And now it's going to go
+through and create that project using
+that normal create V app application.
+And you'll see if you look at the code,
+this is the exact same code you get in
+every single normal V application that
+you're used to working with. So if you
+want to start off with a React V
+application, this does all that for you.
+And again, it configures everything
+directly inside here to work properly
+with all the React hooks and everything
+for your llinter of choice and for
+everything inside of that V plus. So
+it's really nice that you can do this
+with lots of different parts of your
+application. Also, it has full monor
+repo support, which is really nice. So,
+let's just come in here, delete all of
+our code again. And this time, we're
+going to go with a monor repo approach.
+So, we'll just come in here with that
+create command. I want to use a monor
+repo this time. Doesn't matter what the
+package name is. Everything else I'm
+going to keep pretty much exactly the
+same as I did before, just so we can
+compare the differences between the
+monor repo version and the non-mod repo
+version. And if we look inside of here,
+we now have this apps folder right here
+for our website. And we also have
+packages inside of here. So, you can see
+it's broken up in more of a monor repo
+approach. And inside of our package
+JSON, you notice we have commands
+specifically for running those different
+sections. And you can see since Vit
+supports this out of the box, this V
+plus, you can see there's various
+different ways to run specifically just
+subm modules inside of your monor repo.
+So if I want to just run my website, I
+can run it like that. And inside of each
+of these, you have your own package.
+JSON, of course, and you also have the
+ability to have your own V config if you
+want to add additional things inside of
+there as well. So it's a really easy way
+to work with a monor repo approach. And
+it has a lot of other nicities on top of
+that. For example, if we want to go into
+VP generate or create again, there's an
+option for creating a generator. Now, of
+course, it's not showing up. I'll let me
+do the list here so I can see it what
+it's actually called. Here it is. V
+generator. Just like that. So, if we
+call create with V generator, that's
+going to let us use a generator to
+create different things. Now, of course,
+I need to make sure I'm in my actual
+repository. There we go. So, now if I
+run VP create, there we go. And I want
+to do it with that generator.
+Just like that. You can now see where I
+want to add the new package. Let's say I
+want to add it inside of apps. I can
+just say test and it's going to scaffold
+out a brand new project for me inside of
+that. So I can create my own little
+monor repo projects inside of my monor
+repo which is really great. And you can
+even create your own templates for the
+generator. So if you have a standard way
+of starting all your projects, you can
+create that one single template and it's
+going to create all those things for you
+whenever you run this to scaffold out
+your new projects. Now the next thing I
+want to talk about is how Vit covers
+testing as well with Vit plus. So I
+recreated just a standard V application,
+not a mono repo. And I just added a
+function called sum that adds A and B
+and a test that just tests to make sure
+that this works properly. And to do
+testing in V plus, all we run is VP
+test. Super straightforward. That's
+going to run our testing library. You
+can see all of our test passed. And if
+for some reason this code was incorrect
+and I reran this, you can see it now has
+a failure. And you can even run this in
+watch mode by just typing watch
+afterwards. And now anytime I change my
+files, it's going to rerun my test to
+make sure everything works properly. And
+this is all running using Vest. And you
+can configure this directly in your V
+config by just adding a test section.
+And now I can change any of my test
+related configuration that I need to.
+But for the most part, it's just going
+to work out of the box. You don't even
+need to change anything at all. You can
+even generate coverage statistics as
+well. So, if we just run vp test and
+pass it the coverage flag just like
+that. And I make sure I install the
+dependency. It's now going to go through
+and it's going to tell me the actual
+percentage of everything that's covered
+inside my application. So, let's just
+run that real quick. And you can see all
+my files that are being tested are 100%
+tested, which is exactly what we expect
+for this really simple use case. Now,
+all of the testing related stuff in V+
+is all just using Vest behind the
+scenes. So, if you know how to use VEST,
+all of this should make sense. But even
+if you've never used VEST, it's pretty
+much exactly the same as Jest. So if
+you've used Jest, this is going to look
+very similar. And if you want to learn
+more about testing, I have a full VEST
+crash course. I'll link it in the cards
+and description for you. Now, since Vit
+Plus is built on top of Vit, obviously
+to run up a dev server or to build your
+application is incredibly easy and it
+uses all that VIT behind the scenes. So
+we can run VPDEV. That's going to run up
+our dev server. And if we actually just
+open this up, you can see it's pulling
+up our dev application. We also have the
+ability if we wanted to to run the build
+command and that's going to build our
+entire application. And you'll notice
+everything is blazing fast. That's one
+thing I really love about V+. Everything
+in it is super super fast. Also, once
+you've built your application, you can
+run VP preview just like this. And now
+it's going to allow you to preview that
+built version of your application. So
+this is really easy for you to be able
+to not only do development, but also
+build and preview all of that. And it's
+all built in using Vit, which is
+something you probably are already used
+to and absolutely love. Now, one thing I
+just want to really kind of quickly talk
+about is how you can package up
+libraries and executables. You can run
+VP pack just like this. And it's going
+to package up any executables or
+libraries you have inside your
+application. In our case, we're using a
+web application. We didn't use the
+library starter. So, this isn't going to
+do anything. But if you were generating
+a library, this is a way for you to pack
+up that library into like a binary or
+executable, just a single way to package
+that up and serve it to people. Now, one
+thing I mentioned at the beginning of
+the video is how V+ can actually replace
+things like npm or pnpm. And that's
+because they have their own way to run
+any package that you can think of. So I
+can just run vp and that can run
+anything for my package json. So for
+example, if I have in here this build
+command, I can say vp run and let us say
+I wanted to do prepare, I can just type
+in prepare and now it's going to run
+that vp config command for me. So to run
+anything for my package json, just run
+vp run whatever the name of that thing
+is. Super straightforward. And the nice
+thing is is it uses whatever package
+manager you have defined behind the
+scenes. So inside of here, you can see
+that my package manner is set to PNPM.
+So it's going to use PNPM behind the
+scenes for everything. I can even use V+
+to install and remove packages and
+manage all my installed packages. So
+let's say that I wanted to install
+eslint for some reason. I can just say
+vp install eslint. And now if we look
+inside of my package in my dependencies,
+we should see there's eslint right
+there. So I can use that to install
+everything I want. And it's going to use
+whatever package manager I have defined
+behind the scenes to do that for me.
+Just making it easier to work with. Now,
+there's tons of other nicities. For
+example, I can run vp outdated just to
+see what outdated packages I have. You
+can see here are some slightly outdated
+packages I could update to. And I can do
+a lot of other stuff related to package
+management with V+. And again, it's just
+going to be using my defined package
+manager behind the scenes, but giving me
+one like unified API to work with. The
+thing I think is really cool about V+
+though is it actually takes managing
+your environment to a whole another
+level. And that's because they have this
+environment section env. To get started,
+you can just run envo and it's going to
+give you a massive output kind of
+explaining everything. And essentially
+what this VP env is for is managing all
+of your different like node versions,
+bun versions, dino versions, and so on.
+Normally, you would have to download
+your own different managers for all
+these different nodes. So, for example,
+if this project ran on node 20 and a
+different project ran on node 24, I
+would need to make sure that I manage
+what version I have installed and used
+on my computer. And V+ handles all of
+that for us. Now, you'll see I actually
+have a few things that have warning
+commands on them. And that's because I
+used to use fast node manager FNM for
+this. But you can see I no longer need
+that and it's saying that there might be
+some conflicts between my actual V+
+version and the fast node manager. But
+V+ is just a better way of doing this in
+my opinion and it handles so much more
+as you can see. Now the really great
+thing about this is I can really easily
+set specific node or package manager
+versions directly for my project. So for
+example, if I say vp env current, that's
+going to tell me what the current node
+and package manager and everything for
+my project are. So you can see I'm using
+whatever node 2421 and I'm using here
+pnpm 12.11. Now if I wanted to I could
+say I want to use a specific version of
+NodeJS in this project. So I can say vp
+env pin and then let's say I want to pin
+it to version 22. I can just type in 22
+just like that. And now it's going to go
+ahead it's going to pin that exact node
+version. And if I just do that vpenv
+current, you can see now my node version
+is 22. And if I look inside my package
+JSON, you'll actually see inside of here
+that the node version has been
+specifically pinned inside that dev
+engine section. Now, if I wanted, I
+could also change that to pin to the
+long time long-term support version. So,
+just coming here with LTS. Let's say
+that I do want to override that. And now
+it's been pinned to that long-term
+support version that's currently
+available. I could also pin other things
+like PNPM at and I want to do 11 for
+example. There we go. Make sure I spell
+that properly. We'll say yes. And now we
+can see inside of here it's using
+version 11 instead of I believe it was
+on version 12 before. This in my opinion
+is a huge quality of life feature for
+any project using V+. Now another
+feature you've probably used before is
+npx for like create react app and so on.
+We can do the exact same thing by just
+typing vpx. And let's say we want to do
+a next application just like that. It's
+going to go through and it's going to
+run that for me. And as you can see,
+it's running my create next application,
+but it's using V+ behind the scenes to
+handle everything and just routing it
+properly to whatever package manager I'm
+using. In my case, PNPM. Now, another
+thing that V+ does really well is they
+have CI integration already built in.
+So, if we just take a look at their
+documentation, you can see if you wanted
+to set up continuous integration, all
+you need is a file that's this simple.
+Just use the void zero dev setup for
+whatever version you want and then we
+can just run whatever checks we want.
+For example, check. We'll do linting and
+formatting. Test is going to test and
+then we build out our application. This
+is a really easy and simple thing to set
+up compared to if you had to use things
+like prettier and eslint and other
+tools. You know how much of a pain it
+can be and this just does it all for you
+in just a couple lines of code. So this
+is all great when it comes to setting up
+a V+ project from scratch. But what
+happens if you want to convert a project
+that already has ESLint or prettier in
+it. To do that you're going to use the
+VP migrate command. Now the great thing
+about this command is it actually does
+two things. First of all if you already
+have a V+ project it'll update that
+project for you. So if I were to run
+this command, it's going to go through
+and it's going to update my project to
+use the latest and greatest of whatever
+the V+ is using for that. So you can see
+it's gone through and it's going to
+update anything that it needs to. Now in
+my particular case, nothing is actually
+getting updated cuz I just installed it.
+But if I have a project that's using
+prettier eslint and so on, I can use
+this command to migrate those things
+over to vit plus. Here's an example of a
+react vit project. So I can just type in
+vp migrate to migrate all this code. And
+this one should be pretty easy because
+it is using ESLint, but it's already
+based on Vit, so it's not a ton to
+change. I am going to set up pre-commit
+hooks. We'll use agents MD. We'll use VS
+Code. And most importantly, I'm going to
+merge the VS Code settings. I'm going to
+make sure to convert from ESLint to
+oxlint. And I'm going to make sure that
+I download this runner just to update my
+TypeScript to the newest version cuz
+it's not quite at the newest version.
+It's going to go through, install all
+the different dependencies it needs,
+change around all your files, and most
+importantly, make sure that all of your
+linting is onetoone compatible with what
+you had before. Now, there may be
+scenarios where it doesn't work
+perfectly. I'll actually show you an
+example of that after this really simple
+one, but in simple cases like this, it
+pretty much works exactly like it needs
+to. So, I'm going to give it a second to
+fix all this and then I'll be back.
+There we go. That just finished. And it
+gives you an output here telling you
+exactly what happened. Most importantly,
+it says right here that it skipped two
+rules. And those two rules are no dupe
+args and no octal. And it says that
+they're superseded by strict mode. So
+they're already taken care of. So in our
+case, it should be a onetoone comparison
+between what I had before and what I
+have now. If we look at our changed
+files, the big thing is our ESLint file
+has been deleted. And instead, we have a
+V config that's been changed to include
+all this new information. We also have
+that pre-commit hook section. We have
+all our TS config being updated
+properly. And our package JSON is now
+using VP instead of VT. Now the biggest
+change is going to be that VT config.
+And you'll notice it's actually going to
+be a massive file. You can see it's
+listing out a ton of different rules and
+things like that. The reason for this is
+it's again going one to one perfect
+backward compatibility to what you had
+before. So it has to make sure it writes
+in all of these different rules. The
+majority of these rules are in this
+global section right here for React. So
+that's kind of why all this is
+happening. Same thing here. A lot of
+React related stuff. You could easily go
+through and delete a lot of this cuz
+again it's trying to give you a onetoone
+comparison and you probably were not
+really having to worry about certain
+things inside here. So you can go ahead
+and delete a lot of these, but it at
+least gives you that onetoone
+comparison. So you can just work with
+this as is. And if I run VP install, it
+should just work properly. So we should
+see that should install everything.
+Perfect. I can run VP check and it
+should hopefully have no errors at all.
+You can see found formatting issues in
+24 files. Let's actually see what those
+formatting issues are. So let me just
+come in here and change that to VP
+format. Just like that. So it can tell
+me what those are. And actually it looks
+like it fixed all those for me. So if I
+look at my code, it's probably just
+adding semicolons is my guess. Yeah,
+it's adding semicolons. And that's
+because I didn't have prettier in this
+project. So when I ran that vit config
+command for VP, it made sure to add in a
+formatter but with no default settings.
+And since I had no prettier formatting,
+essentially it added a formatter even
+though I didn't have one before. So if
+you don't have a formatter, you don't
+have linting, it could add additional
+rules that maybe you didn't have before.
+In my case, I generally have prettier in
+all my projects. This one just didn't
+cuz it's a very small side project. Now
+let's take a look at how this works in a
+much more complicated project. This
+project has prettier. It has ESLint
+inside of it. And this is the newer
+version of ESLint. And as you can see,
+my ESLint config is an absolute mess
+with tons of different errors inside of
+it. You'll also notice that this project
+doesn't use Vit at all. It's actually an
+Astrobased project. You can see here
+there's my Astro configuration. But this
+VB migrate command is going to handle
+all that for us. So I come here with VP
+migrate. I'm going to say that I want to
+set up pre-commit hooks, but I'm
+actually going to get a warning saying
+that it's not going to because I already
+have pre-commit hooks set up in this
+project. So it's going to say I have to
+manually convert those if I want. I'm
+going to come in here, set up agents MD,
+VS Code. I'm going to merge in those
+settings just like I did before. Same
+thing with extensions. Merge that in.
+And I'm going to make sure that I set up
+oxlint and ox format and to make sure I
+upgrade my TypeScript version. You'll
+notice almost all this has been exactly
+the same. Also, you'll see here I want
+to add a TypeScript shim for Astro
+components to make sure they work
+properly. So, I'm going to say yes for
+that. And now it's going to go through
+and install everything as well. So, I'll
+be right back with you. Now, this just
+finished running and you'll notice
+there's quite a few more warnings which
+makes sense. It's a much larger pro
+project with a very complicated eslint.
+And you'll see a lot of these don't
+matter. For example, these are the exact
+same things superseded by strict mode.
+This one's saying that it's essentially
+not having to be worried about anymore.
+And we can go through and read every
+single one of these to make sure it's
+something that we either care about or
+don't. And if we don't care about it, we
+can forget it. If we do care about it,
+we can add in the specific rules for
+that. But what I care about is just
+testing to see if this actually works
+like we expect. If we go into our V
+config here, you'll notice it has a lot
+of information in this linting section
+to override everything. It's got that
+giant one for the React section. Same
+thing here, a giant one for Astro. But
+otherwise, it's pretty much got
+everything I had inside of there before.
+There may be certain things missing. For
+example, it says here that certain
+plugins, like the plug-in Markdown,
+there is no matching version that could
+be loaded properly. So, there may be
+missing formatting for Markdown
+specifically. But overall, I can go
+ahead and I can manually check all these
+things to make sure it's working like I
+expect. And we can come in here and we
+can just try VP install to see if that
+works. Should actually work fine. There
+we go. We can do a VB check to just
+check everything. That's going to do our
+linting and our formatting. And you'll
+notice there's formatting issues inside
+my JSON files. This means that there was
+differences in the formatting between
+how my prettier set was set up and how
+the JSON set up. And I think actually I
+was ignoring these JSON files
+completely. So that's why they weren't
+actually being formatted. So I can come
+in here and I can do VP and I can just
+do a fix on that and that's going to fix
+these different formatted files. Now you
+notice I do get an error. This
+particular rule doesn't actually exist
+in the plug-in Astro. So I can just come
+into my V config where that was. I can
+just do a quick search for that specific
+rule and we'll remove that because it
+doesn't actually exist and all these
+ones for the label related stuff
+probably aren't going to exist as well.
+We'll just rerun this. But I'm probably
+going to get the exact same error again.
+If we take a look at this here says
+linting cannot start fill the setup.js
+plugin and again it's the exact same
+thing. So there's something going on
+with this Astro related plugin that I
+would need to configure and look into a
+little bit closer. But pretty much
+everything else is working just like we
+expected to which is really really nice.
+and it gave me that first level of
+conversion over to V plus. And pretty
+much any large project is not going to
+be a onetoone conversion, but this at
+least gives you a good starting point.
+And this is actually something that's
+really easy to just throw at AI and tell
+it to configure it until it gets it
+working cuz it's really good at doing
+those things that are very repeated and
+things that have a no one good outcome.
+Now, at the beginning of the video, I
+mentioned how this is crucial to using
+if you have AI written code. And the
+reason for that is because this forces
+your AI code to follow proper linting,
+proper formatting, proper pre-commit
+hooks, and all of that. And it's all
+built directly into one particular
+system. So it's very easy for you to get
+set up and working within your AI. And
+it's going to make sure whenever your AI
+generates code, it follows the exact
+formatting in LinkedIn you care about.
+It's all checked before it gets actually
+pushed for a pull request. And since
+testing is built in, it's very easy for
+you to just start with writing tests
+because AI is much better when you have
+good test suites. So this is just
+essentially going to superpower any of
+your AI written code to make sure it
+follows the standards you actually care
+about. Now, if you want to get better at
+writing those tests, I highly recommend
+checking out these videos linked over
+here where I'm going to cover how to
+actually write good tests. And these are
+going to be useful if you're writing
+code by hand or with AI. With that said,
+thank you very much for watching and
+have a good

@@ -1,0 +1,7 @@
+{
+  "model": "tts-1",
+  "voice": "alloy",
+  "speed": 0.86,
+  "input": "Usability can diverge from appearance, too. Fireship reports attempting to edit a video in FilmCraft and encountering playback-related lag and disappointing transitions despite a familiar interface. This is an attributed usability failure, not a reproducible comparison, and it does not establish that AI caused the defects. Hardware and version details are missing. The video also discloses Appify sponsorship. Keep those limitations attached to the account, rather than turning it into a general verdict.",
+  "response_format": "wav"
+}

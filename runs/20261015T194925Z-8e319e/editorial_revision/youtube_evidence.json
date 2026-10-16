@@ -1,0 +1,46 @@
+{
+  "item_id": "youtube:l3L_lETiSzc",
+  "version_id": "55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b",
+  "published_at": "2026-10-15T17:35:15+00:00",
+  "retrieved_at": "2026-10-15T19:49:27.882880Z",
+  "url": "https://www.youtube.com/watch?v=l3L_lETiSzc",
+  "retained_media_path": "data/media/ebebd8076247dbade0d1/55f8f10108c82f6c8a7f5e687c220bdcb9c0e42c4fe5fef8b21b8847c6a29e9b/source.m4a",
+  "segments": [
+    {
+      "segment_id": "s00147",
+      "start_seconds": 287.28,
+      "end_seconds": 291.52,
+      "text": "Brains. the sponsor of today's video."
+    },
+    {
+      "segment_id": "s00160",
+      "start_seconds": 312.56,
+      "end_seconds": 317.44,
+      "text": "the Juni CLI on an old side project to"
+    },
+    {
+      "segment_id": "s00161",
+      "start_seconds": 315.199,
+      "end_seconds": 319.199,
+      "text": "rename a bunch of functions and scaffold"
+    },
+    {
+      "segment_id": "s00162",
+      "start_seconds": 317.44,
+      "end_seconds": 321.68,
+      "text": "some tests and it knocked it all out in"
+    },
+    {
+      "segment_id": "s00163",
+      "start_seconds": 319.199,
+      "end_seconds": 323.44,
+      "text": "a few minutes for $0. I'd still switch"
+    },
+    {
+      "segment_id": "s00168",
+      "start_seconds": 329.44,
+      "end_seconds": 333.52,
+      "text": "and review all their changes before they"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "run_id": "20261014T225746Z-d041cf-policy-comparison",
+  "started_at": "2026-10-15T00:19:22.674533Z",
+  "as_of_date": "2026-10-14",
+  "mode": "replay",
+  "previous_run_id": "20261014T225746Z-d041cf",
+  "source_run_id": "20261014T225746Z-d041cf",
+  "evaluation_only": true,
+  "publication_eligible": false,
+  "notice": "Controlled selection evaluation on unchanged saved evidence. As-of date is frozen to the source run for comparison, not a new publication or live collection. Actual evaluation execution timestamps are recorded separately."
+}

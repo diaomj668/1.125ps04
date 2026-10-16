@@ -1,0 +1,791 @@
+Welcome to the Practical AI Podcast, where we break down the real-world applications
+of artificial intelligence and how it's shaping the way we live, work, and create.
+Our goal is to help make AI technology practical, productive, and accessible to everyone.
+Whether you're a developer, business leader, or just curious about the tech behind the
+buzz, you're in the right place.
+Be sure to connect with us on LinkedIn, X, or BlueSky to stay up-to-date with episode
+drops, behind-the-scenes content, and AI insights.
+You can learn more at practicalai.fm.
+Now, on to the show.
+Welcome to another episode of the Practical AI Podcast.
+This is Daniel Whitenak.
+I am CEO at Prediction Guard, and I'm joined, as always, by my co-host, Chris Benson, who
+is a Principal AI and Autonomy Research Engineer.
+How you doing, Chris?
+Hey, doing great today.
+How's it going?
+It's going great, and I know this is going to be a great conversation for a few different
+reasons today, one of those being our guest is one of the speakers at the upcoming Midwest
+AI Summit, which is going to be amazing.
+There's going to be a bunch of amazing speakers there.
+I'm going to do a bit of emceeing, see if I don't mess that up.
+But encourage our listeners to check that out, October 15th in Indianapolis.
+You can get 20% off with Practical AI 20, so check that out.
+Amazing speaker, going to be at the Midwest AI Summit.
+Also a fellow podcaster, which is great.
+One of the hosts of Cloud Foundry Weekly, and a tech marketing whiz at Broadcom Tanzu
+VMware.
+Welcome, Nick.
+Great to have you.
+Thanks for having me.
+Great to be on the show.
+Yeah.
+I'm excited.
+Also excited to see all in person in Indianapolis.
+Yeah, it's going to be fun.
+We're representing the good representation of the Silicon Prairie here.
+I like it.
+So, yeah, Nick, I know you're going to be talking.
+One of the things I thought was cool about your talk at the Midwest AI Summit is you
+bring in this concept of taking agents.md and shipping that to a production environment
+where you run an actual agent in an, quote, enterprise environment, which seems to be
+really fascinating.
+We recently had on someone from the Agentic AI Foundation, who is kind of stewarding the
+model context protocol and agents.md and those sorts of things.
+So, very relevant kind of carry on from that conversation.
+But I'm wondering, as we set that up, what exactly does it mean to be operating in an
+enterprise environment?
+So, the customers that you're working with, your kind of day to day, what makes an enterprise
+environment an enterprise environment?
+What are some of the concerns or characteristics of that type of environment?
+And I know you're always experimenting.
+You do a lot of home lab stuff as well.
+So, always have a whole range of experience in working in different sorts of environments.
+So, yeah, if you could just help us understand from a general perspective, what does that
+mean when you say kind of enterprise?
+Right.
+So, when we think about enterprise, we think about a few things.
+One, let's just assume you're going to have not internet, limited or no internet access.
+And, you know, I've been at Vmartanzia for about five years.
+And before that, I was at one of these large enterprises for about 14 years.
+So, when we had vendors come in, it would always be like, they would always assume that
+we could just go to the internet.
+And it was always like, well, try again, because that's not going to work here.
+So, that's kind of always like the biggest hurdle where you're going to be regulated
+and or, you know, what you can do at home is not going to be what you can do at work,
+so to speak.
+So, you're going to be highly regulated.
+You're going to have to deal with, you know, potential like, you know, PCI or SOX compliance
+or HIPAA or FIPS or, you know, and I could probably go on and on about all the different
+compliance tiers that you'd have to deal with.
+So, it's just a whole different ballgame where, you know, you could potentially do something
+that has dramatic consequences.
+And you have a, you know, highly controlled, highly regulated environment where even some
+of the customers I work with are like, you know, they actually have the real air gap
+where we're carrying in things, you know, physically into the data center because there
+is no internet access type of thing.
+So, it's a wild world, and it frustrates a lot of, I think, new folks to the enterprise
+space.
+But if you've been in a while, you know how to deal with it and how to handle it type
+of thing.
+And I guess, you know, people have been dealing with these types of environments for quite
+a while, right?
+Because there have been enterprises for quite a while.
+Maybe just give us a sense of, like, leading up to AI agents, and we'll talk about agents
+here in a second, but leading up to AI agents, like, what were some of the ways that you
+could, I guess, ease, you know, put some ointment on those pains of working in that
+sort of environment?
+How would you get an application into that sort of environment or have it be enterprise
+ready, quote unquote?
+And then we can shift and talk about, you know, what changes with agents.
+Yeah.
+So, I mean, I think, so, you know, I currently work for VMware Tanzu, and we run a, you know,
+a platform or a platform as a service, you know, geared for private cloud, whether that
+be on your, like, on your own bare metal in your data center, or you could deploy it on
+a private cloud in your own, like, VPC on a hyperscaler, that type of thing.
+But we think about that, you know, we want to, in the scope of an enterprise, right,
+you have all these regulations, controls, et cetera, you want to make that path to production
+kind of the least resistant and easiest path.
+And if you make that path to production, like all the checkboxes and everything good to
+go, that's going to be a highly adopted path.
+So the whole concept of, you know, Tanzu platform, and it's actually based on an open source
+project called Cloud Foundry, which is, I think, I mean, it's, you know, predates Kubernetes
+and Docker.
+So, you know, 2011-ish is when it kind of started originally out of VMware and spun
+out and then became part of an open source project.
+So it's been around and battle tested and seen a lot of things where you have that concept
+of, like, I just want to take my code and send it to the platform.
+And the platform is going to know, like, the best practices for, it's going to build a
+container for the developer.
+So the developer doesn't have to worry about, like, you know, securing the container or
+anything like that.
+The platform will take care of that.
+It will handle, you know, ingress, like certs, certificates, all the, you know, load
+balancers, all of those things just handle health monitoring, potentially even kind of
+like sandboxing the apps from each other.
+Something that, you know, maybe some of these labs may learn from, but so that the apps
+can't escape type of thing.
+And, you know, if the app needs services like a database or messaging middleware, any type
+of thing, even maybe a large language model, it can, what we call, bind or kind of connect
+to a service on the fly.
+And that's all kind of handled underneath the cover.
+So it's just a few commands, like you push, bind, scale your app with just a few simple
+constructs.
+And that's, that's like, that's how you go to production.
+And what we see with enterprises, once that path, like once they take this, like this
+is Tanzu platform, it's been certified through all these different standards.
+It's just kind of like an unlock for these enterprises because it's so easy and so simple
+to use and they don't have to, you know, they don't have to recertify everything.
+It's just like this framework that they can use to get apps into production.
+And then the biggest thing is that you want these enterprises or the businesses, they
+don't want their developers, you know, hand crafting a new platform or a new way to deploy
+apps for every sub team and have like a hundred different snowflakes, right?
+They want the same repeatable pattern across the board so that they can audit it and secure
+it and have their developers actually spend time writing the business logic versus like
+fiddling with infrastructure.
+So that's kind of like the whole premise behind, you know, the whole platform is sort of just
+construct and, you know, Tanzu platform.
+And as you can imagine, go ahead.
+Yeah.
+No, no, go ahead.
+Finish up and then I'll follow up.
+All good.
+Okay.
+As, as you could imagine, those principles when we're talking about apps could probably
+play nicely into this agent world that we're living in.
+So it sounds like you're, you're drawing a lot of commonality between kind of traditional
+app development and, and all of the, the, uh, the structure that we're all used to that
+we've been doing for forever.
+Um, and, and kind of now we're into this agentic world and maybe people have been thinking
+about that in a different way, but it sounds like you've really kind of said, and correct
+me if I'm wrong, I'm going to get to throw something out there.
+Like it's kind of the same thing in the sense of there, there are differences, but agents
+and apps should sort of be treated the same way.
+Is that, am I getting that correctly in terms of, of how you're structuring that and that
+maybe people need to look at what they've been doing for years and make that work for
+agents in the same way?
+Is that, is that fair?
+Um, yeah.
+I mean, I think it's a, it's a pretty fair assessment and, uh, we're starting to see
+that more and more just within our customer base.
+And, uh, you know, even like if you think about like apps back in the day, like someone
+would write some app on their laptop and like run it on their laptop, but it's like,
+we can't just run it.
+You know, like you got to get it off your laptop somewhere.
+And the same thing with agents.
+You're like, I got this, I've got all these agents around my laptop.
+If I shut my lid, everything stops.
+Like I, I don't really want that to happen.
+Right.
+I want them to run 24 seven, you know, 365.
+do all the work I give them. So yeah, I think that's kind of precisely what we're going with.
+So I guess then it begs the question, why are people kind of throwing out
+what maybe their intuition, like in certain ways people are saying, oh, we have agents,
+now we need to do something totally different, which is maybe driven by some things that
+make an agent not just a sort of simple application, but also it doesn't necessarily
+mean, you know, obviously we have to throw out everything we've learned about platform engineering
+and how to deploy things. So from your mindset, where does the kind of agent equals
+just another app, where might that fall apart, or what are the kind of unique characteristics
+that you're dealing with on the agentic side, on the deployment pathway that you
+might not have had to consider before, or at least are considering in a new way?
+Well, I mean, I think some of the biggest differences, right, where like you talk about
+Cloud Foundry and Teensy platform, it was kind of based on this premise of a 12-factor application,
+where like storage and state are a little, you know, decoupled cleanly from the actual apps,
+you could like, you know, I can scale up to a thousand instances and be fine,
+and you handle session state and things. The traditional harnesses or agents were kind of
+built originally just like, I've got file system access, and I can just write a bunch of MD files,
+and that's like my memory, everything's great. And like, well, you start to get into a cloud
+world that things spin up and down in our ephemeral, you're going to want to save those
+MD files somewhere, they're going to go off into the ether. So that's probably the,
+I think the biggest challenge when you start talking about how do we take
+the app deployment methodology, right, and then push that into like an agent running on a kind of
+a cloud platform per se. It's probably the biggest challenge. And then just kind of getting the fact
+that there's some valid use cases for like your laptop or whatever, but then also as we're starting
+to see more and more, like enterprise was, enterprises want agents to be on demand and like
+usable kind of in a, like say in a CICD pipeline or like on, you know, within part of their,
+you know, e-commerce suite or just normal applications. And you want those to be
+kind of really close to the apps, right? Because if you're, if you have them way off,
+you know, even just from a pure networking perspective, if you have, you know, the agent
+or the LLM or whatever, that's like, you know, 30 hops away from the microservices trying to call
+it, there's, you know, physics that are going to add on to all of that latency and potentially at
+scale even be problematic. So they kind of want to collate all the intel, co-locate the intelligence
+with the app and the data as close as possible. That's what we've seen too. That's something that
+I didn't expect really, because some of these, some of these responses are kind of long, but
+it's like what we've seen with our customers at scale, like we want to get the LLMs and the agents
+closer to us and our actual apps using them and the people using them as well. And not to mention,
+if you're using some of these SaaS providers, they're maybe not the most reliable in terms of
+what traditional enterprises expect and demand. So you can't just have them, you know, going offline
+for hours because, you know, even at my past job, the very first thing I did there was work on a
+warehouse inventory system. And let's just say it was for a large retailer that was a grocery
+retailer in the U.S. And I was an intern out of college and the app was older than me at the time,
+still older than me. And, you know, it was a bunch of like, you know, C and shell scripts on Unix
+systems. And if that thing went down, like within five minutes, like the warehouse was backing up
+trucks like on the interstate. So it's like you have to like the scale of enterprise, which is
+just, you know, like consumer is a completely different scale. So that's why some of all the
+things we're trying to make them a little bit more enterprise grade and more used to what
+these enterprises expect from software. Some mornings as I'm drinking my morning coffee,
+I listen to live news updates to figure out what's going on in the world. And it seems like
+recently everyone is talking about A.I. kill switches. But the reality is that there is no
+one A.I. kill switch. We've moved from models to agents. Those agents are connected to multiple
+models. They have an agent harness. They're connected to MCP servers and tools. And those
+agents are acting within a fleet, delegating to one another and interacting with one another.
+In that environment, what you don't have is a single kill switch that solves all of your
+problems. But that doesn't mean that you can't exert your control. You just have to exert that
+control across various layers of that stack through, of course, component input, output
+safeguards, but also controls on agents tied to their agent identity. Things that track tool
+misuse or memory poisoning or goal drift, et cetera. And what we're providing at Prediction
+Guard, the company that I lead personally, is an A.I. control plane that you self-host
+in your own infrastructure that gives you that control plane or control layer for the relevant
+stack that agents operate on top of. I'd encourage you to check out what we're doing
+at predictionguard.com slash practical A.I. Go ahead and book a call with myself and the team
+to learn more about how you can gain control of the agents operating in your environment and exert
+zero trust principles in the way that you operate those agents. So check us out at
+predictionguard.com slash practical A.I. That's predictionguard.com slash practical A.I.
+So, Nick, I would love to dive back. I want to kind of build on what you've what you've been
+sharing so far. And part of that is that we're all diving into this multi-agentic world where,
+you know, you know, some, you know, late last year, you know, you'd have an agent.
+And then, you know, for most people, I think getting into multi-agents, it was probably
+developers and, you know, in the environments that the A.I. providers were making available,
+and you had multiple agents working on a project. But now we're really seeing, you know, with these
+work products and other things that have come out, we're seeing agents really multiplying across,
+you know, many different contexts and with a lot of different utility. And it's moved out of being
+just frontier services. And we're now doing that with our hosted agents as well that we're running.
+And so like this multi-agentic world has just taken off in a very short amount of time. And
+as you're as if I'm kind of, I guess I'm asking if you can kind of paint a picture as you start
+scaling this out in the enterprise and what that looks like. Like, could you describe,
+you know, and we have analogies as you've pointed out with kind of the traditional software
+development world and the containers and all the, you know, and how you're structuring
+deployment and stuff. Could you talk a little bit about what that looks like? Kind of paint
+a picture so that somebody can really get that in their head. Me, first of all, about what that
+multi-agent world looks like when you were doing, when you were doing all these right things that
+you need to do in the enterprise. Yeah. So I mean, I think that the first thing that we want to
+focus on is that the enterprise, you know, needs to get whatever technology approved throughout
+their system. And then we, so we are providing a harness called the Tanzu agent build pack,
+and that helps to that process. So our existing customers already have our customer, you know,
+we're already approved so that we can help provide them those tools. And we just make that process
+just another app deployment on the, on the platform. So I probably haven't covered, they said,
+I'll explain what a build pack is, right? So when you, when you. Yeah, I was about to, I was about
+to ask you that, if you could kind of dive into what the specifics of each of those things does.
+Sure. So when I would do demos before AI and before, you know, a year or two ago or whatever,
+we would always take like a Java app. And it was like a simple kind of like, you know,
+music album called a spring music or whatever. But we take that Java code to be like a jar file,
+like compile Java code. And we're like, all right, now we're going to take this. We have a little
+simple manifest file that tells us what the, what the name of the app is, how many, how much
+resources to give it. And we just run a command that called CF push. And that would then just
+take that, that code, the jar file and upload it to platform and the platform would be like, oh,
+it's, it's a Java app. So I'm going to use the Java build pack. And the build pack is a, it's
+basically a kind of a command set to make a best practice container based off that use case. So
+the Java build pack is to do all the JVM memory calculators, do the JDK and certificates and all,
+everything that's best practice to run Java in a container on a cloud platform. And that would
+be great. And then we would, you know, we would attach a database and, you know, all these things
+and show how that, that scales. Now we've taken that same concept and then said, hey, we're going
+to have this agent where we can just CF push an agent. And instead of like, you know, machine
+readable code, we have a human readable language, the agents MD. So basically you tell what the
+agent it's going to do. And then you just push it to the platform and it starts up with, you know,
+within a minute type of thing. And you can scale it up and, you know, push as many agents as you
+want. And I think the coolest thing that I've seen is that once we're on the platform, then we, we
+can run models on the platform. So, you know, obviously a lot of our customers are air-gapped
+and some of them were, were smart enough to buy GPUs a few years ago. So some of them have lots
+of GPUs that can run all these local models and have a great experience. Some are wishing that
+they bought GPUs and, you know, hardware as the pricing of all this hardware goes through the
+roof. But then they can run local models and then tie the agent to that. Or if they don't have,
+you know, they might have a contract with one of their cloud providers.
+or one of their approved LLMs of choice, and we can register that.
+And then that kind of gave us a simple, like, here's your out-of-box agent with chat experience.
+And then along the way, we've done a lot of things with MCP,
+so the model context protocol. Probably you guys covered that on the show before,
+but it's basically a way for an app to talk to an LLM, very high level, right?
+So that's become useful as well as we then give the agent tools via MCP servers.
+And even at Broadcom, the only way approved way to use for our developers
+is to deploy MCP servers on Tansy platform.
+So that we have a whole set of MCP servers that are approved and hosted,
+and they're kind of secured and maintained,
+because they're very similar to applications as well.
+And then we have a concept of like the MCP gateway service
+that kind of registers that and secures all those servers.
+So then we can then extend the gateway to that agent.
+So then the gateway, this agent now has secure access to a runtime,
+battle test runtime, it can talk to an LLM that's approved,
+and get tools via a gateway.
+And then we're starting to add in like the memory service as well
+to have a kind of a shared memory service.
+So we're kind of expanding all that out
+where we're seeing all those best practice app lifecycle,
+go to see a push, go, here's an agent, here's all the things it wants to do.
+And then it can be a security review agent.
+And like one of the things I showed, I was at, I think a week or two,
+I can't quite remember, I was in Las Vegas for a conference VMware Explorer,
+and I had like a five phase demo where I walked through this.
+And maybe I'll show a little bit of this at the Midwest Summit here.
+But, you know, push the agent, bind all these services.
+But the end goal was like the boss level was like,
+all right, now we have these agents sitting in there.
+And I can hook them up to a repo with like an event listener or webhook
+and say, all right, now do like, you know, issue five on my repo,
+do a security review on this repository.
+And then like, it sends it off to the agent via webhook.
+And like, oh, the Tainzu agent, like it fires up,
+gets it, you know, fires up from the platform.
+It gets a request, and it's just immediately pulls down the repo
+and starts doing a security review and then publishes or pushes up
+to the issue that I created on GitHub and says, this is a security review.
+So you can see how that flow would be really useful in enterprise
+where like, maybe on every Git commit,
+you just have all these agents spinning up on the fly
+that could be a security review agent,
+you know, potentially like a, you know, a style or, you know,
+code quality review agent or a potentially even like a,
+I don't know, like maybe a design review agent,
+all firing up on the fly as things like call.
+So it's kind of like, and then they all have their,
+they're all in their own little sandbox and everything's proper, right?
+Because part of, you know, the platform for a while,
+it's been like this very secured container runtime
+where like we have, you know,
+they can't talk to each other unless you enable them.
+So they can't go to the internet,
+unless it's enabled, they can't, you know, escalate.
+Otherwise, they only get access to what you give them.
+So it's kind of that benefit as well.
+And then obviously they're containerized.
+They don't have access to the underlying host system as well.
+So that, you know, as we've seen, you know,
+some of these things of uncontrolled agent swarms,
+I think we have some remedies here to some of these,
+some of these AI labs could maybe take into account
+and implement some best practices
+that's one throughout the past two decades.
+The unplanned swarms, the swarms that you don't necessarily want.
+I actually have a two second follow-up.
+And that is, it's for my benefit.
+And, you know, we've talked a lot on the show
+over various episodes about agents, you know,
+using MCP to get access to different apps and services
+and tools and stuff like that out there.
+We haven't really talked about what an MCP gateway is.
+And I was wondering if you could share that for a moment,
+just as a detail,
+because that's kind of the one little new piece of architecture
+that we've never touched on on the show.
+Sure. Yeah.
+So if you think about an MCP gateway
+as a way to easily control and scale access to MCP servers,
+especially within you're in a cloud, I guess, platform.
+So we may have like 30 or 40 MCP servers that we run
+or I don't even know how many it is, right?
+And then those get bound, those get registered
+and bound to certain specific MCP gateway.
+So maybe there's, you know, and the MCP gateway
+is something we can spin up on the fly on the platform.
+There are many different MCP gateways out there.
+There's many different AI gateways out there.
+Some of them are like the same, one and the same.
+But you basically register MCP servers to this gateway
+and the gateway kind of controls access, so to speak,
+and regulates that.
+So you may say, like, you can bind to this gateway
+and you only get these MCP servers.
+You only get these MCP tools within it, that type of thing.
+So it's a way to easily abstract all the different MCP servers
+that may be in an organization
+and kind of direct them into a certain,
+either a certain agent, or we even have a flow
+where like you can, we'll take those MCP gateways
+that we run that front all of our MCP servers.
+And then you can say, hey, go, give me a way
+to connect this to my cursor or my cloud code or my whatever.
+And then it just injects it in there.
+And then your local agent has all the tools
+that are approved as well for your organization.
+And then it's just like a simple click,
+and then it just registers.
+And then depending on the MCP server,
+it helps handle the auth as well.
+Because some of them are like,
+well, if I'm using the GitHub MCP server,
+I want to pass my end user credentials
+all the way through to that MCP server.
+Because I don't want it just to be like,
+well, here's our generic service account
+for the entire organization.
+And every GitHub action is going to be seen by that one account.
+And you have to have the individual identity pass through.
+So you have the concept of SSO and sign-in as well
+for an identity for agents or humans
+running their agents on their desktop.
+So that's kind of a quick level of view.
+And then a great way about that too
+is because it's all flowing through that gateway,
+we get metrics out of it.
+So we can see all the tool calls
+and all the events happening
+coming from the agents to the MCP servers
+and back and forth.
+So you can kind of see what's happening,
+especially if maybe if there's something unexpected,
+we're like, well, this one agent made 200,000 tool calls
+to delete repo.
+Like, oh, maybe we should alert on that.
+Like, that's probably not good.
+Yeah, so and another visibility or metric
+to see what agents are doing
+and what tool calls are doing as well.
+So I guess hopefully that made sense
+because that's kind of how I understand it, right?
+Yeah, that was great.
+And there were a couple of things
+that you mentioned in there,
+I think are additionally worth digging into.
+And you kind of have this,
+if I'm understanding right,
+in part of the build pack that you're working on,
+part of that centers around
+kind of pushing an agents.md file.
+You mentioned, like, people have these md files
+hanging around.
+You mentioned memory, you mentioned identity.
+I'm wondering if you could kind of help us
+understand, like, if I have,
+if I'm working on my laptop, right,
+and I'm using a certain agent harness,
+I may have an md file that is kind of generic.
+And then I have files that are created by the agent
+that it uses that are only
+corresponding to my single agent.
+And then I have, you know, memory
+and then, you know, calls into other things.
+As you're pushing this, like, off the laptop now,
+and I imagine taking that off,
+like, what belongs in, like, an agents.md file?
+And what is, like, as you're giving that example, right,
+you may have one agent in the platform
+that is a security reviewer for,
+that does security reviews, right?
+When you spin that agent up,
+does each instance of that,
+each session have a unique identity?
+What is the, what's unique about that session
+and the data that is generated by that session
+versus maybe the things that are always static?
+Like, I'm not sure if the agents.md is always static.
+So could you help us understand, like,
+which are the static elements?
+What's developing over time?
+How is that, like, state of the agent
+spread across, you know, the implementation, I guess?
+Sure, yeah.
+So if you think about it, like,
+and I guess in this specific implementation,
+the agents build pack is basically like the boilerplate code
+of what you want the agent or app to do.
+So like, I'll do demos and I'll have it be like,
+you're a pirate, like, one of my demos is like,
+you're a Jira, like, you're a senior software engineer.
+You know, you're gonna watch this Jira, like,
+page or I forgot the terminology here,
+but basically watch this Jira queue
+and look for any inbound tickets.
+As inbound tickets come in, review them and like,
+you know, make sure that they're of good quality.
+And like, here's all these different things
+that you want to do.
+And like, don't do any of this.
+So it's more of a very simple agents.md
+where like, it's just telling, like,
+this agent what it should do.
+And how it should act.
+And then you can call that and like,
+all right, well, like, you know,
+ticket 500 came in, it was poorly documented
+and like, update that Jira ticket, you know, whatever.
+And then you can add fun things like talk like a pirate.
+So it's like, all right, matey, you're, you know,
+ticket 500 is terrible, right?
+Like, go back and, you know, update it, that type of thing.
+So that's kind of where the static part of it is.
+And then like the memory service we have,
+you can attach it, you can have, you know,
+you know, potentially memory of a certain project.
+So, you know, we kind of envisioned,
+like each set of teams to have their own
+multiple set of agents, right?
+And it could be like, well, you know,
+team A's agents have the access to team A's memory.
+So as they come up, they know, like,
+all of this historical data of like,
+what, like the architecture of the application,
+the, you know, what's been done before, you know,
+like the roadmap, that type of thing.
+So as it spins up and does like a security review,
+it can make, you know, proper decisions
+and proper guidance so that, you know,
+as you kind of build your local agents
+and kind of give them memory
+and they become smarter, that memory service,
+as you have agents spin up and down,
+they just immediately, they immediately know
+what's happened before, know how to.
+As you heard at the beginning of this episode, some amazing people like Nick, who's the guest on this episode, are joining us at the Midwest AI Summit, October 15th in Indianapolis, Indiana.
+Nick is going to come talk about what it looks like to deploy AI agents in real-world environments, and we've got a bunch of other amazing speakers talking about how AI-enabled teams work, how to make decisions about what to say yes to and what to say no to in relation to AI, and much more.
+Super practical and amazing talks. Plus, there's going to be an AI Engineering Lounge, where you can actually sit down with folks like myself. I'll be there. Get review on your AI architecture, your stack, your roadmap, etc., towards the rollout of things like agents or other AI technology.
+This is a practical, amazing event that you don't want to miss. There'll be great food, great people, great networking, and practical value. Do not miss this. It's October 15th in Indianapolis, Indiana, and you can use the code PracticalAI20 to get 20% off registration.
+So go to MidwestAISummit.com and use the code PracticalAI20 to get 20% off registration.
+Nick, before we were going into break, I think I may have cut you off. You were just starting to say something. You want to dive back into that real quick?
+No, I think I covered it. Hopefully I answered the question again.
+That's no problem.
+Okay.
+This has been really good for helping me trying to conceptualize how all this fits together. I think I had some understanding, but you've gotten a level of detail. I want to ask you, as we are looking forward, I have several questions that are really kind of driving my thinking.
+You've got me thinking creatively based on what you've said. We've talked about MCP. There are new things coming out, things like there's the A2A, which is the agent-to-agent protocol, and organizations are starting to look at that.
+They already have their MCP servers, maybe, but they're trying to get the structure and kind of bring the sanity around it that you've been talking about. Then they kind of go, oh, okay, it's not so different from what we already know.
+But as this is evolving very fast and you have things like these new protocols, do you have any guidance on how to start integrating this constant flow of change in? First on the technology, and I'll hit the other half of that afterwards. As you're trying to bring things in and make it work, have you guys thought about how to structure that?
+I guess we'll just say take baby steps from everything, especially when you talk about the enterprise scope. They can be a lot slower to adopt some of these newer technologies, so you kind of layer that on. You don't have to necessarily adopt all of these things at once. You can maybe just get a simple agent running.
+For most places, just getting access to an LLM is still the biggest hurdle. And then potentially going through the AI council or the committee, everything must run through the AI council and be approved. If you've never worked in an enterprise, most large enterprises have a council or committee for everything.
+It's like, well, we shall go to the committee and we shall present our idea. We will wait six months and see what has the result been. So you just kind of have to work through the councils and the committees and all that fun. But once you finally get something approved, just iterate. Don't try to boil the ocean. Make baby steps and get progress.
+And you'll learn the technologies and the next step will just kind of be obvious. Like, well, I can make the agent better if I get some MCP servers, get them tools. And then we've got to get these tools approved and then add on to that. And some of these guardrails of Tansy platform help enterprises bring these tools to light because it's not just all this random stuff downloaded from the internet, which that can be its own danger nowadays.
+So having some guardrails in place is a good thing. If you have experience with some of these platforms or apps running before, take that experience and that knowledge and kind of bring it forward and utilize your existing people and skills, I think, too.
+I think a lot of times, too, I've seen organizations like a new technology will come up and a new team will be built and that new team will decree. But there's so much other really skilled people that could help. And it's always kind of a friction, too. So try to get the teams to work together, too, and not just have the new team doing all the new things. And then the teams that have been there all the while have that. That's always another constant flow. So try to break those silos down as well to help get people up to speed and get through that process.
+Having worked in multiple enterprises myself, I think that last point, I think I've seen that multiple times across different organizations. And, you know, how do you bridge that? I think part of it, you know, you kind of have every organization has its own politics. They all have kind of the different structures. It's really common to say new tech, new team there.
+But then I think people recognize, you know, why, you know, that kind of you'll see that and sometimes you'll see a reconciliation. But it always seems like a little bit of a struggle when that happens to try to, you know, do you have any thoughts around as you're as you're trying to do that? You know, you may have, you know, a lot of big organizations have, you know, they're very like one, one business unit, maybe almost like in a different universe.
+Maybe in a, almost like in a different universe from another business unit sometimes. And, and so how do you get that kind of cross adoption where, where you're taking advantage of maybe both the new teams that may be there, but also some of the old structured teams and you're trying to spread the capability across the larger organization in a useful way. Do you have any, do you have any guidance?
+You know, I imagine it can't be that different from, you know, the, the more traditional app dev side, but I think, I think this is a struggle that a lot of, that a lot of orgs are facing right now.
+Yeah. Well, I think, yeah. So, I mean, it goes, I think a lot both ways. So if you have the new team, right, the new team can like the responsibility team is like engage every other team because they have a lot of people that can help you out and achieve your goal. Right. Because the new team probably most likely has a very stressful and like, like, you know, like adopt AI everywhere or before it was like go cloud everywhere. Right. Like those, those goals are like not quite easy to, to get going in enterprise.
+So the new team needs to like, you know, potentially run, you know, office hours, weekly office hours, reach out to their other teams, you know, maybe before, you know, like, like a lunch and learn if you're in the office and have people in the office, that type of thing. And just have like a forum for people to come in and learn and get started and like ask questions and not, you know, like, Hey, like I saw this, you know, this post about, you know, this new platform or this new AI thing. How do I get started?
+Is there any documentation or what can I do to get started? And just kind of have like an open and like, you know, very welcoming place to get started to bring in the folks. And then if you're on some of the, you know, let's say not new teams or teams that have been around for a while, be engaging and reach out to those teams because a lot of the new people are going to need help. You know, there may be under stress. So it's just breaking that down. And then I think with this iteration, right, it's going to happen a lot faster.
+And I think people just naturally want to work together. Because I think I was at VM Explorer and I did a few talks and I started every talk with like, all right, let's, let's get a show of hands in the room who has used one of these tools like in at work, like cursor, cloud code, whatever. And pretty much the entire room and all of them went up. And I was like, well, that's a lot more than I expected. So like, the adoption rate, even at, you know, the traditional, like, you know, platform or developer engineer, and, you know, or just infrastructure admin at some of these personas is well into that.
+That scope. So the entire enterprise, I think, is picking up on this really fast. And that, you know, the more collaboration, I think it just will help out. So, you know, just office hours, you know, reach out, be proactive. And I guess if you're on, if don't be, be, be mindful or be open to change. And just this is just in general, if what I've seen before, and if you're if you're resistant, and resist the change, and you know, that's, that's going to kind of get you labeled and kind of put off the side. But if you're, you may be at a
+you may have your own opinions, but if you present them in a way that kind of is, let's say, maybe open minded, per se, you have a better chance at some of those those key learnings that you've dealt with throughout your career to actually be applied in the new way as well.
+I'm curious, I want to I want to circle back for a moment on something you said, as we're talking about kind of spreading across my mind goes to security. Because I know, and you know, in my industry, security is a is a pretty big deal. We do have air gap things and stuff like that's what we do in defense. But as you're as you're thinking about that, you know, one of the topics that is a really common topic
+now is kind of going back a few weeks.
+We covered it in depth on a previous episode,
+that the whole open AI swarms got out,
+hugging face, that whole thing.
+I'll refer people back if they're not familiar with it
+to our episode recently that covered that.
+But that is top of mind.
+It's not only top of mind for security,
+but it's top of mind for legal,
+it's top of mind for comms,
+they're thinking about what do we do
+if something like this were to happen
+in our org, whatever that org is.
+And can you talk a little bit about,
+as you've kind of brought the enterprise structure
+up to date to deal with agents,
+and we're beyond just the traditional software
+and app world, and we're taking some of the same lessons
+and reapplying them in a new context here.
+Can you talk a little bit about
+how that helps on the security side?
+For the folks out there that are really,
+that's their job is to keep things from really going awry.
+Can you talk for a moment about
+keeping things in the box, if you will?
+Yes, sure.
+And then I guess I'll put a disclaimer.
+These all could be suggestions to help out with.
+If you really dig into some of the hugging face stuff,
+it's a little scary.
+So I'm not to say that we're better
+than all of the AI labs or anything like that.
+But if you look at some of the things
+or how that kind of got started,
+is where they started getting out of the sandbox,
+and then they found things that they could get access to.
+Having monitoring and control around
+what those apps or agents can do
+is something that's been in mind
+for all enterprise apps.
+So having kind of guardrails, even like network zones.
+So like, hey, this is a highly regulated zone.
+It's super locked down.
+Even just like traditional firewall
+would have potentially blocked a lot of this stuff.
+So it's kind of key,
+like a lot of the core enterprise learning
+to kind of maybe take that
+for the old team versus the new team.
+It's like, well, guys, you could have just,
+I don't know, had some basic controls.
+And I think they even talked about
+their monitoring wasn't working,
+they weren't really monitoring it,
+and you had all these agent swarms.
+And then, of course, then they got to the artifactory,
+which then found the weak link,
+and the artifactory had the internet access,
+and somehow they magically zero-day
+the artifactory instance multiple times.
+So not to say that we could prevent everything,
+but it's just, you take these core enterprise technologies
+that maybe would have helped out a little bit
+of just agent control,
+like hardened sandbox-type constructs,
+very locked down network controls.
+That would have helped a little bit, potentially.
+Just monitoring what's in the agent,
+make sure that the agents aren't somehow
+injecting tools that they're not supposed to have.
+I'm not sure if that was an issue or not,
+but when you talk about an application,
+the whole dependency stack is always up to grab,
+so you want to make sure that the dependency stack,
+the container, everything is, and the whole OS,
+and the whole platform is tried and patched
+and reliable as possible.
+So I think the key thing is, obviously,
+we had the whole mind-bending effect
+of that they somehow made this messaging board
+on artifactory, and then it got deleted,
+and they recreated it.
+So there's that factor,
+which I think everybody's a little like,
+that goes into the whole AI's-gonna-kill-us thing
+that happened over the weekend, right?
+Versus just do some basic security, basic stuff.
+Just to clarify, that was a social media post,
+unless people misinterpret that.
+Yeah, that's a question, yeah.
+If you're not on AI Twitter, or AIX,
+there's a lot of posts around, you know,
+somebody left Anthropic, and a bunch of Anthropic people
+started posting around that they're afraid
+that there's a greater than 10% chance
+that AI is gonna take out humanity
+over the weekend slash Friday,
+and then that stirred up a lot of conversation,
+let's just say.
+So that's what I was referring to.
+Yeah, yeah.
+Okay, I guess that's useful.
+I appreciate that.
+We like to finish off by kind of giving you
+kind of a free-form question,
+and that is kind of toward the future.
+As you are doing your job,
+and running your podcast, and talking to people,
+and kind of building up your perspective
+on where things are going with this,
+we like to ask guests to go ahead
+and get crazy and prognosticate just a bit,
+and we don't hold you to it.
+But really, the way we do this is,
+when you're kind of just letting your mind wander,
+and you're thinking about these things
+in the back of your mind,
+you go into bed at night, have a glass of wine,
+whatever it is you do to chill out,
+what do you think things are going?
+And you can choose the timeframe that you like,
+but I really like to think,
+what do you think is coming?
+What's next?
+What should orgs be having a thought toward
+for the future, even if we're not there yet today?
+Any thoughts on what that future looks like
+as we close out?
+Oh boy, it could be many things.
+But I think from an enterprise perspective,
+I think we'll see a lot of team change,
+role change, and not even just in enterprise.
+The whole, from the business side,
+things are gonna change a lot, right?
+Because you're starting to see,
+and I was going through old episodes
+of my podcast this year,
+and just some of the old,
+just the start of this year,
+and there's just now, it's like,
+wow, a lot has changed!
+Like, can't imagine,
+can you imagine a couple years from now
+how much change, the rate of change is now?
+It's accelerating.
+Perceived, right?
+So it's hard to imagine that,
+but I definitely think from a business perspective,
+we're gonna see a radical change
+in how development, and product management,
+and everything changes,
+or everything kind of,
+there's gonna be new roles get created,
+orgs are gonna change, I think,
+and I think for the good, too,
+because there's always a fear of job loss,
+but I find that I've,
+and I've heard this echoed
+across many personal experiences,
+I am working harder than I ever have,
+because I have all these agents,
+and they need stuff from me,
+and I'm constantly,
+and I'm building things that I always wanted to build,
+but just never had the time to.
+So I feel like we're all gonna be busy,
+maybe we need to not get too crazy with the agents,
+but it's hard for me,
+because it's fascinating,
+it's really enjoyable.
+So doing a lot of things with automation,
+I can only imagine what these agents
+are gonna be like in the next six months,
+in terms of what they can do for you.
+I think we'll see a lot with voice come into play,
+and maybe even a new style of interaction
+with the computer, as well.
+So that will be interesting, as well.
+And then, obviously, I think,
+did you see the posts,
+like Hugging Face had little robot things on sale?
+Yes, yeah.
+Yeah, so like the little micro-duck things,
+or whatever?
+I did, I was like,
+to my wife, I was like,
+maybe we should get one,
+and she's like,
+she's like, you have enough toys,
+you just stop.
+Yeah, well,
+I may have ordered a few for the family,
+and I'm like, those things are gonna be awesome.
+So like, robotics and things,
+like, you know,
+I think the LLM is great and wonderful,
+but there's so many more possibilities
+where we could go that,
+I guess like for humanity, right?
+As long as we don't,
+we prevent the Terminator scenario.
+It'll be great, right?
+Absolutely.
+Yeah.
+Great, I appreciate you painting that.
+That helps a lot.
+Yeah, the rate of change is just insane now,
+and I agree with you.
+I think it's going to get faster and faster.
+But great way to end the show.
+A lot of fun.
+I always love to hear what people say
+when we're asking about
+kind of where they think things are going.
+Thank you for coming on the show today.
+It was a great conversation.
+I learned so much.
+Really appreciate that.
+And I hope people tune in to Cloud Foundry Weekly
+to hear you talking more about these topics,
+and they should definitely go to the Midwest Summit
+and hear your talk.
+I was there last year, did a talk.
+I won't be there this year,
+so I'll have to see if I can get ahold
+of the video of it or something.
+But anyway, thanks for coming on Practical AI today.
+Thanks for having me.
+All right, that's our show for this week.
+If you haven't checked out our website,
+head to practicalai.fm,
+and be sure to connect with us on LinkedIn, X, or BlueSky.
+You'll see us posting insights
+related to the latest AI developments,
+and we would love for you to join the conversation.
+Thanks to our partner, Prediction Guard,
+for providing operational support for the show.
+Check them out at predictionguard.com.
+Also, thanks to Breakmaster Cylinder
+for the amazing support they've provided.
+Also, thanks to Breakmaster Cylinder for the beats,
+and to you for listening.
+That's all for now,
+but you'll hear from us again next week.

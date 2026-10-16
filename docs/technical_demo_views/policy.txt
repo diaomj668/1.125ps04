@@ -1,0 +1,18 @@
+Saved-evidence view only: no collection, generation, or new pipeline run.
+
+HUMAN EDITORIAL REVIEW AND POLICY REVISION
+
+Student source-review sample: three accepted and three rejected/deferred.
+Issue: plan labels alone do not establish practical task relevance.
+Revision: separate access, setup requirements, and small-project relevance.
+Cursor Security Review changed from reject to a narrow, qualified accept.
+Access/cost limitations stayed explicit; deployment-focused Rollouts excluded.
+Controlled inputs: identical saved source versions; actual AI selection rerun.
+Decision labels changed: 4
+Model variation can also contribute; not every difference proves policy effect.
+Profiling correction: diagnosis and artifacts, not proven repair or speedup.
+
+Final student decision: approve (selected October 14 series).
+Approval fingerprint matches the reviewed package.
+
+Inspect: human_review.md, policy_revision/comparison.md, approval.json.

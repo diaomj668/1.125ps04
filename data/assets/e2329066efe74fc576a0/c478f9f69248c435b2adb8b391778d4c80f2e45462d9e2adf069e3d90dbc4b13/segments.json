@@ -1,0 +1,4748 @@
+[
+  {
+    "segment_id": "s00001",
+    "start_seconds": 0.0,
+    "end_seconds": 7.400000095367432,
+    "text": "Welcome to the Practical AI Podcast, where we break down the real-world applications"
+  },
+  {
+    "segment_id": "s00002",
+    "start_seconds": 7.400000095367432,
+    "end_seconds": 12.960000038146973,
+    "text": "of artificial intelligence and how it's shaping the way we live, work, and create."
+  },
+  {
+    "segment_id": "s00003",
+    "start_seconds": 12.960000038146973,
+    "end_seconds": 18.799999237060547,
+    "text": "Our goal is to help make AI technology practical, productive, and accessible to everyone."
+  },
+  {
+    "segment_id": "s00004",
+    "start_seconds": 18.799999237060547,
+    "end_seconds": 22.68000030517578,
+    "text": "Whether you're a developer, business leader, or just curious about the tech behind the"
+  },
+  {
+    "segment_id": "s00005",
+    "start_seconds": 22.68000030517578,
+    "end_seconds": 25.0,
+    "text": "buzz, you're in the right place."
+  },
+  {
+    "segment_id": "s00006",
+    "start_seconds": 25.0,
+    "end_seconds": 29.440000534057617,
+    "text": "Be sure to connect with us on LinkedIn, X, or BlueSky to stay up-to-date with episode"
+  },
+  {
+    "segment_id": "s00007",
+    "start_seconds": 29.440000534057617,
+    "end_seconds": 33.0,
+    "text": "drops, behind-the-scenes content, and AI insights."
+  },
+  {
+    "segment_id": "s00008",
+    "start_seconds": 33.0,
+    "end_seconds": 35.0,
+    "text": "You can learn more at practicalai.fm."
+  },
+  {
+    "segment_id": "s00009",
+    "start_seconds": 35.0,
+    "end_seconds": 41.79999923706055,
+    "text": "Now, on to the show."
+  },
+  {
+    "segment_id": "s00010",
+    "start_seconds": 41.79999923706055,
+    "end_seconds": 45.36000061035156,
+    "text": "Welcome to another episode of the Practical AI Podcast."
+  },
+  {
+    "segment_id": "s00011",
+    "start_seconds": 45.36000061035156,
+    "end_seconds": 46.599998474121094,
+    "text": "This is Daniel Whitenak."
+  },
+  {
+    "segment_id": "s00012",
+    "start_seconds": 46.599998474121094,
+    "end_seconds": 52.29999923706055,
+    "text": "I am CEO at Prediction Guard, and I'm joined, as always, by my co-host, Chris Benson, who"
+  },
+  {
+    "segment_id": "s00013",
+    "start_seconds": 52.29999923706055,
+    "end_seconds": 55.65999984741211,
+    "text": "is a Principal AI and Autonomy Research Engineer."
+  },
+  {
+    "segment_id": "s00014",
+    "start_seconds": 55.65999984741211,
+    "end_seconds": 56.65999984741211,
+    "text": "How you doing, Chris?"
+  },
+  {
+    "segment_id": "s00015",
+    "start_seconds": 56.65999984741211,
+    "end_seconds": 57.65999984741211,
+    "text": "Hey, doing great today."
+  },
+  {
+    "segment_id": "s00016",
+    "start_seconds": 57.65999984741211,
+    "end_seconds": 59.18000030517578,
+    "text": "How's it going?"
+  },
+  {
+    "segment_id": "s00017",
+    "start_seconds": 59.18000030517578,
+    "end_seconds": 64.22000122070312,
+    "text": "It's going great, and I know this is going to be a great conversation for a few different"
+  },
+  {
+    "segment_id": "s00018",
+    "start_seconds": 64.22000122070312,
+    "end_seconds": 70.66000366210938,
+    "text": "reasons today, one of those being our guest is one of the speakers at the upcoming Midwest"
+  },
+  {
+    "segment_id": "s00019",
+    "start_seconds": 70.66000366210938,
+    "end_seconds": 73.45999908447266,
+    "text": "AI Summit, which is going to be amazing."
+  },
+  {
+    "segment_id": "s00020",
+    "start_seconds": 73.45999908447266,
+    "end_seconds": 75.73999786376953,
+    "text": "There's going to be a bunch of amazing speakers there."
+  },
+  {
+    "segment_id": "s00021",
+    "start_seconds": 75.73999786376953,
+    "end_seconds": 79.66000366210938,
+    "text": "I'm going to do a bit of emceeing, see if I don't mess that up."
+  },
+  {
+    "segment_id": "s00022",
+    "start_seconds": 79.66000366210938,
+    "end_seconds": 85.12000274658203,
+    "text": "But encourage our listeners to check that out, October 15th in Indianapolis."
+  },
+  {
+    "segment_id": "s00023",
+    "start_seconds": 85.12000274658203,
+    "end_seconds": 91.22000122070312,
+    "text": "You can get 20% off with Practical AI 20, so check that out."
+  },
+  {
+    "segment_id": "s00024",
+    "start_seconds": 91.22000122070312,
+    "end_seconds": 93.73999786376953,
+    "text": "Amazing speaker, going to be at the Midwest AI Summit."
+  },
+  {
+    "segment_id": "s00025",
+    "start_seconds": 93.73999786376953,
+    "end_seconds": 97.66000366210938,
+    "text": "Also a fellow podcaster, which is great."
+  },
+  {
+    "segment_id": "s00026",
+    "start_seconds": 97.66000366210938,
+    "end_seconds": 106.9000015258789,
+    "text": "One of the hosts of Cloud Foundry Weekly, and a tech marketing whiz at Broadcom Tanzu"
+  },
+  {
+    "segment_id": "s00027",
+    "start_seconds": 106.9000015258789,
+    "end_seconds": 107.9000015258789,
+    "text": "VMware."
+  },
+  {
+    "segment_id": "s00028",
+    "start_seconds": 107.9000015258789,
+    "end_seconds": 108.9000015258789,
+    "text": "Welcome, Nick."
+  },
+  {
+    "segment_id": "s00029",
+    "start_seconds": 109.13999938964844,
+    "end_seconds": 110.13999938964844,
+    "text": "Great to have you."
+  },
+  {
+    "segment_id": "s00030",
+    "start_seconds": 110.13999938964844,
+    "end_seconds": 111.13999938964844,
+    "text": "Thanks for having me."
+  },
+  {
+    "segment_id": "s00031",
+    "start_seconds": 111.13999938964844,
+    "end_seconds": 112.13999938964844,
+    "text": "Great to be on the show."
+  },
+  {
+    "segment_id": "s00032",
+    "start_seconds": 112.13999938964844,
+    "end_seconds": 113.13999938964844,
+    "text": "Yeah."
+  },
+  {
+    "segment_id": "s00033",
+    "start_seconds": 113.13999938964844,
+    "end_seconds": 114.13999938964844,
+    "text": "I'm excited."
+  },
+  {
+    "segment_id": "s00034",
+    "start_seconds": 114.13999938964844,
+    "end_seconds": 117.13999938964844,
+    "text": "Also excited to see all in person in Indianapolis."
+  },
+  {
+    "segment_id": "s00035",
+    "start_seconds": 117.13999938964844,
+    "end_seconds": 118.13999938964844,
+    "text": "Yeah, it's going to be fun."
+  },
+  {
+    "segment_id": "s00036",
+    "start_seconds": 118.13999938964844,
+    "end_seconds": 123.13999938964844,
+    "text": "We're representing the good representation of the Silicon Prairie here."
+  },
+  {
+    "segment_id": "s00037",
+    "start_seconds": 123.13999938964844,
+    "end_seconds": 125.13999938964844,
+    "text": "I like it."
+  },
+  {
+    "segment_id": "s00038",
+    "start_seconds": 125.13999938964844,
+    "end_seconds": 130.13999938964844,
+    "text": "So, yeah, Nick, I know you're going to be talking."
+  },
+  {
+    "segment_id": "s00039",
+    "start_seconds": 130.13999938964844,
+    "end_seconds": 134.13999938964844,
+    "text": "One of the things I thought was cool about your talk at the Midwest AI Summit is you"
+  },
+  {
+    "segment_id": "s00040",
+    "start_seconds": 134.3800048828125,
+    "end_seconds": 142.3800048828125,
+    "text": "bring in this concept of taking agents.md and shipping that to a production environment"
+  },
+  {
+    "segment_id": "s00041",
+    "start_seconds": 142.3800048828125,
+    "end_seconds": 150.3800048828125,
+    "text": "where you run an actual agent in an, quote, enterprise environment, which seems to be"
+  },
+  {
+    "segment_id": "s00042",
+    "start_seconds": 150.3800048828125,
+    "end_seconds": 151.3800048828125,
+    "text": "really fascinating."
+  },
+  {
+    "segment_id": "s00043",
+    "start_seconds": 151.3800048828125,
+    "end_seconds": 160.3800048828125,
+    "text": "We recently had on someone from the Agentic AI Foundation, who is kind of stewarding the"
+  },
+  {
+    "segment_id": "s00044",
+    "start_seconds": 160.6199951171875,
+    "end_seconds": 164.6199951171875,
+    "text": "model context protocol and agents.md and those sorts of things."
+  },
+  {
+    "segment_id": "s00045",
+    "start_seconds": 164.6199951171875,
+    "end_seconds": 167.6199951171875,
+    "text": "So, very relevant kind of carry on from that conversation."
+  },
+  {
+    "segment_id": "s00046",
+    "start_seconds": 167.6199951171875,
+    "end_seconds": 176.6199951171875,
+    "text": "But I'm wondering, as we set that up, what exactly does it mean to be operating in an"
+  },
+  {
+    "segment_id": "s00047",
+    "start_seconds": 176.6199951171875,
+    "end_seconds": 177.6199951171875,
+    "text": "enterprise environment?"
+  },
+  {
+    "segment_id": "s00048",
+    "start_seconds": 177.6199951171875,
+    "end_seconds": 184.6199951171875,
+    "text": "So, the customers that you're working with, your kind of day to day, what makes an enterprise"
+  },
+  {
+    "segment_id": "s00049",
+    "start_seconds": 184.6199951171875,
+    "end_seconds": 186.6199951171875,
+    "text": "environment an enterprise environment?"
+  },
+  {
+    "segment_id": "s00050",
+    "start_seconds": 186.6199951171875,
+    "end_seconds": 191.6199951171875,
+    "text": "What are some of the concerns or characteristics of that type of environment?"
+  },
+  {
+    "segment_id": "s00051",
+    "start_seconds": 191.6199951171875,
+    "end_seconds": 195.6199951171875,
+    "text": "And I know you're always experimenting."
+  },
+  {
+    "segment_id": "s00052",
+    "start_seconds": 195.6199951171875,
+    "end_seconds": 198.6199951171875,
+    "text": "You do a lot of home lab stuff as well."
+  },
+  {
+    "segment_id": "s00053",
+    "start_seconds": 198.6199951171875,
+    "end_seconds": 204.6199951171875,
+    "text": "So, always have a whole range of experience in working in different sorts of environments."
+  },
+  {
+    "segment_id": "s00054",
+    "start_seconds": 204.6199951171875,
+    "end_seconds": 208.6199951171875,
+    "text": "So, yeah, if you could just help us understand from a general perspective, what does that"
+  },
+  {
+    "segment_id": "s00055",
+    "start_seconds": 208.6199951171875,
+    "end_seconds": 211.6199951171875,
+    "text": "mean when you say kind of enterprise?"
+  },
+  {
+    "segment_id": "s00056",
+    "start_seconds": 211.6199951171875,
+    "end_seconds": 212.6199951171875,
+    "text": "Right."
+  },
+  {
+    "segment_id": "s00057",
+    "start_seconds": 212.6199951171875,
+    "end_seconds": 215.6199951171875,
+    "text": "So, when we think about enterprise, we think about a few things."
+  },
+  {
+    "segment_id": "s00058",
+    "start_seconds": 215.6199951171875,
+    "end_seconds": 221.6199951171875,
+    "text": "One, let's just assume you're going to have not internet, limited or no internet access."
+  },
+  {
+    "segment_id": "s00059",
+    "start_seconds": 221.6199951171875,
+    "end_seconds": 226.6199951171875,
+    "text": "And, you know, I've been at Vmartanzia for about five years."
+  },
+  {
+    "segment_id": "s00060",
+    "start_seconds": 226.6199951171875,
+    "end_seconds": 231.6199951171875,
+    "text": "And before that, I was at one of these large enterprises for about 14 years."
+  },
+  {
+    "segment_id": "s00061",
+    "start_seconds": 231.6199951171875,
+    "end_seconds": 234.6199951171875,
+    "text": "So, when we had vendors come in, it would always be like, they would always assume that"
+  },
+  {
+    "segment_id": "s00062",
+    "start_seconds": 234.6199951171875,
+    "end_seconds": 236.6199951171875,
+    "text": "we could just go to the internet."
+  },
+  {
+    "segment_id": "s00063",
+    "start_seconds": 236.6199951171875,
+    "end_seconds": 239.6199951171875,
+    "text": "And it was always like, well, try again, because that's not going to work here."
+  },
+  {
+    "segment_id": "s00064",
+    "start_seconds": 239.6199951171875,
+    "end_seconds": 245.6199951171875,
+    "text": "So, that's kind of always like the biggest hurdle where you're going to be regulated"
+  },
+  {
+    "segment_id": "s00065",
+    "start_seconds": 245.6199951171875,
+    "end_seconds": 251.6199951171875,
+    "text": "and or, you know, what you can do at home is not going to be what you can do at work,"
+  },
+  {
+    "segment_id": "s00066",
+    "start_seconds": 251.6199951171875,
+    "end_seconds": 252.6199951171875,
+    "text": "so to speak."
+  },
+  {
+    "segment_id": "s00067",
+    "start_seconds": 252.6199951171875,
+    "end_seconds": 253.6199951171875,
+    "text": "So, you're going to be highly regulated."
+  },
+  {
+    "segment_id": "s00068",
+    "start_seconds": 253.6199951171875,
+    "end_seconds": 258.6199951171875,
+    "text": "You're going to have to deal with, you know, potential like, you know, PCI or SOX compliance"
+  },
+  {
+    "segment_id": "s00069",
+    "start_seconds": 258.6199951171875,
+    "end_seconds": 263.6199951171875,
+    "text": "or HIPAA or FIPS or, you know, and I could probably go on and on about all the different"
+  },
+  {
+    "segment_id": "s00070",
+    "start_seconds": 263.6199951171875,
+    "end_seconds": 265.6199951171875,
+    "text": "compliance tiers that you'd have to deal with."
+  },
+  {
+    "segment_id": "s00071",
+    "start_seconds": 265.6199951171875,
+    "end_seconds": 269.6199951171875,
+    "text": "So, it's just a whole different ballgame where, you know, you could potentially do something"
+  },
+  {
+    "segment_id": "s00072",
+    "start_seconds": 269.6199951171875,
+    "end_seconds": 272.6199951171875,
+    "text": "that has dramatic consequences."
+  },
+  {
+    "segment_id": "s00073",
+    "start_seconds": 272.6199951171875,
+    "end_seconds": 277.6199951171875,
+    "text": "And you have a, you know, highly controlled, highly regulated environment where even some"
+  },
+  {
+    "segment_id": "s00074",
+    "start_seconds": 277.6199951171875,
+    "end_seconds": 280.6199951171875,
+    "text": "of the customers I work with are like, you know, they actually have the real air gap"
+  },
+  {
+    "segment_id": "s00075",
+    "start_seconds": 280.6199951171875,
+    "end_seconds": 285.6199951171875,
+    "text": "where we're carrying in things, you know, physically into the data center because there"
+  },
+  {
+    "segment_id": "s00076",
+    "start_seconds": 285.6199951171875,
+    "end_seconds": 287.6199951171875,
+    "text": "is no internet access type of thing."
+  },
+  {
+    "segment_id": "s00077",
+    "start_seconds": 287.6199951171875,
+    "end_seconds": 293.6199951171875,
+    "text": "So, it's a wild world, and it frustrates a lot of, I think, new folks to the enterprise"
+  },
+  {
+    "segment_id": "s00078",
+    "start_seconds": 293.6199951171875,
+    "end_seconds": 294.6199951171875,
+    "text": "space."
+  },
+  {
+    "segment_id": "s00079",
+    "start_seconds": 294.6199951171875,
+    "end_seconds": 298.6199951171875,
+    "text": "But if you've been in a while, you know how to deal with it and how to handle it type"
+  },
+  {
+    "segment_id": "s00080",
+    "start_seconds": 298.6199951171875,
+    "end_seconds": 299.6199951171875,
+    "text": "of thing."
+  },
+  {
+    "segment_id": "s00081",
+    "start_seconds": 299.6199951171875,
+    "end_seconds": 306.6199951171875,
+    "text": "And I guess, you know, people have been dealing with these types of environments for quite"
+  },
+  {
+    "segment_id": "s00082",
+    "start_seconds": 306.6199951171875,
+    "end_seconds": 307.6199951171875,
+    "text": "a while, right?"
+  },
+  {
+    "segment_id": "s00083",
+    "start_seconds": 307.6199951171875,
+    "end_seconds": 310.6199951171875,
+    "text": "Because there have been enterprises for quite a while."
+  },
+  {
+    "segment_id": "s00084",
+    "start_seconds": 310.6199951171875,
+    "end_seconds": 317.6199951171875,
+    "text": "Maybe just give us a sense of, like, leading up to AI agents, and we'll talk about agents"
+  },
+  {
+    "segment_id": "s00085",
+    "start_seconds": 317.6199951171875,
+    "end_seconds": 322.6199951171875,
+    "text": "here in a second, but leading up to AI agents, like, what were some of the ways that you"
+  },
+  {
+    "segment_id": "s00086",
+    "start_seconds": 322.6199951171875,
+    "end_seconds": 329.6199951171875,
+    "text": "could, I guess, ease, you know, put some ointment on those pains of working in that"
+  },
+  {
+    "segment_id": "s00087",
+    "start_seconds": 329.6199951171875,
+    "end_seconds": 330.6199951171875,
+    "text": "sort of environment?"
+  },
+  {
+    "segment_id": "s00088",
+    "start_seconds": 330.6199951171875,
+    "end_seconds": 336.6199951171875,
+    "text": "How would you get an application into that sort of environment or have it be enterprise"
+  },
+  {
+    "segment_id": "s00089",
+    "start_seconds": 336.6199951171875,
+    "end_seconds": 338.6199951171875,
+    "text": "ready, quote unquote?"
+  },
+  {
+    "segment_id": "s00090",
+    "start_seconds": 338.6199951171875,
+    "end_seconds": 341.6199951171875,
+    "text": "And then we can shift and talk about, you know, what changes with agents."
+  },
+  {
+    "segment_id": "s00091",
+    "start_seconds": 341.6199951171875,
+    "end_seconds": 342.6199951171875,
+    "text": "Yeah."
+  },
+  {
+    "segment_id": "s00092",
+    "start_seconds": 342.6199951171875,
+    "end_seconds": 347.6199951171875,
+    "text": "So, I mean, I think, so, you know, I currently work for VMware Tanzu, and we run a, you know,"
+  },
+  {
+    "segment_id": "s00093",
+    "start_seconds": 347.6199951171875,
+    "end_seconds": 352.6199951171875,
+    "text": "a platform or a platform as a service, you know, geared for private cloud, whether that"
+  },
+  {
+    "segment_id": "s00094",
+    "start_seconds": 352.6199951171875,
+    "end_seconds": 357.6199951171875,
+    "text": "be on your, like, on your own bare metal in your data center, or you could deploy it on"
+  },
+  {
+    "segment_id": "s00095",
+    "start_seconds": 357.6199951171875,
+    "end_seconds": 362.6199951171875,
+    "text": "a private cloud in your own, like, VPC on a hyperscaler, that type of thing."
+  },
+  {
+    "segment_id": "s00096",
+    "start_seconds": 362.6199951171875,
+    "end_seconds": 366.6199951171875,
+    "text": "But we think about that, you know, we want to, in the scope of an enterprise, right,"
+  },
+  {
+    "segment_id": "s00097",
+    "start_seconds": 366.6199951171875,
+    "end_seconds": 371.6199951171875,
+    "text": "you have all these regulations, controls, et cetera, you want to make that path to production"
+  },
+  {
+    "segment_id": "s00098",
+    "start_seconds": 371.6199951171875,
+    "end_seconds": 374.6199951171875,
+    "text": "kind of the least resistant and easiest path."
+  },
+  {
+    "segment_id": "s00099",
+    "start_seconds": 374.6199951171875,
+    "end_seconds": 378.6199951171875,
+    "text": "And if you make that path to production, like all the checkboxes and everything good to"
+  },
+  {
+    "segment_id": "s00100",
+    "start_seconds": 378.6199951171875,
+    "end_seconds": 380.6199951171875,
+    "text": "go, that's going to be a highly adopted path."
+  },
+  {
+    "segment_id": "s00101",
+    "start_seconds": 380.6199951171875,
+    "end_seconds": 386.6199951171875,
+    "text": "So the whole concept of, you know, Tanzu platform, and it's actually based on an open source"
+  },
+  {
+    "segment_id": "s00102",
+    "start_seconds": 386.6199951171875,
+    "end_seconds": 390.6199951171875,
+    "text": "project called Cloud Foundry, which is, I think, I mean, it's, you know, predates Kubernetes"
+  },
+  {
+    "segment_id": "s00103",
+    "start_seconds": 390.6199951171875,
+    "end_seconds": 391.6199951171875,
+    "text": "and Docker."
+  },
+  {
+    "segment_id": "s00104",
+    "start_seconds": 391.6199951171875,
+    "end_seconds": 395.6199951171875,
+    "text": "So, you know, 2011-ish is when it kind of started originally out of VMware and spun"
+  },
+  {
+    "segment_id": "s00105",
+    "start_seconds": 395.6199951171875,
+    "end_seconds": 397.6199951171875,
+    "text": "out and then became part of an open source project."
+  },
+  {
+    "segment_id": "s00106",
+    "start_seconds": 397.6199951171875,
+    "end_seconds": 402.6199951171875,
+    "text": "So it's been around and battle tested and seen a lot of things where you have that concept"
+  },
+  {
+    "segment_id": "s00107",
+    "start_seconds": 402.6199951171875,
+    "end_seconds": 405.6199951171875,
+    "text": "of, like, I just want to take my code and send it to the platform."
+  },
+  {
+    "segment_id": "s00108",
+    "start_seconds": 405.6199951171875,
+    "end_seconds": 408.6199951171875,
+    "text": "And the platform is going to know, like, the best practices for, it's going to build a"
+  },
+  {
+    "segment_id": "s00109",
+    "start_seconds": 408.6199951171875,
+    "end_seconds": 410.6199951171875,
+    "text": "container for the developer."
+  },
+  {
+    "segment_id": "s00110",
+    "start_seconds": 410.6199951171875,
+    "end_seconds": 413.6199951171875,
+    "text": "So the developer doesn't have to worry about, like, you know, securing the container or"
+  },
+  {
+    "segment_id": "s00111",
+    "start_seconds": 413.6199951171875,
+    "end_seconds": 414.6199951171875,
+    "text": "anything like that."
+  },
+  {
+    "segment_id": "s00112",
+    "start_seconds": 414.6199951171875,
+    "end_seconds": 416.6199951171875,
+    "text": "The platform will take care of that."
+  },
+  {
+    "segment_id": "s00113",
+    "start_seconds": 416.6199951171875,
+    "end_seconds": 421.6199951171875,
+    "text": "It will handle, you know, ingress, like certs, certificates, all the, you know, load"
+  },
+  {
+    "segment_id": "s00114",
+    "start_seconds": 421.6199951171875,
+    "end_seconds": 426.6199951171875,
+    "text": "balancers, all of those things just handle health monitoring, potentially even kind of"
+  },
+  {
+    "segment_id": "s00115",
+    "start_seconds": 426.6199951171875,
+    "end_seconds": 428.6199951171875,
+    "text": "like sandboxing the apps from each other."
+  },
+  {
+    "segment_id": "s00116",
+    "start_seconds": 429.6199951171875,
+    "end_seconds": 434.6199951171875,
+    "text": "Something that, you know, maybe some of these labs may learn from, but so that the apps"
+  },
+  {
+    "segment_id": "s00117",
+    "start_seconds": 434.6199951171875,
+    "end_seconds": 437.6199951171875,
+    "text": "can't escape type of thing."
+  },
+  {
+    "segment_id": "s00118",
+    "start_seconds": 437.6199951171875,
+    "end_seconds": 443.6199951171875,
+    "text": "And, you know, if the app needs services like a database or messaging middleware, any type"
+  },
+  {
+    "segment_id": "s00119",
+    "start_seconds": 443.6199951171875,
+    "end_seconds": 448.6199951171875,
+    "text": "of thing, even maybe a large language model, it can, what we call, bind or kind of connect"
+  },
+  {
+    "segment_id": "s00120",
+    "start_seconds": 448.6199951171875,
+    "end_seconds": 450.6199951171875,
+    "text": "to a service on the fly."
+  },
+  {
+    "segment_id": "s00121",
+    "start_seconds": 450.6199951171875,
+    "end_seconds": 452.6199951171875,
+    "text": "And that's all kind of handled underneath the cover."
+  },
+  {
+    "segment_id": "s00122",
+    "start_seconds": 452.6199951171875,
+    "end_seconds": 458.6199951171875,
+    "text": "So it's just a few commands, like you push, bind, scale your app with just a few simple"
+  },
+  {
+    "segment_id": "s00123",
+    "start_seconds": 458.6199951171875,
+    "end_seconds": 459.6199951171875,
+    "text": "constructs."
+  },
+  {
+    "segment_id": "s00124",
+    "start_seconds": 459.6199951171875,
+    "end_seconds": 462.6199951171875,
+    "text": "And that's, that's like, that's how you go to production."
+  },
+  {
+    "segment_id": "s00125",
+    "start_seconds": 462.6199951171875,
+    "end_seconds": 466.6199951171875,
+    "text": "And what we see with enterprises, once that path, like once they take this, like this"
+  },
+  {
+    "segment_id": "s00126",
+    "start_seconds": 466.6199951171875,
+    "end_seconds": 469.6199951171875,
+    "text": "is Tanzu platform, it's been certified through all these different standards."
+  },
+  {
+    "segment_id": "s00127",
+    "start_seconds": 469.6199951171875,
+    "end_seconds": 475.6199951171875,
+    "text": "It's just kind of like an unlock for these enterprises because it's so easy and so simple"
+  },
+  {
+    "segment_id": "s00128",
+    "start_seconds": 475.6199951171875,
+    "end_seconds": 478.6199951171875,
+    "text": "to use and they don't have to, you know, they don't have to recertify everything."
+  },
+  {
+    "segment_id": "s00129",
+    "start_seconds": 479.6199951171875,
+    "end_seconds": 482.6199951171875,
+    "text": "It's just like this framework that they can use to get apps into production."
+  },
+  {
+    "segment_id": "s00130",
+    "start_seconds": 482.6199951171875,
+    "end_seconds": 487.6199951171875,
+    "text": "And then the biggest thing is that you want these enterprises or the businesses, they"
+  },
+  {
+    "segment_id": "s00131",
+    "start_seconds": 487.6199951171875,
+    "end_seconds": 492.6199951171875,
+    "text": "don't want their developers, you know, hand crafting a new platform or a new way to deploy"
+  },
+  {
+    "segment_id": "s00132",
+    "start_seconds": 492.6199951171875,
+    "end_seconds": 496.6199951171875,
+    "text": "apps for every sub team and have like a hundred different snowflakes, right?"
+  },
+  {
+    "segment_id": "s00133",
+    "start_seconds": 496.6199951171875,
+    "end_seconds": 500.6199951171875,
+    "text": "They want the same repeatable pattern across the board so that they can audit it and secure"
+  },
+  {
+    "segment_id": "s00134",
+    "start_seconds": 500.6199951171875,
+    "end_seconds": 504.6199951171875,
+    "text": "it and have their developers actually spend time writing the business logic versus like"
+  },
+  {
+    "segment_id": "s00135",
+    "start_seconds": 504.6199951171875,
+    "end_seconds": 505.6199951171875,
+    "text": "fiddling with infrastructure."
+  },
+  {
+    "segment_id": "s00136",
+    "start_seconds": 505.6199951171875,
+    "end_seconds": 509.6199951171875,
+    "text": "So that's kind of like the whole premise behind, you know, the whole platform is sort of just"
+  },
+  {
+    "segment_id": "s00137",
+    "start_seconds": 509.6199951171875,
+    "end_seconds": 511.6199951171875,
+    "text": "construct and, you know, Tanzu platform."
+  },
+  {
+    "segment_id": "s00138",
+    "start_seconds": 511.6199951171875,
+    "end_seconds": 513.6199951171875,
+    "text": "And as you can imagine, go ahead."
+  },
+  {
+    "segment_id": "s00139",
+    "start_seconds": 513.6199951171875,
+    "end_seconds": 514.6199951171875,
+    "text": "Yeah."
+  },
+  {
+    "segment_id": "s00140",
+    "start_seconds": 514.6199951171875,
+    "end_seconds": 515.6199951171875,
+    "text": "No, no, go ahead."
+  },
+  {
+    "segment_id": "s00141",
+    "start_seconds": 515.6199951171875,
+    "end_seconds": 516.6199951171875,
+    "text": "Finish up and then I'll follow up."
+  },
+  {
+    "segment_id": "s00142",
+    "start_seconds": 516.6199951171875,
+    "end_seconds": 517.6199951171875,
+    "text": "All good."
+  },
+  {
+    "segment_id": "s00143",
+    "start_seconds": 517.6199951171875,
+    "end_seconds": 518.6199951171875,
+    "text": "Okay."
+  },
+  {
+    "segment_id": "s00144",
+    "start_seconds": 518.6199951171875,
+    "end_seconds": 521.6199951171875,
+    "text": "As, as you could imagine, those principles when we're talking about apps could probably"
+  },
+  {
+    "segment_id": "s00145",
+    "start_seconds": 521.6199951171875,
+    "end_seconds": 525.6199951171875,
+    "text": "play nicely into this agent world that we're living in."
+  },
+  {
+    "segment_id": "s00146",
+    "start_seconds": 525.6199951171875,
+    "end_seconds": 530.6199951171875,
+    "text": "So it sounds like you're, you're drawing a lot of commonality between kind of traditional"
+  },
+  {
+    "segment_id": "s00147",
+    "start_seconds": 530.6199951171875,
+    "end_seconds": 536.6199951171875,
+    "text": "app development and, and all of the, the, uh, the structure that we're all used to that"
+  },
+  {
+    "segment_id": "s00148",
+    "start_seconds": 536.6199951171875,
+    "end_seconds": 537.6199951171875,
+    "text": "we've been doing for forever."
+  },
+  {
+    "segment_id": "s00149",
+    "start_seconds": 537.6199951171875,
+    "end_seconds": 543.6199951171875,
+    "text": "Um, and, and kind of now we're into this agentic world and maybe people have been thinking"
+  },
+  {
+    "segment_id": "s00150",
+    "start_seconds": 543.6199951171875,
+    "end_seconds": 548.6199951171875,
+    "text": "about that in a different way, but it sounds like you've really kind of said, and correct"
+  },
+  {
+    "segment_id": "s00151",
+    "start_seconds": 548.6199951171875,
+    "end_seconds": 550.6199951171875,
+    "text": "me if I'm wrong, I'm going to get to throw something out there."
+  },
+  {
+    "segment_id": "s00152",
+    "start_seconds": 550.6199951171875,
+    "end_seconds": 556.6199951171875,
+    "text": "Like it's kind of the same thing in the sense of there, there are differences, but agents"
+  },
+  {
+    "segment_id": "s00153",
+    "start_seconds": 556.6199951171875,
+    "end_seconds": 559.6199951171875,
+    "text": "and apps should sort of be treated the same way."
+  },
+  {
+    "segment_id": "s00154",
+    "start_seconds": 559.6199951171875,
+    "end_seconds": 564.6199951171875,
+    "text": "Is that, am I getting that correctly in terms of, of how you're structuring that and that"
+  },
+  {
+    "segment_id": "s00155",
+    "start_seconds": 564.6199951171875,
+    "end_seconds": 569.6199951171875,
+    "text": "maybe people need to look at what they've been doing for years and make that work for"
+  },
+  {
+    "segment_id": "s00156",
+    "start_seconds": 569.6199951171875,
+    "end_seconds": 571.6199951171875,
+    "text": "agents in the same way?"
+  },
+  {
+    "segment_id": "s00157",
+    "start_seconds": 571.6199951171875,
+    "end_seconds": 572.6199951171875,
+    "text": "Is that, is that fair?"
+  },
+  {
+    "segment_id": "s00158",
+    "start_seconds": 572.6199951171875,
+    "end_seconds": 573.6199951171875,
+    "text": "Um, yeah."
+  },
+  {
+    "segment_id": "s00159",
+    "start_seconds": 573.6199951171875,
+    "end_seconds": 576.6199951171875,
+    "text": "I mean, I think it's a, it's a pretty fair assessment and, uh, we're starting to see"
+  },
+  {
+    "segment_id": "s00160",
+    "start_seconds": 576.6199951171875,
+    "end_seconds": 579.6199951171875,
+    "text": "that more and more just within our customer base."
+  },
+  {
+    "segment_id": "s00161",
+    "start_seconds": 579.6199951171875,
+    "end_seconds": 583.6199951171875,
+    "text": "And, uh, you know, even like if you think about like apps back in the day, like someone"
+  },
+  {
+    "segment_id": "s00162",
+    "start_seconds": 583.6199951171875,
+    "end_seconds": 586.6199951171875,
+    "text": "would write some app on their laptop and like run it on their laptop, but it's like,"
+  },
+  {
+    "segment_id": "s00163",
+    "start_seconds": 586.6199951171875,
+    "end_seconds": 587.6199951171875,
+    "text": "we can't just run it."
+  },
+  {
+    "segment_id": "s00164",
+    "start_seconds": 587.6199951171875,
+    "end_seconds": 589.6199951171875,
+    "text": "You know, like you got to get it off your laptop somewhere."
+  },
+  {
+    "segment_id": "s00165",
+    "start_seconds": 589.6199951171875,
+    "end_seconds": 590.6199951171875,
+    "text": "And the same thing with agents."
+  },
+  {
+    "segment_id": "s00166",
+    "start_seconds": 590.6199951171875,
+    "end_seconds": 593.6199951171875,
+    "text": "You're like, I got this, I've got all these agents around my laptop."
+  },
+  {
+    "segment_id": "s00167",
+    "start_seconds": 593.6199951171875,
+    "end_seconds": 594.6199951171875,
+    "text": "If I shut my lid, everything stops."
+  },
+  {
+    "segment_id": "s00168",
+    "start_seconds": 594.6199951171875,
+    "end_seconds": 596.6199951171875,
+    "text": "Like I, I don't really want that to happen."
+  },
+  {
+    "segment_id": "s00169",
+    "start_seconds": 596.6199951171875,
+    "end_seconds": 597.6199951171875,
+    "text": "Right."
+  },
+  {
+    "segment_id": "s00170",
+    "start_seconds": 597.6199951171875,
+    "end_seconds": 598.6199951171875,
+    "text": "I want them to run 24 seven, you know, 365."
+  },
+  {
+    "segment_id": "s00171",
+    "start_seconds": 600.0,
+    "end_seconds": 604.2399997711182,
+    "text": "do all the work I give them. So yeah, I think that's kind of precisely what we're going with."
+  },
+  {
+    "segment_id": "s00172",
+    "start_seconds": 604.960000038147,
+    "end_seconds": 610.3999996185303,
+    "text": "So I guess then it begs the question, why are people kind of throwing out"
+  },
+  {
+    "segment_id": "s00173",
+    "start_seconds": 611.039999961853,
+    "end_seconds": 616.8799991607666,
+    "text": "what maybe their intuition, like in certain ways people are saying, oh, we have agents,"
+  },
+  {
+    "segment_id": "s00174",
+    "start_seconds": 616.8799991607666,
+    "end_seconds": 623.2000007629395,
+    "text": "now we need to do something totally different, which is maybe driven by some things that"
+  },
+  {
+    "segment_id": "s00175",
+    "start_seconds": 624.079999923706,
+    "end_seconds": 632.0800018310547,
+    "text": "make an agent not just a sort of simple application, but also it doesn't necessarily"
+  },
+  {
+    "segment_id": "s00176",
+    "start_seconds": 632.0800018310547,
+    "end_seconds": 636.3199996948242,
+    "text": "mean, you know, obviously we have to throw out everything we've learned about platform engineering"
+  },
+  {
+    "segment_id": "s00177",
+    "start_seconds": 636.3199996948242,
+    "end_seconds": 645.3600006103516,
+    "text": "and how to deploy things. So from your mindset, where does the kind of agent equals"
+  },
+  {
+    "segment_id": "s00178",
+    "start_seconds": 646.0800018310547,
+    "end_seconds": 651.1199989318848,
+    "text": "just another app, where might that fall apart, or what are the kind of unique characteristics"
+  },
+  {
+    "segment_id": "s00179",
+    "start_seconds": 651.1199989318848,
+    "end_seconds": 656.4000015258789,
+    "text": "that you're dealing with on the agentic side, on the deployment pathway that you"
+  },
+  {
+    "segment_id": "s00180",
+    "start_seconds": 656.4000015258789,
+    "end_seconds": 660.7200012207031,
+    "text": "might not have had to consider before, or at least are considering in a new way?"
+  },
+  {
+    "segment_id": "s00181",
+    "start_seconds": 660.7200012207031,
+    "end_seconds": 664.879997253418,
+    "text": "Well, I mean, I think some of the biggest differences, right, where like you talk about"
+  },
+  {
+    "segment_id": "s00182",
+    "start_seconds": 664.879997253418,
+    "end_seconds": 669.7600021362305,
+    "text": "Cloud Foundry and Teensy platform, it was kind of based on this premise of a 12-factor application,"
+  },
+  {
+    "segment_id": "s00183",
+    "start_seconds": 669.7600021362305,
+    "end_seconds": 675.1999969482422,
+    "text": "where like storage and state are a little, you know, decoupled cleanly from the actual apps,"
+  },
+  {
+    "segment_id": "s00184",
+    "start_seconds": 675.1999969482422,
+    "end_seconds": 678.8000030517578,
+    "text": "you could like, you know, I can scale up to a thousand instances and be fine,"
+  },
+  {
+    "segment_id": "s00185",
+    "start_seconds": 678.8000030517578,
+    "end_seconds": 682.879997253418,
+    "text": "and you handle session state and things. The traditional harnesses or agents were kind of"
+  },
+  {
+    "segment_id": "s00186",
+    "start_seconds": 682.879997253418,
+    "end_seconds": 686.9599990844727,
+    "text": "built originally just like, I've got file system access, and I can just write a bunch of MD files,"
+  },
+  {
+    "segment_id": "s00187",
+    "start_seconds": 686.9599990844727,
+    "end_seconds": 690.879997253418,
+    "text": "and that's like my memory, everything's great. And like, well, you start to get into a cloud"
+  },
+  {
+    "segment_id": "s00188",
+    "start_seconds": 690.879997253418,
+    "end_seconds": 696.4000015258789,
+    "text": "world that things spin up and down in our ephemeral, you're going to want to save those"
+  },
+  {
+    "segment_id": "s00189",
+    "start_seconds": 696.4000015258789,
+    "end_seconds": 702.2399978637695,
+    "text": "MD files somewhere, they're going to go off into the ether. So that's probably the,"
+  },
+  {
+    "segment_id": "s00190",
+    "start_seconds": 702.2399978637695,
+    "end_seconds": 704.879997253418,
+    "text": "I think the biggest challenge when you start talking about how do we take"
+  },
+  {
+    "segment_id": "s00191",
+    "start_seconds": 705.6800003051758,
+    "end_seconds": 711.1999969482422,
+    "text": "the app deployment methodology, right, and then push that into like an agent running on a kind of"
+  },
+  {
+    "segment_id": "s00192",
+    "start_seconds": 711.1999969482422,
+    "end_seconds": 715.8399963378906,
+    "text": "a cloud platform per se. It's probably the biggest challenge. And then just kind of getting the fact"
+  },
+  {
+    "segment_id": "s00193",
+    "start_seconds": 715.8399963378906,
+    "end_seconds": 720.6399993896484,
+    "text": "that there's some valid use cases for like your laptop or whatever, but then also as we're starting"
+  },
+  {
+    "segment_id": "s00194",
+    "start_seconds": 720.6399993896484,
+    "end_seconds": 725.8399963378906,
+    "text": "to see more and more, like enterprise was, enterprises want agents to be on demand and like"
+  },
+  {
+    "segment_id": "s00195",
+    "start_seconds": 726.4800033569336,
+    "end_seconds": 731.2799987792969,
+    "text": "usable kind of in a, like say in a CICD pipeline or like on, you know, within part of their,"
+  },
+  {
+    "segment_id": "s00196",
+    "start_seconds": 732.0,
+    "end_seconds": 735.6799926757812,
+    "text": "you know, e-commerce suite or just normal applications. And you want those to be"
+  },
+  {
+    "segment_id": "s00197",
+    "start_seconds": 735.6799926757812,
+    "end_seconds": 738.8800048828125,
+    "text": "kind of really close to the apps, right? Because if you're, if you have them way off,"
+  },
+  {
+    "segment_id": "s00198",
+    "start_seconds": 738.8800048828125,
+    "end_seconds": 743.0399932861328,
+    "text": "you know, even just from a pure networking perspective, if you have, you know, the agent"
+  },
+  {
+    "segment_id": "s00199",
+    "start_seconds": 743.0399932861328,
+    "end_seconds": 748.0,
+    "text": "or the LLM or whatever, that's like, you know, 30 hops away from the microservices trying to call"
+  },
+  {
+    "segment_id": "s00200",
+    "start_seconds": 748.0,
+    "end_seconds": 752.1600036621094,
+    "text": "it, there's, you know, physics that are going to add on to all of that latency and potentially at"
+  },
+  {
+    "segment_id": "s00201",
+    "start_seconds": 752.1600036621094,
+    "end_seconds": 757.1999969482422,
+    "text": "scale even be problematic. So they kind of want to collate all the intel, co-locate the intelligence"
+  },
+  {
+    "segment_id": "s00202",
+    "start_seconds": 757.1999969482422,
+    "end_seconds": 761.4400024414062,
+    "text": "with the app and the data as close as possible. That's what we've seen too. That's something that"
+  },
+  {
+    "segment_id": "s00203",
+    "start_seconds": 761.4400024414062,
+    "end_seconds": 765.6000061035156,
+    "text": "I didn't expect really, because some of these, some of these responses are kind of long, but"
+  },
+  {
+    "segment_id": "s00204",
+    "start_seconds": 765.6000061035156,
+    "end_seconds": 770.0,
+    "text": "it's like what we've seen with our customers at scale, like we want to get the LLMs and the agents"
+  },
+  {
+    "segment_id": "s00205",
+    "start_seconds": 770.0,
+    "end_seconds": 774.6399993896484,
+    "text": "closer to us and our actual apps using them and the people using them as well. And not to mention,"
+  },
+  {
+    "segment_id": "s00206",
+    "start_seconds": 774.6399993896484,
+    "end_seconds": 779.1199951171875,
+    "text": "if you're using some of these SaaS providers, they're maybe not the most reliable in terms of"
+  },
+  {
+    "segment_id": "s00207",
+    "start_seconds": 779.1199951171875,
+    "end_seconds": 784.8800048828125,
+    "text": "what traditional enterprises expect and demand. So you can't just have them, you know, going offline"
+  },
+  {
+    "segment_id": "s00208",
+    "start_seconds": 784.8800048828125,
+    "end_seconds": 789.5200042724609,
+    "text": "for hours because, you know, even at my past job, the very first thing I did there was work on a"
+  },
+  {
+    "segment_id": "s00209",
+    "start_seconds": 789.5200042724609,
+    "end_seconds": 794.8800048828125,
+    "text": "warehouse inventory system. And let's just say it was for a large retailer that was a grocery"
+  },
+  {
+    "segment_id": "s00210",
+    "start_seconds": 794.8800048828125,
+    "end_seconds": 800.8800048828125,
+    "text": "retailer in the U.S. And I was an intern out of college and the app was older than me at the time,"
+  },
+  {
+    "segment_id": "s00211",
+    "start_seconds": 800.8800048828125,
+    "end_seconds": 808.3999938964844,
+    "text": "still older than me. And, you know, it was a bunch of like, you know, C and shell scripts on Unix"
+  },
+  {
+    "segment_id": "s00212",
+    "start_seconds": 808.3999938964844,
+    "end_seconds": 813.2799987792969,
+    "text": "systems. And if that thing went down, like within five minutes, like the warehouse was backing up"
+  },
+  {
+    "segment_id": "s00213",
+    "start_seconds": 813.2799987792969,
+    "end_seconds": 819.3600006103516,
+    "text": "trucks like on the interstate. So it's like you have to like the scale of enterprise, which is"
+  },
+  {
+    "segment_id": "s00214",
+    "start_seconds": 819.3600006103516,
+    "end_seconds": 825.2799987792969,
+    "text": "just, you know, like consumer is a completely different scale. So that's why some of all the"
+  },
+  {
+    "segment_id": "s00215",
+    "start_seconds": 825.2799987792969,
+    "end_seconds": 830.4799957275391,
+    "text": "things we're trying to make them a little bit more enterprise grade and more used to what"
+  },
+  {
+    "segment_id": "s00216",
+    "start_seconds": 830.4799957275391,
+    "end_seconds": 838.0800018310547,
+    "text": "these enterprises expect from software. Some mornings as I'm drinking my morning coffee,"
+  },
+  {
+    "segment_id": "s00217",
+    "start_seconds": 838.0800018310547,
+    "end_seconds": 844.0,
+    "text": "I listen to live news updates to figure out what's going on in the world. And it seems like"
+  },
+  {
+    "segment_id": "s00218",
+    "start_seconds": 844.0,
+    "end_seconds": 850.6399993896484,
+    "text": "recently everyone is talking about A.I. kill switches. But the reality is that there is no"
+  },
+  {
+    "segment_id": "s00219",
+    "start_seconds": 850.6399993896484,
+    "end_seconds": 856.6400146484375,
+    "text": "one A.I. kill switch. We've moved from models to agents. Those agents are connected to multiple"
+  },
+  {
+    "segment_id": "s00220",
+    "start_seconds": 856.6400146484375,
+    "end_seconds": 862.1600036621094,
+    "text": "models. They have an agent harness. They're connected to MCP servers and tools. And those"
+  },
+  {
+    "segment_id": "s00221",
+    "start_seconds": 862.1600036621094,
+    "end_seconds": 867.5199890136719,
+    "text": "agents are acting within a fleet, delegating to one another and interacting with one another."
+  },
+  {
+    "segment_id": "s00222",
+    "start_seconds": 867.5199890136719,
+    "end_seconds": 873.3599853515625,
+    "text": "In that environment, what you don't have is a single kill switch that solves all of your"
+  },
+  {
+    "segment_id": "s00223",
+    "start_seconds": 873.3599853515625,
+    "end_seconds": 879.0400085449219,
+    "text": "problems. But that doesn't mean that you can't exert your control. You just have to exert that"
+  },
+  {
+    "segment_id": "s00224",
+    "start_seconds": 879.0400085449219,
+    "end_seconds": 886.1600036621094,
+    "text": "control across various layers of that stack through, of course, component input, output"
+  },
+  {
+    "segment_id": "s00225",
+    "start_seconds": 886.1600036621094,
+    "end_seconds": 893.6000061035156,
+    "text": "safeguards, but also controls on agents tied to their agent identity. Things that track tool"
+  },
+  {
+    "segment_id": "s00226",
+    "start_seconds": 893.6000061035156,
+    "end_seconds": 900.8800048828125,
+    "text": "misuse or memory poisoning or goal drift, et cetera. And what we're providing at Prediction"
+  },
+  {
+    "segment_id": "s00227",
+    "start_seconds": 900.8800048828125,
+    "end_seconds": 906.7999877929688,
+    "text": "Guard, the company that I lead personally, is an A.I. control plane that you self-host"
+  },
+  {
+    "segment_id": "s00228",
+    "start_seconds": 906.7999877929688,
+    "end_seconds": 913.4400024414062,
+    "text": "in your own infrastructure that gives you that control plane or control layer for the relevant"
+  },
+  {
+    "segment_id": "s00229",
+    "start_seconds": 914.1600036621094,
+    "end_seconds": 919.2799987792969,
+    "text": "stack that agents operate on top of. I'd encourage you to check out what we're doing"
+  },
+  {
+    "segment_id": "s00230",
+    "start_seconds": 919.3599853515625,
+    "end_seconds": 926.239990234375,
+    "text": "at predictionguard.com slash practical A.I. Go ahead and book a call with myself and the team"
+  },
+  {
+    "segment_id": "s00231",
+    "start_seconds": 926.239990234375,
+    "end_seconds": 933.2799987792969,
+    "text": "to learn more about how you can gain control of the agents operating in your environment and exert"
+  },
+  {
+    "segment_id": "s00232",
+    "start_seconds": 933.8399963378906,
+    "end_seconds": 939.5199890136719,
+    "text": "zero trust principles in the way that you operate those agents. So check us out at"
+  },
+  {
+    "segment_id": "s00233",
+    "start_seconds": 939.5199890136719,
+    "end_seconds": 947.1199951171875,
+    "text": "predictionguard.com slash practical A.I. That's predictionguard.com slash practical A.I."
+  },
+  {
+    "segment_id": "s00234",
+    "start_seconds": 949.2000122070312,
+    "end_seconds": 953.6000061035156,
+    "text": "So, Nick, I would love to dive back. I want to kind of build on what you've what you've been"
+  },
+  {
+    "segment_id": "s00235",
+    "start_seconds": 953.6000061035156,
+    "end_seconds": 961.1199951171875,
+    "text": "sharing so far. And part of that is that we're all diving into this multi-agentic world where,"
+  },
+  {
+    "segment_id": "s00236",
+    "start_seconds": 961.1199951171875,
+    "end_seconds": 965.6799926757812,
+    "text": "you know, you know, some, you know, late last year, you know, you'd have an agent."
+  },
+  {
+    "segment_id": "s00237",
+    "start_seconds": 966.3999938964844,
+    "end_seconds": 971.6799926757812,
+    "text": "And then, you know, for most people, I think getting into multi-agents, it was probably"
+  },
+  {
+    "segment_id": "s00238",
+    "start_seconds": 971.6799926757812,
+    "end_seconds": 979.6000061035156,
+    "text": "developers and, you know, in the environments that the A.I. providers were making available,"
+  },
+  {
+    "segment_id": "s00239",
+    "start_seconds": 979.6000061035156,
+    "end_seconds": 984.239990234375,
+    "text": "and you had multiple agents working on a project. But now we're really seeing, you know, with these"
+  },
+  {
+    "segment_id": "s00240",
+    "start_seconds": 984.239990234375,
+    "end_seconds": 990.6400146484375,
+    "text": "work products and other things that have come out, we're seeing agents really multiplying across,"
+  },
+  {
+    "segment_id": "s00241",
+    "start_seconds": 991.5199890136719,
+    "end_seconds": 997.8399963378906,
+    "text": "you know, many different contexts and with a lot of different utility. And it's moved out of being"
+  },
+  {
+    "segment_id": "s00242",
+    "start_seconds": 997.8399963378906,
+    "end_seconds": 1004.5599975585938,
+    "text": "just frontier services. And we're now doing that with our hosted agents as well that we're running."
+  },
+  {
+    "segment_id": "s00243",
+    "start_seconds": 1004.5599975585938,
+    "end_seconds": 1010.8800048828125,
+    "text": "And so like this multi-agentic world has just taken off in a very short amount of time. And"
+  },
+  {
+    "segment_id": "s00244",
+    "start_seconds": 1010.8800048828125,
+    "end_seconds": 1018.239990234375,
+    "text": "as you're as if I'm kind of, I guess I'm asking if you can kind of paint a picture as you start"
+  },
+  {
+    "segment_id": "s00245",
+    "start_seconds": 1018.3200073242188,
+    "end_seconds": 1024.8800048828125,
+    "text": "scaling this out in the enterprise and what that looks like. Like, could you describe,"
+  },
+  {
+    "segment_id": "s00246",
+    "start_seconds": 1024.8800048828125,
+    "end_seconds": 1028.8800048828125,
+    "text": "you know, and we have analogies as you've pointed out with kind of the traditional software"
+  },
+  {
+    "segment_id": "s00247",
+    "start_seconds": 1028.8800048828125,
+    "end_seconds": 1032.7200012207031,
+    "text": "development world and the containers and all the, you know, and how you're structuring"
+  },
+  {
+    "segment_id": "s00248",
+    "start_seconds": 1033.2799987792969,
+    "end_seconds": 1038.239990234375,
+    "text": "deployment and stuff. Could you talk a little bit about what that looks like? Kind of paint"
+  },
+  {
+    "segment_id": "s00249",
+    "start_seconds": 1038.239990234375,
+    "end_seconds": 1046.3999938964844,
+    "text": "a picture so that somebody can really get that in their head. Me, first of all, about what that"
+  },
+  {
+    "segment_id": "s00250",
+    "start_seconds": 1046.3999938964844,
+    "end_seconds": 1051.6799926757812,
+    "text": "multi-agent world looks like when you were doing, when you were doing all these right things that"
+  },
+  {
+    "segment_id": "s00251",
+    "start_seconds": 1051.6799926757812,
+    "end_seconds": 1056.3999938964844,
+    "text": "you need to do in the enterprise. Yeah. So I mean, I think that the first thing that we want to"
+  },
+  {
+    "segment_id": "s00252",
+    "start_seconds": 1056.3999938964844,
+    "end_seconds": 1062.3999938964844,
+    "text": "focus on is that the enterprise, you know, needs to get whatever technology approved throughout"
+  },
+  {
+    "segment_id": "s00253",
+    "start_seconds": 1062.3999938964844,
+    "end_seconds": 1068.9599914550781,
+    "text": "their system. And then we, so we are providing a harness called the Tanzu agent build pack,"
+  },
+  {
+    "segment_id": "s00254",
+    "start_seconds": 1068.9599914550781,
+    "end_seconds": 1073.2799987792969,
+    "text": "and that helps to that process. So our existing customers already have our customer, you know,"
+  },
+  {
+    "segment_id": "s00255",
+    "start_seconds": 1073.2799987792969,
+    "end_seconds": 1078.7999877929688,
+    "text": "we're already approved so that we can help provide them those tools. And we just make that process"
+  },
+  {
+    "segment_id": "s00256",
+    "start_seconds": 1078.7999877929688,
+    "end_seconds": 1083.5199890136719,
+    "text": "just another app deployment on the, on the platform. So I probably haven't covered, they said,"
+  },
+  {
+    "segment_id": "s00257",
+    "start_seconds": 1083.5199890136719,
+    "end_seconds": 1087.0400085449219,
+    "text": "I'll explain what a build pack is, right? So when you, when you. Yeah, I was about to, I was about"
+  },
+  {
+    "segment_id": "s00258",
+    "start_seconds": 1087.0400085449219,
+    "end_seconds": 1091.2000122070312,
+    "text": "to ask you that, if you could kind of dive into what the specifics of each of those things does."
+  },
+  {
+    "segment_id": "s00259",
+    "start_seconds": 1091.2000122070312,
+    "end_seconds": 1097.0400085449219,
+    "text": "Sure. So when I would do demos before AI and before, you know, a year or two ago or whatever,"
+  },
+  {
+    "segment_id": "s00260",
+    "start_seconds": 1097.0400085449219,
+    "end_seconds": 1101.0400085449219,
+    "text": "we would always take like a Java app. And it was like a simple kind of like, you know,"
+  },
+  {
+    "segment_id": "s00261",
+    "start_seconds": 1101.6000061035156,
+    "end_seconds": 1105.8399963378906,
+    "text": "music album called a spring music or whatever. But we take that Java code to be like a jar file,"
+  },
+  {
+    "segment_id": "s00262",
+    "start_seconds": 1105.8399963378906,
+    "end_seconds": 1108.4800109863281,
+    "text": "like compile Java code. And we're like, all right, now we're going to take this. We have a little"
+  },
+  {
+    "segment_id": "s00263",
+    "start_seconds": 1108.4800109863281,
+    "end_seconds": 1112.5599975585938,
+    "text": "simple manifest file that tells us what the, what the name of the app is, how many, how much"
+  },
+  {
+    "segment_id": "s00264",
+    "start_seconds": 1112.5599975585938,
+    "end_seconds": 1116.47998046875,
+    "text": "resources to give it. And we just run a command that called CF push. And that would then just"
+  },
+  {
+    "segment_id": "s00265",
+    "start_seconds": 1116.47998046875,
+    "end_seconds": 1120.5599975585938,
+    "text": "take that, that code, the jar file and upload it to platform and the platform would be like, oh,"
+  },
+  {
+    "segment_id": "s00266",
+    "start_seconds": 1120.5599975585938,
+    "end_seconds": 1124.7999877929688,
+    "text": "it's, it's a Java app. So I'm going to use the Java build pack. And the build pack is a, it's"
+  },
+  {
+    "segment_id": "s00267",
+    "start_seconds": 1124.7999877929688,
+    "end_seconds": 1130.3200073242188,
+    "text": "basically a kind of a command set to make a best practice container based off that use case. So"
+  },
+  {
+    "segment_id": "s00268",
+    "start_seconds": 1130.3200073242188,
+    "end_seconds": 1137.3599853515625,
+    "text": "the Java build pack is to do all the JVM memory calculators, do the JDK and certificates and all,"
+  },
+  {
+    "segment_id": "s00269",
+    "start_seconds": 1137.3599853515625,
+    "end_seconds": 1142.0800170898438,
+    "text": "everything that's best practice to run Java in a container on a cloud platform. And that would"
+  },
+  {
+    "segment_id": "s00270",
+    "start_seconds": 1142.0800170898438,
+    "end_seconds": 1146.0,
+    "text": "be great. And then we would, you know, we would attach a database and, you know, all these things"
+  },
+  {
+    "segment_id": "s00271",
+    "start_seconds": 1146.0,
+    "end_seconds": 1150.1599731445312,
+    "text": "and show how that, that scales. Now we've taken that same concept and then said, hey, we're going"
+  },
+  {
+    "segment_id": "s00272",
+    "start_seconds": 1150.1599731445312,
+    "end_seconds": 1155.6799926757812,
+    "text": "to have this agent where we can just CF push an agent. And instead of like, you know, machine"
+  },
+  {
+    "segment_id": "s00273",
+    "start_seconds": 1155.6799926757812,
+    "end_seconds": 1161.280029296875,
+    "text": "readable code, we have a human readable language, the agents MD. So basically you tell what the"
+  },
+  {
+    "segment_id": "s00274",
+    "start_seconds": 1161.280029296875,
+    "end_seconds": 1165.2000122070312,
+    "text": "agent it's going to do. And then you just push it to the platform and it starts up with, you know,"
+  },
+  {
+    "segment_id": "s00275",
+    "start_seconds": 1165.2000122070312,
+    "end_seconds": 1168.9600219726562,
+    "text": "within a minute type of thing. And you can scale it up and, you know, push as many agents as you"
+  },
+  {
+    "segment_id": "s00276",
+    "start_seconds": 1168.9600219726562,
+    "end_seconds": 1173.2000122070312,
+    "text": "want. And I think the coolest thing that I've seen is that once we're on the platform, then we, we"
+  },
+  {
+    "segment_id": "s00277",
+    "start_seconds": 1173.2000122070312,
+    "end_seconds": 1177.280029296875,
+    "text": "can run models on the platform. So, you know, obviously a lot of our customers are air-gapped"
+  },
+  {
+    "segment_id": "s00278",
+    "start_seconds": 1177.280029296875,
+    "end_seconds": 1183.0399780273438,
+    "text": "and some of them were, were smart enough to buy GPUs a few years ago. So some of them have lots"
+  },
+  {
+    "segment_id": "s00279",
+    "start_seconds": 1183.0399780273438,
+    "end_seconds": 1187.1199951171875,
+    "text": "of GPUs that can run all these local models and have a great experience. Some are wishing that"
+  },
+  {
+    "segment_id": "s00280",
+    "start_seconds": 1187.1199951171875,
+    "end_seconds": 1192.239990234375,
+    "text": "they bought GPUs and, you know, hardware as the pricing of all this hardware goes through the"
+  },
+  {
+    "segment_id": "s00281",
+    "start_seconds": 1192.239990234375,
+    "end_seconds": 1197.2000122070312,
+    "text": "roof. But then they can run local models and then tie the agent to that. Or if they don't have,"
+  },
+  {
+    "segment_id": "s00282",
+    "start_seconds": 1197.2000122070312,
+    "end_seconds": 1199.8400268554688,
+    "text": "you know, they might have a contract with one of their cloud providers."
+  },
+  {
+    "segment_id": "s00283",
+    "start_seconds": 1200.0,
+    "end_seconds": 1205.1999998092651,
+    "text": "or one of their approved LLMs of choice, and we can register that."
+  },
+  {
+    "segment_id": "s00284",
+    "start_seconds": 1205.1999998092651,
+    "end_seconds": 1209.2799997329712,
+    "text": "And then that kind of gave us a simple, like, here's your out-of-box agent with chat experience."
+  },
+  {
+    "segment_id": "s00285",
+    "start_seconds": 1209.2799997329712,
+    "end_seconds": 1214.0,
+    "text": "And then along the way, we've done a lot of things with MCP,"
+  },
+  {
+    "segment_id": "s00286",
+    "start_seconds": 1214.0,
+    "end_seconds": 1218.4799995422363,
+    "text": "so the model context protocol. Probably you guys covered that on the show before,"
+  },
+  {
+    "segment_id": "s00287",
+    "start_seconds": 1218.4799995422363,
+    "end_seconds": 1222.8799991607666,
+    "text": "but it's basically a way for an app to talk to an LLM, very high level, right?"
+  },
+  {
+    "segment_id": "s00288",
+    "start_seconds": 1222.8799991607666,
+    "end_seconds": 1228.9599990844727,
+    "text": "So that's become useful as well as we then give the agent tools via MCP servers."
+  },
+  {
+    "segment_id": "s00289",
+    "start_seconds": 1228.9599990844727,
+    "end_seconds": 1233.7599983215332,
+    "text": "And even at Broadcom, the only way approved way to use for our developers"
+  },
+  {
+    "segment_id": "s00290",
+    "start_seconds": 1233.7599983215332,
+    "end_seconds": 1237.9199981689453,
+    "text": "is to deploy MCP servers on Tansy platform."
+  },
+  {
+    "segment_id": "s00291",
+    "start_seconds": 1237.9199981689453,
+    "end_seconds": 1240.8800010681152,
+    "text": "So that we have a whole set of MCP servers that are approved and hosted,"
+  },
+  {
+    "segment_id": "s00292",
+    "start_seconds": 1240.8800010681152,
+    "end_seconds": 1242.3199996948242,
+    "text": "and they're kind of secured and maintained,"
+  },
+  {
+    "segment_id": "s00293",
+    "start_seconds": 1242.3199996948242,
+    "end_seconds": 1245.2000007629395,
+    "text": "because they're very similar to applications as well."
+  },
+  {
+    "segment_id": "s00294",
+    "start_seconds": 1245.2000007629395,
+    "end_seconds": 1248.0800018310547,
+    "text": "And then we have a concept of like the MCP gateway service"
+  },
+  {
+    "segment_id": "s00295",
+    "start_seconds": 1248.0800018310547,
+    "end_seconds": 1250.7999992370605,
+    "text": "that kind of registers that and secures all those servers."
+  },
+  {
+    "segment_id": "s00296",
+    "start_seconds": 1250.7999992370605,
+    "end_seconds": 1253.3600006103516,
+    "text": "So then we can then extend the gateway to that agent."
+  },
+  {
+    "segment_id": "s00297",
+    "start_seconds": 1253.3600006103516,
+    "end_seconds": 1256.7999992370605,
+    "text": "So then the gateway, this agent now has secure access to a runtime,"
+  },
+  {
+    "segment_id": "s00298",
+    "start_seconds": 1257.439998626709,
+    "end_seconds": 1262.3199996948242,
+    "text": "battle test runtime, it can talk to an LLM that's approved,"
+  },
+  {
+    "segment_id": "s00299",
+    "start_seconds": 1262.3199996948242,
+    "end_seconds": 1264.879997253418,
+    "text": "and get tools via a gateway."
+  },
+  {
+    "segment_id": "s00300",
+    "start_seconds": 1264.879997253418,
+    "end_seconds": 1267.8399963378906,
+    "text": "And then we're starting to add in like the memory service as well"
+  },
+  {
+    "segment_id": "s00301",
+    "start_seconds": 1267.8399963378906,
+    "end_seconds": 1269.5199966430664,
+    "text": "to have a kind of a shared memory service."
+  },
+  {
+    "segment_id": "s00302",
+    "start_seconds": 1269.5199966430664,
+    "end_seconds": 1271.5199966430664,
+    "text": "So we're kind of expanding all that out"
+  },
+  {
+    "segment_id": "s00303",
+    "start_seconds": 1271.5199966430664,
+    "end_seconds": 1274.6399993896484,
+    "text": "where we're seeing all those best practice app lifecycle,"
+  },
+  {
+    "segment_id": "s00304",
+    "start_seconds": 1274.6399993896484,
+    "end_seconds": 1280.3199996948242,
+    "text": "go to see a push, go, here's an agent, here's all the things it wants to do."
+  },
+  {
+    "segment_id": "s00305",
+    "start_seconds": 1280.3199996948242,
+    "end_seconds": 1283.2799987792969,
+    "text": "And then it can be a security review agent."
+  },
+  {
+    "segment_id": "s00306",
+    "start_seconds": 1283.2799987792969,
+    "end_seconds": 1286.6399993896484,
+    "text": "And like one of the things I showed, I was at, I think a week or two,"
+  },
+  {
+    "segment_id": "s00307",
+    "start_seconds": 1286.879997253418,
+    "end_seconds": 1290.2399978637695,
+    "text": "I can't quite remember, I was in Las Vegas for a conference VMware Explorer,"
+  },
+  {
+    "segment_id": "s00308",
+    "start_seconds": 1290.2399978637695,
+    "end_seconds": 1292.9599990844727,
+    "text": "and I had like a five phase demo where I walked through this."
+  },
+  {
+    "segment_id": "s00309",
+    "start_seconds": 1292.9599990844727,
+    "end_seconds": 1296.400001525879,
+    "text": "And maybe I'll show a little bit of this at the Midwest Summit here."
+  },
+  {
+    "segment_id": "s00310",
+    "start_seconds": 1296.400001525879,
+    "end_seconds": 1299.7600021362305,
+    "text": "But, you know, push the agent, bind all these services."
+  },
+  {
+    "segment_id": "s00311",
+    "start_seconds": 1299.7600021362305,
+    "end_seconds": 1302.6399993896484,
+    "text": "But the end goal was like the boss level was like,"
+  },
+  {
+    "segment_id": "s00312",
+    "start_seconds": 1302.6399993896484,
+    "end_seconds": 1305.0400009155273,
+    "text": "all right, now we have these agents sitting in there."
+  },
+  {
+    "segment_id": "s00313",
+    "start_seconds": 1305.0400009155273,
+    "end_seconds": 1308.5599975585938,
+    "text": "And I can hook them up to a repo with like an event listener or webhook"
+  },
+  {
+    "segment_id": "s00314",
+    "start_seconds": 1308.5599975585938,
+    "end_seconds": 1313.0400009155273,
+    "text": "and say, all right, now do like, you know, issue five on my repo,"
+  },
+  {
+    "segment_id": "s00315",
+    "start_seconds": 1313.0400009155273,
+    "end_seconds": 1315.6800003051758,
+    "text": "do a security review on this repository."
+  },
+  {
+    "segment_id": "s00316",
+    "start_seconds": 1315.6800003051758,
+    "end_seconds": 1318.8000030517578,
+    "text": "And then like, it sends it off to the agent via webhook."
+  },
+  {
+    "segment_id": "s00317",
+    "start_seconds": 1318.8000030517578,
+    "end_seconds": 1321.3600006103516,
+    "text": "And like, oh, the Tainzu agent, like it fires up,"
+  },
+  {
+    "segment_id": "s00318",
+    "start_seconds": 1321.3600006103516,
+    "end_seconds": 1323.7600021362305,
+    "text": "gets it, you know, fires up from the platform."
+  },
+  {
+    "segment_id": "s00319",
+    "start_seconds": 1323.7600021362305,
+    "end_seconds": 1326.1600036621094,
+    "text": "It gets a request, and it's just immediately pulls down the repo"
+  },
+  {
+    "segment_id": "s00320",
+    "start_seconds": 1326.1600036621094,
+    "end_seconds": 1329.8399963378906,
+    "text": "and starts doing a security review and then publishes or pushes up"
+  },
+  {
+    "segment_id": "s00321",
+    "start_seconds": 1329.8399963378906,
+    "end_seconds": 1333.759994506836,
+    "text": "to the issue that I created on GitHub and says, this is a security review."
+  },
+  {
+    "segment_id": "s00322",
+    "start_seconds": 1333.759994506836,
+    "end_seconds": 1336.0,
+    "text": "So you can see how that flow would be really useful in enterprise"
+  },
+  {
+    "segment_id": "s00323",
+    "start_seconds": 1336.0,
+    "end_seconds": 1337.6799926757812,
+    "text": "where like, maybe on every Git commit,"
+  },
+  {
+    "segment_id": "s00324",
+    "start_seconds": 1337.6799926757812,
+    "end_seconds": 1339.520004272461,
+    "text": "you just have all these agents spinning up on the fly"
+  },
+  {
+    "segment_id": "s00325",
+    "start_seconds": 1339.520004272461,
+    "end_seconds": 1341.6799926757812,
+    "text": "that could be a security review agent,"
+  },
+  {
+    "segment_id": "s00326",
+    "start_seconds": 1342.240005493164,
+    "end_seconds": 1346.5599975585938,
+    "text": "you know, potentially like a, you know, a style or, you know,"
+  },
+  {
+    "segment_id": "s00327",
+    "start_seconds": 1346.5599975585938,
+    "end_seconds": 1349.8399963378906,
+    "text": "code quality review agent or a potentially even like a,"
+  },
+  {
+    "segment_id": "s00328",
+    "start_seconds": 1349.8399963378906,
+    "end_seconds": 1352.479995727539,
+    "text": "I don't know, like maybe a design review agent,"
+  },
+  {
+    "segment_id": "s00329",
+    "start_seconds": 1352.479995727539,
+    "end_seconds": 1354.9600067138672,
+    "text": "all firing up on the fly as things like call."
+  },
+  {
+    "segment_id": "s00330",
+    "start_seconds": 1354.9600067138672,
+    "end_seconds": 1357.2799987792969,
+    "text": "So it's kind of like, and then they all have their,"
+  },
+  {
+    "segment_id": "s00331",
+    "start_seconds": 1357.2799987792969,
+    "end_seconds": 1360.479995727539,
+    "text": "they're all in their own little sandbox and everything's proper, right?"
+  },
+  {
+    "segment_id": "s00332",
+    "start_seconds": 1360.479995727539,
+    "end_seconds": 1362.6399993896484,
+    "text": "Because part of, you know, the platform for a while,"
+  },
+  {
+    "segment_id": "s00333",
+    "start_seconds": 1362.6399993896484,
+    "end_seconds": 1364.8800048828125,
+    "text": "it's been like this very secured container runtime"
+  },
+  {
+    "segment_id": "s00334",
+    "start_seconds": 1364.8800048828125,
+    "end_seconds": 1366.3200073242188,
+    "text": "where like we have, you know,"
+  },
+  {
+    "segment_id": "s00335",
+    "start_seconds": 1366.3200073242188,
+    "end_seconds": 1368.479995727539,
+    "text": "they can't talk to each other unless you enable them."
+  },
+  {
+    "segment_id": "s00336",
+    "start_seconds": 1368.479995727539,
+    "end_seconds": 1369.9199981689453,
+    "text": "So they can't go to the internet,"
+  },
+  {
+    "segment_id": "s00337",
+    "start_seconds": 1369.9199981689453,
+    "end_seconds": 1372.0800018310547,
+    "text": "unless it's enabled, they can't, you know, escalate."
+  },
+  {
+    "segment_id": "s00338",
+    "start_seconds": 1372.0800018310547,
+    "end_seconds": 1374.3200073242188,
+    "text": "Otherwise, they only get access to what you give them."
+  },
+  {
+    "segment_id": "s00339",
+    "start_seconds": 1374.3200073242188,
+    "end_seconds": 1376.3200073242188,
+    "text": "So it's kind of that benefit as well."
+  },
+  {
+    "segment_id": "s00340",
+    "start_seconds": 1376.3200073242188,
+    "end_seconds": 1378.3999938964844,
+    "text": "And then obviously they're containerized."
+  },
+  {
+    "segment_id": "s00341",
+    "start_seconds": 1378.3999938964844,
+    "end_seconds": 1382.5599975585938,
+    "text": "They don't have access to the underlying host system as well."
+  },
+  {
+    "segment_id": "s00342",
+    "start_seconds": 1382.5599975585938,
+    "end_seconds": 1384.3999938964844,
+    "text": "So that, you know, as we've seen, you know,"
+  },
+  {
+    "segment_id": "s00343",
+    "start_seconds": 1384.3999938964844,
+    "end_seconds": 1387.1199951171875,
+    "text": "some of these things of uncontrolled agent swarms,"
+  },
+  {
+    "segment_id": "s00344",
+    "start_seconds": 1387.1199951171875,
+    "end_seconds": 1389.1999969482422,
+    "text": "I think we have some remedies here to some of these,"
+  },
+  {
+    "segment_id": "s00345",
+    "start_seconds": 1390.3999938964844,
+    "end_seconds": 1392.5599975585938,
+    "text": "some of these AI labs could maybe take into account"
+  },
+  {
+    "segment_id": "s00346",
+    "start_seconds": 1392.5599975585938,
+    "end_seconds": 1394.479995727539,
+    "text": "and implement some best practices"
+  },
+  {
+    "segment_id": "s00347",
+    "start_seconds": 1394.479995727539,
+    "end_seconds": 1396.479995727539,
+    "text": "that's one throughout the past two decades."
+  },
+  {
+    "segment_id": "s00348",
+    "start_seconds": 1397.2799987792969,
+    "end_seconds": 1400.8000030517578,
+    "text": "The unplanned swarms, the swarms that you don't necessarily want."
+  },
+  {
+    "segment_id": "s00349",
+    "start_seconds": 1400.8000030517578,
+    "end_seconds": 1403.2799987792969,
+    "text": "I actually have a two second follow-up."
+  },
+  {
+    "segment_id": "s00350",
+    "start_seconds": 1403.2799987792969,
+    "end_seconds": 1405.759994506836,
+    "text": "And that is, it's for my benefit."
+  },
+  {
+    "segment_id": "s00351",
+    "start_seconds": 1405.759994506836,
+    "end_seconds": 1408.1600036621094,
+    "text": "And, you know, we've talked a lot on the show"
+  },
+  {
+    "segment_id": "s00352",
+    "start_seconds": 1408.1600036621094,
+    "end_seconds": 1411.4400024414062,
+    "text": "over various episodes about agents, you know,"
+  },
+  {
+    "segment_id": "s00353",
+    "start_seconds": 1411.4400024414062,
+    "end_seconds": 1415.520004272461,
+    "text": "using MCP to get access to different apps and services"
+  },
+  {
+    "segment_id": "s00354",
+    "start_seconds": 1415.520004272461,
+    "end_seconds": 1417.2799987792969,
+    "text": "and tools and stuff like that out there."
+  },
+  {
+    "segment_id": "s00355",
+    "start_seconds": 1417.2799987792969,
+    "end_seconds": 1420.8000030517578,
+    "text": "We haven't really talked about what an MCP gateway is."
+  },
+  {
+    "segment_id": "s00356",
+    "start_seconds": 1420.8000030517578,
+    "end_seconds": 1423.1199951171875,
+    "text": "And I was wondering if you could share that for a moment,"
+  },
+  {
+    "segment_id": "s00357",
+    "start_seconds": 1423.1199951171875,
+    "end_seconds": 1423.9199981689453,
+    "text": "just as a detail,"
+  },
+  {
+    "segment_id": "s00358",
+    "start_seconds": 1423.9199981689453,
+    "end_seconds": 1426.8000030517578,
+    "text": "because that's kind of the one little new piece of architecture"
+  },
+  {
+    "segment_id": "s00359",
+    "start_seconds": 1426.8000030517578,
+    "end_seconds": 1428.8800048828125,
+    "text": "that we've never touched on on the show."
+  },
+  {
+    "segment_id": "s00360",
+    "start_seconds": 1428.8800048828125,
+    "end_seconds": 1429.6000061035156,
+    "text": "Sure. Yeah."
+  },
+  {
+    "segment_id": "s00361",
+    "start_seconds": 1429.6000061035156,
+    "end_seconds": 1431.4400024414062,
+    "text": "So if you think about an MCP gateway"
+  },
+  {
+    "segment_id": "s00362",
+    "start_seconds": 1431.4400024414062,
+    "end_seconds": 1436.8000030517578,
+    "text": "as a way to easily control and scale access to MCP servers,"
+  },
+  {
+    "segment_id": "s00363",
+    "start_seconds": 1436.8000030517578,
+    "end_seconds": 1440.3200073242188,
+    "text": "especially within you're in a cloud, I guess, platform."
+  },
+  {
+    "segment_id": "s00364",
+    "start_seconds": 1440.3200073242188,
+    "end_seconds": 1444.0,
+    "text": "So we may have like 30 or 40 MCP servers that we run"
+  },
+  {
+    "segment_id": "s00365",
+    "start_seconds": 1444.0,
+    "end_seconds": 1446.479995727539,
+    "text": "or I don't even know how many it is, right?"
+  },
+  {
+    "segment_id": "s00366",
+    "start_seconds": 1446.479995727539,
+    "end_seconds": 1449.3600006103516,
+    "text": "And then those get bound, those get registered"
+  },
+  {
+    "segment_id": "s00367",
+    "start_seconds": 1449.3600006103516,
+    "end_seconds": 1452.0800018310547,
+    "text": "and bound to certain specific MCP gateway."
+  },
+  {
+    "segment_id": "s00368",
+    "start_seconds": 1452.0800018310547,
+    "end_seconds": 1454.7200012207031,
+    "text": "So maybe there's, you know, and the MCP gateway"
+  },
+  {
+    "segment_id": "s00369",
+    "start_seconds": 1454.7200012207031,
+    "end_seconds": 1457.760009765625,
+    "text": "is something we can spin up on the fly on the platform."
+  },
+  {
+    "segment_id": "s00370",
+    "start_seconds": 1457.760009765625,
+    "end_seconds": 1459.6000061035156,
+    "text": "There are many different MCP gateways out there."
+  },
+  {
+    "segment_id": "s00371",
+    "start_seconds": 1459.6000061035156,
+    "end_seconds": 1461.1199951171875,
+    "text": "There's many different AI gateways out there."
+  },
+  {
+    "segment_id": "s00372",
+    "start_seconds": 1461.1199951171875,
+    "end_seconds": 1464.0,
+    "text": "Some of them are like the same, one and the same."
+  },
+  {
+    "segment_id": "s00373",
+    "start_seconds": 1464.7999877929688,
+    "end_seconds": 1467.6799926757812,
+    "text": "But you basically register MCP servers to this gateway"
+  },
+  {
+    "segment_id": "s00374",
+    "start_seconds": 1467.6799926757812,
+    "end_seconds": 1471.5199890136719,
+    "text": "and the gateway kind of controls access, so to speak,"
+  },
+  {
+    "segment_id": "s00375",
+    "start_seconds": 1471.5199890136719,
+    "end_seconds": 1472.4800109863281,
+    "text": "and regulates that."
+  },
+  {
+    "segment_id": "s00376",
+    "start_seconds": 1472.4800109863281,
+    "end_seconds": 1474.8800048828125,
+    "text": "So you may say, like, you can bind to this gateway"
+  },
+  {
+    "segment_id": "s00377",
+    "start_seconds": 1474.8800048828125,
+    "end_seconds": 1477.2000122070312,
+    "text": "and you only get these MCP servers."
+  },
+  {
+    "segment_id": "s00378",
+    "start_seconds": 1477.2000122070312,
+    "end_seconds": 1479.9200134277344,
+    "text": "You only get these MCP tools within it, that type of thing."
+  },
+  {
+    "segment_id": "s00379",
+    "start_seconds": 1479.9200134277344,
+    "end_seconds": 1483.2000122070312,
+    "text": "So it's a way to easily abstract all the different MCP servers"
+  },
+  {
+    "segment_id": "s00380",
+    "start_seconds": 1483.2000122070312,
+    "end_seconds": 1484.6400146484375,
+    "text": "that may be in an organization"
+  },
+  {
+    "segment_id": "s00381",
+    "start_seconds": 1484.6400146484375,
+    "end_seconds": 1486.4800109863281,
+    "text": "and kind of direct them into a certain,"
+  },
+  {
+    "segment_id": "s00382",
+    "start_seconds": 1487.1199951171875,
+    "end_seconds": 1489.3599853515625,
+    "text": "either a certain agent, or we even have a flow"
+  },
+  {
+    "segment_id": "s00383",
+    "start_seconds": 1489.3599853515625,
+    "end_seconds": 1492.1600036621094,
+    "text": "where like you can, we'll take those MCP gateways"
+  },
+  {
+    "segment_id": "s00384",
+    "start_seconds": 1492.1600036621094,
+    "end_seconds": 1494.7999877929688,
+    "text": "that we run that front all of our MCP servers."
+  },
+  {
+    "segment_id": "s00385",
+    "start_seconds": 1494.7999877929688,
+    "end_seconds": 1497.4400024414062,
+    "text": "And then you can say, hey, go, give me a way"
+  },
+  {
+    "segment_id": "s00386",
+    "start_seconds": 1497.4400024414062,
+    "end_seconds": 1500.5599975585938,
+    "text": "to connect this to my cursor or my cloud code or my whatever."
+  },
+  {
+    "segment_id": "s00387",
+    "start_seconds": 1500.5599975585938,
+    "end_seconds": 1501.9200134277344,
+    "text": "And then it just injects it in there."
+  },
+  {
+    "segment_id": "s00388",
+    "start_seconds": 1501.9200134277344,
+    "end_seconds": 1504.5599975585938,
+    "text": "And then your local agent has all the tools"
+  },
+  {
+    "segment_id": "s00389",
+    "start_seconds": 1504.5599975585938,
+    "end_seconds": 1508.239990234375,
+    "text": "that are approved as well for your organization."
+  },
+  {
+    "segment_id": "s00390",
+    "start_seconds": 1508.239990234375,
+    "end_seconds": 1509.8399963378906,
+    "text": "And then it's just like a simple click,"
+  },
+  {
+    "segment_id": "s00391",
+    "start_seconds": 1509.8399963378906,
+    "end_seconds": 1510.9599914550781,
+    "text": "and then it just registers."
+  },
+  {
+    "segment_id": "s00392",
+    "start_seconds": 1510.9599914550781,
+    "end_seconds": 1512.7999877929688,
+    "text": "And then depending on the MCP server,"
+  },
+  {
+    "segment_id": "s00393",
+    "start_seconds": 1512.7999877929688,
+    "end_seconds": 1514.7200012207031,
+    "text": "it helps handle the auth as well."
+  },
+  {
+    "segment_id": "s00394",
+    "start_seconds": 1514.7200012207031,
+    "end_seconds": 1515.5199890136719,
+    "text": "Because some of them are like,"
+  },
+  {
+    "segment_id": "s00395",
+    "start_seconds": 1515.5199890136719,
+    "end_seconds": 1518.9599914550781,
+    "text": "well, if I'm using the GitHub MCP server,"
+  },
+  {
+    "segment_id": "s00396",
+    "start_seconds": 1518.9599914550781,
+    "end_seconds": 1521.1199951171875,
+    "text": "I want to pass my end user credentials"
+  },
+  {
+    "segment_id": "s00397",
+    "start_seconds": 1521.1199951171875,
+    "end_seconds": 1523.2000122070312,
+    "text": "all the way through to that MCP server."
+  },
+  {
+    "segment_id": "s00398",
+    "start_seconds": 1523.2000122070312,
+    "end_seconds": 1525.6799926757812,
+    "text": "Because I don't want it just to be like,"
+  },
+  {
+    "segment_id": "s00399",
+    "start_seconds": 1525.6799926757812,
+    "end_seconds": 1527.6000061035156,
+    "text": "well, here's our generic service account"
+  },
+  {
+    "segment_id": "s00400",
+    "start_seconds": 1527.6000061035156,
+    "end_seconds": 1528.6400146484375,
+    "text": "for the entire organization."
+  },
+  {
+    "segment_id": "s00401",
+    "start_seconds": 1528.6400146484375,
+    "end_seconds": 1532.3200073242188,
+    "text": "And every GitHub action is going to be seen by that one account."
+  },
+  {
+    "segment_id": "s00402",
+    "start_seconds": 1532.3200073242188,
+    "end_seconds": 1535.3599853515625,
+    "text": "And you have to have the individual identity pass through."
+  },
+  {
+    "segment_id": "s00403",
+    "start_seconds": 1535.3599853515625,
+    "end_seconds": 1538.4800109863281,
+    "text": "So you have the concept of SSO and sign-in as well"
+  },
+  {
+    "segment_id": "s00404",
+    "start_seconds": 1538.4800109863281,
+    "end_seconds": 1540.7999877929688,
+    "text": "for an identity for agents or humans"
+  },
+  {
+    "segment_id": "s00405",
+    "start_seconds": 1540.7999877929688,
+    "end_seconds": 1542.4800109863281,
+    "text": "running their agents on their desktop."
+  },
+  {
+    "segment_id": "s00406",
+    "start_seconds": 1542.4800109863281,
+    "end_seconds": 1545.0400085449219,
+    "text": "So that's kind of a quick level of view."
+  },
+  {
+    "segment_id": "s00407",
+    "start_seconds": 1545.0400085449219,
+    "end_seconds": 1546.8800048828125,
+    "text": "And then a great way about that too"
+  },
+  {
+    "segment_id": "s00408",
+    "start_seconds": 1546.8800048828125,
+    "end_seconds": 1548.7999877929688,
+    "text": "is because it's all flowing through that gateway,"
+  },
+  {
+    "segment_id": "s00409",
+    "start_seconds": 1548.7999877929688,
+    "end_seconds": 1549.760009765625,
+    "text": "we get metrics out of it."
+  },
+  {
+    "segment_id": "s00410",
+    "start_seconds": 1549.760009765625,
+    "end_seconds": 1551.1199951171875,
+    "text": "So we can see all the tool calls"
+  },
+  {
+    "segment_id": "s00411",
+    "start_seconds": 1551.1199951171875,
+    "end_seconds": 1552.7200012207031,
+    "text": "and all the events happening"
+  },
+  {
+    "segment_id": "s00412",
+    "start_seconds": 1552.7200012207031,
+    "end_seconds": 1555.2799987792969,
+    "text": "coming from the agents to the MCP servers"
+  },
+  {
+    "segment_id": "s00413",
+    "start_seconds": 1555.2799987792969,
+    "end_seconds": 1556.3999938964844,
+    "text": "and back and forth."
+  },
+  {
+    "segment_id": "s00414",
+    "start_seconds": 1556.3999938964844,
+    "end_seconds": 1557.9200134277344,
+    "text": "So you can kind of see what's happening,"
+  },
+  {
+    "segment_id": "s00415",
+    "start_seconds": 1557.9200134277344,
+    "end_seconds": 1560.0799865722656,
+    "text": "especially if maybe if there's something unexpected,"
+  },
+  {
+    "segment_id": "s00416",
+    "start_seconds": 1560.0799865722656,
+    "end_seconds": 1563.2000122070312,
+    "text": "we're like, well, this one agent made 200,000 tool calls"
+  },
+  {
+    "segment_id": "s00417",
+    "start_seconds": 1563.2799987792969,
+    "end_seconds": 1565.1199951171875,
+    "text": "to delete repo."
+  },
+  {
+    "segment_id": "s00418",
+    "start_seconds": 1565.1199951171875,
+    "end_seconds": 1567.6000061035156,
+    "text": "Like, oh, maybe we should alert on that."
+  },
+  {
+    "segment_id": "s00419",
+    "start_seconds": 1567.6000061035156,
+    "end_seconds": 1568.9599914550781,
+    "text": "Like, that's probably not good."
+  },
+  {
+    "segment_id": "s00420",
+    "start_seconds": 1570.239990234375,
+    "end_seconds": 1573.3599853515625,
+    "text": "Yeah, so and another visibility or metric"
+  },
+  {
+    "segment_id": "s00421",
+    "start_seconds": 1573.3599853515625,
+    "end_seconds": 1574.8800048828125,
+    "text": "to see what agents are doing"
+  },
+  {
+    "segment_id": "s00422",
+    "start_seconds": 1574.8800048828125,
+    "end_seconds": 1576.3999938964844,
+    "text": "and what tool calls are doing as well."
+  },
+  {
+    "segment_id": "s00423",
+    "start_seconds": 1576.3999938964844,
+    "end_seconds": 1578.3999938964844,
+    "text": "So I guess hopefully that made sense"
+  },
+  {
+    "segment_id": "s00424",
+    "start_seconds": 1578.3999938964844,
+    "end_seconds": 1580.7200012207031,
+    "text": "because that's kind of how I understand it, right?"
+  },
+  {
+    "segment_id": "s00425",
+    "start_seconds": 1580.7200012207031,
+    "end_seconds": 1582.7200012207031,
+    "text": "Yeah, that was great."
+  },
+  {
+    "segment_id": "s00426",
+    "start_seconds": 1582.7200012207031,
+    "end_seconds": 1584.0,
+    "text": "And there were a couple of things"
+  },
+  {
+    "segment_id": "s00427",
+    "start_seconds": 1584.0,
+    "end_seconds": 1584.8800048828125,
+    "text": "that you mentioned in there,"
+  },
+  {
+    "segment_id": "s00428",
+    "start_seconds": 1584.8800048828125,
+    "end_seconds": 1587.5199890136719,
+    "text": "I think are additionally worth digging into."
+  },
+  {
+    "segment_id": "s00429",
+    "start_seconds": 1587.5199890136719,
+    "end_seconds": 1590.3999938964844,
+    "text": "And you kind of have this,"
+  },
+  {
+    "segment_id": "s00430",
+    "start_seconds": 1590.3999938964844,
+    "end_seconds": 1591.6799926757812,
+    "text": "if I'm understanding right,"
+  },
+  {
+    "segment_id": "s00431",
+    "start_seconds": 1591.9200134277344,
+    "end_seconds": 1594.5599975585938,
+    "text": "in part of the build pack that you're working on,"
+  },
+  {
+    "segment_id": "s00432",
+    "start_seconds": 1595.3599853515625,
+    "end_seconds": 1596.9599914550781,
+    "text": "part of that centers around"
+  },
+  {
+    "segment_id": "s00433",
+    "start_seconds": 1596.9599914550781,
+    "end_seconds": 1599.6799926757812,
+    "text": "kind of pushing an agents.md file."
+  },
+  {
+    "segment_id": "s00434",
+    "start_seconds": 1599.6799926757812,
+    "end_seconds": 1602.239990234375,
+    "text": "You mentioned, like, people have these md files"
+  },
+  {
+    "segment_id": "s00435",
+    "start_seconds": 1602.9599914550781,
+    "end_seconds": 1603.760009765625,
+    "text": "hanging around."
+  },
+  {
+    "segment_id": "s00436",
+    "start_seconds": 1603.760009765625,
+    "end_seconds": 1606.3200073242188,
+    "text": "You mentioned memory, you mentioned identity."
+  },
+  {
+    "segment_id": "s00437",
+    "start_seconds": 1606.3200073242188,
+    "end_seconds": 1608.7999877929688,
+    "text": "I'm wondering if you could kind of help us"
+  },
+  {
+    "segment_id": "s00438",
+    "start_seconds": 1610.3200073242188,
+    "end_seconds": 1613.5199890136719,
+    "text": "understand, like, if I have,"
+  },
+  {
+    "segment_id": "s00439",
+    "start_seconds": 1614.8800048828125,
+    "end_seconds": 1616.4800109863281,
+    "text": "if I'm working on my laptop, right,"
+  },
+  {
+    "segment_id": "s00440",
+    "start_seconds": 1616.4800109863281,
+    "end_seconds": 1618.7200012207031,
+    "text": "and I'm using a certain agent harness,"
+  },
+  {
+    "segment_id": "s00441",
+    "start_seconds": 1618.7200012207031,
+    "end_seconds": 1623.5199890136719,
+    "text": "I may have an md file that is kind of generic."
+  },
+  {
+    "segment_id": "s00442",
+    "start_seconds": 1623.5199890136719,
+    "end_seconds": 1627.0400085449219,
+    "text": "And then I have files that are created by the agent"
+  },
+  {
+    "segment_id": "s00443",
+    "start_seconds": 1627.0400085449219,
+    "end_seconds": 1628.6400146484375,
+    "text": "that it uses that are only"
+  },
+  {
+    "segment_id": "s00444",
+    "start_seconds": 1629.2000122070312,
+    "end_seconds": 1631.1199951171875,
+    "text": "corresponding to my single agent."
+  },
+  {
+    "segment_id": "s00445",
+    "start_seconds": 1631.9200134277344,
+    "end_seconds": 1634.0799865722656,
+    "text": "And then I have, you know, memory"
+  },
+  {
+    "segment_id": "s00446",
+    "start_seconds": 1634.0799865722656,
+    "end_seconds": 1636.3200073242188,
+    "text": "and then, you know, calls into other things."
+  },
+  {
+    "segment_id": "s00447",
+    "start_seconds": 1636.3200073242188,
+    "end_seconds": 1639.0400085449219,
+    "text": "As you're pushing this, like, off the laptop now,"
+  },
+  {
+    "segment_id": "s00448",
+    "start_seconds": 1639.0400085449219,
+    "end_seconds": 1640.8800048828125,
+    "text": "and I imagine taking that off,"
+  },
+  {
+    "segment_id": "s00449",
+    "start_seconds": 1640.8800048828125,
+    "end_seconds": 1644.8800048828125,
+    "text": "like, what belongs in, like, an agents.md file?"
+  },
+  {
+    "segment_id": "s00450",
+    "start_seconds": 1644.8800048828125,
+    "end_seconds": 1649.6000061035156,
+    "text": "And what is, like, as you're giving that example, right,"
+  },
+  {
+    "segment_id": "s00451",
+    "start_seconds": 1649.6000061035156,
+    "end_seconds": 1652.0,
+    "text": "you may have one agent in the platform"
+  },
+  {
+    "segment_id": "s00452",
+    "start_seconds": 1652.0,
+    "end_seconds": 1654.0,
+    "text": "that is a security reviewer for,"
+  },
+  {
+    "segment_id": "s00453",
+    "start_seconds": 1655.9200134277344,
+    "end_seconds": 1657.6000061035156,
+    "text": "that does security reviews, right?"
+  },
+  {
+    "segment_id": "s00454",
+    "start_seconds": 1658.239990234375,
+    "end_seconds": 1660.0799865722656,
+    "text": "When you spin that agent up,"
+  },
+  {
+    "segment_id": "s00455",
+    "start_seconds": 1660.0799865722656,
+    "end_seconds": 1661.6799926757812,
+    "text": "does each instance of that,"
+  },
+  {
+    "segment_id": "s00456",
+    "start_seconds": 1661.6799926757812,
+    "end_seconds": 1664.4800109863281,
+    "text": "each session have a unique identity?"
+  },
+  {
+    "segment_id": "s00457",
+    "start_seconds": 1664.4800109863281,
+    "end_seconds": 1668.3200073242188,
+    "text": "What is the, what's unique about that session"
+  },
+  {
+    "segment_id": "s00458",
+    "start_seconds": 1668.3200073242188,
+    "end_seconds": 1671.9200134277344,
+    "text": "and the data that is generated by that session"
+  },
+  {
+    "segment_id": "s00459",
+    "start_seconds": 1671.9200134277344,
+    "end_seconds": 1674.3200073242188,
+    "text": "versus maybe the things that are always static?"
+  },
+  {
+    "segment_id": "s00460",
+    "start_seconds": 1674.3200073242188,
+    "end_seconds": 1677.6799926757812,
+    "text": "Like, I'm not sure if the agents.md is always static."
+  },
+  {
+    "segment_id": "s00461",
+    "start_seconds": 1677.6799926757812,
+    "end_seconds": 1679.2799987792969,
+    "text": "So could you help us understand, like,"
+  },
+  {
+    "segment_id": "s00462",
+    "start_seconds": 1679.2799987792969,
+    "end_seconds": 1680.8800048828125,
+    "text": "which are the static elements?"
+  },
+  {
+    "segment_id": "s00463",
+    "start_seconds": 1680.8800048828125,
+    "end_seconds": 1682.3200073242188,
+    "text": "What's developing over time?"
+  },
+  {
+    "segment_id": "s00464",
+    "start_seconds": 1682.3200073242188,
+    "end_seconds": 1685.4400024414062,
+    "text": "How is that, like, state of the agent"
+  },
+  {
+    "segment_id": "s00465",
+    "start_seconds": 1685.4400024414062,
+    "end_seconds": 1688.7999877929688,
+    "text": "spread across, you know, the implementation, I guess?"
+  },
+  {
+    "segment_id": "s00466",
+    "start_seconds": 1688.7999877929688,
+    "end_seconds": 1689.3599853515625,
+    "text": "Sure, yeah."
+  },
+  {
+    "segment_id": "s00467",
+    "start_seconds": 1689.3599853515625,
+    "end_seconds": 1690.9599914550781,
+    "text": "So if you think about it, like,"
+  },
+  {
+    "segment_id": "s00468",
+    "start_seconds": 1690.9599914550781,
+    "end_seconds": 1693.4400024414062,
+    "text": "and I guess in this specific implementation,"
+  },
+  {
+    "segment_id": "s00469",
+    "start_seconds": 1693.4400024414062,
+    "end_seconds": 1697.6799926757812,
+    "text": "the agents build pack is basically like the boilerplate code"
+  },
+  {
+    "segment_id": "s00470",
+    "start_seconds": 1697.6799926757812,
+    "end_seconds": 1699.760009765625,
+    "text": "of what you want the agent or app to do."
+  },
+  {
+    "segment_id": "s00471",
+    "start_seconds": 1699.760009765625,
+    "end_seconds": 1701.6000061035156,
+    "text": "So like, I'll do demos and I'll have it be like,"
+  },
+  {
+    "segment_id": "s00472",
+    "start_seconds": 1701.6000061035156,
+    "end_seconds": 1704.239990234375,
+    "text": "you're a pirate, like, one of my demos is like,"
+  },
+  {
+    "segment_id": "s00473",
+    "start_seconds": 1704.8800048828125,
+    "end_seconds": 1709.5199890136719,
+    "text": "you're a Jira, like, you're a senior software engineer."
+  },
+  {
+    "segment_id": "s00474",
+    "start_seconds": 1710.5599975585938,
+    "end_seconds": 1713.1199951171875,
+    "text": "You know, you're gonna watch this Jira, like,"
+  },
+  {
+    "segment_id": "s00475",
+    "start_seconds": 1714.6400146484375,
+    "end_seconds": 1716.7999877929688,
+    "text": "page or I forgot the terminology here,"
+  },
+  {
+    "segment_id": "s00476",
+    "start_seconds": 1716.7999877929688,
+    "end_seconds": 1718.4000244140625,
+    "text": "but basically watch this Jira queue"
+  },
+  {
+    "segment_id": "s00477",
+    "start_seconds": 1718.4000244140625,
+    "end_seconds": 1720.0,
+    "text": "and look for any inbound tickets."
+  },
+  {
+    "segment_id": "s00478",
+    "start_seconds": 1720.0,
+    "end_seconds": 1722.7999877929688,
+    "text": "As inbound tickets come in, review them and like,"
+  },
+  {
+    "segment_id": "s00479",
+    "start_seconds": 1722.7999877929688,
+    "end_seconds": 1724.4000244140625,
+    "text": "you know, make sure that they're of good quality."
+  },
+  {
+    "segment_id": "s00480",
+    "start_seconds": 1724.4000244140625,
+    "end_seconds": 1725.5999755859375,
+    "text": "And like, here's all these different things"
+  },
+  {
+    "segment_id": "s00481",
+    "start_seconds": 1725.5999755859375,
+    "end_seconds": 1726.0800170898438,
+    "text": "that you want to do."
+  },
+  {
+    "segment_id": "s00482",
+    "start_seconds": 1726.0800170898438,
+    "end_seconds": 1727.1199951171875,
+    "text": "And like, don't do any of this."
+  },
+  {
+    "segment_id": "s00483",
+    "start_seconds": 1727.1199951171875,
+    "end_seconds": 1729.52001953125,
+    "text": "So it's more of a very simple agents.md"
+  },
+  {
+    "segment_id": "s00484",
+    "start_seconds": 1729.52001953125,
+    "end_seconds": 1731.760009765625,
+    "text": "where like, it's just telling, like,"
+  },
+  {
+    "segment_id": "s00485",
+    "start_seconds": 1731.760009765625,
+    "end_seconds": 1733.2000122070312,
+    "text": "this agent what it should do."
+  },
+  {
+    "segment_id": "s00486",
+    "start_seconds": 1734.1599731445312,
+    "end_seconds": 1735.1199951171875,
+    "text": "And how it should act."
+  },
+  {
+    "segment_id": "s00487",
+    "start_seconds": 1735.1199951171875,
+    "end_seconds": 1737.0399780273438,
+    "text": "And then you can call that and like,"
+  },
+  {
+    "segment_id": "s00488",
+    "start_seconds": 1737.0399780273438,
+    "end_seconds": 1737.8400268554688,
+    "text": "all right, well, like, you know,"
+  },
+  {
+    "segment_id": "s00489",
+    "start_seconds": 1737.8400268554688,
+    "end_seconds": 1740.3200073242188,
+    "text": "ticket 500 came in, it was poorly documented"
+  },
+  {
+    "segment_id": "s00490",
+    "start_seconds": 1740.3200073242188,
+    "end_seconds": 1742.5599975585938,
+    "text": "and like, update that Jira ticket, you know, whatever."
+  },
+  {
+    "segment_id": "s00491",
+    "start_seconds": 1742.5599975585938,
+    "end_seconds": 1744.719970703125,
+    "text": "And then you can add fun things like talk like a pirate."
+  },
+  {
+    "segment_id": "s00492",
+    "start_seconds": 1744.719970703125,
+    "end_seconds": 1746.1599731445312,
+    "text": "So it's like, all right, matey, you're, you know,"
+  },
+  {
+    "segment_id": "s00493",
+    "start_seconds": 1746.1599731445312,
+    "end_seconds": 1748.1599731445312,
+    "text": "ticket 500 is terrible, right?"
+  },
+  {
+    "segment_id": "s00494",
+    "start_seconds": 1748.1599731445312,
+    "end_seconds": 1750.5599975585938,
+    "text": "Like, go back and, you know, update it, that type of thing."
+  },
+  {
+    "segment_id": "s00495",
+    "start_seconds": 1750.5599975585938,
+    "end_seconds": 1752.7999877929688,
+    "text": "So that's kind of where the static part of it is."
+  },
+  {
+    "segment_id": "s00496",
+    "start_seconds": 1752.7999877929688,
+    "end_seconds": 1754.8800048828125,
+    "text": "And then like the memory service we have,"
+  },
+  {
+    "segment_id": "s00497",
+    "start_seconds": 1754.8800048828125,
+    "end_seconds": 1757.0399780273438,
+    "text": "you can attach it, you can have, you know,"
+  },
+  {
+    "segment_id": "s00498",
+    "start_seconds": 1757.0399780273438,
+    "end_seconds": 1759.2000122070312,
+    "text": "you know, potentially memory of a certain project."
+  },
+  {
+    "segment_id": "s00499",
+    "start_seconds": 1759.2000122070312,
+    "end_seconds": 1761.52001953125,
+    "text": "So, you know, we kind of envisioned,"
+  },
+  {
+    "segment_id": "s00500",
+    "start_seconds": 1761.52001953125,
+    "end_seconds": 1763.4400024414062,
+    "text": "like each set of teams to have their own"
+  },
+  {
+    "segment_id": "s00501",
+    "start_seconds": 1763.4400024414062,
+    "end_seconds": 1765.0399780273438,
+    "text": "multiple set of agents, right?"
+  },
+  {
+    "segment_id": "s00502",
+    "start_seconds": 1765.0399780273438,
+    "end_seconds": 1766.239990234375,
+    "text": "And it could be like, well, you know,"
+  },
+  {
+    "segment_id": "s00503",
+    "start_seconds": 1766.239990234375,
+    "end_seconds": 1769.6799926757812,
+    "text": "team A's agents have the access to team A's memory."
+  },
+  {
+    "segment_id": "s00504",
+    "start_seconds": 1769.6799926757812,
+    "end_seconds": 1771.760009765625,
+    "text": "So as they come up, they know, like,"
+  },
+  {
+    "segment_id": "s00505",
+    "start_seconds": 1771.760009765625,
+    "end_seconds": 1773.3599853515625,
+    "text": "all of this historical data of like,"
+  },
+  {
+    "segment_id": "s00506",
+    "start_seconds": 1773.3599853515625,
+    "end_seconds": 1775.8400268554688,
+    "text": "what, like the architecture of the application,"
+  },
+  {
+    "segment_id": "s00507",
+    "start_seconds": 1775.8400268554688,
+    "end_seconds": 1778.4000244140625,
+    "text": "the, you know, what's been done before, you know,"
+  },
+  {
+    "segment_id": "s00508",
+    "start_seconds": 1778.4000244140625,
+    "end_seconds": 1780.3200073242188,
+    "text": "like the roadmap, that type of thing."
+  },
+  {
+    "segment_id": "s00509",
+    "start_seconds": 1780.3200073242188,
+    "end_seconds": 1783.2000122070312,
+    "text": "So as it spins up and does like a security review,"
+  },
+  {
+    "segment_id": "s00510",
+    "start_seconds": 1783.2000122070312,
+    "end_seconds": 1785.760009765625,
+    "text": "it can make, you know, proper decisions"
+  },
+  {
+    "segment_id": "s00511",
+    "start_seconds": 1785.760009765625,
+    "end_seconds": 1787.760009765625,
+    "text": "and proper guidance so that, you know,"
+  },
+  {
+    "segment_id": "s00512",
+    "start_seconds": 1787.760009765625,
+    "end_seconds": 1789.5999755859375,
+    "text": "as you kind of build your local agents"
+  },
+  {
+    "segment_id": "s00513",
+    "start_seconds": 1789.5999755859375,
+    "end_seconds": 1790.6400146484375,
+    "text": "and kind of give them memory"
+  },
+  {
+    "segment_id": "s00514",
+    "start_seconds": 1790.6400146484375,
+    "end_seconds": 1793.2000122070312,
+    "text": "and they become smarter, that memory service,"
+  },
+  {
+    "segment_id": "s00515",
+    "start_seconds": 1793.2000122070312,
+    "end_seconds": 1794.47998046875,
+    "text": "as you have agents spin up and down,"
+  },
+  {
+    "segment_id": "s00516",
+    "start_seconds": 1794.47998046875,
+    "end_seconds": 1796.9600219726562,
+    "text": "they just immediately, they immediately know"
+  },
+  {
+    "segment_id": "s00517",
+    "start_seconds": 1796.9600219726562,
+    "end_seconds": 1799.6799926757812,
+    "text": "what's happened before, know how to."
+  },
+  {
+    "segment_id": "s00518",
+    "start_seconds": 1800.0,
+    "end_seconds": 1816.0,
+    "text": "As you heard at the beginning of this episode, some amazing people like Nick, who's the guest on this episode, are joining us at the Midwest AI Summit, October 15th in Indianapolis, Indiana."
+  },
+  {
+    "segment_id": "s00519",
+    "start_seconds": 1816.0,
+    "end_seconds": 1837.0,
+    "text": "Nick is going to come talk about what it looks like to deploy AI agents in real-world environments, and we've got a bunch of other amazing speakers talking about how AI-enabled teams work, how to make decisions about what to say yes to and what to say no to in relation to AI, and much more."
+  },
+  {
+    "segment_id": "s00520",
+    "start_seconds": 1837.0,
+    "end_seconds": 1859.0,
+    "text": "Super practical and amazing talks. Plus, there's going to be an AI Engineering Lounge, where you can actually sit down with folks like myself. I'll be there. Get review on your AI architecture, your stack, your roadmap, etc., towards the rollout of things like agents or other AI technology."
+  },
+  {
+    "segment_id": "s00521",
+    "start_seconds": 1859.0,
+    "end_seconds": 1881.0,
+    "text": "This is a practical, amazing event that you don't want to miss. There'll be great food, great people, great networking, and practical value. Do not miss this. It's October 15th in Indianapolis, Indiana, and you can use the code PracticalAI20 to get 20% off registration."
+  },
+  {
+    "segment_id": "s00522",
+    "start_seconds": 1881.0,
+    "end_seconds": 1891.0,
+    "text": "So go to MidwestAISummit.com and use the code PracticalAI20 to get 20% off registration."
+  },
+  {
+    "segment_id": "s00523",
+    "start_seconds": 1891.0,
+    "end_seconds": 1901.0,
+    "text": "Nick, before we were going into break, I think I may have cut you off. You were just starting to say something. You want to dive back into that real quick?"
+  },
+  {
+    "segment_id": "s00524",
+    "start_seconds": 1901.0,
+    "end_seconds": 1906.0,
+    "text": "No, I think I covered it. Hopefully I answered the question again."
+  },
+  {
+    "segment_id": "s00525",
+    "start_seconds": 1906.0,
+    "end_seconds": 1907.0,
+    "text": "That's no problem."
+  },
+  {
+    "segment_id": "s00526",
+    "start_seconds": 1907.0,
+    "end_seconds": 1908.0,
+    "text": "Okay."
+  },
+  {
+    "segment_id": "s00527",
+    "start_seconds": 1908.0,
+    "end_seconds": 1930.0,
+    "text": "This has been really good for helping me trying to conceptualize how all this fits together. I think I had some understanding, but you've gotten a level of detail. I want to ask you, as we are looking forward, I have several questions that are really kind of driving my thinking."
+  },
+  {
+    "segment_id": "s00528",
+    "start_seconds": 1930.0,
+    "end_seconds": 1947.0,
+    "text": "You've got me thinking creatively based on what you've said. We've talked about MCP. There are new things coming out, things like there's the A2A, which is the agent-to-agent protocol, and organizations are starting to look at that."
+  },
+  {
+    "segment_id": "s00529",
+    "start_seconds": 1947.0,
+    "end_seconds": 1963.0,
+    "text": "They already have their MCP servers, maybe, but they're trying to get the structure and kind of bring the sanity around it that you've been talking about. Then they kind of go, oh, okay, it's not so different from what we already know."
+  },
+  {
+    "segment_id": "s00530",
+    "start_seconds": 1963.0,
+    "end_seconds": 1987.0,
+    "text": "But as this is evolving very fast and you have things like these new protocols, do you have any guidance on how to start integrating this constant flow of change in? First on the technology, and I'll hit the other half of that afterwards. As you're trying to bring things in and make it work, have you guys thought about how to structure that?"
+  },
+  {
+    "segment_id": "s00531",
+    "start_seconds": 1987.0,
+    "end_seconds": 2007.0,
+    "text": "I guess we'll just say take baby steps from everything, especially when you talk about the enterprise scope. They can be a lot slower to adopt some of these newer technologies, so you kind of layer that on. You don't have to necessarily adopt all of these things at once. You can maybe just get a simple agent running."
+  },
+  {
+    "segment_id": "s00532",
+    "start_seconds": 2007.0,
+    "end_seconds": 2033.0,
+    "text": "For most places, just getting access to an LLM is still the biggest hurdle. And then potentially going through the AI council or the committee, everything must run through the AI council and be approved. If you've never worked in an enterprise, most large enterprises have a council or committee for everything."
+  },
+  {
+    "segment_id": "s00533",
+    "start_seconds": 2033.0,
+    "end_seconds": 2053.0,
+    "text": "It's like, well, we shall go to the committee and we shall present our idea. We will wait six months and see what has the result been. So you just kind of have to work through the councils and the committees and all that fun. But once you finally get something approved, just iterate. Don't try to boil the ocean. Make baby steps and get progress."
+  },
+  {
+    "segment_id": "s00534",
+    "start_seconds": 2053.0,
+    "end_seconds": 2081.0,
+    "text": "And you'll learn the technologies and the next step will just kind of be obvious. Like, well, I can make the agent better if I get some MCP servers, get them tools. And then we've got to get these tools approved and then add on to that. And some of these guardrails of Tansy platform help enterprises bring these tools to light because it's not just all this random stuff downloaded from the internet, which that can be its own danger nowadays."
+  },
+  {
+    "segment_id": "s00535",
+    "start_seconds": 2081.0,
+    "end_seconds": 2099.0,
+    "text": "So having some guardrails in place is a good thing. If you have experience with some of these platforms or apps running before, take that experience and that knowledge and kind of bring it forward and utilize your existing people and skills, I think, too."
+  },
+  {
+    "segment_id": "s00536",
+    "start_seconds": 2099.0,
+    "end_seconds": 2127.0,
+    "text": "I think a lot of times, too, I've seen organizations like a new technology will come up and a new team will be built and that new team will decree. But there's so much other really skilled people that could help. And it's always kind of a friction, too. So try to get the teams to work together, too, and not just have the new team doing all the new things. And then the teams that have been there all the while have that. That's always another constant flow. So try to break those silos down as well to help get people up to speed and get through that process."
+  },
+  {
+    "segment_id": "s00537",
+    "start_seconds": 2127.0,
+    "end_seconds": 2151.0,
+    "text": "Having worked in multiple enterprises myself, I think that last point, I think I've seen that multiple times across different organizations. And, you know, how do you bridge that? I think part of it, you know, you kind of have every organization has its own politics. They all have kind of the different structures. It's really common to say new tech, new team there."
+  },
+  {
+    "segment_id": "s00538",
+    "start_seconds": 2151.0,
+    "end_seconds": 2179.0,
+    "text": "But then I think people recognize, you know, why, you know, that kind of you'll see that and sometimes you'll see a reconciliation. But it always seems like a little bit of a struggle when that happens to try to, you know, do you have any thoughts around as you're as you're trying to do that? You know, you may have, you know, a lot of big organizations have, you know, they're very like one, one business unit, maybe almost like in a different universe."
+  },
+  {
+    "segment_id": "s00539",
+    "start_seconds": 2179.0,
+    "end_seconds": 2205.0,
+    "text": "Maybe in a, almost like in a different universe from another business unit sometimes. And, and so how do you get that kind of cross adoption where, where you're taking advantage of maybe both the new teams that may be there, but also some of the old structured teams and you're trying to spread the capability across the larger organization in a useful way. Do you have any, do you have any guidance?"
+  },
+  {
+    "segment_id": "s00540",
+    "start_seconds": 2205.0,
+    "end_seconds": 2215.0,
+    "text": "You know, I imagine it can't be that different from, you know, the, the more traditional app dev side, but I think, I think this is a struggle that a lot of, that a lot of orgs are facing right now."
+  },
+  {
+    "segment_id": "s00541",
+    "start_seconds": 2215.0,
+    "end_seconds": 2243.0,
+    "text": "Yeah. Well, I think, yeah. So, I mean, it goes, I think a lot both ways. So if you have the new team, right, the new team can like the responsibility team is like engage every other team because they have a lot of people that can help you out and achieve your goal. Right. Because the new team probably most likely has a very stressful and like, like, you know, like adopt AI everywhere or before it was like go cloud everywhere. Right. Like those, those goals are like not quite easy to, to get going in enterprise."
+  },
+  {
+    "segment_id": "s00542",
+    "start_seconds": 2243.0,
+    "end_seconds": 2271.0,
+    "text": "So the new team needs to like, you know, potentially run, you know, office hours, weekly office hours, reach out to their other teams, you know, maybe before, you know, like, like a lunch and learn if you're in the office and have people in the office, that type of thing. And just have like a forum for people to come in and learn and get started and like ask questions and not, you know, like, Hey, like I saw this, you know, this post about, you know, this new platform or this new AI thing. How do I get started?"
+  },
+  {
+    "segment_id": "s00543",
+    "start_seconds": 2271.0,
+    "end_seconds": 2299.0,
+    "text": "Is there any documentation or what can I do to get started? And just kind of have like an open and like, you know, very welcoming place to get started to bring in the folks. And then if you're on some of the, you know, let's say not new teams or teams that have been around for a while, be engaging and reach out to those teams because a lot of the new people are going to need help. You know, there may be under stress. So it's just breaking that down. And then I think with this iteration, right, it's going to happen a lot faster."
+  },
+  {
+    "segment_id": "s00544",
+    "start_seconds": 2299.0,
+    "end_seconds": 2328.0,
+    "text": "And I think people just naturally want to work together. Because I think I was at VM Explorer and I did a few talks and I started every talk with like, all right, let's, let's get a show of hands in the room who has used one of these tools like in at work, like cursor, cloud code, whatever. And pretty much the entire room and all of them went up. And I was like, well, that's a lot more than I expected. So like, the adoption rate, even at, you know, the traditional, like, you know, platform or developer engineer, and, you know, or just infrastructure admin at some of these personas is well into that."
+  },
+  {
+    "segment_id": "s00545",
+    "start_seconds": 2329.0,
+    "end_seconds": 2359.0,
+    "text": "That scope. So the entire enterprise, I think, is picking up on this really fast. And that, you know, the more collaboration, I think it just will help out. So, you know, just office hours, you know, reach out, be proactive. And I guess if you're on, if don't be, be, be mindful or be open to change. And just this is just in general, if what I've seen before, and if you're if you're resistant, and resist the change, and you know, that's, that's going to kind of get you labeled and kind of put off the side. But if you're, you may be at a"
+  },
+  {
+    "segment_id": "s00546",
+    "start_seconds": 2359.0,
+    "end_seconds": 2373.0,
+    "text": "you may have your own opinions, but if you present them in a way that kind of is, let's say, maybe open minded, per se, you have a better chance at some of those those key learnings that you've dealt with throughout your career to actually be applied in the new way as well."
+  },
+  {
+    "segment_id": "s00547",
+    "start_seconds": 2373.0,
+    "end_seconds": 2374.0,
+    "text": "I'm curious, I want to I want to circle back for a moment on something you said, as we're talking about kind of spreading across my mind goes to security. Because I know, and you know, in my industry, security is a is a pretty big deal. We do have air gap things and stuff like that's what we do in defense. But as you're as you're thinking about that, you know, one of the topics that is a really common topic"
+  },
+  {
+    "segment_id": "s00548",
+    "start_seconds": 2400.0,
+    "end_seconds": 2402.880000114441,
+    "text": "now is kind of going back a few weeks."
+  },
+  {
+    "segment_id": "s00549",
+    "start_seconds": 2402.880000114441,
+    "end_seconds": 2406.039999961853,
+    "text": "We covered it in depth on a previous episode,"
+  },
+  {
+    "segment_id": "s00550",
+    "start_seconds": 2406.039999961853,
+    "end_seconds": 2410.3999996185303,
+    "text": "that the whole open AI swarms got out,"
+  },
+  {
+    "segment_id": "s00551",
+    "start_seconds": 2410.3999996185303,
+    "end_seconds": 2412.279999732971,
+    "text": "hugging face, that whole thing."
+  },
+  {
+    "segment_id": "s00552",
+    "start_seconds": 2412.279999732971,
+    "end_seconds": 2415.279999732971,
+    "text": "I'll refer people back if they're not familiar with it"
+  },
+  {
+    "segment_id": "s00553",
+    "start_seconds": 2415.279999732971,
+    "end_seconds": 2417.4400005340576,
+    "text": "to our episode recently that covered that."
+  },
+  {
+    "segment_id": "s00554",
+    "start_seconds": 2418.3999996185303,
+    "end_seconds": 2421.159999847412,
+    "text": "But that is top of mind."
+  },
+  {
+    "segment_id": "s00555",
+    "start_seconds": 2421.159999847412,
+    "end_seconds": 2423.9599990844727,
+    "text": "It's not only top of mind for security,"
+  },
+  {
+    "segment_id": "s00556",
+    "start_seconds": 2423.9599990844727,
+    "end_seconds": 2427.0400009155273,
+    "text": "but it's top of mind for legal,"
+  },
+  {
+    "segment_id": "s00557",
+    "start_seconds": 2427.0400009155273,
+    "end_seconds": 2428.680000305176,
+    "text": "it's top of mind for comms,"
+  },
+  {
+    "segment_id": "s00558",
+    "start_seconds": 2428.7199993133545,
+    "end_seconds": 2430.5200004577637,
+    "text": "they're thinking about what do we do"
+  },
+  {
+    "segment_id": "s00559",
+    "start_seconds": 2430.5200004577637,
+    "end_seconds": 2432.2000007629395,
+    "text": "if something like this were to happen"
+  },
+  {
+    "segment_id": "s00560",
+    "start_seconds": 2432.2000007629395,
+    "end_seconds": 2434.439998626709,
+    "text": "in our org, whatever that org is."
+  },
+  {
+    "segment_id": "s00561",
+    "start_seconds": 2434.439998626709,
+    "end_seconds": 2438.279998779297,
+    "text": "And can you talk a little bit about,"
+  },
+  {
+    "segment_id": "s00562",
+    "start_seconds": 2438.279998779297,
+    "end_seconds": 2442.599998474121,
+    "text": "as you've kind of brought the enterprise structure"
+  },
+  {
+    "segment_id": "s00563",
+    "start_seconds": 2442.599998474121,
+    "end_seconds": 2444.680000305176,
+    "text": "up to date to deal with agents,"
+  },
+  {
+    "segment_id": "s00564",
+    "start_seconds": 2444.680000305176,
+    "end_seconds": 2447.560001373291,
+    "text": "and we're beyond just the traditional software"
+  },
+  {
+    "segment_id": "s00565",
+    "start_seconds": 2447.560001373291,
+    "end_seconds": 2451.400001525879,
+    "text": "and app world, and we're taking some of the same lessons"
+  },
+  {
+    "segment_id": "s00566",
+    "start_seconds": 2451.400001525879,
+    "end_seconds": 2454.0800018310547,
+    "text": "and reapplying them in a new context here."
+  },
+  {
+    "segment_id": "s00567",
+    "start_seconds": 2454.0800018310547,
+    "end_seconds": 2456.0400009155273,
+    "text": "Can you talk a little bit about"
+  },
+  {
+    "segment_id": "s00568",
+    "start_seconds": 2456.0400009155273,
+    "end_seconds": 2458.319999694824,
+    "text": "how that helps on the security side?"
+  },
+  {
+    "segment_id": "s00569",
+    "start_seconds": 2459.0400009155273,
+    "end_seconds": 2461.1199989318848,
+    "text": "For the folks out there that are really,"
+  },
+  {
+    "segment_id": "s00570",
+    "start_seconds": 2461.1199989318848,
+    "end_seconds": 2464.199996948242,
+    "text": "that's their job is to keep things from really going awry."
+  },
+  {
+    "segment_id": "s00571",
+    "start_seconds": 2464.199996948242,
+    "end_seconds": 2466.0,
+    "text": "Can you talk for a moment about"
+  },
+  {
+    "segment_id": "s00572",
+    "start_seconds": 2466.0,
+    "end_seconds": 2467.9199981689453,
+    "text": "keeping things in the box, if you will?"
+  },
+  {
+    "segment_id": "s00573",
+    "start_seconds": 2467.9199981689453,
+    "end_seconds": 2468.7600021362305,
+    "text": "Yes, sure."
+  },
+  {
+    "segment_id": "s00574",
+    "start_seconds": 2468.7600021362305,
+    "end_seconds": 2471.0400009155273,
+    "text": "And then I guess I'll put a disclaimer."
+  },
+  {
+    "segment_id": "s00575",
+    "start_seconds": 2471.879997253418,
+    "end_seconds": 2474.120002746582,
+    "text": "These all could be suggestions to help out with."
+  },
+  {
+    "segment_id": "s00576",
+    "start_seconds": 2474.120002746582,
+    "end_seconds": 2477.199996948242,
+    "text": "If you really dig into some of the hugging face stuff,"
+  },
+  {
+    "segment_id": "s00577",
+    "start_seconds": 2477.199996948242,
+    "end_seconds": 2478.8399963378906,
+    "text": "it's a little scary."
+  },
+  {
+    "segment_id": "s00578",
+    "start_seconds": 2478.8399963378906,
+    "end_seconds": 2481.0800018310547,
+    "text": "So I'm not to say that we're better"
+  },
+  {
+    "segment_id": "s00579",
+    "start_seconds": 2481.0800018310547,
+    "end_seconds": 2483.879997253418,
+    "text": "than all of the AI labs or anything like that."
+  },
+  {
+    "segment_id": "s00580",
+    "start_seconds": 2483.879997253418,
+    "end_seconds": 2485.800003051758,
+    "text": "But if you look at some of the things"
+  },
+  {
+    "segment_id": "s00581",
+    "start_seconds": 2485.800003051758,
+    "end_seconds": 2486.879997253418,
+    "text": "or how that kind of got started,"
+  },
+  {
+    "segment_id": "s00582",
+    "start_seconds": 2486.879997253418,
+    "end_seconds": 2490.0800018310547,
+    "text": "is where they started getting out of the sandbox,"
+  },
+  {
+    "segment_id": "s00583",
+    "start_seconds": 2490.0800018310547,
+    "end_seconds": 2493.319999694824,
+    "text": "and then they found things that they could get access to."
+  },
+  {
+    "segment_id": "s00584",
+    "start_seconds": 2494.4400024414062,
+    "end_seconds": 2496.4400024414062,
+    "text": "Having monitoring and control around"
+  },
+  {
+    "segment_id": "s00585",
+    "start_seconds": 2496.4400024414062,
+    "end_seconds": 2498.279998779297,
+    "text": "what those apps or agents can do"
+  },
+  {
+    "segment_id": "s00586",
+    "start_seconds": 2498.279998779297,
+    "end_seconds": 2501.400001525879,
+    "text": "is something that's been in mind"
+  },
+  {
+    "segment_id": "s00587",
+    "start_seconds": 2501.400001525879,
+    "end_seconds": 2503.3600006103516,
+    "text": "for all enterprise apps."
+  },
+  {
+    "segment_id": "s00588",
+    "start_seconds": 2503.3600006103516,
+    "end_seconds": 2506.319999694824,
+    "text": "So having kind of guardrails, even like network zones."
+  },
+  {
+    "segment_id": "s00589",
+    "start_seconds": 2506.319999694824,
+    "end_seconds": 2508.199996948242,
+    "text": "So like, hey, this is a highly regulated zone."
+  },
+  {
+    "segment_id": "s00590",
+    "start_seconds": 2508.199996948242,
+    "end_seconds": 2510.0800018310547,
+    "text": "It's super locked down."
+  },
+  {
+    "segment_id": "s00591",
+    "start_seconds": 2510.0800018310547,
+    "end_seconds": 2511.4400024414062,
+    "text": "Even just like traditional firewall"
+  },
+  {
+    "segment_id": "s00592",
+    "start_seconds": 2511.4400024414062,
+    "end_seconds": 2513.6399993896484,
+    "text": "would have potentially blocked a lot of this stuff."
+  },
+  {
+    "segment_id": "s00593",
+    "start_seconds": 2513.6399993896484,
+    "end_seconds": 2515.7600021362305,
+    "text": "So it's kind of key,"
+  },
+  {
+    "segment_id": "s00594",
+    "start_seconds": 2515.7600021362305,
+    "end_seconds": 2517.7600021362305,
+    "text": "like a lot of the core enterprise learning"
+  },
+  {
+    "segment_id": "s00595",
+    "start_seconds": 2517.7600021362305,
+    "end_seconds": 2519.0,
+    "text": "to kind of maybe take that"
+  },
+  {
+    "segment_id": "s00596",
+    "start_seconds": 2519.0,
+    "end_seconds": 2521.0400009155273,
+    "text": "for the old team versus the new team."
+  },
+  {
+    "segment_id": "s00597",
+    "start_seconds": 2521.0400009155273,
+    "end_seconds": 2522.800003051758,
+    "text": "It's like, well, guys, you could have just,"
+  },
+  {
+    "segment_id": "s00598",
+    "start_seconds": 2522.800003051758,
+    "end_seconds": 2524.5599975585938,
+    "text": "I don't know, had some basic controls."
+  },
+  {
+    "segment_id": "s00599",
+    "start_seconds": 2524.5599975585938,
+    "end_seconds": 2526.2399978637695,
+    "text": "And I think they even talked about"
+  },
+  {
+    "segment_id": "s00600",
+    "start_seconds": 2526.2399978637695,
+    "end_seconds": 2528.240005493164,
+    "text": "their monitoring wasn't working,"
+  },
+  {
+    "segment_id": "s00601",
+    "start_seconds": 2528.240005493164,
+    "end_seconds": 2529.6000061035156,
+    "text": "they weren't really monitoring it,"
+  },
+  {
+    "segment_id": "s00602",
+    "start_seconds": 2529.6000061035156,
+    "end_seconds": 2531.240005493164,
+    "text": "and you had all these agent swarms."
+  },
+  {
+    "segment_id": "s00603",
+    "start_seconds": 2531.240005493164,
+    "end_seconds": 2533.4400024414062,
+    "text": "And then, of course, then they got to the artifactory,"
+  },
+  {
+    "segment_id": "s00604",
+    "start_seconds": 2533.4400024414062,
+    "end_seconds": 2534.6000061035156,
+    "text": "which then found the weak link,"
+  },
+  {
+    "segment_id": "s00605",
+    "start_seconds": 2534.6000061035156,
+    "end_seconds": 2536.1600036621094,
+    "text": "and the artifactory had the internet access,"
+  },
+  {
+    "segment_id": "s00606",
+    "start_seconds": 2536.1600036621094,
+    "end_seconds": 2538.3200073242188,
+    "text": "and somehow they magically zero-day"
+  },
+  {
+    "segment_id": "s00607",
+    "start_seconds": 2538.3200073242188,
+    "end_seconds": 2539.8800048828125,
+    "text": "the artifactory instance multiple times."
+  },
+  {
+    "segment_id": "s00608",
+    "start_seconds": 2539.8800048828125,
+    "end_seconds": 2542.4400024414062,
+    "text": "So not to say that we could prevent everything,"
+  },
+  {
+    "segment_id": "s00609",
+    "start_seconds": 2542.4400024414062,
+    "end_seconds": 2545.6799926757812,
+    "text": "but it's just, you take these core enterprise technologies"
+  },
+  {
+    "segment_id": "s00610",
+    "start_seconds": 2545.6799926757812,
+    "end_seconds": 2547.6000061035156,
+    "text": "that maybe would have helped out a little bit"
+  },
+  {
+    "segment_id": "s00611",
+    "start_seconds": 2547.6000061035156,
+    "end_seconds": 2550.6399993896484,
+    "text": "of just agent control,"
+  },
+  {
+    "segment_id": "s00612",
+    "start_seconds": 2550.6399993896484,
+    "end_seconds": 2554.0,
+    "text": "like hardened sandbox-type constructs,"
+  },
+  {
+    "segment_id": "s00613",
+    "start_seconds": 2554.0,
+    "end_seconds": 2557.240005493164,
+    "text": "very locked down network controls."
+  },
+  {
+    "segment_id": "s00614",
+    "start_seconds": 2557.240005493164,
+    "end_seconds": 2560.3200073242188,
+    "text": "That would have helped a little bit, potentially."
+  },
+  {
+    "segment_id": "s00615",
+    "start_seconds": 2560.3200073242188,
+    "end_seconds": 2563.6799926757812,
+    "text": "Just monitoring what's in the agent,"
+  },
+  {
+    "segment_id": "s00616",
+    "start_seconds": 2563.6799926757812,
+    "end_seconds": 2566.279998779297,
+    "text": "make sure that the agents aren't somehow"
+  },
+  {
+    "segment_id": "s00617",
+    "start_seconds": 2566.279998779297,
+    "end_seconds": 2568.0800018310547,
+    "text": "injecting tools that they're not supposed to have."
+  },
+  {
+    "segment_id": "s00618",
+    "start_seconds": 2568.0800018310547,
+    "end_seconds": 2570.3999938964844,
+    "text": "I'm not sure if that was an issue or not,"
+  },
+  {
+    "segment_id": "s00619",
+    "start_seconds": 2570.3999938964844,
+    "end_seconds": 2572.3999938964844,
+    "text": "but when you talk about an application,"
+  },
+  {
+    "segment_id": "s00620",
+    "start_seconds": 2572.3999938964844,
+    "end_seconds": 2575.279998779297,
+    "text": "the whole dependency stack is always up to grab,"
+  },
+  {
+    "segment_id": "s00621",
+    "start_seconds": 2575.279998779297,
+    "end_seconds": 2577.3600006103516,
+    "text": "so you want to make sure that the dependency stack,"
+  },
+  {
+    "segment_id": "s00622",
+    "start_seconds": 2577.3600006103516,
+    "end_seconds": 2579.520004272461,
+    "text": "the container, everything is, and the whole OS,"
+  },
+  {
+    "segment_id": "s00623",
+    "start_seconds": 2579.520004272461,
+    "end_seconds": 2580.960006713867,
+    "text": "and the whole platform is tried and patched"
+  },
+  {
+    "segment_id": "s00624",
+    "start_seconds": 2580.960006713867,
+    "end_seconds": 2582.5599975585938,
+    "text": "and reliable as possible."
+  },
+  {
+    "segment_id": "s00625",
+    "start_seconds": 2582.5599975585938,
+    "end_seconds": 2585.479995727539,
+    "text": "So I think the key thing is, obviously,"
+  },
+  {
+    "segment_id": "s00626",
+    "start_seconds": 2585.479995727539,
+    "end_seconds": 2586.800003051758,
+    "text": "we had the whole mind-bending effect"
+  },
+  {
+    "segment_id": "s00627",
+    "start_seconds": 2586.800003051758,
+    "end_seconds": 2588.6799926757812,
+    "text": "of that they somehow made this messaging board"
+  },
+  {
+    "segment_id": "s00628",
+    "start_seconds": 2588.6799926757812,
+    "end_seconds": 2590.6799926757812,
+    "text": "on artifactory, and then it got deleted,"
+  },
+  {
+    "segment_id": "s00629",
+    "start_seconds": 2590.6799926757812,
+    "end_seconds": 2591.520004272461,
+    "text": "and they recreated it."
+  },
+  {
+    "segment_id": "s00630",
+    "start_seconds": 2591.520004272461,
+    "end_seconds": 2592.6000061035156,
+    "text": "So there's that factor,"
+  },
+  {
+    "segment_id": "s00631",
+    "start_seconds": 2592.6000061035156,
+    "end_seconds": 2594.0800018310547,
+    "text": "which I think everybody's a little like,"
+  },
+  {
+    "segment_id": "s00632",
+    "start_seconds": 2594.0800018310547,
+    "end_seconds": 2595.9199981689453,
+    "text": "that goes into the whole AI's-gonna-kill-us thing"
+  },
+  {
+    "segment_id": "s00633",
+    "start_seconds": 2595.9199981689453,
+    "end_seconds": 2597.3999938964844,
+    "text": "that happened over the weekend, right?"
+  },
+  {
+    "segment_id": "s00634",
+    "start_seconds": 2597.3999938964844,
+    "end_seconds": 2602.0,
+    "text": "Versus just do some basic security, basic stuff."
+  },
+  {
+    "segment_id": "s00635",
+    "start_seconds": 2602.479995727539,
+    "end_seconds": 2604.960006713867,
+    "text": "Just to clarify, that was a social media post,"
+  },
+  {
+    "segment_id": "s00636",
+    "start_seconds": 2604.960006713867,
+    "end_seconds": 2608.039993286133,
+    "text": "unless people misinterpret that."
+  },
+  {
+    "segment_id": "s00637",
+    "start_seconds": 2608.039993286133,
+    "end_seconds": 2609.8800048828125,
+    "text": "Yeah, that's a question, yeah."
+  },
+  {
+    "segment_id": "s00638",
+    "start_seconds": 2609.8800048828125,
+    "end_seconds": 2612.6000061035156,
+    "text": "If you're not on AI Twitter, or AIX,"
+  },
+  {
+    "segment_id": "s00639",
+    "start_seconds": 2612.6000061035156,
+    "end_seconds": 2614.9199981689453,
+    "text": "there's a lot of posts around, you know,"
+  },
+  {
+    "segment_id": "s00640",
+    "start_seconds": 2614.9199981689453,
+    "end_seconds": 2618.0,
+    "text": "somebody left Anthropic, and a bunch of Anthropic people"
+  },
+  {
+    "segment_id": "s00641",
+    "start_seconds": 2618.0,
+    "end_seconds": 2619.720001220703,
+    "text": "started posting around that they're afraid"
+  },
+  {
+    "segment_id": "s00642",
+    "start_seconds": 2619.720001220703,
+    "end_seconds": 2621.5599975585938,
+    "text": "that there's a greater than 10% chance"
+  },
+  {
+    "segment_id": "s00643",
+    "start_seconds": 2621.5599975585938,
+    "end_seconds": 2624.199996948242,
+    "text": "that AI is gonna take out humanity"
+  },
+  {
+    "segment_id": "s00644",
+    "start_seconds": 2624.199996948242,
+    "end_seconds": 2626.0,
+    "text": "over the weekend slash Friday,"
+  },
+  {
+    "segment_id": "s00645",
+    "start_seconds": 2626.0,
+    "end_seconds": 2628.800003051758,
+    "text": "and then that stirred up a lot of conversation,"
+  },
+  {
+    "segment_id": "s00646",
+    "start_seconds": 2628.800003051758,
+    "end_seconds": 2629.6399993896484,
+    "text": "let's just say."
+  },
+  {
+    "segment_id": "s00647",
+    "start_seconds": 2629.6399993896484,
+    "end_seconds": 2631.759994506836,
+    "text": "So that's what I was referring to."
+  },
+  {
+    "segment_id": "s00648",
+    "start_seconds": 2632.520004272461,
+    "end_seconds": 2633.479995727539,
+    "text": "Yeah, yeah."
+  },
+  {
+    "segment_id": "s00649",
+    "start_seconds": 2633.479995727539,
+    "end_seconds": 2636.720001220703,
+    "text": "Okay, I guess that's useful."
+  },
+  {
+    "segment_id": "s00650",
+    "start_seconds": 2636.720001220703,
+    "end_seconds": 2637.960006713867,
+    "text": "I appreciate that."
+  },
+  {
+    "segment_id": "s00651",
+    "start_seconds": 2637.960006713867,
+    "end_seconds": 2641.8399963378906,
+    "text": "We like to finish off by kind of giving you"
+  },
+  {
+    "segment_id": "s00652",
+    "start_seconds": 2641.8399963378906,
+    "end_seconds": 2644.0800018310547,
+    "text": "kind of a free-form question,"
+  },
+  {
+    "segment_id": "s00653",
+    "start_seconds": 2644.0800018310547,
+    "end_seconds": 2645.8800048828125,
+    "text": "and that is kind of toward the future."
+  },
+  {
+    "segment_id": "s00654",
+    "start_seconds": 2645.8800048828125,
+    "end_seconds": 2649.3200073242188,
+    "text": "As you are doing your job,"
+  },
+  {
+    "segment_id": "s00655",
+    "start_seconds": 2649.3200073242188,
+    "end_seconds": 2654.1199951171875,
+    "text": "and running your podcast, and talking to people,"
+  },
+  {
+    "segment_id": "s00656",
+    "start_seconds": 2654.1199951171875,
+    "end_seconds": 2657.7999877929688,
+    "text": "and kind of building up your perspective"
+  },
+  {
+    "segment_id": "s00657",
+    "start_seconds": 2657.7999877929688,
+    "end_seconds": 2660.3999938964844,
+    "text": "on where things are going with this,"
+  },
+  {
+    "segment_id": "s00658",
+    "start_seconds": 2661.040008544922,
+    "end_seconds": 2662.9200134277344,
+    "text": "we like to ask guests to go ahead"
+  },
+  {
+    "segment_id": "s00659",
+    "start_seconds": 2662.9200134277344,
+    "end_seconds": 2666.279998779297,
+    "text": "and get crazy and prognosticate just a bit,"
+  },
+  {
+    "segment_id": "s00660",
+    "start_seconds": 2666.279998779297,
+    "end_seconds": 2668.3999938964844,
+    "text": "and we don't hold you to it."
+  },
+  {
+    "segment_id": "s00661",
+    "start_seconds": 2668.3999938964844,
+    "end_seconds": 2672.3200073242188,
+    "text": "But really, the way we do this is,"
+  },
+  {
+    "segment_id": "s00662",
+    "start_seconds": 2673.2000122070312,
+    "end_seconds": 2676.519989013672,
+    "text": "when you're kind of just letting your mind wander,"
+  },
+  {
+    "segment_id": "s00663",
+    "start_seconds": 2676.519989013672,
+    "end_seconds": 2678.3999938964844,
+    "text": "and you're thinking about these things"
+  },
+  {
+    "segment_id": "s00664",
+    "start_seconds": 2678.3999938964844,
+    "end_seconds": 2679.5599975585938,
+    "text": "in the back of your mind,"
+  },
+  {
+    "segment_id": "s00665",
+    "start_seconds": 2679.5599975585938,
+    "end_seconds": 2681.2000122070312,
+    "text": "you go into bed at night, have a glass of wine,"
+  },
+  {
+    "segment_id": "s00666",
+    "start_seconds": 2681.2000122070312,
+    "end_seconds": 2683.3599853515625,
+    "text": "whatever it is you do to chill out,"
+  },
+  {
+    "segment_id": "s00667",
+    "start_seconds": 2683.3599853515625,
+    "end_seconds": 2685.519989013672,
+    "text": "what do you think things are going?"
+  },
+  {
+    "segment_id": "s00668",
+    "start_seconds": 2685.519989013672,
+    "end_seconds": 2688.720001220703,
+    "text": "And you can choose the timeframe that you like,"
+  },
+  {
+    "segment_id": "s00669",
+    "start_seconds": 2688.720001220703,
+    "end_seconds": 2690.0799865722656,
+    "text": "but I really like to think,"
+  },
+  {
+    "segment_id": "s00670",
+    "start_seconds": 2690.760009765625,
+    "end_seconds": 2692.040008544922,
+    "text": "what do you think is coming?"
+  },
+  {
+    "segment_id": "s00671",
+    "start_seconds": 2692.040008544922,
+    "end_seconds": 2693.1600036621094,
+    "text": "What's next?"
+  },
+  {
+    "segment_id": "s00672",
+    "start_seconds": 2695.0799865722656,
+    "end_seconds": 2698.6799926757812,
+    "text": "What should orgs be having a thought toward"
+  },
+  {
+    "segment_id": "s00673",
+    "start_seconds": 2698.6799926757812,
+    "end_seconds": 2702.0799865722656,
+    "text": "for the future, even if we're not there yet today?"
+  },
+  {
+    "segment_id": "s00674",
+    "start_seconds": 2703.2000122070312,
+    "end_seconds": 2705.8800048828125,
+    "text": "Any thoughts on what that future looks like"
+  },
+  {
+    "segment_id": "s00675",
+    "start_seconds": 2705.8800048828125,
+    "end_seconds": 2706.959991455078,
+    "text": "as we close out?"
+  },
+  {
+    "segment_id": "s00676",
+    "start_seconds": 2706.959991455078,
+    "end_seconds": 2709.0799865722656,
+    "text": "Oh boy, it could be many things."
+  },
+  {
+    "segment_id": "s00677",
+    "start_seconds": 2709.0799865722656,
+    "end_seconds": 2711.8399963378906,
+    "text": "But I think from an enterprise perspective,"
+  },
+  {
+    "segment_id": "s00678",
+    "start_seconds": 2711.8399963378906,
+    "end_seconds": 2715.279998779297,
+    "text": "I think we'll see a lot of team change,"
+  },
+  {
+    "segment_id": "s00679",
+    "start_seconds": 2715.279998779297,
+    "end_seconds": 2717.040008544922,
+    "text": "role change, and not even just in enterprise."
+  },
+  {
+    "segment_id": "s00680",
+    "start_seconds": 2717.040008544922,
+    "end_seconds": 2718.959991455078,
+    "text": "The whole, from the business side,"
+  },
+  {
+    "segment_id": "s00681",
+    "start_seconds": 2718.959991455078,
+    "end_seconds": 2720.6799926757812,
+    "text": "things are gonna change a lot, right?"
+  },
+  {
+    "segment_id": "s00682",
+    "start_seconds": 2720.6799926757812,
+    "end_seconds": 2722.3200073242188,
+    "text": "Because you're starting to see,"
+  },
+  {
+    "segment_id": "s00683",
+    "start_seconds": 2722.3200073242188,
+    "end_seconds": 2723.8399963378906,
+    "text": "and I was going through old episodes"
+  },
+  {
+    "segment_id": "s00684",
+    "start_seconds": 2723.8399963378906,
+    "end_seconds": 2725.3599853515625,
+    "text": "of my podcast this year,"
+  },
+  {
+    "segment_id": "s00685",
+    "start_seconds": 2725.3599853515625,
+    "end_seconds": 2726.239990234375,
+    "text": "and just some of the old,"
+  },
+  {
+    "segment_id": "s00686",
+    "start_seconds": 2726.239990234375,
+    "end_seconds": 2727.480010986328,
+    "text": "just the start of this year,"
+  },
+  {
+    "segment_id": "s00687",
+    "start_seconds": 2727.480010986328,
+    "end_seconds": 2728.8800048828125,
+    "text": "and there's just now, it's like,"
+  },
+  {
+    "segment_id": "s00688",
+    "start_seconds": 2728.8800048828125,
+    "end_seconds": 2731.480010986328,
+    "text": "wow, a lot has changed!"
+  },
+  {
+    "segment_id": "s00689",
+    "start_seconds": 2731.480010986328,
+    "end_seconds": 2733.239990234375,
+    "text": "Like, can't imagine,"
+  },
+  {
+    "segment_id": "s00690",
+    "start_seconds": 2733.239990234375,
+    "end_seconds": 2735.6799926757812,
+    "text": "can you imagine a couple years from now"
+  },
+  {
+    "segment_id": "s00691",
+    "start_seconds": 2735.6799926757812,
+    "end_seconds": 2737.8800048828125,
+    "text": "how much change, the rate of change is now?"
+  },
+  {
+    "segment_id": "s00692",
+    "start_seconds": 2737.8800048828125,
+    "end_seconds": 2738.720001220703,
+    "text": "It's accelerating."
+  },
+  {
+    "segment_id": "s00693",
+    "start_seconds": 2738.720001220703,
+    "end_seconds": 2739.5599975585938,
+    "text": "Perceived, right?"
+  },
+  {
+    "segment_id": "s00694",
+    "start_seconds": 2739.5599975585938,
+    "end_seconds": 2740.720001220703,
+    "text": "So it's hard to imagine that,"
+  },
+  {
+    "segment_id": "s00695",
+    "start_seconds": 2740.720001220703,
+    "end_seconds": 2743.1199951171875,
+    "text": "but I definitely think from a business perspective,"
+  },
+  {
+    "segment_id": "s00696",
+    "start_seconds": 2743.1199951171875,
+    "end_seconds": 2744.5599975585938,
+    "text": "we're gonna see a radical change"
+  },
+  {
+    "segment_id": "s00697",
+    "start_seconds": 2744.5599975585938,
+    "end_seconds": 2748.519989013672,
+    "text": "in how development, and product management,"
+  },
+  {
+    "segment_id": "s00698",
+    "start_seconds": 2749.040008544922,
+    "end_seconds": 2749.8800048828125,
+    "text": "and everything changes,"
+  },
+  {
+    "segment_id": "s00699",
+    "start_seconds": 2749.8800048828125,
+    "end_seconds": 2751.3200073242188,
+    "text": "or everything kind of,"
+  },
+  {
+    "segment_id": "s00700",
+    "start_seconds": 2751.3200073242188,
+    "end_seconds": 2754.2000122070312,
+    "text": "there's gonna be new roles get created,"
+  },
+  {
+    "segment_id": "s00701",
+    "start_seconds": 2754.2000122070312,
+    "end_seconds": 2755.6799926757812,
+    "text": "orgs are gonna change, I think,"
+  },
+  {
+    "segment_id": "s00702",
+    "start_seconds": 2755.6799926757812,
+    "end_seconds": 2757.1199951171875,
+    "text": "and I think for the good, too,"
+  },
+  {
+    "segment_id": "s00703",
+    "start_seconds": 2757.1199951171875,
+    "end_seconds": 2760.1199951171875,
+    "text": "because there's always a fear of job loss,"
+  },
+  {
+    "segment_id": "s00704",
+    "start_seconds": 2760.1199951171875,
+    "end_seconds": 2761.6799926757812,
+    "text": "but I find that I've,"
+  },
+  {
+    "segment_id": "s00705",
+    "start_seconds": 2761.6799926757812,
+    "end_seconds": 2762.9200134277344,
+    "text": "and I've heard this echoed"
+  },
+  {
+    "segment_id": "s00706",
+    "start_seconds": 2762.9200134277344,
+    "end_seconds": 2765.0799865722656,
+    "text": "across many personal experiences,"
+  },
+  {
+    "segment_id": "s00707",
+    "start_seconds": 2765.0799865722656,
+    "end_seconds": 2766.8399963378906,
+    "text": "I am working harder than I ever have,"
+  },
+  {
+    "segment_id": "s00708",
+    "start_seconds": 2766.8399963378906,
+    "end_seconds": 2767.959991455078,
+    "text": "because I have all these agents,"
+  },
+  {
+    "segment_id": "s00709",
+    "start_seconds": 2767.959991455078,
+    "end_seconds": 2769.3599853515625,
+    "text": "and they need stuff from me,"
+  },
+  {
+    "segment_id": "s00710",
+    "start_seconds": 2769.3599853515625,
+    "end_seconds": 2770.2000122070312,
+    "text": "and I'm constantly,"
+  },
+  {
+    "segment_id": "s00711",
+    "start_seconds": 2770.2000122070312,
+    "end_seconds": 2773.3200073242188,
+    "text": "and I'm building things that I always wanted to build,"
+  },
+  {
+    "segment_id": "s00712",
+    "start_seconds": 2773.3200073242188,
+    "end_seconds": 2774.760009765625,
+    "text": "but just never had the time to."
+  },
+  {
+    "segment_id": "s00713",
+    "start_seconds": 2774.760009765625,
+    "end_seconds": 2778.3599853515625,
+    "text": "So I feel like we're all gonna be busy,"
+  },
+  {
+    "segment_id": "s00714",
+    "start_seconds": 2779.2000122070312,
+    "end_seconds": 2782.9200134277344,
+    "text": "maybe we need to not get too crazy with the agents,"
+  },
+  {
+    "segment_id": "s00715",
+    "start_seconds": 2782.9200134277344,
+    "end_seconds": 2783.8399963378906,
+    "text": "but it's hard for me,"
+  },
+  {
+    "segment_id": "s00716",
+    "start_seconds": 2783.8399963378906,
+    "end_seconds": 2786.1600036621094,
+    "text": "because it's fascinating,"
+  },
+  {
+    "segment_id": "s00717",
+    "start_seconds": 2786.1600036621094,
+    "end_seconds": 2787.1600036621094,
+    "text": "it's really enjoyable."
+  },
+  {
+    "segment_id": "s00718",
+    "start_seconds": 2787.1600036621094,
+    "end_seconds": 2789.480010986328,
+    "text": "So doing a lot of things with automation,"
+  },
+  {
+    "segment_id": "s00719",
+    "start_seconds": 2789.480010986328,
+    "end_seconds": 2790.9200134277344,
+    "text": "I can only imagine what these agents"
+  },
+  {
+    "segment_id": "s00720",
+    "start_seconds": 2790.9200134277344,
+    "end_seconds": 2792.959991455078,
+    "text": "are gonna be like in the next six months,"
+  },
+  {
+    "segment_id": "s00721",
+    "start_seconds": 2792.959991455078,
+    "end_seconds": 2795.3599853515625,
+    "text": "in terms of what they can do for you."
+  },
+  {
+    "segment_id": "s00722",
+    "start_seconds": 2795.3599853515625,
+    "end_seconds": 2797.7999877929688,
+    "text": "I think we'll see a lot with voice come into play,"
+  },
+  {
+    "segment_id": "s00723",
+    "start_seconds": 2797.7999877929688,
+    "end_seconds": 2799.6799926757812,
+    "text": "and maybe even a new style of interaction"
+  },
+  {
+    "segment_id": "s00724",
+    "start_seconds": 2799.6799926757812,
+    "end_seconds": 2801.1600036621094,
+    "text": "with the computer, as well."
+  },
+  {
+    "segment_id": "s00725",
+    "start_seconds": 2801.1600036621094,
+    "end_seconds": 2803.6400146484375,
+    "text": "So that will be interesting, as well."
+  },
+  {
+    "segment_id": "s00726",
+    "start_seconds": 2803.6400146484375,
+    "end_seconds": 2805.760009765625,
+    "text": "And then, obviously, I think,"
+  },
+  {
+    "segment_id": "s00727",
+    "start_seconds": 2805.760009765625,
+    "end_seconds": 2807.0799865722656,
+    "text": "did you see the posts,"
+  },
+  {
+    "segment_id": "s00728",
+    "start_seconds": 2807.1199951171875,
+    "end_seconds": 2810.1199951171875,
+    "text": "like Hugging Face had little robot things on sale?"
+  },
+  {
+    "segment_id": "s00729",
+    "start_seconds": 2810.1199951171875,
+    "end_seconds": 2810.959991455078,
+    "text": "Yes, yeah."
+  },
+  {
+    "segment_id": "s00730",
+    "start_seconds": 2810.959991455078,
+    "end_seconds": 2813.3599853515625,
+    "text": "Yeah, so like the little micro-duck things,"
+  },
+  {
+    "segment_id": "s00731",
+    "start_seconds": 2813.3599853515625,
+    "end_seconds": 2814.2000122070312,
+    "text": "or whatever?"
+  },
+  {
+    "segment_id": "s00732",
+    "start_seconds": 2814.2000122070312,
+    "end_seconds": 2815.2000122070312,
+    "text": "I did, I was like,"
+  },
+  {
+    "segment_id": "s00733",
+    "start_seconds": 2815.2000122070312,
+    "end_seconds": 2816.040008544922,
+    "text": "to my wife, I was like,"
+  },
+  {
+    "segment_id": "s00734",
+    "start_seconds": 2816.040008544922,
+    "end_seconds": 2816.8800048828125,
+    "text": "maybe we should get one,"
+  },
+  {
+    "segment_id": "s00735",
+    "start_seconds": 2816.8800048828125,
+    "end_seconds": 2817.720001220703,
+    "text": "and she's like,"
+  },
+  {
+    "segment_id": "s00736",
+    "start_seconds": 2817.720001220703,
+    "end_seconds": 2818.6799926757812,
+    "text": "she's like, you have enough toys,"
+  },
+  {
+    "segment_id": "s00737",
+    "start_seconds": 2818.6799926757812,
+    "end_seconds": 2819.519989013672,
+    "text": "you just stop."
+  },
+  {
+    "segment_id": "s00738",
+    "start_seconds": 2819.519989013672,
+    "end_seconds": 2820.3599853515625,
+    "text": "Yeah, well,"
+  },
+  {
+    "segment_id": "s00739",
+    "start_seconds": 2820.3599853515625,
+    "end_seconds": 2822.2000122070312,
+    "text": "I may have ordered a few for the family,"
+  },
+  {
+    "segment_id": "s00740",
+    "start_seconds": 2822.2000122070312,
+    "end_seconds": 2824.0,
+    "text": "and I'm like, those things are gonna be awesome."
+  },
+  {
+    "segment_id": "s00741",
+    "start_seconds": 2824.0,
+    "end_seconds": 2826.0799865722656,
+    "text": "So like, robotics and things,"
+  },
+  {
+    "segment_id": "s00742",
+    "start_seconds": 2826.0799865722656,
+    "end_seconds": 2827.239990234375,
+    "text": "like, you know,"
+  },
+  {
+    "segment_id": "s00743",
+    "start_seconds": 2827.239990234375,
+    "end_seconds": 2829.3999938964844,
+    "text": "I think the LLM is great and wonderful,"
+  },
+  {
+    "segment_id": "s00744",
+    "start_seconds": 2829.3999938964844,
+    "end_seconds": 2831.480010986328,
+    "text": "but there's so many more possibilities"
+  },
+  {
+    "segment_id": "s00745",
+    "start_seconds": 2831.480010986328,
+    "end_seconds": 2832.8399963378906,
+    "text": "where we could go that,"
+  },
+  {
+    "segment_id": "s00746",
+    "start_seconds": 2832.8399963378906,
+    "end_seconds": 2834.720001220703,
+    "text": "I guess like for humanity, right?"
+  },
+  {
+    "segment_id": "s00747",
+    "start_seconds": 2834.720001220703,
+    "end_seconds": 2835.5599975585938,
+    "text": "As long as we don't,"
+  },
+  {
+    "segment_id": "s00748",
+    "start_seconds": 2835.5599975585938,
+    "end_seconds": 2837.2000122070312,
+    "text": "we prevent the Terminator scenario."
+  },
+  {
+    "segment_id": "s00749",
+    "start_seconds": 2837.2000122070312,
+    "end_seconds": 2838.3999938964844,
+    "text": "It'll be great, right?"
+  },
+  {
+    "segment_id": "s00750",
+    "start_seconds": 2839.5599975585938,
+    "end_seconds": 2840.3999938964844,
+    "text": "Absolutely."
+  },
+  {
+    "segment_id": "s00751",
+    "start_seconds": 2840.3999938964844,
+    "end_seconds": 2841.239990234375,
+    "text": "Yeah."
+  },
+  {
+    "segment_id": "s00752",
+    "start_seconds": 2841.239990234375,
+    "end_seconds": 2843.2000122070312,
+    "text": "Great, I appreciate you painting that."
+  },
+  {
+    "segment_id": "s00753",
+    "start_seconds": 2843.2000122070312,
+    "end_seconds": 2844.3200073242188,
+    "text": "That helps a lot."
+  },
+  {
+    "segment_id": "s00754",
+    "start_seconds": 2844.3200073242188,
+    "end_seconds": 2846.6799926757812,
+    "text": "Yeah, the rate of change is just insane now,"
+  },
+  {
+    "segment_id": "s00755",
+    "start_seconds": 2846.6799926757812,
+    "end_seconds": 2848.0799865722656,
+    "text": "and I agree with you."
+  },
+  {
+    "segment_id": "s00756",
+    "start_seconds": 2848.0799865722656,
+    "end_seconds": 2851.4400024414062,
+    "text": "I think it's going to get faster and faster."
+  },
+  {
+    "segment_id": "s00757",
+    "start_seconds": 2851.4400024414062,
+    "end_seconds": 2853.239990234375,
+    "text": "But great way to end the show."
+  },
+  {
+    "segment_id": "s00758",
+    "start_seconds": 2853.239990234375,
+    "end_seconds": 2854.1199951171875,
+    "text": "A lot of fun."
+  },
+  {
+    "segment_id": "s00759",
+    "start_seconds": 2854.1199951171875,
+    "end_seconds": 2856.0799865722656,
+    "text": "I always love to hear what people say"
+  },
+  {
+    "segment_id": "s00760",
+    "start_seconds": 2857.480010986328,
+    "end_seconds": 2858.519989013672,
+    "text": "when we're asking about"
+  },
+  {
+    "segment_id": "s00761",
+    "start_seconds": 2858.519989013672,
+    "end_seconds": 2860.6400146484375,
+    "text": "kind of where they think things are going."
+  },
+  {
+    "segment_id": "s00762",
+    "start_seconds": 2860.6400146484375,
+    "end_seconds": 2862.3599853515625,
+    "text": "Thank you for coming on the show today."
+  },
+  {
+    "segment_id": "s00763",
+    "start_seconds": 2862.3599853515625,
+    "end_seconds": 2863.6000061035156,
+    "text": "It was a great conversation."
+  },
+  {
+    "segment_id": "s00764",
+    "start_seconds": 2863.6000061035156,
+    "end_seconds": 2865.040008544922,
+    "text": "I learned so much."
+  },
+  {
+    "segment_id": "s00765",
+    "start_seconds": 2866.239990234375,
+    "end_seconds": 2867.3599853515625,
+    "text": "Really appreciate that."
+  },
+  {
+    "segment_id": "s00766",
+    "start_seconds": 2867.3599853515625,
+    "end_seconds": 2870.760009765625,
+    "text": "And I hope people tune in to Cloud Foundry Weekly"
+  },
+  {
+    "segment_id": "s00767",
+    "start_seconds": 2870.760009765625,
+    "end_seconds": 2873.6400146484375,
+    "text": "to hear you talking more about these topics,"
+  },
+  {
+    "segment_id": "s00768",
+    "start_seconds": 2873.6400146484375,
+    "end_seconds": 2877.1600036621094,
+    "text": "and they should definitely go to the Midwest Summit"
+  },
+  {
+    "segment_id": "s00769",
+    "start_seconds": 2877.1600036621094,
+    "end_seconds": 2878.4400024414062,
+    "text": "and hear your talk."
+  },
+  {
+    "segment_id": "s00770",
+    "start_seconds": 2879.9200134277344,
+    "end_seconds": 2882.5599975585938,
+    "text": "I was there last year, did a talk."
+  },
+  {
+    "segment_id": "s00771",
+    "start_seconds": 2882.5599975585938,
+    "end_seconds": 2884.6400146484375,
+    "text": "I won't be there this year,"
+  },
+  {
+    "segment_id": "s00772",
+    "start_seconds": 2884.6400146484375,
+    "end_seconds": 2886.3999938964844,
+    "text": "so I'll have to see if I can get ahold"
+  },
+  {
+    "segment_id": "s00773",
+    "start_seconds": 2886.3999938964844,
+    "end_seconds": 2887.6400146484375,
+    "text": "of the video of it or something."
+  },
+  {
+    "segment_id": "s00774",
+    "start_seconds": 2887.6400146484375,
+    "end_seconds": 2890.239990234375,
+    "text": "But anyway, thanks for coming on Practical AI today."
+  },
+  {
+    "segment_id": "s00775",
+    "start_seconds": 2890.239990234375,
+    "end_seconds": 2891.3200073242188,
+    "text": "Thanks for having me."
+  },
+  {
+    "segment_id": "s00776",
+    "start_seconds": 2891.6799926757812,
+    "end_seconds": 2894.480010986328,
+    "text": "All right, that's our show for this week."
+  },
+  {
+    "segment_id": "s00777",
+    "start_seconds": 2894.480010986328,
+    "end_seconds": 2896.3999938964844,
+    "text": "If you haven't checked out our website,"
+  },
+  {
+    "segment_id": "s00778",
+    "start_seconds": 2896.3999938964844,
+    "end_seconds": 2898.5599975585938,
+    "text": "head to practicalai.fm,"
+  },
+  {
+    "segment_id": "s00779",
+    "start_seconds": 2898.5599975585938,
+    "end_seconds": 2902.1199951171875,
+    "text": "and be sure to connect with us on LinkedIn, X, or BlueSky."
+  },
+  {
+    "segment_id": "s00780",
+    "start_seconds": 2902.1199951171875,
+    "end_seconds": 2903.5599975585938,
+    "text": "You'll see us posting insights"
+  },
+  {
+    "segment_id": "s00781",
+    "start_seconds": 2903.5599975585938,
+    "end_seconds": 2905.6799926757812,
+    "text": "related to the latest AI developments,"
+  },
+  {
+    "segment_id": "s00782",
+    "start_seconds": 2905.6799926757812,
+    "end_seconds": 2908.3200073242188,
+    "text": "and we would love for you to join the conversation."
+  },
+  {
+    "segment_id": "s00783",
+    "start_seconds": 2908.3200073242188,
+    "end_seconds": 2910.1199951171875,
+    "text": "Thanks to our partner, Prediction Guard,"
+  },
+  {
+    "segment_id": "s00784",
+    "start_seconds": 2910.1199951171875,
+    "end_seconds": 2912.760009765625,
+    "text": "for providing operational support for the show."
+  },
+  {
+    "segment_id": "s00785",
+    "start_seconds": 2912.760009765625,
+    "end_seconds": 2915.1599731445312,
+    "text": "Check them out at predictionguard.com."
+  },
+  {
+    "segment_id": "s00786",
+    "start_seconds": 2915.1599731445312,
+    "end_seconds": 2917.239990234375,
+    "text": "Also, thanks to Breakmaster Cylinder"
+  },
+  {
+    "segment_id": "s00787",
+    "start_seconds": 2917.239990234375,
+    "end_seconds": 2919.4000244140625,
+    "text": "for the amazing support they've provided."
+  },
+  {
+    "segment_id": "s00788",
+    "start_seconds": 2919.4400024414062,
+    "end_seconds": 2921.9600219726562,
+    "text": "Also, thanks to Breakmaster Cylinder for the beats,"
+  },
+  {
+    "segment_id": "s00789",
+    "start_seconds": 2921.9600219726562,
+    "end_seconds": 2923.2000122070312,
+    "text": "and to you for listening."
+  },
+  {
+    "segment_id": "s00790",
+    "start_seconds": 2923.2000122070312,
+    "end_seconds": 2924.4000244140625,
+    "text": "That's all for now,"
+  },
+  {
+    "segment_id": "s00791",
+    "start_seconds": 2924.4000244140625,
+    "end_seconds": 2926.4000244140625,
+    "text": "but you'll hear from us again next week."
+  }
+]

@@ -1,0 +1,9 @@
+Return {"pieces":[{"piece_id":"01","markdown":"...","claim_ids":[...]}]} for each supplied brief. Write a 3–5 minute audience-facing English script (approximately 390–650 narration words). Label narration and visual directions clearly; useful visuals for Google Vids or HeyGen. Use the same central argument, facts and qualifications as its article. Preserve all brief claim markers and evidence references; do not introduce new claims. Include spoken uncertainty, a meaningful limitation, the actual as-of date, and an AI-presentation disclosure if synthetic narration/avatar will be used. Do not claim videos have been produced.
+
+Keep assignment logistics, pipeline implementation details, student approval and policy-revision status out of audience-facing briefs/articles/narration. Those belong in submission and review documentation.
+Do not generate a separate reference appendix: the pipeline appends canonical readable references. Keep inline citations and all claim markers.
+Use an explicit ISO as-of header YYYY-MM-DD. Label every spoken block exactly **Narration:**, and put visual instructions outside those blocks. Target 390–650 spoken narration words, excluding directions, production notes and references.
+
+Write all generated editorial prose and explanations in English. Preserve original source quotations, proper names, IDs, and timestamp locators exactly.
+
+Put **Narration:** on a separate line before each spoken paragraph. Keep standalone claim markers, source links, timestamps, and all visual instructions outside spoken text. Aim for 430–520 spoken words for timing margin. Show the AI-narration disclosure on screen or in end credits; do not open by saying the video or voice is AI-generated. Describe profiling as performance analysis and diagnosis, not a demonstrated repair.

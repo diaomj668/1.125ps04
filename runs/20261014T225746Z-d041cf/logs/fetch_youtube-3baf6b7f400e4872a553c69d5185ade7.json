@@ -1,0 +1,27 @@
+{
+  "stage": "fetch_youtube",
+  "status": "incomplete",
+  "input_count": 2,
+  "output_count": 0,
+  "started_at": "2026-10-14T22:57:48.222800Z",
+  "tools": [
+    "python",
+    "requests",
+    "YouTube Atom",
+    "yt-dlp"
+  ],
+  "models": [],
+  "cost_usd": 0.0,
+  "cost_estimated": false,
+  "errors": [
+    {
+      "source_id": "fireship",
+      "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA"
+    },
+    {
+      "source_id": "webdevsimplified",
+      "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCFbNIlppjAuEX4znoulh0Cw"
+    }
+  ],
+  "finished_at": "2026-10-14T22:57:49.033422Z"
+}

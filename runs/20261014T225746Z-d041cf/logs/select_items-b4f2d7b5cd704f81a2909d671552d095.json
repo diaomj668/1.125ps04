@@ -1,0 +1,20 @@
+{
+  "stage": "select_items",
+  "status": "failed",
+  "input_count": 22,
+  "output_count": 0,
+  "started_at": "2026-10-14T22:59:33.203687Z",
+  "tools": [
+    "python",
+    "OpenAI-compatible chat completions"
+  ],
+  "models": [
+    "gpt-6.1-sol"
+  ],
+  "cost_usd": null,
+  "cost_estimated": false,
+  "errors": [
+    "Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
+  ],
+  "finished_at": "2026-10-14T22:59:34.355305Z"
+}

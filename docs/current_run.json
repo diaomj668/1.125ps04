@@ -1,0 +1,62 @@
+{
+  "run_id": "20261015T194925Z-8e319e",
+  "run_dir": "runs/20261015T194925Z-8e319e",
+  "as_of_date": "2026-10-15",
+  "status": "awaiting_review",
+  "articles": 3,
+  "video_scripts": 3,
+  "review_passed": true,
+  "review_id": "a548022bc1d815ffe2cde82442bd1258f3b0001ec3e7aa7b640f1eceeb1664b5",
+  "coverage": {
+    "distinct_items": 38,
+    "independent_publishers": 7,
+    "by_kind": {
+      "feed": 25,
+      "youtube": 8,
+      "podcast": 5
+    }
+  },
+  "word_counts": {
+    "articles": {
+      "01": 849,
+      "02": 829,
+      "03": 867
+    },
+    "video_scripts": {
+      "01": 486,
+      "02": 485,
+      "03": 502
+    }
+  },
+  "second_live_run": "Executed on 2026-10-15; comparison saved in docs/run-comparison.json and docs/run-comparison.md",
+  "editorial_revision": "runs/20261015T194925Z-8e319e/editorial_revision",
+  "student_source_review": "Six-item sample completed in runs/20261014T225746Z-d041cf/human_review.md; final revised-draft review pending",
+  "student_policy_interpretation": "Completed for the October 14 policy experiment; original comparison retained",
+  "final_approval": "Selected October 14 series approved by the student and packaged; October 15 demonstration drafts are not approved for publication",
+  "last_local_recheck_at": "2026-10-15T20:05:32.860477Z",
+  "youtube_publication": "Three Unlisted videos belong to the October 14 version; no October 15 video production or publication claimed",
+  "collection_status": "Partial failure: 41/42 extracted; one inaccessible written source retained in logs",
+  "initial_workflow_status": "Incomplete; original failure receipts preserved; current content reassessment passed",
+  "selected_publication_run_id": "20261014T225746Z-d041cf",
+  "selected_publication_as_of_date": "2026-10-14",
+  "final_series_record": "docs/final_series.json",
+  "second_run_role": "Retained for repeatability and comparison; its drafts are not selected for publication",
+  "selected_publication_status": "approved_packaged_and_published",
+  "selected_publication_approval_path": "runs/20261014T225746Z-d041cf/approval.json",
+  "selected_publication_package_path": "runs/20261014T225746Z-d041cf/package",
+  "selected_publication_links": "runs/20261014T225746Z-d041cf/package/publication_links.json",
+  "selected_publication_crosslinks": "Matching article/video URLs saved in both directions; YouTube clickable external links require account verification",
+  "logged_out_access_verified": true,
+  "access_verification_source": "Student confirmation for the six selected October 14 publication URLs",
+  "access_verification_record": "runs/20261014T225746Z-d041cf/package/access_verification.json",
+  "duplicate_free_replay": {
+    "status": "completed",
+    "record": "docs/duplicate_replay.json",
+    "verification_path": "runs/replay-20261016T040737Z-8cfe40/verification.json",
+    "formal_store_unchanged": true
+  },
+  "technical_demonstration": {
+    "status": "not_recorded",
+    "video_url": null
+  }
+}

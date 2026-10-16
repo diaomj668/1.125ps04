@@ -1,0 +1,82 @@
+{
+  "piece_id": "02",
+  "status": "source_media_ready_not_google_vids_export",
+  "built_at": "2026-10-15T01:04:57.971018Z",
+  "source_video_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/02/source-video.mp4",
+  "measured_source_video_seconds": 246.89,
+  "scenes": [
+    {
+      "scene": 1,
+      "narration": "This presentation uses AI-generated narration. As of October 14, 2026, the evidence supports a caution for individual developers: a successful signal is not necessarily successful software. A green job status, an addressed review comment, a familiar interface, and a low token price measure different things. None alone proves that the intended outcome was delivered and verified. The question is not whether agents can help, but what evidence supports a claim that their work is done.",
+      "claim_ids": [],
+      "audio_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/02/scene-01.wav",
+      "source_clip_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/02/scene-01.mp4",
+      "measured_source_clip_seconds": 36.39
+    },
+    {
+      "scene": 2,
+      "narration": "Start with a specific delivery failure. In its October availability report, GitHub acknowledged a September 28 incident in which Copilot code review reported successful job completion without producing the review. That establishes a mismatch between status and output. It does not establish a general finding about review accuracy: a missing review and an incorrect review are different problems. But it shows why the completion label cannot substitute for checking that the requested output arrived.",
+      "claim_ids": [
+        "02-c1"
+      ],
+      "audio_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/02/scene-02.wav",
+      "source_clip_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/02/scene-02.mp4",
+      "measured_source_clip_seconds": 36.96
+    },
+    {
+      "scene": 3,
+      "narration": "Evaluation has a separate gap. GitHub’s ReviewBench deliberately reduces tiny, single-file pull requests, which qualifies its relevance to many solo tasks. GitHub’s production addressed-rate metric measures whether a large language model judges that a review comment prompted a corresponding code change. It does not directly establish that the change was correct. A developer responding to a comment is an observable signal, but correctness is a different question.",
+      "claim_ids": [
+        "02-c2"
+      ],
+      "audio_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/02/scene-03.wav",
+      "source_clip_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/02/scene-03.mp4",
+      "measured_source_clip_seconds": 34.1
+    },
+    {
+      "scene": 4,
+      "narration": "Cursor’s Security Review announcement provides another distinction: a finding’s format is not proof of accuracy. Cursor describes severity, an attack path, and a proposed fix, while skipping draft pull requests. These are vendor claims about the tool. Individual access and cost remain to be checked, and the supplied evidence does not establish detection accuracy.",
+      "claim_ids": [
+        "02-c6"
+      ],
+      "audio_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/02/scene-04.wav",
+      "source_clip_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/02/scene-04.mp4",
+      "measured_source_clip_seconds": 26.5
+    },
+    {
+      "scene": 5,
+      "narration": "Usability can diverge from appearance, too. Fireship reports attempting to edit a video in FilmCraft and encountering playback-related lag and disappointing transitions despite a familiar interface. This is an attributed usability failure, not a reproducible comparison, and it does not establish that AI caused the defects. Hardware and version details are missing. The video also discloses Appify sponsorship. Keep those limitations attached to the account, rather than turning it into a general verdict.",
+      "claim_ids": [
+        "02-c3"
+      ],
+      "audio_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/02/scene-05.wav",
+      "source_clip_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/02/scene-05.mp4",
+      "measured_source_clip_seconds": 36.47
+    },
+    {
+      "scene": 6,
+      "narration": "GitHub’s hackathon reporting offers another reminder about attribution. Participant Lance credits Copilot with creating a frontend and integrating an API in 30 minutes. Elsewhere, GitHub reports Vaishnavi’s team struggling with a movement-detection model. These are different accounts, not a controlled success-versus-failure comparison. Vaishnavi’s difficulty is not identified as a Copilot failure. Neither account tells us what a beginner working alone should expect.",
+      "claim_ids": [
+        "02-c4"
+      ],
+      "audio_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/02/scene-06.wav",
+      "source_clip_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/02/scene-06.mp4",
+      "measured_source_clip_seconds": 34.79
+    },
+    {
+      "scene": 7,
+      "narration": "Finally, cost needs an outcome attached. Simon Willison argues that token prices are not readily comparable without knowing how many tokens a model consumes to achieve a goal in an agent workflow. That is not a measured small-project delivery study. Our qualified conclusion is to assess actual output, representative behavior, and task-level expenditure together. Independent controlled research, maintenance follow-up, and representative evidence for budget-constrained and accessibility users remain missing. Favorable signals are clues—not proof of verified delivery.",
+      "claim_ids": [
+        "02-c5"
+      ],
+      "audio_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/02/scene-07.wav",
+      "source_clip_path": "runs/20261014T225746Z-d041cf/video_production/google_vids/media/02/scene-07.mp4",
+      "measured_source_clip_seconds": 41.63
+    }
+  ],
+  "provider_voice_model": "tts-1",
+  "voice": "alloy",
+  "no_visible_presenter": true,
+  "google_vids_editing_and_export_completed": false,
+  "cost_usd": null
+}

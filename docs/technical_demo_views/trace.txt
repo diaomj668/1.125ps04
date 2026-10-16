@@ -1,0 +1,26 @@
+Saved-evidence view only: no collection, generation, or new pipeline run.
+
+PUBLISHED CLAIM -> BRIEF -> DECISION -> TIMESTAMPED PODCAST
+
+Claim 03-c4: HTML All The Things describes short agent tasks with periodic check-ins, while another host reports that longer orchestration burned through usage and prompted a return to smaller tasks. This supports trying bounded work before assuming a subscription can sustain a longer cycle; it does not establish a universal quota or best model.
+
+AI decision: accept
+Assigned pieces: 01, 02, 03
+Source: AI’s Biggest Problem Isn’t Intelligence Anymore
+Published: 2026-09-26T13:00:00Z
+Collected: 2026-10-14T23:04:22.339422Z
+Item ID: podcast:acc83661b4084b701efe6573
+Version: d30ec05b567a9c16691e94f84c0c309050357ceea62781c3afa91b62697aed23
+  4:40 (280.04-283.84s), s00081: Like a lot of my tasks are sub five minutes, at most 15 minutes,
+  5:02 (302.12-306.04s), s00088: And then I check in with it and then, OK, now let's do another two tasks.
+  7:33 (453.28-455.64s), s00136: due to the fact that it just burned through my usage.
+  7:41 (461.80-465.72s), s00140: to my older the older way of like doing smaller things just to save some usage
+
+Original episode: https://www.htmlallthethings.com/podcast/ais-biggest-problem-isnt-intelligence-anymore
+Transcript file: data/assets/22a4727bb752021261e5/d30ec05b567a9c16691e94f84c0c309050357ceea62781c3afa91b62697aed23/segments.json
+Decision file: runs/20261014T225746Z-d041cf/decisions.jsonl
+Brief file: runs/20261014T225746Z-d041cf/briefs.jsonl
+Published article: https://mingjiao.substack.com/p/make-the-next-agent-task-bounded
+Matching video: https://youtu.be/xV7t_A6FAcw
+
+Claim is an attributed experience, not a controlled productivity result.

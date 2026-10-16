@@ -1,0 +1,7 @@
+{
+  "model": "tts-1",
+  "voice": "alloy",
+  "speed": 0.86,
+  "input": "Second, secret checking. GitHub announced a slash security-review command for Copilot CLI and Copilot App users, without requiring an organization’s GitHub Secret Protection plan. The announcement describes checking for secrets before a push. Do not confuse this developer-facing command with the organization push-protection feature that the same announcement described as being in private preview. These are distinct parts of the announcement, not interchangeable availability claims.",
+  "response_format": "wav"
+}

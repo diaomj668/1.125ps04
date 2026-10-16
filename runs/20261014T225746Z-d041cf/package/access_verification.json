@@ -1,0 +1,25 @@
+{
+  "recorded_at": "2026-10-16T03:48:49.524482Z",
+  "result": "Student confirmed that the three final articles and three final videos can be viewed without login",
+  "verification_source": "Student response in this conversation to the instruction to open all six URLs in a private window",
+  "verification_method": "Student-reported access check; not an independent assistant browser test",
+  "scope": "All six URLs in the selected October 14 final series",
+  "links": [
+    {
+      "piece_id": "01",
+      "substack_url": "https://mingjiao.substack.com/p/new-ways-to-supervise-inspect-and",
+      "youtube_url": "https://youtu.be/pDt5vDDNF7E"
+    },
+    {
+      "piece_id": "02",
+      "substack_url": "https://mingjiao.substack.com/p/a-successful-signal-is-not-necessarily",
+      "youtube_url": "https://youtu.be/8lIFBSltIm0"
+    },
+    {
+      "piece_id": "03",
+      "substack_url": "https://mingjiao.substack.com/p/make-the-next-agent-task-bounded",
+      "youtube_url": "https://youtu.be/xV7t_A6FAcw"
+    }
+  ],
+  "youtube_external_link_clickability": "Not established by this access confirmation; existing account-verification limitation remains separate"
+}

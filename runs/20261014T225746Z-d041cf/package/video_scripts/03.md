@@ -1,0 +1,93 @@
+# Make the next agent task bounded, inspectable, and affordable
+
+As-of: 2026-10-14
+
+**Presentation direction:** Planned for synthetic narration. Retain the spoken AI disclosure. Use readable file cards, checklists, and illustrative diagrams. Evidence annotations are not spoken.
+
+**Visual direction:** Title card and date. Show a loop: “Define → Check → Inspect → Account for effort → Decide.”
+
+**Narration:**
+This presentation uses AI-generated narration. As of October 14, 2026, the strongest practical implication of the supplied evidence is modest: try one bounded agent task with explicit checks and a stopping budget before expanding autonomy. Record how to test it, inspect what arrives, and include correction and verification in the cost. This is a proposed evaluation workflow, not a proven productivity recipe. We do not have a comparison showing that it improves small-project completion rates.
+
+**Visual direction:** File cards for `.github/copilot-instructions.md` and `.github/skills/quality-checks/SKILL.md`. Highlight “Test commands,” “What they check,” and “Troubleshooting.”
+
+**Narration:**
+Begin by making testing expectations explicit. For a Copilot repository, GitHub describes a repository instruction file where you can record expectations for testing and validation. It also describes a quality-checks skill that can explain which scripts run tests and linting, what they check, and how to troubleshoot failures. Linting means checking code against specified rules. These are places to record guidance—not proof that the agent followed it, or that any check ran and passed. [03-c1]
+
+**Inline evidence — not spoken:** [GitHub repository guidance](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/), item `feed:f8fa0331a2b3ce4696b878a2`, version `a0ac872c91e89fad8413b83b3c5683bf89c547a0fcc88f0f3f56d7645592e8a3`; text locators: “Add a .github/copilot-instructions.md file to define guidance that applies across the repository, such as your preferred architecture, naming conventions, or expectations for testing and validation.” and “For example, a .github/skills/quality-checks folder could contain a SKILL.md file that explains:
+- When Copilot should use the skill.
+- Which scripts run the project’s tests and linting.
+- What each script checks.
+- How to troubleshoot common failures.”
+
+**Visual direction:** Review checklist with separate boxes: “Status says complete” and “Review output exists.” Add an attributed September incident card.
+
+**Narration:**
+Next, inspect delivery. GitHub acknowledged a September incident in which Copilot code review reported successful completion without producing the review. It advised customers to request affected reviews again. So check whether your requested review actually arrived, instead of relying only on its status. For future reliability reporting, watch for evidence that reviews were delivered, not merely that jobs were labeled successful. Instructions and status indicators cannot replace looking at the output. [03-c2]
+
+**Inline evidence — not spoken:** [GitHub availability report](https://github.blog/news-insights/company-news/github-availability-report-september-2026/), item `feed:5942317efb2e306a353cac42`, version `2b8477c36458d01b02ef31fabffdfe1ae8339b51ac8a1407d7819528f05c4151`; text locators: “As a result, Copilot code review could not build a review, but reported that the job had completed successfully.” and “We resolved the incident and advised customers to request affected reviews again.”
+
+**Visual direction:** Cursor Security Review card: Teams / Enterprise; access and cost to verify; draft pull requests skipped. Label the feature description as a vendor announcement.
+
+**Narration:**
+If considering Cursor Security Review, verify individual access and cost first. Check pull-request eligibility, because the announcement skips drafts. Inspect each reported attack path and proposed fix, and try to reproduce the finding. These are proposed verification steps, not a claim that the tool has been independently validated. [03-c6]
+
+**Inline evidence — not spoken:** See [03-c6] in the references for the exact Cursor passages and source version.
+
+**Visual direction:** Diagram showing a main thread and worker thread feeding a profile. Label “Willison’s workload: 95.1% of stacks from AnyIO’s worker thread.”
+
+**Narration:**
+Diagnostic checks also need the right coverage. In Simon Willison’s web-edit profiling example, sampling all threads was essential: 95.1 percent of recorded stacks came from AnyIO’s worker thread and would have been missed by a main-thread-only profile. Threads are separate execution paths within an application. If you ask an agent to profile a threaded Python app, check that the profile includes the threads doing the work. Inspect its flame graph and heatmap before choosing an optimization. This is a conditional check, not a prediction of your bottleneck. [03-c3]
+
+**Inline evidence — not spoken:** [Willison’s profiling account](https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/), item `feed:26e4a943393a1b788d1e2dae`, version `de47f3a642088f8a087f0a6f46b95b49b6830aa108fd56ccd1dec0cf490cb5f8`; text locators: “Sampling all threads was essential, since 95.1% of stacks came from AnyIO’s worker thread and would have been missed by a main-thread-only profile.” and “Here's the resulting example flame graph and heatmap.”
+
+**Visual direction:** Attributed podcast cards: “Short tasks + check-ins” and “Longer orchestration exhausted usage.” Avoid universal quota or model-ranking graphics.
+
+**Narration:**
+Keep the first trial bounded. On HTML All The Things, one host describes short agent tasks with periodic check-ins. Another reports that longer orchestration burned through usage and prompted a return to smaller tasks. Those practitioner accounts support trying bounded work before assuming a subscription can sustain a longer cycle. They do not establish a universal quota, an ideal task duration, or a best model. [03-c4]
+
+**Inline evidence — not spoken:** [HTML All The Things episode](https://www.htmlallthethings.com/podcast/ais-biggest-problem-isnt-intelligence-anymore), item `podcast:acc83661b4084b701efe6573`, version `d30ec05b567a9c16691e94f84c0c309050357ceea62781c3afa91b62697aed23`; segment locators: `s00081` (280.0400085449219–283.8399963378906 seconds), `s00088` (302.1199951171875–306.0400085449219 seconds), `s00136` (453.2799987792969–455.6400146484375 seconds), and `s00140` (461.79998779296875–465.7200012207031 seconds).
+
+**Visual direction:** Trial record template: “Observable outcome / Checks / Retained outputs / Agent usage / Human testing and correction time / Stopping budget.” End on “Expand only after inspecting the whole cycle.”
+
+**Narration:**
+For your next trial, define one observable outcome, specify its checks, retain their outputs, and record agent usage alongside human testing and correction time. Expand only after examining that whole cycle. Instructions can be ignored, tests can miss bugs, and review adds effort that a solo developer must bear. Experienced practitioners’ judgment may not transfer to beginners. Start with checks you understand; another model’s agreement is not a substitute. The evidence to seek next is repeatable small-project results, including failures and total effort—not just prices or completion messages. [03-c5]
+
+**Inline evidence — not spoken:** [GitHub repository guidance](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/), item `feed:f8fa0331a2b3ce4696b878a2`, version `a0ac872c91e89fad8413b83b3c5683bf89c547a0fcc88f0f3f56d7645592e8a3`, text locator: “Which scripts run the project’s tests and linting.”; [GitHub availability report](https://github.blog/news-insights/company-news/github-availability-report-september-2026/), item `feed:5942317efb2e306a353cac42`, version `2b8477c36458d01b02ef31fabffdfe1ae8339b51ac8a1407d7819528f05c4151`, text locator: “As a result, Copilot code review could not build a review, but reported that the job had completed successfully.”; [Willison’s cost discussion](https://simonwillison.net/2026/Oct/13/llm-gemini/), item `feed:6ff0735dfa2a1786602e7b58`, version `a6cb93a068bca6b88086500d4f84badfd6255baa823a198066b04d6a8e160110`, text locator: “Prices like this aren't really comparable these days since what really matters is how many tokens a model takes to achieve a goal within an agentic harness.”; [HTML All The Things](https://www.htmlallthethings.com/podcast/ais-biggest-problem-isnt-intelligence-anymore), item `podcast:acc83661b4084b701efe6573`, version `d30ec05b567a9c16691e94f84c0c309050357ceea62781c3afa91b62697aed23`, segment locator `s00136` (453.2799987792969–455.6400146484375 seconds).
+
+
+## References
+
+**03-c1** (inference): For a Copilot repository, a reasonable first experiment is to record the actual testing expectations in .github/copilot-instructions.md and, where useful, package test and lint commands as a quality-checks skill. These are guidance surfaces, not proof that checks ran or passed.
+- [GitHub Copilot app for Beginners: How to teach Copilot about your codebase](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/). Passage: “Add a .github/copilot-instructions.md file to define guidance that applies across the repository, such as your preferred architecture, naming conventions, or expectations for testing and validation.” Source version `a0ac872c91e89fad8413b83b3c5683bf89c547a0fcc88f0f3f56d7645592e8a3`.
+- [GitHub Copilot app for Beginners: How to teach Copilot about your codebase](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/). Passage: “For example, a .github/skills/quality-checks folder could contain a SKILL.md file that explains:
+- When Copilot should use the skill.
+- Which scripts run the project’s tests and linting.
+- What each script checks.
+- How to troubleshoot common failures.” Source version `a0ac872c91e89fad8413b83b3c5683bf89c547a0fcc88f0f3f56d7645592e8a3`.
+
+**03-c2** (inference): Inspect whether a requested review actually arrived, rather than relying only on its completion status. For reviews affected by the acknowledged September incident, GitHub advised requesting them again. Watch whether future reliability reporting demonstrates delivery, not merely successful jobs.
+- [GitHub availability report: September 2026](https://github.blog/news-insights/company-news/github-availability-report-september-2026/). Passage: “As a result, Copilot code review could not build a review, but reported that the job had completed successfully.” Source version `2b8477c36458d01b02ef31fabffdfe1ae8339b51ac8a1407d7819528f05c4151`.
+- [GitHub availability report: September 2026](https://github.blog/news-insights/company-news/github-availability-report-september-2026/). Passage: “We resolved the incident and advised customers to request affected reviews again.” Source version `2b8477c36458d01b02ef31fabffdfe1ae8339b51ac8a1407d7819528f05c4151`.
+
+**03-c3** (inference): If asking an agent to profile a threaded Python app, check that the profile includes the threads doing the work and inspect the resulting diagnostic views before choosing an optimization. Willison's example makes this a conditional check, not a universal bottleneck prediction.
+- [Profiling web-edit with Python 3.15: flame graphs and source heatmaps](https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/). Passage: “Sampling all threads was essential, since 95.1% of stacks came from AnyIO’s worker thread and would have been missed by a main-thread-only profile.” Source version `de47f3a642088f8a087f0a6f46b95b49b6830aa108fd56ccd1dec0cf490cb5f8`.
+- [Profiling web-edit with Python 3.15: flame graphs and source heatmaps](https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/). Passage: “Here's the resulting example flame graph and heatmap.” Source version `de47f3a642088f8a087f0a6f46b95b49b6830aa108fd56ccd1dec0cf490cb5f8`.
+
+**03-c4** (source_claim): HTML All The Things describes short agent tasks with periodic check-ins, while another host reports that longer orchestration burned through usage and prompted a return to smaller tasks. This supports trying bounded work before assuming a subscription can sustain a longer cycle; it does not establish a universal quota or best model.
+- [AI’s Biggest Problem Isn’t Intelligence Anymore](https://www.htmlallthethings.com/podcast/ais-biggest-problem-isnt-intelligence-anymore), 4:40, segment s00081. Source version `d30ec05b567a9c16691e94f84c0c309050357ceea62781c3afa91b62697aed23`.
+- [AI’s Biggest Problem Isn’t Intelligence Anymore](https://www.htmlallthethings.com/podcast/ais-biggest-problem-isnt-intelligence-anymore), 5:02, segment s00088. Source version `d30ec05b567a9c16691e94f84c0c309050357ceea62781c3afa91b62697aed23`.
+- [AI’s Biggest Problem Isn’t Intelligence Anymore](https://www.htmlallthethings.com/podcast/ais-biggest-problem-isnt-intelligence-anymore), 7:33, segment s00136. Source version `d30ec05b567a9c16691e94f84c0c309050357ceea62781c3afa91b62697aed23`.
+- [AI’s Biggest Problem Isn’t Intelligence Anymore](https://www.htmlallthethings.com/podcast/ais-biggest-problem-isnt-intelligence-anymore), 7:41, segment s00140. Source version `d30ec05b567a9c16691e94f84c0c309050357ceea62781c3afa91b62697aed23`.
+
+**03-c5** (inference): For the next trial, define one observable outcome, specify its checks, retain their outputs, and record agent usage plus human testing and correction time. Expand the task only after examining that complete cycle. The next evidence to seek is repeatable small-project results with failed attempts and total effort—not just token prices or completion messages.
+- [GitHub Copilot app for Beginners: How to teach Copilot about your codebase](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/). Passage: “Which scripts run the project’s tests and linting.” Source version `a0ac872c91e89fad8413b83b3c5683bf89c547a0fcc88f0f3f56d7645592e8a3`.
+- [GitHub availability report: September 2026](https://github.blog/news-insights/company-news/github-availability-report-september-2026/). Passage: “As a result, Copilot code review could not build a review, but reported that the job had completed successfully.” Source version `2b8477c36458d01b02ef31fabffdfe1ae8339b51ac8a1407d7819528f05c4151`.
+- [llm-gemini 0.35](https://simonwillison.net/2026/Oct/13/llm-gemini/). Passage: “Prices like this aren't really comparable these days since what really matters is how many tokens a model takes to achieve a goal within an agentic harness.” Source version `a6cb93a068bca6b88086500d4f84badfd6255baa823a198066b04d6a8e160110`.
+- [AI’s Biggest Problem Isn’t Intelligence Anymore](https://www.htmlallthethings.com/podcast/ais-biggest-problem-isnt-intelligence-anymore), 7:33, segment s00136. Source version `d30ec05b567a9c16691e94f84c0c309050357ceea62781c3afa91b62697aed23`.
+
+**03-c6** (inference): Before trying Cursor Security Review for a small project, verify individual access and cost, check pull-request eligibility, and inspect and attempt to reproduce any reported finding. These are proposed verification steps, not a demonstrated effectiveness result.
+- [Rollouts and Security Review](https://cursor.com/changelog/rollouts-and-security-reviewer). Passage: “Both are available today on Teams and Enterprise plans.” Source version `126e7b7700183bbf6dfce1990231a8f468e9de35c1f6ac20a396cd30d761b08c`.
+- [Rollouts and Security Review](https://cursor.com/changelog/rollouts-and-security-reviewer). Passage: “It reads every pull request in the context of the codebase and posts one review comment reporting exploitable bugs.” Source version `126e7b7700183bbf6dfce1990231a8f468e9de35c1f6ac20a396cd30d761b08c`.
+- [Rollouts and Security Review](https://cursor.com/changelog/rollouts-and-security-reviewer). Passage: “Draft PRs are skipped.” Source version `126e7b7700183bbf6dfce1990231a8f468e9de35c1f6ac20a396cd30d761b08c`.
+- [Rollouts and Security Review](https://cursor.com/changelog/rollouts-and-security-reviewer). Passage: “Each finding carries a severity, the attack path, and a proposed fix.” Source version `126e7b7700183bbf6dfce1990231a8f468e9de35c1f6ac20a396cd30d761b08c`.

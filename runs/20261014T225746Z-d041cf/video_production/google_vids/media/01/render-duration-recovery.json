@@ -1,0 +1,5 @@
+{
+  "reason": "Streaming WAV header declared an unknown frame count; stopped incorrect long encode and will regenerate the source clip using measured PCM duration. Speech is reused.",
+  "invalid_partial_video_bytes": 58794950,
+  "correct_audio_seconds": 35.959291666666665
+}

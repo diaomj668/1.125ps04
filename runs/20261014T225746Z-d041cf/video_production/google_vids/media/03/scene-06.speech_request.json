@@ -1,0 +1,7 @@
+{
+  "model": "tts-1",
+  "voice": "alloy",
+  "speed": 0.86,
+  "input": "Keep the first trial bounded. On HTML All The Things, one host describes short agent tasks with periodic check-ins. Another reports that longer orchestration burned through usage and prompted a return to smaller tasks. Those practitioner accounts support trying bounded work before assuming a subscription can sustain a longer cycle. They do not establish a universal quota, an ideal task duration, or a best model.",
+  "response_format": "wav"
+}

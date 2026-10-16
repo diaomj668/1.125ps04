@@ -1,0 +1,18 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Video b84dc80722bd4f9295de0473b01d48d5 failed: You've reached your plan's video generation quota. Upgrade your plan to continue generating videos. This is an earlier generation failure; do not call show_video for this video or regenerate it unless the user asks."
+    }
+  ],
+  "structuredContent": {
+    "outputType": "video.player",
+    "videoId": "b84dc80722bd4f9295de0473b01d48d5",
+    "status": "failed",
+    "title": "Software Signal Edu",
+    "createdAt": 1792025071,
+    "failureCode": "free_tier_quota_exceeded",
+    "failureMessage": "You've reached your plan's video generation quota. Upgrade your plan to continue generating videos."
+  },
+  "isError": false
+}

@@ -1,0 +1,8 @@
+{
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "configured_at": "2026-10-15T19:50:05.744224Z",
+  "standard_input_usd_per_million": 2.0,
+  "standard_output_usd_per_million": 10.0,
+  "pricing_source": "https://developers.openai.com/api/docs/models/gpt-6.1-sol"
+}

@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-10-15T02:52:28.456643+00:00",
+  "method": "Google Vids transcript trim and Drive MP4 export",
+  "new_model_calls": 0,
+  "changes": [
+    {
+      "piece_id": "01",
+      "prior_export_url": "https://drive.google.com/file/d/15Mn1jUfFNuGjioqdq_aGvGSFvUxX7MgX/view",
+      "new_export_url": "https://drive.google.com/file/d/1JY-ffomu9yGtovJxpGd95FP6iB1Nubn0/view",
+      "observed_editor_duration_seconds": 227.5
+    },
+    {
+      "piece_id": "02",
+      "prior_export_url": "https://drive.google.com/file/d/1eQlBbhJXtMC3dKw83rtbH6sQvzGdiSON/view",
+      "new_export_url": "https://drive.google.com/file/d/1mRQe2Bl6CvGzIG-zjQGIvXHN25CXvROL/view",
+      "observed_editor_duration_seconds": 243.2
+    },
+    {
+      "piece_id": "03",
+      "prior_export_url": "https://drive.google.com/file/d/1QHzHfv7IPioQDNhhQOHw70Kd6T0nokQv/view",
+      "new_export_url": "https://drive.google.com/file/d/1wAxn1WO1_vDvb0gCn4J3-keMboTpsexK/view",
+      "observed_editor_duration_seconds": 243.3
+    }
+  ],
+  "student_final_approval": false
+}

@@ -1,0 +1,7 @@
+{
+  "model": "tts-1",
+  "voice": "alloy",
+  "speed": 0.86,
+  "input": "Evaluation has a separate gap. GitHub’s ReviewBench deliberately reduces tiny, single-file pull requests, which qualifies its relevance to many solo tasks. GitHub’s production addressed-rate metric measures whether a large language model judges that a review comment prompted a corresponding code change. It does not directly establish that the change was correct. A developer responding to a comment is an observable signal, but correctness is a different question.",
+  "response_format": "wav"
+}

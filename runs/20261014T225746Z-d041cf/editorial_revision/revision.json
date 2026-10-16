@@ -1,0 +1,26 @@
+{
+  "revised_at": "2026-10-15T00:28:15.694435+00:00",
+  "evidence_as_of_date": "2026-10-14",
+  "evidence_recollected": false,
+  "new_live_run": false,
+  "basis": "User-confirmed six-item review and policy comparison interpretation; user authorized applying the changes.",
+  "method": "Focused assistant edits to the existing AI-generated drafts; no additional paid generation call.",
+  "new_source": "feed:50257040989ddf36da8c107e",
+  "new_claim_ids": [
+    "01-c6",
+    "02-c6",
+    "03-c6"
+  ],
+  "original_artifacts": "before/",
+  "word_counts": {
+    "articles/01": 854,
+    "video_scripts/01": 468,
+    "articles/02": 859,
+    "video_scripts/02": 496,
+    "articles/03": 847,
+    "video_scripts/03": 520
+  },
+  "approval_created": false,
+  "review_id": "901b45b898144a602dfc0efd24c9ca7f7b403096a4cb188eafb708d0481f752c",
+  "review_passed": true
+}

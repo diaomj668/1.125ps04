@@ -1,0 +1,19 @@
+Saved-evidence view only: no collection, generation, or new pipeline run.
+
+ARCHITECTURE AND ENTRY POINT
+
+Topic: AI coding assistants for individual developers building small projects.
+Entry point: bash run.sh
+
+run.sh -> collect_sources.sh -> create_series.sh -> summarize_run.sh
+  Collection: RSS + YouTube + podcasts
+  Processing: text/media extraction -> store -> 30-day filtering
+  Editorial: AI selection -> three briefs -> articles + scripts -> checks
+  Human handoff: student approval -> run.sh --package -> publication
+
+Sixteen Bash entry points coordinate focused owning components.
+Only data/store.sh and data/store.py access the SQLite evidence index.
+Project/source/policy settings: config/; model instructions: prompts/.
+Text/media references and intermediate JSONL records remain inspectable.
+
+Inspect: run.sh, workflows/, SUBMISSION.md architecture diagram.

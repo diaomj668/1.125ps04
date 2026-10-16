@@ -1,0 +1,19 @@
+Saved-evidence view only: no collection, generation, or new pipeline run.
+
+FRESHNESS, REAL FAILURE, AND REPAIR
+
+2026-10-14: 7 exclusions. Example:
+  outside_window; published_at=2026-08-03T00:00:00Z; inclusive window 2026-09-15 through 2026-10-14 UTC
+2026-10-15: 7 exclusions. Example:
+  outside_window; published_at=2026-08-03T00:00:00Z; inclusive window 2026-09-16 through 2026-10-15 UTC
+
+Real extraction receipt: incomplete; 41/42
+Cached media extractions reused: 5
+  {'item_id': 'feed:052f27a88b5833e2f85b3784', 'error': 'Substantive written content unavailable (minimum 100 words)'}
+
+Original October 15 content assessment passed: False
+Blocking issue: YouTube material was selected but never used in a claim.
+Current content assessment passed after repair: True
+Original outputs and failure receipts remain; they were not relabeled success.
+
+Inspect: exclusions.jsonl, logs/, and editorial_revision/before/review.json.
