@@ -14,7 +14,7 @@
 
 ## Published Series
 
-The final series uses the approved October 14 drafts, with an evidence as-of date of 2026-10-14. The October 15 run supplies repeatability and update evidence. Articles are free; videos are Unlisted. The student confirmed access to all six publications without login; see the [access record](runs/20261014T225746Z-d041cf/package/access_verification.json). Matching article/video URLs are present in both directions, but YouTube external-link clickability requires account verification.
+The final series uses the approved October 14 drafts, with an evidence as-of date of 2026-10-14. The October 15 run supplies repeatability and update evidence. Articles are free; videos are Unlisted. I confirmed that all six publications can be accessed without login; see the [access record](runs/20261014T225746Z-d041cf/package/access_verification.json). Matching article/video URLs are present in both directions, but YouTube external-link clickability requires account verification.
 
 | Piece | Title | Substack article | YouTube video |
 | --- | --- | --- | --- |
@@ -62,7 +62,7 @@ flowchart TD
   B --> V[Video scripts]
   N --> K[Content checks]
   V --> K
-  K --> H[Student review]
+  K --> H[My editorial review]
   H --> X[Approved package]
   X --> M[Google Vids or HeyGen, Substack, YouTube]
   R --> T[Run summary]
@@ -70,7 +70,7 @@ flowchart TD
 
 All sixteen required Bash entry points retain their responsibilities. Focused Python helpers implement individual components; `run.sh` and the two workflows coordinate them. Model calls occur in selection, briefing, article writing, script writing, and transcription when needed. Only `data/store.sh` and its owning helper access the persistent evidence index; evidence text and transcripts are retained separately.
 
-The automated pipeline produces articles, video scripts, references, and content checks. Human source judgments are recorded in [human_review.md](runs/20261014T225746Z-d041cf/human_review.md); final publication approval is recorded in [approval.json](runs/20261014T225746Z-d041cf/approval.json). The [package manifest](runs/20261014T225746Z-d041cf/package/manifest.json) lists the three approved articles, three scripts, and three source notes passed to production and publishing.
+The automated pipeline produces articles, video scripts, references, and content checks. My source judgments are recorded in [human_review.md](runs/20261014T225746Z-d041cf/human_review.md); my final publication approval is recorded in [approval.json](runs/20261014T225746Z-d041cf/approval.json). The [package manifest](runs/20261014T225746Z-d041cf/package/manifest.json) lists the three approved articles, three scripts, and three source notes passed to production and publishing.
 
 Video production used the approved scripts for synthesized narration and text-card visuals, followed by Google Vids editing and MP4 export. [Production records](runs/20261014T225746Z-d041cf/video_production/google_vids/README.md) retain editor/export links and limitations. The three MP4s were uploaded to YouTube. Approved article copies and source notes were formatted in Substack and published with free access. [Substack records](runs/20261014T225746Z-d041cf/publishing/substack/publication.json) and [publication links](runs/20261014T225746Z-d041cf/package/publication_links.json) document the resulting publications and cross-links.
 
@@ -97,11 +97,11 @@ Date-window decisions are retained in each run's `eligible.jsonl` and `exclusion
 
 ## Editorial Review
 
-The [completed source-review worksheet](runs/20261014T225746Z-d041cf/human_review.md) compares AI reasons with student judgments for three accepted and three rejected/deferred items, with supporting passages and corrections. The [saved prompts](runs/20261014T225746Z-d041cf/prompts/) and policy snapshots preserve the instructions used.
+The [completed source-review worksheet](runs/20261014T225746Z-d041cf/human_review.md) compares the AI’s reasons with my judgments for three accepted and three rejected/deferred items, with supporting passages and corrections. The [saved prompts](runs/20261014T225746Z-d041cf/prompts/) and policy snapshots preserve the instructions used.
 
-The policy revision distinguishes access restrictions, setup requirements, and practical relevance: Teams/Enterprise labels alone do not establish irrelevance to an individual developer. Compare the [original policy](runs/20261014T225746Z-d041cf/policy_revision/before/editorial_policy.md) with the [revised policy](runs/20261014T225746Z-d041cf/policy_revision/after/config/editorial_policy.md), [rerun decisions](runs/20261014T225746Z-d041cf/policy_revision/after/decisions.jsonl), and [comparison with student interpretation](runs/20261014T225746Z-d041cf/policy_revision/comparison.md). Four decision labels changed on the same 33 evidence versions; model variation remains a limitation.
+The policy revision distinguishes access restrictions, setup requirements, and practical relevance: Teams/Enterprise labels alone do not establish irrelevance to an individual developer. Compare the [original policy](runs/20261014T225746Z-d041cf/policy_revision/before/editorial_policy.md) with the [revised policy](runs/20261014T225746Z-d041cf/policy_revision/after/config/editorial_policy.md), [rerun decisions](runs/20261014T225746Z-d041cf/policy_revision/after/decisions.jsonl), and [comparison with my interpretation](runs/20261014T225746Z-d041cf/policy_revision/comparison.md). Four decision labels changed on the same 33 evidence versions; model variation remains a limitation.
 
-The [editorial revision record](runs/20261014T225746Z-d041cf/editorial_revision/README.md) preserves initial drafts and applied corrections, including describing profiling as diagnosis rather than demonstrated repair or speed improvement. The final articles contain 854, 859, and 847 words excluding references. Limitations include vendor incentives, anecdotal experience, uncertain individual access/cost, and the absence of controlled evidence for improved project completion. Final student approval and the matching review fingerprint are retained in [approval.json](runs/20261014T225746Z-d041cf/approval.json) and [review.json](runs/20261014T225746Z-d041cf/review.json).
+The [editorial revision record](runs/20261014T225746Z-d041cf/editorial_revision/README.md) preserves initial drafts and applied corrections, including describing profiling as diagnosis rather than demonstrated repair or speed improvement. The final articles contain 854, 859, and 847 words excluding references. Limitations include vendor incentives, anecdotal experience, uncertain individual access/cost, and the absence of controlled evidence for improved project completion. My final approval and the matching review fingerprint are retained in [approval.json](runs/20261014T225746Z-d041cf/approval.json) and [review.json](runs/20261014T225746Z-d041cf/review.json).
 
 ## Reflection
 
