@@ -56,7 +56,10 @@
     "formal_store_unchanged": true
   },
   "technical_demonstration": {
-    "status": "not_recorded",
-    "video_url": null
+    "status": "recorded_and_uploaded",
+    "video_url": "https://drive.google.com/file/d/1rdfxIpth7IE6m-BuPz-ECFLQfDhusCWy/view",
+    "duration_seconds": 270.77,
+    "sharing": "anyone_with_link_viewer",
+    "playback_verified": false
   }
 }

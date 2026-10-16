@@ -22,7 +22,7 @@ The final series uses the approved October 14 drafts, with an evidence as-of dat
 | 2 | A successful signal is not necessarily successful software | [Read article](https://mingjiao.substack.com/p/a-successful-signal-is-not-necessarily) | [Watch video](https://youtu.be/8lIFBSltIm0) |
 | 3 | Make the next agent task bounded, inspectable, and affordable | [Read article](https://mingjiao.substack.com/p/make-the-next-agent-task-bounded) | [Watch video](https://youtu.be/xV7t_A6FAcw) |
 
-**Separate technical demonstration video:** To complete: add the recorded 4–6 minute demonstration link.
+**Separate technical demonstration video:** [Watch on Google Drive](https://drive.google.com/file/d/1rdfxIpth7IE6m-BuPz-ECFLQfDhusCWy/view) — 4 minutes 31 seconds; anyone with the link can view.
 
 ## Setup and Execution
 
